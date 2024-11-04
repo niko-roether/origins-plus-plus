@@ -1,15 +1,15 @@
 {
-	"type":"origins:action_over_time",
-	"entity_action":{
-		"type":"origins:feed",
-		"food":1,
-		"saturation":1
-	},
-	"interval":40,
-	"condition":{
-		"type":"origins:command",
-		"command":"execute if entity @e[type=minecraft:painting,distance=..8]",
-		"comparison":">=",
-		"compare_to":1
-	}
+  "type": "origins:action_over_time",
+  "entity_action": {
+    "type": "origins:feed",
+    "saturation": 1,
+    "nutrition": 1
+  },
+  "interval": 40,
+  "condition": {
+    "type": "origins:command",
+    "command": "execute if entity @e[type=minecraft:painting,distance=..8]",
+    "comparison": ">=",
+    "compare_to": 1
+  }
 }

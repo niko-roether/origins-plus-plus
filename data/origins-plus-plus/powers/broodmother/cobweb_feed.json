@@ -3,8 +3,8 @@
   "cooldown": 40,
   "entity_action": {
     "type": "origins:feed",
-    "food": 1,
-    "saturation": 1
+    "saturation": 1,
+    "nutrition": 1
   },
   "damage_condition": {
     "type": "origins:attacker",

@@ -9,8 +9,8 @@
       "actions": [
         {
           "type": "origins:feed",
-          "food": 2,
-          "saturation": 2
+          "saturation": 2,
+          "nutrition": 2
         },
         {
           "type": "origins:execute_command",
@@ -47,8 +47,8 @@
       "actions": [
         {
           "type": "origins:feed",
-          "food": 3,
-          "saturation": 3
+          "saturation": 3,
+          "nutrition": 3
         },
         {
           "type": "origins:execute_command",
@@ -85,8 +85,8 @@
       "actions": [
         {
           "type": "origins:feed",
-          "food": 10,
-          "saturation": 7
+          "saturation": 7,
+          "nutrition": 10
         },
         {
           "type": "origins:execute_command",
