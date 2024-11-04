@@ -42,7 +42,7 @@
       "change": 250
     },
     "item_condition": {
-      "type": "origins:custom_data",
+      "type": "minecraft:custom_data",
       "nbt": "{tag:\"superempty\"}"
     }
   }

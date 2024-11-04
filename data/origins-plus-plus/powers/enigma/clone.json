@@ -97,7 +97,7 @@
     ],
     "interval": 1,
     "condition": {
-      "type": "origins:custom_data",
+      "type": "minecraft:custom_data",
       "nbt": "{Tags:['Enigma_Damage']}"
     }
   }
