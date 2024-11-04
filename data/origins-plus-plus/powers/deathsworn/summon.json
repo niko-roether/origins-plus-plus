@@ -20,7 +20,7 @@
         "type": "origins:equipped_item",
         "equipment_slot": "mainhand",
         "item_condition": {
-          "type": "apoli:nbt",
+          "type": "apoli::nbt",
           "nbt": "{lnc:1}"
         }
       }
