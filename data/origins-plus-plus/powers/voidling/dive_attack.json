@@ -1,10 +1,11 @@
 {
-	"type":"origins:modify_damage_dealt",
-	"modifier":{
-		"value":1,
-		"operation":"multiply_base"
-	},
-	"condition":{
-		"type":"origins:fall_flying"
-	}
+  "type": "origins:modify_damage_dealt",
+  "modifier": {
+    "value": 1,
+    "operation": "add_multiplied_base",
+    "id": "origins-plus-plus:4d1975d5_7c44_4d5e_8b66_d940de85cc3e"
+  },
+  "condition": {
+    "type": "origins:fall_flying"
+  }
 }

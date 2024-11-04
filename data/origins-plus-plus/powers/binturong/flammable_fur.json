@@ -1,28 +1,29 @@
 {
-	"type":"origins:modify_damage_taken",
-	"damage_condition":{
-		"type":"origins:or",
-		"conditions":[
-			{
-				"type":"origins:name",
-				"name":"lava"
-			},
-			{
-				"type":"origins:name",
-				"name":"onFire"
-			},
-			{
-				"type":"origins:name",
-				"name":"inFire"
-			},
-			{
-				"type":"origins:name",
-				"name":"hotFloor"
-			}
-		]
-	},
-	"modifier":{
-		"operation":"multiply_total",
-		"value":1.5
-	}
+  "type": "origins:modify_damage_taken",
+  "damage_condition": {
+    "type": "origins:or",
+    "conditions": [
+      {
+        "type": "origins:name",
+        "name": "lava"
+      },
+      {
+        "type": "origins:name",
+        "name": "onFire"
+      },
+      {
+        "type": "origins:name",
+        "name": "inFire"
+      },
+      {
+        "type": "origins:name",
+        "name": "hotFloor"
+      }
+    ]
+  },
+  "modifier": {
+    "operation": "add_multiplied_total",
+    "value": 1.5,
+    "id": "origins-plus-plus:e39328ff_4401_4357_b627_1d60c518760a"
+  }
 }

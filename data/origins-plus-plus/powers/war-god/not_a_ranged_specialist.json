@@ -1,11 +1,12 @@
 {
-	"type":"origins:modify_damage_taken",
-	"modifier":{
-		"value":1.5,
-		"operation":"multiply_total"
-	},
-	"damage_condition":{
-		"name":"projectile",
-		"type":"origins:name"
-	}
+  "type": "origins:modify_damage_taken",
+  "modifier": {
+    "value": 1.5,
+    "operation": "add_multiplied_total",
+    "id": "origins-plus-plus:713c38e1_7e09_496b_8b7e_1c4747e7f815"
+  },
+  "damage_condition": {
+    "name": "projectile",
+    "type": "origins:name"
+  }
 }

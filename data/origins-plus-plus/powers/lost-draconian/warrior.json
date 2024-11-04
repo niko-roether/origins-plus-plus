@@ -1,17 +1,18 @@
 {
-	"type":"origins:modify_damage_dealt",
-	"condition":{
-		"type":"origins:equipped_item",
-		"equipment_slot":"mainhand",
-		"item_condition":{
-			"type":"origins:ingredient",
-			"ingredient":{
-				"tag":"origins-plus-plus:swords"
-			}
-		}
-	},
-	"modifier":{
-		"operation":"addition",
-		"value":2
-	}
+  "type": "origins:modify_damage_dealt",
+  "condition": {
+    "type": "origins:equipped_item",
+    "equipment_slot": "mainhand",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "tag": "origins-plus-plus:swords"
+      }
+    }
+  },
+  "modifier": {
+    "operation": "add_value",
+    "value": 2,
+    "id": "origins-plus-plus:a63504ac_95c0_4068_9fc3_0bc353b38321"
+  }
 }

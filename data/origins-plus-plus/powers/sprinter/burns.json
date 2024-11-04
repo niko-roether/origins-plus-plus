@@ -1,10 +1,11 @@
 {
-	"type":"origins:modify_damage_taken",
-	"damage_condition":{
-		"type":"origins:fire"
-	},
-	"modifier":{
-		"operation":"multiply_total",
-		"value":2
-	}
+  "type": "origins:modify_damage_taken",
+  "damage_condition": {
+    "type": "origins:fire"
+  },
+  "modifier": {
+    "operation": "add_multiplied_total",
+    "value": 2,
+    "id": "origins-plus-plus:d1267e3f_2834_4ab4_ac5e_525636334b24"
+  }
 }

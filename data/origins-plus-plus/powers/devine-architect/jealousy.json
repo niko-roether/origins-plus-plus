@@ -1,14 +1,15 @@
 {
-	"type":"origins:modify_damage_taken",
-	"damage_condition":{
-		"type":"origins:attacker",
-		"entity_condition":{
-			"type":"origins:in_tag",
-			"tag":"origins-plus-plus:bosses"
-		}
-	},
-	"modifier":{
-		"operation":"addition",
-		"value":8
-	}
+  "type": "origins:modify_damage_taken",
+  "damage_condition": {
+    "type": "origins:attacker",
+    "entity_condition": {
+      "type": "origins:in_tag",
+      "tag": "origins-plus-plus:bosses"
+    }
+  },
+  "modifier": {
+    "operation": "add_value",
+    "value": 8,
+    "id": "origins-plus-plus:cd747d1a_e79b_4f02_9d3c_1a18fa9ae8f6"
+  }
 }

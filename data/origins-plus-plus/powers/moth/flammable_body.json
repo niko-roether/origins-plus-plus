@@ -1,28 +1,29 @@
 {
-	"type":"origins:modify_damage_taken",
-	"modifier":{
-		"value":1.5,
-		"operation":"multiply_total"
-	},
-	"damage_condition":{
-		"type":"origins:or",
-		"conditions":[
-			{
-				"type":"origins:name",
-				"name":"lava"
-			},
-			{
-				"type":"origins:name",
-				"name":"onFire"
-			},
-			{
-				"type":"origins:name",
-				"name":"inFire"
-			},
-			{
-				"type":"origins:name",
-				"name":"hotFloor"
-			}
-		]
-	}
+  "type": "origins:modify_damage_taken",
+  "modifier": {
+    "value": 1.5,
+    "operation": "add_multiplied_total",
+    "id": "origins-plus-plus:c3e2ecc0_8fe6_41ae_bdbb_691c59e7df92"
+  },
+  "damage_condition": {
+    "type": "origins:or",
+    "conditions": [
+      {
+        "type": "origins:name",
+        "name": "lava"
+      },
+      {
+        "type": "origins:name",
+        "name": "onFire"
+      },
+      {
+        "type": "origins:name",
+        "name": "inFire"
+      },
+      {
+        "type": "origins:name",
+        "name": "hotFloor"
+      }
+    ]
+  }
 }

@@ -1,18 +1,19 @@
 {
-	"type":"origins:conditioned_attribute",
-	"modifier":{
-		"attribute":"minecraft:generic.attack_damage",
-		"operation":"addition",
-		"value":2
-	},
-	"condition":{
-		"type":"origins:equipped_item",
-		"equipment_slot":"mainhand",
-		"item_condition":{
-			"type":"origins:ingredient",
-			"ingredient":{
-				"tag":"origins-plus-plus:swords"
-			}
-		}
-	}
+  "type": "origins:conditioned_attribute",
+  "modifier": {
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add_value",
+    "value": 2,
+    "id": "origins-plus-plus:35e116c6_ecc1_4189_9cbe_180886350ff8"
+  },
+  "condition": {
+    "type": "origins:equipped_item",
+    "equipment_slot": "mainhand",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "tag": "origins-plus-plus:swords"
+      }
+    }
+  }
 }

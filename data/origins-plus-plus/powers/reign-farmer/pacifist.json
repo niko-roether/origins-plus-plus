@@ -39,14 +39,16 @@
     "modifier": {
       "attribute": "minecraft:generic.attack_damage",
       "value": -0.3,
-      "operation": "multiply_total"
+      "operation": "add_multiplied_total",
+      "id": "origins-plus-plus:4897cf70_54c1_4d03_beb9_4736bf220dc6"
     }
   },
   "weaker_ranged": {
     "type": "origins:modify_projectile_damage",
     "modifier": {
-      "operation": "multiply_total",
-      "value": -0.3
+      "operation": "add_multiplied_total",
+      "value": -0.3,
+      "id": "origins-plus-plus:b777c3bb_a916_452c_819e_0c84c9751a58"
     }
   }
 }

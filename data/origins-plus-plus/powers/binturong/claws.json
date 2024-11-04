@@ -1,11 +1,12 @@
 {
-	"type":"origins:modify_damage_dealt",
-	"modifier":{
-		"operation":"addition",
-		"value":3
-	},
-	"condition":{
-		"type":"origins:using_item",
-		"inverted":true
-	}
+  "type": "origins:modify_damage_dealt",
+  "modifier": {
+    "operation": "add_value",
+    "value": 3,
+    "id": "origins-plus-plus:1140b031_61ee_4089_aea5_9ed310c22ed7"
+  },
+  "condition": {
+    "type": "origins:using_item",
+    "inverted": true
+  }
 }

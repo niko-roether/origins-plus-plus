@@ -1,28 +1,29 @@
 {
-	"type":"origins:multiple",
-	"ignore_water":{
-		"type":"origins:ignore_water"
-	},
-	"slow_in_water":{
-		"type":"origins:conditioned_attribute",
-		"modifier":{
-			"attribute":"minecraft:generic.movement_speed",
-			"operation":"addition",
-			"value":-0.03
-		},
-		"condition":{
-			"type":"origins:fluid_height",
-			"fluid":"minecraft:water",
-			"comparison":">=",
-			"compare_to":1
-		}
-	},
-	"no_drowning":{
-		"type":"origins:action_over_time",
-		"interval":20,
-		"entity_action":{
-			"type":"origins:gain_air",
-			"value":60
-		}
-	}
+  "type": "origins:multiple",
+  "ignore_water": {
+    "type": "origins:ignore_water"
+  },
+  "slow_in_water": {
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "add_value",
+      "value": -0.03,
+      "id": "origins-plus-plus:0fa87bd3_d627_4aeb_b2ca_99912d9ca439"
+    },
+    "condition": {
+      "type": "origins:fluid_height",
+      "fluid": "minecraft:water",
+      "comparison": ">=",
+      "compare_to": 1
+    }
+  },
+  "no_drowning": {
+    "type": "origins:action_over_time",
+    "interval": 20,
+    "entity_action": {
+      "type": "origins:gain_air",
+      "value": 60
+    }
+  }
 }

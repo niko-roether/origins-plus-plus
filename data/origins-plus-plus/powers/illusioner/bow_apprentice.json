@@ -1,39 +1,40 @@
 {
-	"type":"origins:conditioned_attribute",
-	"badges":[
-		{
-			"sprite":"origins:textures/gui/badge/star.png",
-			"text":"Tier 2 Power"
-		}
-	],
-	"modifier":{
-		"attribute":"minecraft:generic.attack_damage",
-		"operation":"multiply_total",
-		"value":1.5
-	},
-	"condition":{
-		"type":"origins:and",
-		"conditions":[
-			{
-				"type":"origins:equipped_item",
-				"equipment_slot":"mainhand",
-				"item_condition":{
-					"type":"origins:ingredient",
-					"ingredient":{
-						"tag":"origins:ranged_weapons"
-					}
-				}
-			},
-			{
-				"type":"origins:equipped_item",
-				"equipment_slot":"offhand",
-				"item_condition":{
-					"type":"origins:ingredient",
-					"ingredient":{
-						"tag":"origins-plus-plus:swords"
-					}
-				}
-			}
-		]
-	}
+  "type": "origins:conditioned_attribute",
+  "badges": [
+    {
+      "sprite": "origins:textures/gui/badge/star.png",
+      "text": "Tier 2 Power"
+    }
+  ],
+  "modifier": {
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add_multiplied_total",
+    "value": 1.5,
+    "id": "origins-plus-plus:3b1fe3bf_8e0a_4d98_b9d2_4c231e84a438"
+  },
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:equipped_item",
+        "equipment_slot": "mainhand",
+        "item_condition": {
+          "type": "origins:ingredient",
+          "ingredient": {
+            "tag": "origins:ranged_weapons"
+          }
+        }
+      },
+      {
+        "type": "origins:equipped_item",
+        "equipment_slot": "offhand",
+        "item_condition": {
+          "type": "origins:ingredient",
+          "ingredient": {
+            "tag": "origins-plus-plus:swords"
+          }
+        }
+      }
+    ]
+  }
 }

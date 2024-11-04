@@ -1,17 +1,18 @@
 {
-	"type":"origins:modify_damage_dealt",
-	"condition":{
-		"type":"origins:equipped_item",
-		"equipment_slot":"mainhand",
-		"item_condition":{
-			"type":"origins:ingredient",
-			"ingredient":{
-				"item":"minecraft:stone_sword"
-			}
-		}
-	},
-	"modifier":{
-		"operation":"multiply_total",
-		"value":1.25
-	}
+  "type": "origins:modify_damage_dealt",
+  "condition": {
+    "type": "origins:equipped_item",
+    "equipment_slot": "mainhand",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:stone_sword"
+      }
+    }
+  },
+  "modifier": {
+    "operation": "add_multiplied_total",
+    "value": 1.25,
+    "id": "origins-plus-plus:932da448_deee_421d_acdd_7538b344b6c4"
+  }
 }

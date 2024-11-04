@@ -1,65 +1,66 @@
 {
-	"condition":{
-		"type":"origins:or",
-		"conditions":[
-			{
-				"type":"origins:equipped_item",
-				"equipment_slot":"feet",
-				"item_condition":{
-					"type":"origins:ingredient",
-					"ingredient":{
-						"tag":"origins-plus-plus:leather_armour"
-					}
-				}
-			},
-			{
-				"type":"origins:equipped_item",
-				"equipment_slot":"chest",
-				"item_condition":{
-					"type":"origins:ingredient",
-					"ingredient":{
-						"tag":"origins-plus-plus:leather_armour"
-					}
-				}
-			},
-			{
-				"type":"origins:equipped_item",
-				"equipment_slot":"legs",
-				"item_condition":{
-					"type":"origins:ingredient",
-					"ingredient":{
-						"tag":"origins-plus-plus:leather_armour"
-					}
-				}
-			},
-			{
-				"type":"origins:equipped_item",
-				"equipment_slot":"head",
-				"item_condition":{
-					"type":"origins:ingredient",
-					"ingredient":{
-						"tag":"origins-plus-plus:leather_armour"
-					}
-				}
-			}
-		]
-	},
-	"type":"origins:conditioned_attribute",
-	"modifier":{
-		"attribute":"minecraft:generic.armor",
-		"operation":"multiply_total",
-		"value":1.05
-	},
-	"modifiers":[
-		{
-			"attribute":"minecraft:generic.movement_speed",
-			"operation":"addition",
-			"value":0.0125
-		},
-		{
-			"attribute":"minecraft:generic.attack_damage",
-			"operation":"multiply_base",
-			"value":2
-		}
-	]
+  "condition": {
+    "type": "origins:or",
+    "conditions": [
+      {
+        "type": "origins:equipped_item",
+        "equipment_slot": "feet",
+        "item_condition": {
+          "type": "origins:ingredient",
+          "ingredient": {
+            "tag": "origins-plus-plus:leather_armour"
+          }
+        }
+      },
+      {
+        "type": "origins:equipped_item",
+        "equipment_slot": "chest",
+        "item_condition": {
+          "type": "origins:ingredient",
+          "ingredient": {
+            "tag": "origins-plus-plus:leather_armour"
+          }
+        }
+      },
+      {
+        "type": "origins:equipped_item",
+        "equipment_slot": "legs",
+        "item_condition": {
+          "type": "origins:ingredient",
+          "ingredient": {
+            "tag": "origins-plus-plus:leather_armour"
+          }
+        }
+      },
+      {
+        "type": "origins:equipped_item",
+        "equipment_slot": "head",
+        "item_condition": {
+          "type": "origins:ingredient",
+          "ingredient": {
+            "tag": "origins-plus-plus:leather_armour"
+          }
+        }
+      }
+    ]
+  },
+  "type": "origins:conditioned_attribute",
+  "modifier": {
+    "attribute": "minecraft:generic.armor",
+    "operation": "add_multiplied_total",
+    "value": 1.05,
+    "id": "origins-plus-plus:e0257ada_ed3b_462c_a40c_cab6f7c0700f"
+  },
+  "modifiers": [
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "addition",
+      "value": 0.0125
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "operation": "multiply_base",
+      "value": 2
+    }
+  ]
 }

@@ -1,48 +1,50 @@
 {
-	"hidden":true,
-	"type":"origins:multiple",
-	"underwater":{
-		"type":"origins:modify_break_speed",
-		"modifier":{
-			"operation":"multiply_total",
-			"value":4
-		},
-		"condition":{
-			"type":"origins:and",
-			"conditions":[
-				{
-					"type":"origins:submerged_in",
-					"fluid":"minecraft:water"
-				},
-				{
-					"type":"origins:enchantment",
-					"enchantment":"minecraft:aqua_affinity",
-					"comparison":"==",
-					"compare_to":0
-				}
-			]
-		}
-	},
-	"ungrounded":{
-		"type":"origins:modify_break_speed",
-		"modifier":{
-			"operation":"multiply_total",
-			"value":4
-		},
-		"condition":{
-			"type":"origins:and",
-			"conditions":[
-				{
-					"type":"origins:fluid_height",
-					"fluid":"minecraft:water",
-					"comparison":">",
-					"compare_to":0
-				},
-				{
-					"type":"origins:on_block",
-					"inverted":true
-				}
-			]
-		}
-	}
+  "hidden": true,
+  "type": "origins:multiple",
+  "underwater": {
+    "type": "origins:modify_break_speed",
+    "modifier": {
+      "operation": "add_multiplied_total",
+      "value": 4,
+      "id": "origins-plus-plus:c64a07c8_c56b_4124_8663_e37f9ee10a32"
+    },
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:submerged_in",
+          "fluid": "minecraft:water"
+        },
+        {
+          "type": "origins:enchantment",
+          "enchantment": "minecraft:aqua_affinity",
+          "comparison": "==",
+          "compare_to": 0
+        }
+      ]
+    }
+  },
+  "ungrounded": {
+    "type": "origins:modify_break_speed",
+    "modifier": {
+      "operation": "add_multiplied_total",
+      "value": 4,
+      "id": "origins-plus-plus:438909c1_e628_4dc9_adb8_a7a636bd94c7"
+    },
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:fluid_height",
+          "fluid": "minecraft:water",
+          "comparison": ">",
+          "compare_to": 0
+        },
+        {
+          "type": "origins:on_block",
+          "inverted": true
+        }
+      ]
+    }
+  }
 }

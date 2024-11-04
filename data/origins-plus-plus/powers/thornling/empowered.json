@@ -1,14 +1,15 @@
 {
-	"condition":{
-		"type":"origins:enchantment",
-		"enchantment":"minecraft:thorns",
-		"calculation":"sum",
-		"comparison":">=",
-		"compare_to":12
-	},
-	"type":"origins:modify_damage_taken",
-	"modifier":{
-		"operation":"multiply_total",
-		"value":-0.4
-	}
+  "condition": {
+    "type": "origins:enchantment",
+    "enchantment": "minecraft:thorns",
+    "calculation": "sum",
+    "comparison": ">=",
+    "compare_to": 12
+  },
+  "type": "origins:modify_damage_taken",
+  "modifier": {
+    "operation": "add_multiplied_total",
+    "value": -0.4,
+    "id": "origins-plus-plus:03e941e2_6980_43b6_9095_1960dfe0e26e"
+  }
 }

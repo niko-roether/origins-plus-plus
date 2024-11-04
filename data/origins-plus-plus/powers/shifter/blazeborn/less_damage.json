@@ -1,24 +1,25 @@
 {
-	"type":"origins:conditioned_attribute",
-	"modifier":{
-		"attribute":"minecraft:generic.attack_damage",
-		"value":-3,
-		"operation":"addition"
-	},
-	"condition":{
-		"type":"origins:and",
-		"conditions":[
-			{
-				"type":"origins:dimension",
-				"dimension":"minecraft:the_nether",
-				"inverted":true
-			},
-			{
-				"type":"origins:resource",
-				"resource":"origins-plus-plus:shifter/shift_bar",
-				"comparison":"==",
-				"compare_to":8
-			}
-		]
-	}
+  "type": "origins:conditioned_attribute",
+  "modifier": {
+    "attribute": "minecraft:generic.attack_damage",
+    "value": -3,
+    "operation": "add_value",
+    "id": "origins-plus-plus:b29a83e6_ae88_49b9_84dd_82a00c3eb58a"
+  },
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:dimension",
+        "dimension": "minecraft:the_nether",
+        "inverted": true
+      },
+      {
+        "type": "origins:resource",
+        "resource": "origins-plus-plus:shifter/shift_bar",
+        "comparison": "==",
+        "compare_to": 8
+      }
+    ]
+  }
 }

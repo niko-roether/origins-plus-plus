@@ -1,21 +1,22 @@
 {
-	"type":"origins:multiple",
-	"hidden":true,
-	"magic":{
-		"type":"origins:modify_damage_taken",
-		"damage_condition":{
-			"type":"origins:name",
-			"name":"magic"
-		},
-		"modifier":{
-			"operation":"multiply_base",
-			"value":-0.6
-		}
-	},
-	"glowing":{
-		"type":"origins:effect_immunity",
-		"effect":[
-			"minecraft:glowing"
-		]
-	}
+  "type": "origins:multiple",
+  "hidden": true,
+  "magic": {
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+      "type": "origins:name",
+      "name": "magic"
+    },
+    "modifier": {
+      "operation": "add_multiplied_base",
+      "value": -0.6,
+      "id": "origins-plus-plus:9cbdf6b9_01b8_4e39_a3a3_b36c4f6c4918"
+    }
+  },
+  "glowing": {
+    "type": "origins:effect_immunity",
+    "effect": [
+      "minecraft:glowing"
+    ]
+  }
 }

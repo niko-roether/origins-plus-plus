@@ -1,23 +1,25 @@
 {
-	"type":"origins:multiple",
-	"damage_from_attacks":{
-		"type":"origins:modify_damage_taken",
-		"damage_condition":{
-			"type":"origins:attacker"
-		},
-		"modifier":{
-			"operation":"multiply_total",
-			"value":-0.3
-		}
-	},
-	"damage_from_projectiles":{
-		"type":"origins:modify_damage_taken",
-		"damage_condition":{
-			"type":"origins:projectile"
-		},
-		"modifier":{
-			"operation":"multiply_total",
-			"value":-0.3
-		}
-	}
+  "type": "origins:multiple",
+  "damage_from_attacks": {
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+      "type": "origins:attacker"
+    },
+    "modifier": {
+      "operation": "add_multiplied_total",
+      "value": -0.3,
+      "id": "origins-plus-plus:df41ab8a_8ae0_42f3_b8b3_7431aa9e771e"
+    }
+  },
+  "damage_from_projectiles": {
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+      "type": "origins:projectile"
+    },
+    "modifier": {
+      "operation": "add_multiplied_total",
+      "value": -0.3,
+      "id": "origins-plus-plus:53659f8e_d6fe_43d4_82cc_585299957ecc"
+    }
+  }
 }

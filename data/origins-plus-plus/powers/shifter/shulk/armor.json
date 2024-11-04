@@ -1,14 +1,15 @@
 {
-	"type":"origins:conditioned_attribute",
-	"modifier":{
-		"attribute":"minecraft:generic.armor",
-		"value":4,
-		"operation":"addition"
-	},
-	"condition":{
-		"type":"origins:resource",
-		"resource":"origins-plus-plus:shifter/shift_bar",
-		"comparison":"==",
-		"compare_to":4
-	}
+  "type": "origins:conditioned_attribute",
+  "modifier": {
+    "attribute": "minecraft:generic.armor",
+    "value": 4,
+    "operation": "add_value",
+    "id": "origins-plus-plus:92729839_d279_46fb_b216_2db3b3805586"
+  },
+  "condition": {
+    "type": "origins:resource",
+    "resource": "origins-plus-plus:shifter/shift_bar",
+    "comparison": "==",
+    "compare_to": 4
+  }
 }

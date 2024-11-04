@@ -1,15 +1,16 @@
 {
-	"type":"origins:conditioned_attribute",
-	"modifier":{
-		"attribute":"minecraft:generic.max_health",
-		"value":-6,
-		"operation":"addition"
-	},
-	"update_health":true,
-	"condition":{
-		"type":"origins:resource",
-		"resource":"origins-plus-plus:shifter/shift_bar",
-		"comparison":"==",
-		"compare_to":4
-	}
+  "type": "origins:conditioned_attribute",
+  "modifier": {
+    "attribute": "minecraft:generic.max_health",
+    "value": -6,
+    "operation": "add_value",
+    "id": "origins-plus-plus:560cb494_2892_4240_a313_aa12fc6b1ba1"
+  },
+  "update_health": true,
+  "condition": {
+    "type": "origins:resource",
+    "resource": "origins-plus-plus:shifter/shift_bar",
+    "comparison": "==",
+    "compare_to": 4
+  }
 }

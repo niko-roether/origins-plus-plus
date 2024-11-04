@@ -1,20 +1,21 @@
 {
-	"type":"origins:modify_damage_dealt",
-	"modifier":{
-		"operation":"addition",
-		"value":4
-	},
-	"damage_condition":{
-		"type":"origins:attacker",
-		"entity_condition":{
-			"type":"origins:equipped_item",
-			"equipment_slot":"mainhand",
-			"item_condition":{
-				"type":"origins:ingredient",
-				"ingredient":{
-					"tag":"origins-plus-plus:swords"
-				}
-			}
-		}
-	}
+  "type": "origins:modify_damage_dealt",
+  "modifier": {
+    "operation": "add_value",
+    "value": 4,
+    "id": "origins-plus-plus:5c83deb8_43f9_4a5d_aebd_79f475f1e10a"
+  },
+  "damage_condition": {
+    "type": "origins:attacker",
+    "entity_condition": {
+      "type": "origins:equipped_item",
+      "equipment_slot": "mainhand",
+      "item_condition": {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "tag": "origins-plus-plus:swords"
+        }
+      }
+    }
+  }
 }

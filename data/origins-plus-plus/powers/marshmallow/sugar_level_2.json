@@ -33,8 +33,9 @@
     "type": "origins:conditioned_attribute",
     "modifier": {
       "attribute": "minecraft:generic.attack_damage",
-      "operation": "addition",
-      "value": 2
+      "operation": "add_value",
+      "value": 2,
+      "id": "origins-plus-plus:8fa4a328_8f38_42ec_83cd_33292cca34d7"
     },
     "condition": {
       "type": "origins:and",
@@ -83,8 +84,9 @@
     "type": "origins:conditioned_attribute",
     "modifier": {
       "attribute": "minecraft:generic.max_health",
-      "operation": "addition",
-      "value": -6
+      "operation": "add_value",
+      "value": -6,
+      "id": "origins-plus-plus:194a26d0_706e_4cb6_a97b_a5195dca74dd"
     },
     "update_health": true,
     "condition": {

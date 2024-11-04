@@ -1,7 +1,8 @@
 {
-	"type":"origins:modify_damage_dealt",
-	"modifier":{
-		"operation":"addition",
-		"value":5
-	}
+  "type": "origins:modify_damage_dealt",
+  "modifier": {
+    "operation": "add_value",
+    "value": 5,
+    "id": "origins-plus-plus:a2c9ff5e_097e_4e3b_96da_a3af957030f6"
+  }
 }

@@ -1,243 +1,249 @@
 {
-	"type":"origins:multiple",
-	"eff0":{
-		"type":"origins:modify_break_speed",
-		"block_condition":{
-			"type":"origins:block",
-			"block":"minecraft:bedrock"
-		},
-		"modifier":{
-			"operation":"addition",
-			"value":0.005
-		},
-		"condition":{
-			"type":"origins:and",
-			"conditions":[
-				{
-					"type":"origins:equipped_item",
-					"equipment_slot":"mainhand",
-					"item_condition":{
-						"type":"origins:and",
-						"conditions":[
-							{
-								"type":"origins:enchantment",
-								"enchantment":"minecraft:efficiency",
-								"comparison":"==",
-								"compare_to":0
-							},
-							{
-								"type":"origins:harvest_level",
-								"comparison":">=",
-								"compare_to":4
-							}
-						]
-					}
-				},
-				{
-					"type":"origins:origin",
-					"origin":"origins-plus-plus:bedrockean"
-				}
-			]
-		}
-	},
-	"eff1":{
-		"type":"origins:modify_break_speed",
-		"block_condition":{
-			"type":"origins:block",
-			"block":"minecraft:bedrock"
-		},
-		"modifier":{
-			"operation":"addition",
-			"value":0.006
-		},
-		"condition":{
-			"type":"origins:and",
-			"conditions":[
-				{
-					"type":"origins:equipped_item",
-					"equipment_slot":"mainhand",
-					"item_condition":{
-						"type":"origins:and",
-						"conditions":[
-							{
-								"type":"origins:enchantment",
-								"enchantment":"minecraft:efficiency",
-								"comparison":"==",
-								"compare_to":1
-							},
-							{
-								"type":"origins:harvest_level",
-								"comparison":">=",
-								"compare_to":4
-							}
-						]
-					}
-				},
-				{
-					"type":"origins:origin",
-					"origin":"origins-plus-plus:bedrockean"
-				}
-			]
-		}
-	},
-	"eff2":{
-		"type":"origins:modify_break_speed",
-		"block_condition":{
-			"type":"origins:block",
-			"block":"minecraft:bedrock"
-		},
-		"modifier":{
-			"operation":"addition",
-			"value":0.0065
-		},
-		"condition":{
-			"type":"origins:and",
-			"conditions":[
-				{
-					"type":"origins:equipped_item",
-					"equipment_slot":"mainhand",
-					"item_condition":{
-						"type":"origins:and",
-						"conditions":[
-							{
-								"type":"origins:enchantment",
-								"enchantment":"minecraft:efficiency",
-								"comparison":"==",
-								"compare_to":2
-							},
-							{
-								"type":"origins:harvest_level",
-								"comparison":">=",
-								"compare_to":4
-							}
-						]
-					}
-				},
-				{
-					"type":"origins:origin",
-					"origin":"origins-plus-plus:bedrockean"
-				}
-			]
-		}
-	},
-	"eff3":{
-		"type":"origins:modify_break_speed",
-		"block_condition":{
-			"type":"origins:block",
-			"block":"minecraft:bedrock"
-		},
-		"modifier":{
-			"operation":"addition",
-			"value":0.007
-		},
-		"condition":{
-			"type":"origins:and",
-			"conditions":[
-				{
-					"type":"origins:equipped_item",
-					"equipment_slot":"mainhand",
-					"item_condition":{
-						"type":"origins:and",
-						"conditions":[
-							{
-								"type":"origins:enchantment",
-								"enchantment":"minecraft:efficiency",
-								"comparison":"==",
-								"compare_to":3
-							},
-							{
-								"type":"origins:harvest_level",
-								"comparison":">=",
-								"compare_to":4
-							}
-						]
-					}
-				},
-				{
-					"type":"origins:origin",
-					"origin":"origins-plus-plus:bedrockean"
-				}
-			]
-		}
-	},
-	"eff4":{
-		"type":"origins:modify_break_speed",
-		"block_condition":{
-			"type":"origins:block",
-			"block":"minecraft:bedrock"
-		},
-		"modifier":{
-			"operation":"addition",
-			"value":0.0075
-		},
-		"condition":{
-			"type":"origins:and",
-			"conditions":[
-				{
-					"type":"origins:equipped_item",
-					"equipment_slot":"mainhand",
-					"item_condition":{
-						"type":"origins:and",
-						"conditions":[
-							{
-								"type":"origins:enchantment",
-								"enchantment":"minecraft:efficiency",
-								"comparison":"==",
-								"compare_to":4
-							},
-							{
-								"type":"origins:harvest_level",
-								"comparison":">=",
-								"compare_to":4
-							}
-						]
-					}
-				},
-				{
-					"type":"origins:origin",
-					"origin":"origins-plus-plus:bedrockean"
-				}
-			]
-		}
-	},
-	"eff5":{
-		"type":"origins:modify_break_speed",
-		"block_condition":{
-			"type":"origins:block",
-			"block":"minecraft:bedrock"
-		},
-		"modifier":{
-			"operation":"addition",
-			"value":0.008
-		},
-		"condition":{
-			"type":"origins:and",
-			"conditions":[
-				{
-					"type":"origins:equipped_item",
-					"equipment_slot":"mainhand",
-					"item_condition":{
-						"type":"origins:and",
-						"conditions":[
-							{
-								"type":"origins:enchantment",
-								"enchantment":"minecraft:efficiency",
-								"comparison":"==",
-								"compare_to":5
-							},
-							{
-								"type":"origins:harvest_level",
-								"comparison":">=",
-								"compare_to":4
-							}
-						]
-					}
-				},
-				{
-					"type":"origins:origin",
-					"origin":"origins-plus-plus:bedrockean"
-				}
-			]
-		}
-	}
+  "type": "origins:multiple",
+  "eff0": {
+    "type": "origins:modify_break_speed",
+    "block_condition": {
+      "type": "origins:block",
+      "block": "minecraft:bedrock"
+    },
+    "modifier": {
+      "operation": "add_value",
+      "value": 0.005,
+      "id": "origins-plus-plus:99fba567_a6a7_43b7_8411_22fbb4664080"
+    },
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "mainhand",
+          "item_condition": {
+            "type": "origins:and",
+            "conditions": [
+              {
+                "type": "origins:enchantment",
+                "enchantment": "minecraft:efficiency",
+                "comparison": "==",
+                "compare_to": 0
+              },
+              {
+                "type": "origins:harvest_level",
+                "comparison": ">=",
+                "compare_to": 4
+              }
+            ]
+          }
+        },
+        {
+          "type": "origins:origin",
+          "origin": "origins-plus-plus:bedrockean"
+        }
+      ]
+    }
+  },
+  "eff1": {
+    "type": "origins:modify_break_speed",
+    "block_condition": {
+      "type": "origins:block",
+      "block": "minecraft:bedrock"
+    },
+    "modifier": {
+      "operation": "add_value",
+      "value": 0.006,
+      "id": "origins-plus-plus:fc6411d1_6ecb_49db_9bbd_7238771af65c"
+    },
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "mainhand",
+          "item_condition": {
+            "type": "origins:and",
+            "conditions": [
+              {
+                "type": "origins:enchantment",
+                "enchantment": "minecraft:efficiency",
+                "comparison": "==",
+                "compare_to": 1
+              },
+              {
+                "type": "origins:harvest_level",
+                "comparison": ">=",
+                "compare_to": 4
+              }
+            ]
+          }
+        },
+        {
+          "type": "origins:origin",
+          "origin": "origins-plus-plus:bedrockean"
+        }
+      ]
+    }
+  },
+  "eff2": {
+    "type": "origins:modify_break_speed",
+    "block_condition": {
+      "type": "origins:block",
+      "block": "minecraft:bedrock"
+    },
+    "modifier": {
+      "operation": "add_value",
+      "value": 0.0065,
+      "id": "origins-plus-plus:4aa5489a_4c16_407b_99b3_d63907b6408d"
+    },
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "mainhand",
+          "item_condition": {
+            "type": "origins:and",
+            "conditions": [
+              {
+                "type": "origins:enchantment",
+                "enchantment": "minecraft:efficiency",
+                "comparison": "==",
+                "compare_to": 2
+              },
+              {
+                "type": "origins:harvest_level",
+                "comparison": ">=",
+                "compare_to": 4
+              }
+            ]
+          }
+        },
+        {
+          "type": "origins:origin",
+          "origin": "origins-plus-plus:bedrockean"
+        }
+      ]
+    }
+  },
+  "eff3": {
+    "type": "origins:modify_break_speed",
+    "block_condition": {
+      "type": "origins:block",
+      "block": "minecraft:bedrock"
+    },
+    "modifier": {
+      "operation": "add_value",
+      "value": 0.007,
+      "id": "origins-plus-plus:39d30a1f_cc3f_4f93_a26f_3d9737ccba13"
+    },
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "mainhand",
+          "item_condition": {
+            "type": "origins:and",
+            "conditions": [
+              {
+                "type": "origins:enchantment",
+                "enchantment": "minecraft:efficiency",
+                "comparison": "==",
+                "compare_to": 3
+              },
+              {
+                "type": "origins:harvest_level",
+                "comparison": ">=",
+                "compare_to": 4
+              }
+            ]
+          }
+        },
+        {
+          "type": "origins:origin",
+          "origin": "origins-plus-plus:bedrockean"
+        }
+      ]
+    }
+  },
+  "eff4": {
+    "type": "origins:modify_break_speed",
+    "block_condition": {
+      "type": "origins:block",
+      "block": "minecraft:bedrock"
+    },
+    "modifier": {
+      "operation": "add_value",
+      "value": 0.0075,
+      "id": "origins-plus-plus:7601e12f_634c_49f8_9520_ed169b86f69e"
+    },
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "mainhand",
+          "item_condition": {
+            "type": "origins:and",
+            "conditions": [
+              {
+                "type": "origins:enchantment",
+                "enchantment": "minecraft:efficiency",
+                "comparison": "==",
+                "compare_to": 4
+              },
+              {
+                "type": "origins:harvest_level",
+                "comparison": ">=",
+                "compare_to": 4
+              }
+            ]
+          }
+        },
+        {
+          "type": "origins:origin",
+          "origin": "origins-plus-plus:bedrockean"
+        }
+      ]
+    }
+  },
+  "eff5": {
+    "type": "origins:modify_break_speed",
+    "block_condition": {
+      "type": "origins:block",
+      "block": "minecraft:bedrock"
+    },
+    "modifier": {
+      "operation": "add_value",
+      "value": 0.008,
+      "id": "origins-plus-plus:c8528ce0_fbc8_499e_9368_65a85749a640"
+    },
+    "condition": {
+      "type": "origins:and",
+      "conditions": [
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "mainhand",
+          "item_condition": {
+            "type": "origins:and",
+            "conditions": [
+              {
+                "type": "origins:enchantment",
+                "enchantment": "minecraft:efficiency",
+                "comparison": "==",
+                "compare_to": 5
+              },
+              {
+                "type": "origins:harvest_level",
+                "comparison": ">=",
+                "compare_to": 4
+              }
+            ]
+          }
+        },
+        {
+          "type": "origins:origin",
+          "origin": "origins-plus-plus:bedrockean"
+        }
+      ]
+    }
+  }
 }

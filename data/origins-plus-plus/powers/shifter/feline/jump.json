@@ -1,21 +1,22 @@
 {
-	"type":"origins:modify_jump",
-	"modifier":{
-		"value":0.5,
-		"operation":"multiply_base"
-	},
-	"condition":{
-		"type":"origins:and",
-		"conditions":[
-			{
-				"type":"origins:sprinting"
-			},
-			{
-				"type":"origins:resource",
-				"resource":"origins-plus-plus:shifter/shift_bar",
-				"comparison":"==",
-				"compare_to":5
-			}
-		]
-	}
+  "type": "origins:modify_jump",
+  "modifier": {
+    "value": 0.5,
+    "operation": "add_multiplied_base",
+    "id": "origins-plus-plus:e5694414_ac87_450a_a487_b53464fcba65"
+  },
+  "condition": {
+    "type": "origins:and",
+    "conditions": [
+      {
+        "type": "origins:sprinting"
+      },
+      {
+        "type": "origins:resource",
+        "resource": "origins-plus-plus:shifter/shift_bar",
+        "comparison": "==",
+        "compare_to": 5
+      }
+    ]
+  }
 }

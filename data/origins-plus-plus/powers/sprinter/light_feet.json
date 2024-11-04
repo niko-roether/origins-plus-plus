@@ -1,15 +1,16 @@
 {
-	"type":"origins:conditioned_attribute",
-	"modifier":{
-		"attribute":"minecraft:generic.movement_speed",
-		"operation":"addition",
-		"value":0.08
-	},
-	"condition":{
-		"type":"origins:on_block",
-		"block_condition":{
-			"type":"origins:in_tag",
-			"tag":"minecraft:soul_speed_blocks"
-		}
-	}
+  "type": "origins:conditioned_attribute",
+  "modifier": {
+    "attribute": "minecraft:generic.movement_speed",
+    "operation": "add_value",
+    "value": 0.08,
+    "id": "origins-plus-plus:0b140160_17bd_46e8_a559_dff6dfce0d44"
+  },
+  "condition": {
+    "type": "origins:on_block",
+    "block_condition": {
+      "type": "origins:in_tag",
+      "tag": "minecraft:soul_speed_blocks"
+    }
+  }
 }

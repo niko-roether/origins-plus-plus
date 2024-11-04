@@ -1,12 +1,13 @@
 {
-	"type":"origins:modify_projectile_damage",
-	"damage_condition":{
-		"type":"origins:projectile",
-		"projectile":"minecraft:spectral_arrow"
-	},
-	"modifier":{
-		"operation":"addition",
-		"value":-10
-	},
-	"hidden":true
+  "type": "origins:modify_projectile_damage",
+  "damage_condition": {
+    "type": "origins:projectile",
+    "projectile": "minecraft:spectral_arrow"
+  },
+  "modifier": {
+    "operation": "add_value",
+    "value": -10,
+    "id": "origins-plus-plus:08b4f6f1_2067_4b05_a325_e23cb037b55b"
+  },
+  "hidden": true
 }

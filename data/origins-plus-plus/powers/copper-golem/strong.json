@@ -1,8 +1,9 @@
 {
-    "type":"origins:attribute",
-    "modifier":{
-        "attribute":"minecraft:generic.attack_damage",
-        "operation":"addition",
-        "value":2
-    }
+  "type": "origins:attribute",
+  "modifier": {
+    "attribute": "minecraft:generic.attack_damage",
+    "operation": "add_value",
+    "value": 2,
+    "id": "origins-plus-plus:3fb9a11c_bdc9_4dee_ba3a_33f45abc2d0a"
+  }
 }

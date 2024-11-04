@@ -1,77 +1,79 @@
 {
-	"type":"origins:multiple",
-	"slowness":{
-		"type":"origins:conditioned_attribute",
-		"modifier":{
-			"attribute":"minecraft:generic.movement_speed",
-			"operation":"multiply_total",
-			"value":-1
-		},
-		"condition":{
-			"type":"origins:or",
-			"conditions":[
-				{
-					"type":"origins:resource",
-					"resource":"origins-plus-plus:automaton/firebar",
-					"comparison":"==",
-					"compare_to":0
-				},
-				{
-					"type":"origins:resource",
-					"resource":"origins-plus-plus:automaton/waterbar",
-					"comparison":"==",
-					"compare_to":0
-				}
-			]
-		}
-	},
-	"no_jump":{
-		"type":"origins:modify_jump",
-		"modifier":{
-			"operation":"multiply_total",
-			"value":-2
-		},
-		"condition":{
-			"type":"origins:or",
-			"conditions":[
-				{
-					"type":"origins:resource",
-					"resource":"origins-plus-plus:automaton/firebar",
-					"comparison":"==",
-					"compare_to":0
-				},
-				{
-					"type":"origins:resource",
-					"resource":"origins-plus-plus:automaton/waterbar",
-					"comparison":"==",
-					"compare_to":0
-				}
-			]
-		}
-	},
-	"blindness":{
-		"type":"origins:action_over_time",
-		"interval":1,
-		"entity_action":{
-			"type":"origins:execute_command",
-			"command":"effect give @s minecraft:blindness 2 1 true"
-		},
-		"condition":{
-			"type":"origins:or",
-			"conditions":[
-				{
-					"type":"origins:resource",
-					"resource":"origins-plus-plus:automaton/firebar",
-					"comparison":"==",
-					"compare_to":0
-				},
-				{
-					"type":"origins:resource",
-					"resource":"origins-plus-plus:automaton/waterbar",
-					"comparison":"==",
-					"compare_to":0
-				}
-			]
-		}
-	}
+  "type": "origins:multiple",
+  "slowness": {
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "add_multiplied_total",
+      "value": -1,
+      "id": "origins-plus-plus:c0771fcf_8a2b_4e68_8846_5136a01bb0a8"
+    },
+    "condition": {
+      "type": "origins:or",
+      "conditions": [
+        {
+          "type": "origins:resource",
+          "resource": "origins-plus-plus:automaton/firebar",
+          "comparison": "==",
+          "compare_to": 0
+        },
+        {
+          "type": "origins:resource",
+          "resource": "origins-plus-plus:automaton/waterbar",
+          "comparison": "==",
+          "compare_to": 0
+        }
+      ]
+    }
+  },
+  "no_jump": {
+    "type": "origins:modify_jump",
+    "modifier": {
+      "operation": "add_multiplied_total",
+      "value": -2,
+      "id": "origins-plus-plus:bfb62c0e_8e46_4cb5_95b1_7457243f124f"
+    },
+    "condition": {
+      "type": "origins:or",
+      "conditions": [
+        {
+          "type": "origins:resource",
+          "resource": "origins-plus-plus:automaton/firebar",
+          "comparison": "==",
+          "compare_to": 0
+        },
+        {
+          "type": "origins:resource",
+          "resource": "origins-plus-plus:automaton/waterbar",
+          "comparison": "==",
+          "compare_to": 0
+        }
+      ]
+    }
+  },
+  "blindness": {
+    "type": "origins:action_over_time",
+    "interval": 1,
+    "entity_action": {
+      "type": "origins:execute_command",
+      "command": "effect give @s minecraft:blindness 2 1 true"
+    },
+    "condition": {
+      "type": "origins:or",
+      "conditions": [
+        {
+          "type": "origins:resource",
+          "resource": "origins-plus-plus:automaton/firebar",
+          "comparison": "==",
+          "compare_to": 0
+        },
+        {
+          "type": "origins:resource",
+          "resource": "origins-plus-plus:automaton/waterbar",
+          "comparison": "==",
+          "compare_to": 0
+        }
+      ]
+    }
+  }
 }

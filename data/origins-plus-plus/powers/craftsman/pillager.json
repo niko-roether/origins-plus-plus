@@ -1,14 +1,15 @@
 {
-	"type":"origins:modify_damage_taken",
-	"bientity_condition":{
-		"type":"origins:actor_condition",
-		"condition":{
-			"type":"origins:entity_group",
-			"group":"illager"
-		}
-	},
-	"modifier":{
-		"operation":"addition",
-		"value":1.05
-	}
+  "type": "origins:modify_damage_taken",
+  "bientity_condition": {
+    "type": "origins:actor_condition",
+    "condition": {
+      "type": "origins:entity_group",
+      "group": "illager"
+    }
+  },
+  "modifier": {
+    "operation": "add_value",
+    "value": 1.05,
+    "id": "origins-plus-plus:0a27451e_1d96_46c0_aa26_7dda6d050fb0"
+  }
 }

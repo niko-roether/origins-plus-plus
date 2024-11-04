@@ -1,7 +1,8 @@
 {
-	"type":"origins:modify_damage_taken",
-	"modifier":{
-		"operation":"multiply_base",
-		"value":1.50
-	}
+  "type": "origins:modify_damage_taken",
+  "modifier": {
+    "operation": "add_multiplied_base",
+    "value": 1.5,
+    "id": "origins-plus-plus:39dab4b6_33bd_48a1_8eb5_bf4a4a41f972"
+  }
 }

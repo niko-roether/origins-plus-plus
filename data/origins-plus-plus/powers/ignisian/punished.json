@@ -1,32 +1,33 @@
 {
-	"type":"origins:modify_damage_taken",
-	"damage_condition":{
-		"type":"origins:or",
-		"conditions":[
-			{
-				"type":"origins:name",
-				"name":"explosion.player"
-			},
-			{
-				"type":"origins:name",
-				"name":"explosion"
-			},
-			{
-				"type":"origins:name",
-				"name":"magic"
-			},
-			{
-				"type":"origins:name",
-				"name":"indirectMagic"
-			},
-			{
-				"type":"origins:name",
-				"name":"lightningBolt"
-			}
-		]
-	},
-	"modifier":{
-		"operation":"multiply_base",
-		"value":2
-	}
+  "type": "origins:modify_damage_taken",
+  "damage_condition": {
+    "type": "origins:or",
+    "conditions": [
+      {
+        "type": "origins:name",
+        "name": "explosion.player"
+      },
+      {
+        "type": "origins:name",
+        "name": "explosion"
+      },
+      {
+        "type": "origins:name",
+        "name": "magic"
+      },
+      {
+        "type": "origins:name",
+        "name": "indirectMagic"
+      },
+      {
+        "type": "origins:name",
+        "name": "lightningBolt"
+      }
+    ]
+  },
+  "modifier": {
+    "operation": "add_multiplied_base",
+    "value": 2,
+    "id": "origins-plus-plus:961e7fda_5700_46a3_a80c_b0656a40662b"
+  }
 }

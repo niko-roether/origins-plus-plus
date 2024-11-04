@@ -1,203 +1,212 @@
 {
-	"type":"origins:multiple",
-	"modifier":{
-		"type":"origins:modify_status_effect_amplifier",
-		"status_effect":"minecraft:speed",
-		"modifier":{
-			"operation":"addition",
-			"value":1
-		}
-	},
-	"m":{
-		"type":"origins:modify_status_effect_amplifier",
-		"status_effect":"minecraft:blindness",
-		"modifier":{
-			"operation":"addition",
-			"value":1
-		}
-	},
-	"m2":{
-		"type":"origins:modify_status_effect_amplifier",
-		"status_effect":"minecraft:glowing",
-		"modifier":{
-			"operation":"addition",
-			"value":1
-		}
-	},
-	"m3":{
-		"type":"origins:modify_status_effect_amplifier",
-		"status_effect":"minecraft:hunger",
-		"modifier":{
-			"operation":"addition",
-			"value":1
-		}
-	},
-	"m5":{
-		"type":"origins:modify_status_effect_amplifier",
-		"status_effect":"minecraft:levitation",
-		"modifier":{
-			"operation":"addition",
-			"value":1
-		}
-	},
-	"m6":{
-		"type":"origins:modify_status_effect_amplifier",
-		"status_effect":"minecraft:mining_fatigue",
-		"modifier":{
-			"operation":"addition",
-			"value":1
-		}
-	},
-	"m7":{
-		"type":"origins:modify_status_effect_amplifier",
-		"status_effect":"minecraft:nausea",
-		"modifier":{
-			"operation":"addition",
-			"value":1
-		}
-	},
-	"m8":{
-		"type":"origins:modify_status_effect_amplifier",
-		"status_effect":"minecraft:poison",
-		"modifier":{
-			"operation":"addition",
-			"value":1
-		}
-	},
-	"m9":{
-		"type":"origins:modify_status_effect_amplifier",
-		"status_effect":"minecraft:slowness",
-		"modifier":{
-			"operation":"addition",
-			"value":1
-		}
-	},
-	"m10":{
-		"type":"origins:modify_status_effect_amplifier",
-		"status_effect":"minecraft:weakness",
-		"modifier":{
-			"operation":"addition",
-			"value":1
-		}
-	},
-	"m11":{
-		"type":"origins:modify_status_effect_amplifier",
-		"status_effect":"minecraft:wither",
-		"modifier":{
-			"operation":"addition",
-			"value":1
-		}
-	},
-	"m12":{
-		"type":"origins:modify_status_effect_amplifier",
-		"status_effect":"minecraft:unluck",
-		"modifier":{
-			"operation":"addition",
-			"value":1
-		}
-	},
-	"m13":{
-		"type":"origins:modify_status_effect_amplifier",
-		"status_effect":"minecraft:haste",
-		"modifier":{
-			"operation":"addition",
-			"value":1
-		}
-	},
-	"m14":{
-		"type":"origins:modify_status_effect_amplifier",
-		"status_effect":"minecraft:strength",
-		"modifier":{
-			"operation":"addition",
-			"value":1
-		}
-	},
-	"m16":{
-		"type":"origins:modify_status_effect_amplifier",
-		"status_effect":"minecraft:instant_damage",
-		"modifier":{
-			"operation":"addition",
-			"value":1
-		}
-	},
-	"m17":{
-		"type":"origins:modify_status_effect_amplifier",
-		"status_effect":"minecraft:jump_boost",
-		"modifier":{
-			"operation":"addition",
-			"value":1
-		}
-	},
-	"m18":{
-		"type":"origins:modify_status_effect_amplifier",
-		"status_effect":"minecraft:regeneration",
-		"modifier":{
-			"operation":"addition",
-			"value":1
-		}
-	},
-	"m19":{
-		"type":"origins:modify_status_effect_amplifier",
-		"status_effect":"minecraft:resistance",
-		"modifier":{
-			"operation":"addition",
-			"value":1
-		}
-	},
-	"m20":{
-		"type":"origins:modify_status_effect_amplifier",
-		"status_effect":"minecraft:fire_resistance",
-		"modifier":{
-			"operation":"addition",
-			"value":1
-		}
-	},
-	"m21":{
-		"type":"origins:modify_status_effect_amplifier",
-		"status_effect":"minecraft:invisibility",
-		"modifier":{
-			"operation":"addition",
-			"value":1
-		}
-	},
-	"m22":{
-		"type":"origins:modify_status_effect_amplifier",
-		"status_effect":"minecraft:health_boost",
-		"modifier":{
-			"operation":"addition",
-			"value":1
-		}
-	},
-	"m23":{
-		"type":"origins:modify_status_effect_amplifier",
-		"status_effect":"minecraft:absorption",
-		"modifier":{
-			"operation":"addition",
-			"value":1
-		}
-	},
-	"m24":{
-		"type":"origins:modify_status_effect_amplifier",
-		"status_effect":"minecraft:saturation",
-		"modifier":{
-			"operation":"addition",
-			"value":1
-		}
-	},
-	"m25":{
-		"type":"origins:modify_status_effect_amplifier",
-		"status_effect":"minecraft:luck",
-		"modifier":{
-			"operation":"addition",
-			"value":1
-		}
-	},
-	"m27":{
-		"type":"origins:modify_status_effect_amplifier",
-		"status_effect":"minecraft:slow_falling",
-		"modifier":{
-			"operation":"addition",
-			"value":1
-		}
-	}
+  "type": "origins:multiple",
+  "modifier": {
+    "type": "origins:modify_status_effect_amplifier",
+    "status_effect": "minecraft:speed",
+    "modifier": {
+      "operation": "addition",
+      "value": 1
+    },
+    "id": "origins-plus-plus:cada729c_33c1_4944_96c4_0436d2fb39e8"
+  },
+  "m": {
+    "type": "origins:modify_status_effect_amplifier",
+    "status_effect": "minecraft:blindness",
+    "modifier": {
+      "operation": "add_value",
+      "value": 1,
+      "id": "origins-plus-plus:5709a376_4c4b_494c_94b6_dc95ef1caefe"
+    }
+  },
+  "m2": {
+    "type": "origins:modify_status_effect_amplifier",
+    "status_effect": "minecraft:glowing",
+    "modifier": {
+      "operation": "add_value",
+      "value": 1,
+      "id": "origins-plus-plus:0707d1b2_2e00_417e_89b2_8dba2859bebf"
+    }
+  },
+  "m3": {
+    "type": "origins:modify_status_effect_amplifier",
+    "status_effect": "minecraft:hunger",
+    "modifier": {
+      "operation": "add_value",
+      "value": 1,
+      "id": "origins-plus-plus:cd995c2f_8cab_49ed_941f_af7e96db8cc3"
+    }
+  },
+  "m5": {
+    "type": "origins:modify_status_effect_amplifier",
+    "status_effect": "minecraft:levitation",
+    "modifier": {
+      "operation": "add_value",
+      "value": 1,
+      "id": "origins-plus-plus:2cd80f2a_cb39_41ac_9d20_522a2ec7efb3"
+    }
+  },
+  "m6": {
+    "type": "origins:modify_status_effect_amplifier",
+    "status_effect": "minecraft:mining_fatigue",
+    "modifier": {
+      "operation": "add_value",
+      "value": 1,
+      "id": "origins-plus-plus:5a9aad3d_2b9e_4b0e_8a7c_75189dffa849"
+    }
+  },
+  "m7": {
+    "type": "origins:modify_status_effect_amplifier",
+    "status_effect": "minecraft:nausea",
+    "modifier": {
+      "operation": "add_value",
+      "value": 1,
+      "id": "origins-plus-plus:b2496360_d1e5_4a84_83c2_8a8745520545"
+    }
+  },
+  "m8": {
+    "type": "origins:modify_status_effect_amplifier",
+    "status_effect": "minecraft:poison",
+    "modifier": {
+      "operation": "add_value",
+      "value": 1,
+      "id": "origins-plus-plus:8db41b22_0b53_450b_8fd4_30169a11092a"
+    }
+  },
+  "m9": {
+    "type": "origins:modify_status_effect_amplifier",
+    "status_effect": "minecraft:slowness",
+    "modifier": {
+      "operation": "add_value",
+      "value": 1,
+      "id": "origins-plus-plus:cf040368_7c38_48ff_8f46_4e004aeedb3e"
+    }
+  },
+  "m10": {
+    "type": "origins:modify_status_effect_amplifier",
+    "status_effect": "minecraft:weakness",
+    "modifier": {
+      "operation": "addition",
+      "value": 1
+    }
+  },
+  "m11": {
+    "type": "origins:modify_status_effect_amplifier",
+    "status_effect": "minecraft:wither",
+    "modifier": {
+      "operation": "addition",
+      "value": 1
+    }
+  },
+  "m12": {
+    "type": "origins:modify_status_effect_amplifier",
+    "status_effect": "minecraft:unluck",
+    "modifier": {
+      "operation": "addition",
+      "value": 1
+    }
+  },
+  "m13": {
+    "type": "origins:modify_status_effect_amplifier",
+    "status_effect": "minecraft:haste",
+    "modifier": {
+      "operation": "addition",
+      "value": 1
+    }
+  },
+  "m14": {
+    "type": "origins:modify_status_effect_amplifier",
+    "status_effect": "minecraft:strength",
+    "modifier": {
+      "operation": "addition",
+      "value": 1
+    }
+  },
+  "m16": {
+    "type": "origins:modify_status_effect_amplifier",
+    "status_effect": "minecraft:instant_damage",
+    "modifier": {
+      "operation": "addition",
+      "value": 1
+    }
+  },
+  "m17": {
+    "type": "origins:modify_status_effect_amplifier",
+    "status_effect": "minecraft:jump_boost",
+    "modifier": {
+      "operation": "addition",
+      "value": 1
+    }
+  },
+  "m18": {
+    "type": "origins:modify_status_effect_amplifier",
+    "status_effect": "minecraft:regeneration",
+    "modifier": {
+      "operation": "addition",
+      "value": 1
+    }
+  },
+  "m19": {
+    "type": "origins:modify_status_effect_amplifier",
+    "status_effect": "minecraft:resistance",
+    "modifier": {
+      "operation": "addition",
+      "value": 1
+    }
+  },
+  "m20": {
+    "type": "origins:modify_status_effect_amplifier",
+    "status_effect": "minecraft:fire_resistance",
+    "modifier": {
+      "operation": "addition",
+      "value": 1
+    }
+  },
+  "m21": {
+    "type": "origins:modify_status_effect_amplifier",
+    "status_effect": "minecraft:invisibility",
+    "modifier": {
+      "operation": "addition",
+      "value": 1
+    }
+  },
+  "m22": {
+    "type": "origins:modify_status_effect_amplifier",
+    "status_effect": "minecraft:health_boost",
+    "modifier": {
+      "operation": "addition",
+      "value": 1
+    }
+  },
+  "m23": {
+    "type": "origins:modify_status_effect_amplifier",
+    "status_effect": "minecraft:absorption",
+    "modifier": {
+      "operation": "addition",
+      "value": 1
+    }
+  },
+  "m24": {
+    "type": "origins:modify_status_effect_amplifier",
+    "status_effect": "minecraft:saturation",
+    "modifier": {
+      "operation": "addition",
+      "value": 1
+    }
+  },
+  "m25": {
+    "type": "origins:modify_status_effect_amplifier",
+    "status_effect": "minecraft:luck",
+    "modifier": {
+      "operation": "addition",
+      "value": 1
+    }
+  },
+  "m27": {
+    "type": "origins:modify_status_effect_amplifier",
+    "status_effect": "minecraft:slow_falling",
+    "modifier": {
+      "operation": "addition",
+      "value": 1
+    }
+  }
 }

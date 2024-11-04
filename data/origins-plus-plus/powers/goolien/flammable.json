@@ -1,24 +1,25 @@
 {
-	"type":"origins:multiple",
-	"never_extinguish":{
-		"type":"origins:action_over_time",
-		"entity_action":{
-			"type":"origins:set_on_fire",
-			"duration":3
-		},
-		"interval":20,
-		"condition":{
-			"type":"origins:on_fire"
-		}
-	},
-	"more_fire_damage":{
-		"type":"origins:modify_damage_taken",
-		"damage_condition":{
-			"type":"origins:fire"
-		},
-		"modifier":{
-			"operation":"addition",
-			"value":3
-		}
-	}
+  "type": "origins:multiple",
+  "never_extinguish": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:set_on_fire",
+      "duration": 3
+    },
+    "interval": 20,
+    "condition": {
+      "type": "origins:on_fire"
+    }
+  },
+  "more_fire_damage": {
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+      "type": "origins:fire"
+    },
+    "modifier": {
+      "operation": "add_value",
+      "value": 3,
+      "id": "origins-plus-plus:948ef7f3_6399_496f_a99d_9d9940bbc5d3"
+    }
+  }
 }

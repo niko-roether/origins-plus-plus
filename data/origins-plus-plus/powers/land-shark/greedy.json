@@ -1,7 +1,8 @@
 {
-	"type":"origins:modify_exhaustion",
-	"modifier":{
-		"operation":"multiply_total",
-		"value":1.5
-	}
+  "type": "origins:modify_exhaustion",
+  "modifier": {
+    "operation": "add_multiplied_total",
+    "value": 1.5,
+    "id": "origins-plus-plus:55a1abbd_c722_4c53_a88f_305d9f96dec6"
+  }
 }

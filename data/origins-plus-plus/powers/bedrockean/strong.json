@@ -1,17 +1,18 @@
 {
-	"type":"origins:modify_damage_dealt",
-	"condition":{
-		"type":"origins:equipped_item",
-		"equipment_slot":"mainhand",
-		"item_condition":{
-			"type":"origins:ingredient",
-			"ingredient":{
-				"item":"minecraft:air"
-			}
-		}
-	},
-	"modifier":{
-		"operation":"addition",
-		"value":7
-	}
+  "type": "origins:modify_damage_dealt",
+  "condition": {
+    "type": "origins:equipped_item",
+    "equipment_slot": "mainhand",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:air"
+      }
+    }
+  },
+  "modifier": {
+    "operation": "add_value",
+    "value": 7,
+    "id": "origins-plus-plus:72a68fc2_af14_44b0_a785_9880da6bf45b"
+  }
 }

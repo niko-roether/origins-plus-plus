@@ -1,9 +1,10 @@
 {
-  "type":"origins:attribute",
-  "modifier":{
-    "attribute":"minecraft:generic.armor",
-    "value":5,
-    "operation":"addition"
+  "type": "origins:attribute",
+  "modifier": {
+    "attribute": "minecraft:generic.armor",
+    "value": 5,
+    "operation": "add_value",
+    "id": "origins-plus-plus:64115682_0e0c_492d_a56f_77040e228d17"
   },
-  "hidden":true
+  "hidden": true
 }

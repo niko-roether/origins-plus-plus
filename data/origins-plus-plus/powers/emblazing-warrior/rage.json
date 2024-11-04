@@ -1,45 +1,48 @@
 {
-	"type":"origins:multiple",
-	"atk1":{
-		"type":"origins:conditioned_attribute",
-		"modifier":{
-			"attribute":"minecraft:generic.attack_damage",
-			"operation":"addition",
-			"value":1
-		},
-		"condition":{
-			"type":"origins:resource",
-			"resource":"origins-plus-plus:emblazing-warrior/fury_bar",
-			"compare_to":1,
-			"comparison":"=="
-		}
-	},
-	"atk2":{
-		"type":"origins:conditioned_attribute",
-		"modifier":{
-			"attribute":"minecraft:generic.attack_damage",
-			"operation":"addition",
-			"value":2
-		},
-		"condition":{
-			"type":"origins:resource",
-			"resource":"origins-plus-plus:emblazing-warrior/fury_bar",
-			"compare_to":2,
-			"comparison":"=="
-		}
-	},
-	"atk3":{
-		"type":"origins:conditioned_attribute",
-		"modifier":{
-			"attribute":"minecraft:generic.attack_damage",
-			"operation":"addition",
-			"value":4
-		},
-		"condition":{
-			"type":"origins:resource",
-			"resource":"origins-plus-plus:emblazing-warrior/fury_bar",
-			"compare_to":3,
-			"comparison":"=="
-		}
-	}
+  "type": "origins:multiple",
+  "atk1": {
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+      "attribute": "minecraft:generic.attack_damage",
+      "operation": "add_value",
+      "value": 1,
+      "id": "origins-plus-plus:6094cd29_4f74_4026_8337_2ec75d0299db"
+    },
+    "condition": {
+      "type": "origins:resource",
+      "resource": "origins-plus-plus:emblazing-warrior/fury_bar",
+      "compare_to": 1,
+      "comparison": "=="
+    }
+  },
+  "atk2": {
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+      "attribute": "minecraft:generic.attack_damage",
+      "operation": "add_value",
+      "value": 2,
+      "id": "origins-plus-plus:19e1008e_5913_4c76_b278_57acdca2fb07"
+    },
+    "condition": {
+      "type": "origins:resource",
+      "resource": "origins-plus-plus:emblazing-warrior/fury_bar",
+      "compare_to": 2,
+      "comparison": "=="
+    }
+  },
+  "atk3": {
+    "type": "origins:conditioned_attribute",
+    "modifier": {
+      "attribute": "minecraft:generic.attack_damage",
+      "operation": "add_value",
+      "value": 4,
+      "id": "origins-plus-plus:5ead97a5_d1dd_4a14_8c5b_5ab16f35db53"
+    },
+    "condition": {
+      "type": "origins:resource",
+      "resource": "origins-plus-plus:emblazing-warrior/fury_bar",
+      "compare_to": 3,
+      "comparison": "=="
+    }
+  }
 }

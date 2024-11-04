@@ -1,11 +1,12 @@
 {
-	"name":"frail",
-	"hidden":true,
-	"type":"origins:attribute",
-	"modifier":{
-		"attribute":"minecraft:generic.max_health",
-		"operation":"addition",
-		"value":-4
-	},
-	"update_health":true
+  "name": "frail",
+  "hidden": true,
+  "type": "origins:attribute",
+  "modifier": {
+    "attribute": "minecraft:generic.max_health",
+    "operation": "add_value",
+    "value": -4,
+    "id": "origins-plus-plus:545cd1dd_322f_409e_b64c_2223c2e84cb7"
+  },
+  "update_health": true
 }

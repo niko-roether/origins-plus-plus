@@ -1,16 +1,17 @@
 {
-	"type":"origins:modify_damage_taken",
-	"bientity_condition":{
-		"type":"origins:target_condition",
-		"condition":{
-			"type":"origins:resource",
-			"resource":"origins-plus-plus:emblazing-warrior/fury_bar",
-			"compare_to":2,
-			"comparison":"<"
-		}
-	},
-	"modifier":{
-		"operation":"addition",
-		"value":1
-	}
+  "type": "origins:modify_damage_taken",
+  "bientity_condition": {
+    "type": "origins:target_condition",
+    "condition": {
+      "type": "origins:resource",
+      "resource": "origins-plus-plus:emblazing-warrior/fury_bar",
+      "compare_to": 2,
+      "comparison": "<"
+    }
+  },
+  "modifier": {
+    "operation": "add_value",
+    "value": 1,
+    "id": "origins-plus-plus:93d5f4d8_170d_41f2_9f76_0caafc6149af"
+  }
 }

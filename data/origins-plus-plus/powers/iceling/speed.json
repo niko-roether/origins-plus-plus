@@ -1,9 +1,10 @@
 {
-	"type":"origins:attribute",
-	"modifier":{
-		"attribute":"minecraft:generic.movement_speed",
-		"value":0.5,
-		"operation":"multiply_total"
-	},
-	"hidden":true
+  "type": "origins:attribute",
+  "modifier": {
+    "attribute": "minecraft:generic.movement_speed",
+    "value": 0.5,
+    "operation": "add_multiplied_total",
+    "id": "origins-plus-plus:d3b8093f_3950_456b_8fb5_f9f55873744a"
+  },
+  "hidden": true
 }

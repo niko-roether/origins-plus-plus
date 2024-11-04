@@ -1,13 +1,14 @@
 {
-	"condition":{
-		"type":"origins:on_fire"
-	},
-	"type":"origins:modify_damage_taken",
-	"damage_condition":{
-		"type":"origins:attacker"
-	},
-	"modifier":{
-		"operation":"multiply_base",
-		"value":0.5
-	}
+  "condition": {
+    "type": "origins:on_fire"
+  },
+  "type": "origins:modify_damage_taken",
+  "damage_condition": {
+    "type": "origins:attacker"
+  },
+  "modifier": {
+    "operation": "add_multiplied_base",
+    "value": 0.5,
+    "id": "origins-plus-plus:e9ee6b0c_373f_423e_997c_3a7996c73280"
+  }
 }

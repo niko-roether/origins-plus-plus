@@ -1,16 +1,17 @@
 {
-	"type":"origins:conditioned_attribute",
-	"modifier":{
-		"attribute":"minecraft:generic.movement_speed",
-		"operation":"addition",
-		"value":0.02
-	},
-	"condition":{
-		"type":"origins:biome",
-		"condition":{
-			"type":"origins:temperature",
-			"comparison":"<",
-			"compare_to":0.26
-		}
-	}
+  "type": "origins:conditioned_attribute",
+  "modifier": {
+    "attribute": "minecraft:generic.movement_speed",
+    "operation": "add_value",
+    "value": 0.02,
+    "id": "origins-plus-plus:0245ade7_64ac_4cbf_8296_f938383deb25"
+  },
+  "condition": {
+    "type": "origins:biome",
+    "condition": {
+      "type": "origins:temperature",
+      "comparison": "<",
+      "compare_to": 0.26
+    }
+  }
 }

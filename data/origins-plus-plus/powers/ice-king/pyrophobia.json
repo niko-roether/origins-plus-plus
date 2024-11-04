@@ -1,91 +1,99 @@
 {
-	"type":"origins:multiple",
-	"more_infire_damage":{
-		"type":"origins:modify_damage_taken",
-		"damage_condition":{
-			"type":"origins:name",
-			"name":"inFire"
-		},
-		"modifier":{
-			"operation":"multiply_total",
-			"value":2
-		}
-	},
-	"more_onfire_damage":{
-		"type":"origins:modify_damage_taken",
-		"damage_condition":{
-			"type":"origins:name",
-			"name":"onFire"
-		},
-		"modifier":{
-			"operation":"multiply_total",
-			"value":2
-		}
-	},
-	"more_lighting_damage":{
-		"type":"origins:modify_damage_taken",
-		"damage_condition":{
-			"type":"origins:name",
-			"name":"lightningBolt"
-		},
-		"modifier":{
-			"operation":"multiply_total",
-			"value":3
-		}
-	},
-	"more_lava_damage":{
-		"type":"origins:modify_damage_taken",
-		"damage_condition":{
-			"type":"origins:name",
-			"name":"lava"
-		},
-		"modifier":{
-			"operation":"multiply_total",
-			"value":2
-		}
-	},
-	"more_magmablock_damage":{
-		"type":"origins:modify_damage_taken",
-		"damage_condition":{
-			"type":"origins:name",
-			"name":"hotFloor"
-		},
-		"modifier":{
-			"operation":"multiply_total",
-			"value":2
-		}
-	},
-	"more_firework_damage":{
-		"type":"origins:modify_damage_taken",
-		"damage_condition":{
-			"type":"origins:name",
-			"name":"fireworks"
-		},
-		"modifier":{
-			"operation":"multiply_total",
-			"value":2
-		}
-	},
-	"more_explosion_damage":{
-		"type":"origins:modify_damage_taken",
-		"damage_condition":{
-			"type":"origins:name",
-			"name":"onFire"
-		},
-		"modifier":{
-			"operation":"multiply_total",
-			"value":2
-		}
-	},
-	"more_playerexplosion_damage":{
-		"type":"origins:modify_damage_taken",
-		"damage_condition":{
-			"type":"origins:name",
-			"name":"explosion.player"
-		},
-		"modifier":{
-			"operation":"multiply_total",
-			"value":2
-		}
-	}
+  "type": "origins:multiple",
+  "more_infire_damage": {
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+      "type": "origins:name",
+      "name": "inFire"
+    },
+    "modifier": {
+      "operation": "add_multiplied_total",
+      "value": 2,
+      "id": "origins-plus-plus:bf235e92_238d_4c61_b958_8a51d5faf6af"
+    }
+  },
+  "more_onfire_damage": {
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+      "type": "origins:name",
+      "name": "onFire"
+    },
+    "modifier": {
+      "operation": "add_multiplied_total",
+      "value": 2,
+      "id": "origins-plus-plus:c84c3fa7_4123_421e_803e_5f95b32ec796"
+    }
+  },
+  "more_lighting_damage": {
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+      "type": "origins:name",
+      "name": "lightningBolt"
+    },
+    "modifier": {
+      "operation": "add_multiplied_total",
+      "value": 3,
+      "id": "origins-plus-plus:e2f9444a_1cd6_4541_b14a_45378a49b6c3"
+    }
+  },
+  "more_lava_damage": {
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+      "type": "origins:name",
+      "name": "lava"
+    },
+    "modifier": {
+      "operation": "add_multiplied_total",
+      "value": 2,
+      "id": "origins-plus-plus:20ae40e8_c97d_4860_8f05_a3c8ad062d73"
+    }
+  },
+  "more_magmablock_damage": {
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+      "type": "origins:name",
+      "name": "hotFloor"
+    },
+    "modifier": {
+      "operation": "add_multiplied_total",
+      "value": 2,
+      "id": "origins-plus-plus:690a2242_2c1e_42f7_9875_f2e35c23bb05"
+    }
+  },
+  "more_firework_damage": {
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+      "type": "origins:name",
+      "name": "fireworks"
+    },
+    "modifier": {
+      "operation": "add_multiplied_total",
+      "value": 2,
+      "id": "origins-plus-plus:f3a0da48_78b2_4f92_ad3e_fb4ebe1b1932"
+    }
+  },
+  "more_explosion_damage": {
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+      "type": "origins:name",
+      "name": "onFire"
+    },
+    "modifier": {
+      "operation": "add_multiplied_total",
+      "value": 2,
+      "id": "origins-plus-plus:d52fcb4d_de64_4caa_bca5_da553740740b"
+    }
+  },
+  "more_playerexplosion_damage": {
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+      "type": "origins:name",
+      "name": "explosion.player"
+    },
+    "modifier": {
+      "operation": "add_multiplied_total",
+      "value": 2,
+      "id": "origins-plus-plus:d3283804_d34f_42f8_a8ad_a7c495de087b"
+    }
+  }
 }

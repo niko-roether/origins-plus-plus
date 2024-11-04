@@ -1,14 +1,15 @@
 {
-	"type":"origins:conditioned_attribute",
-	"modifier":{
-		"attribute":"minecraft:generic.movement_speed",
-		"operation":"multiply_base",
-		"value":-0.5
-	},
-	"condition":{
-		"type":"origins:fluid_height",
-		"fluid":"minecraft:water",
-		"comparison":"!=",
-		"compare_to":0
-	}
+  "type": "origins:conditioned_attribute",
+  "modifier": {
+    "attribute": "minecraft:generic.movement_speed",
+    "operation": "add_multiplied_base",
+    "value": -0.5,
+    "id": "origins-plus-plus:7faa5940_b3e1_4961_8f3d_dc5856785099"
+  },
+  "condition": {
+    "type": "origins:fluid_height",
+    "fluid": "minecraft:water",
+    "comparison": "!=",
+    "compare_to": 0
+  }
 }

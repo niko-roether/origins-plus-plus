@@ -1,31 +1,33 @@
 {
-	"type":"origins:multiple",
-	"a":{
-		"type":"origins:modify_damage_taken",
-		"damage_condition":{
-			"type":"origins:name",
-			"name":"onFire"
-		},
-		"modifier":{
-			"operation":"multiply_total",
-			"value":-0.70
-		}
-	},
-	"b":{
-		"type":"origins:modify_damage_taken",
-		"damage_condition":{
-			"type":"origins:name",
-			"name":"onFire"
-		},
-		"modifier":{
-			"operation":"multiply_total",
-			"value":-1
-		},
-		"condition":{
-			"type":"origins:resource",
-			"resource":"origins-plus-plus:emblazing-warrior/fury_bar",
-			"compare_to":3,
-			"comparison":"=="
-		}
-	}
+  "type": "origins:multiple",
+  "a": {
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+      "type": "origins:name",
+      "name": "onFire"
+    },
+    "modifier": {
+      "operation": "add_multiplied_total",
+      "value": -0.7,
+      "id": "origins-plus-plus:40a42d98_af14_4724_9e1a_87aa1458e466"
+    }
+  },
+  "b": {
+    "type": "origins:modify_damage_taken",
+    "damage_condition": {
+      "type": "origins:name",
+      "name": "onFire"
+    },
+    "modifier": {
+      "operation": "add_multiplied_total",
+      "value": -1,
+      "id": "origins-plus-plus:c3e1ece1_a10c_4db8_8d34_4f6367ebef0e"
+    },
+    "condition": {
+      "type": "origins:resource",
+      "resource": "origins-plus-plus:emblazing-warrior/fury_bar",
+      "compare_to": 3,
+      "comparison": "=="
+    }
+  }
 }

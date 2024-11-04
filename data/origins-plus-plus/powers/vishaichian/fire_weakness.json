@@ -1,14 +1,15 @@
 {
-	"type":"origins:modify_damage_taken",
-	"damage_condition":{
-		"type":"origins:fire"
-	},
-	"modifier":{
-		"operation":"multiply_base",
-		"value":4
-	},
-	"self_action":{
-		"type":"origins:execute_command",
-		"command":"function origins-plus-plus:vishaichian/fire_weakness"
-	}
+  "type": "origins:modify_damage_taken",
+  "damage_condition": {
+    "type": "origins:fire"
+  },
+  "modifier": {
+    "operation": "add_multiplied_base",
+    "value": 4,
+    "id": "origins-plus-plus:f2458f3b_35e8_499d_ac55_c7e244fcd299"
+  },
+  "self_action": {
+    "type": "origins:execute_command",
+    "command": "function origins-plus-plus:vishaichian/fire_weakness"
+  }
 }

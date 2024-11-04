@@ -1,11 +1,12 @@
 {
-    "type":"origins:modify_projectile_damage",
-    "damage_condition":{
-        "type":"origins:projectile",
-        "projectile":"minecraft:arrow"
-    },
-    "modifier":{
-        "operation":"addition",
-        "value":-10
-    }
+  "type": "origins:modify_projectile_damage",
+  "damage_condition": {
+    "type": "origins:projectile",
+    "projectile": "minecraft:arrow"
+  },
+  "modifier": {
+    "operation": "add_value",
+    "value": -10,
+    "id": "origins-plus-plus:01dbda30_b7d7_4036_a3e2_2bace61ec82d"
+  }
 }

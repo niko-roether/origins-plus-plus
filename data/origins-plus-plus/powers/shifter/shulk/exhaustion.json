@@ -1,13 +1,14 @@
 {
-	"type":"origins:modify_exhaustion",
-	"modifier":{
-		"value":0.6,
-		"operation":"multiply_base"
-	},
-	"condition":{
-		"type":"origins:resource",
-		"resource":"origins-plus-plus:shifter/shift_bar",
-		"comparison":"==",
-		"compare_to":4
-	}
+  "type": "origins:modify_exhaustion",
+  "modifier": {
+    "value": 0.6,
+    "operation": "add_multiplied_base",
+    "id": "origins-plus-plus:232016dc_ca8f_4cc0_8525_cbcb2894c92a"
+  },
+  "condition": {
+    "type": "origins:resource",
+    "resource": "origins-plus-plus:shifter/shift_bar",
+    "comparison": "==",
+    "compare_to": 4
+  }
 }

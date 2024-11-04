@@ -1,11 +1,12 @@
 {
-	"type":"origins:modify_damage_taken",
-	"modifier":{
-		"operation":"addition",
-		"value":-3
-	},
-	"damage_condition":{
-		"type":"origins:name",
-		"name":"fall"
-	}
+  "type": "origins:modify_damage_taken",
+  "modifier": {
+    "operation": "add_value",
+    "value": -3,
+    "id": "origins-plus-plus:e2d39f14_9b69_499a_b723_5cb57d31ffdc"
+  },
+  "damage_condition": {
+    "type": "origins:name",
+    "name": "fall"
+  }
 }

@@ -1,14 +1,15 @@
 {
-	"type":"origins:modify_damage_taken",
-	"bientity_condition":{
-		"type":"origins:actor_condition",
-		"condition":{
-			"type":"origins:entity_group",
-			"group":"undead"
-		}
-	},
-	"modifier":{
-		"operation":"addition",
-		"value":1.05
-	}
+  "type": "origins:modify_damage_taken",
+  "bientity_condition": {
+    "type": "origins:actor_condition",
+    "condition": {
+      "type": "origins:entity_group",
+      "group": "undead"
+    }
+  },
+  "modifier": {
+    "operation": "add_value",
+    "value": 1.05,
+    "id": "origins-plus-plus:88d2b65a_ce03_4be0_9e58_dca87097b8ac"
+  }
 }

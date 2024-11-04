@@ -1,20 +1,21 @@
 {
-	"type":"origins:modify_damage_taken",
-	"modifier":{
-		"value":0.5,
-		"operation":"multiply_base"
-	},
-	"damage_condition":{
-		"type":"origins:or",
-		"conditions":[
-			{
-				"type":"origins:name",
-				"name":"fall"
-			},
-			{
-				"type":"origins:name",
-				"name":"flyIntoWall"
-			}
-		]
-	}
+  "type": "origins:modify_damage_taken",
+  "modifier": {
+    "value": 0.5,
+    "operation": "add_multiplied_base",
+    "id": "origins-plus-plus:c6fc45f8_9930_431f_a97d_895082b67554"
+  },
+  "damage_condition": {
+    "type": "origins:or",
+    "conditions": [
+      {
+        "type": "origins:name",
+        "name": "fall"
+      },
+      {
+        "type": "origins:name",
+        "name": "flyIntoWall"
+      }
+    ]
+  }
 }

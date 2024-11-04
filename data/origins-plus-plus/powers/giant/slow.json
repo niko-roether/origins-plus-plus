@@ -1,8 +1,9 @@
 {
-	"type":"origins:attribute",
-	"modifier":{
-		"attribute":"minecraft:generic.attack_speed",
-		"value":-0.33,
-		"operation":"multiply_base"
-	}
+  "type": "origins:attribute",
+  "modifier": {
+    "attribute": "minecraft:generic.attack_speed",
+    "value": -0.33,
+    "operation": "add_multiplied_base",
+    "id": "origins-plus-plus:f31555b9_3347_49be_8491_fd2e8841b4b0"
+  }
 }

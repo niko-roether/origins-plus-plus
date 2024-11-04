@@ -1,11 +1,12 @@
 {
-	"type":"origins:modify_damage_taken",
-	"damage_condition":{
-		"type":"origins:name",
-		"name":"onFire"
-	},
-	"modifier":{
-		"operation":"addition",
-		"value":3
-	}
+  "type": "origins:modify_damage_taken",
+  "damage_condition": {
+    "type": "origins:name",
+    "name": "onFire"
+  },
+  "modifier": {
+    "operation": "add_value",
+    "value": 3,
+    "id": "origins-plus-plus:2ba365b6_71e5_4427_a229_6c5f162145eb"
+  }
 }

@@ -1,26 +1,27 @@
 {
-	"type":"origins:multiple",
-	"hidden":true,
-	"swim_speed":{
-		"type":"origins:modify_swim_speed",
-		"modifier":{
-			"value":0.5,
-			"operation":"multiply_base"
-		}
-	},
-	"lava_swim":{
-		"type":"origins:swimming",
-		"condition":{
-			"type":"origins:fluid_height",
-			"fluid":"minecraft:lava",
-			"comparison":">",
-			"compare_to":0
-		}
-	},
-	"fire_invulnerability":{
-		"type":"origins:invulnerability",
-		"damage_condition":{
-			"type":"origins:fire"
-		}
-	}
+  "type": "origins:multiple",
+  "hidden": true,
+  "swim_speed": {
+    "type": "origins:modify_swim_speed",
+    "modifier": {
+      "value": 0.5,
+      "operation": "add_multiplied_base",
+      "id": "origins-plus-plus:4d2cc29f_601b_468d_be2b_b63dff75c3eb"
+    }
+  },
+  "lava_swim": {
+    "type": "origins:swimming",
+    "condition": {
+      "type": "origins:fluid_height",
+      "fluid": "minecraft:lava",
+      "comparison": ">",
+      "compare_to": 0
+    }
+  },
+  "fire_invulnerability": {
+    "type": "origins:invulnerability",
+    "damage_condition": {
+      "type": "origins:fire"
+    }
+  }
 }
