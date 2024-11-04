@@ -5,7 +5,7 @@
     "command": "function origins-plus-plus:deathsworn/turn_crystal"
   },
   "target_condition": {
-    "type": "custom_data",
+    "type": "apoli:nbt",
     "nbt": "{Tags:['Deathsworn_Minion']}"
   },
   "cooldown": 1,
