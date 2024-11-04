@@ -1,22 +1,24 @@
 {
-	"condition":{
-		"type":"origins:resource",
-		"resource":"origins-plus-plus:deranged/derangement",
-		"comparison":">",
-		"compare_to":80
-	},
-	"type":"origins:conditioned_attribute",
-	"modifiers":[
-		{
-			"attribute":"minecraft:generic.attack_damage",
-			"operation":"addition",
-			"value":4
-		},
-		{
-			"attribute":"minecraft:generic.max_health",
-			"operation":"addition",
-			"value":-12
-		}
-	],
-	"update_health":true
+  "condition": {
+    "type": "origins:resource",
+    "resource": "origins-plus-plus:deranged/derangement",
+    "comparison": ">",
+    "compare_to": 80
+  },
+  "type": "origins:conditioned_attribute",
+  "modifiers": [
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "operation": "add_value",
+      "value": 4,
+      "id": "origins-plus-plus:6e48dd1a_7f63_4cb0_9865_96075f586f48"
+    },
+    {
+      "attribute": "minecraft:generic.max_health",
+      "operation": "add_value",
+      "value": -12,
+      "id": "origins-plus-plus:2ac78e37_6ae2_4283_aa17_12b7190039e5"
+    }
+  ],
+  "update_health": true
 }

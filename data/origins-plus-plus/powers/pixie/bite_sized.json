@@ -1,39 +1,42 @@
 {
-	"type":"origins:multiple",
-	"scale":{
-		"type":"origins:action_over_time",
-		"entity_action":{
-			"type":"origins:execute_command",
-			"command":"function origins-plus-plus:pixie/size"
-		},
-		"interval":20
-	},
-	"reset":{
-		"type":"origins:action_on_callback",
-		"entity_action_lost":{
-			"type":"origins:execute_command",
-			"command":"scale reset"
-		}
-	},
-	"attribute_modifiers":{
-		"type":"origins:attribute",
-		"modifiers":[
-			{
-				"attribute":"minecraft:generic.max_health",
-				"operation":"addition",
-				"value":-10
-			},
-			{
-				"attribute":"minecraft:generic.attack_speed",
-				"operation":"addition",
-				"value":0.5
-			},
-			{
-				"attribute":"minecraft:generic.movement_speed",
-				"operation":"addition",
-				"value":-0.015
-			}
-		],
-		"update_health":true
-	}
+  "type": "origins:multiple",
+  "scale": {
+    "type": "origins:action_over_time",
+    "entity_action": {
+      "type": "origins:execute_command",
+      "command": "function origins-plus-plus:pixie/size"
+    },
+    "interval": 20
+  },
+  "reset": {
+    "type": "origins:action_on_callback",
+    "entity_action_lost": {
+      "type": "origins:execute_command",
+      "command": "scale reset"
+    }
+  },
+  "attribute_modifiers": {
+    "type": "origins:attribute",
+    "modifiers": [
+      {
+        "attribute": "minecraft:generic.max_health",
+        "operation": "add_value",
+        "value": -10,
+        "id": "origins-plus-plus:7d0f1dfb_dc08_4a3b_ad1d_19b17e611f1c"
+      },
+      {
+        "attribute": "minecraft:generic.attack_speed",
+        "operation": "add_value",
+        "value": 0.5,
+        "id": "origins-plus-plus:743a7e18_d57b_4248_aea6_73ea03a3ad6e"
+      },
+      {
+        "attribute": "minecraft:generic.movement_speed",
+        "operation": "add_value",
+        "value": -0.015,
+        "id": "origins-plus-plus:8f08b9b2_b222_42de_9e0d_ff9cd341d01b"
+      }
+    ],
+    "update_health": true
+  }
 }

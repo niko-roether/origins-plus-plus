@@ -1,26 +1,29 @@
 {
-	"type":"origins:conditioned_attribute",
-	"modifiers":[
-		{
-			"attribute":"minecraft:generic.movement_speed",
-			"operation":"multiply_base",
-			"value":0.75
-		},
-		{
-			"attribute":"minecraft:generic.attack_damage",
-			"operation":"multiply_base",
-			"value":0.75
-		},
-		{
-			"attribute":"minecraft:generic.max_health",
-			"operation":"addition",
-			"value":8
-		}
-	],
-	"update_health":true,
-	"condition":{
-		"type":"origins:brightness",
-		"comparison":"<=",
-		"compare_to":0.4
-	}
+  "type": "origins:conditioned_attribute",
+  "modifiers": [
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "add_multiplied_base",
+      "value": 0.75,
+      "id": "origins-plus-plus:69db9aef_74e4_4a26_99a7_2e5795c59e17"
+    },
+    {
+      "attribute": "minecraft:generic.attack_damage",
+      "operation": "add_multiplied_base",
+      "value": 0.75,
+      "id": "origins-plus-plus:1d080705_65ce_4e25_a820_a7ffff70c86e"
+    },
+    {
+      "attribute": "minecraft:generic.max_health",
+      "operation": "add_value",
+      "value": 8,
+      "id": "origins-plus-plus:4bf1483f_0d3e_4f6b_86b5_c7b09d17dfe7"
+    }
+  ],
+  "update_health": true,
+  "condition": {
+    "type": "origins:brightness",
+    "comparison": "<=",
+    "compare_to": 0.4
+  }
 }

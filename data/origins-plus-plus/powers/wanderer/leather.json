@@ -54,13 +54,15 @@
   "modifiers": [
     {
       "attribute": "minecraft:generic.movement_speed",
-      "operation": "addition",
-      "value": 0.0125
+      "operation": "add_value",
+      "value": 0.0125,
+      "id": "origins-plus-plus:7027a2a8_4c0e_450a_9b80_25a10d71e5f3"
     },
     {
       "attribute": "minecraft:generic.attack_damage",
-      "operation": "multiply_base",
-      "value": 2
+      "operation": "add_multiplied_base",
+      "value": 2,
+      "id": "origins-plus-plus:4f97ad89_d08d_4c79_b225_38d3e2a7bb5f"
     }
   ]
 }

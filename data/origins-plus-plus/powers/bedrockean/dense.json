@@ -1,16 +1,18 @@
 {
-	"type":"origins:attribute",
-	"modifiers":[
-		{
-			"attribute":"minecraft:generic.max_health",
-			"operation":"addition",
-			"value":10
-		},
-		{
-			"attribute":"minecraft:generic.movement_speed",
-			"operation":"addition",
-			"value":-0.05
-		}
-	],
-	"update_health":true
+  "type": "origins:attribute",
+  "modifiers": [
+    {
+      "attribute": "minecraft:generic.max_health",
+      "operation": "add_value",
+      "value": 10,
+      "id": "origins-plus-plus:468326e2_6c5d_4b78_9c5f_3199172ad576"
+    },
+    {
+      "attribute": "minecraft:generic.movement_speed",
+      "operation": "add_value",
+      "value": -0.05,
+      "id": "origins-plus-plus:e1082adc_1a35_4e74_8c58_b918d59edfbf"
+    }
+  ],
+  "update_health": true
 }

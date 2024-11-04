@@ -19,8 +19,9 @@
   "modifiers": [
     {
       "attribute": "minecraft:generic.attack_speed",
-      "operation": "addition",
-      "value": 1.25
+      "operation": "add_value",
+      "value": 1.25,
+      "id": "origins-plus-plus:8d8c9235_5272_4d9f_91f8_1dab9e1052ae"
     }
   ]
 }
