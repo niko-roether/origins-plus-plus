@@ -26,8 +26,11 @@ function fixItem(obj) {
 function fixRecursive(obj) {
 	if (typeof obj !== "object") return false;
 
-	let fixed = false;
+	if (isProbablyItem(obj)) {
+		return fixItem(obj);
+	}
 
+	let fixed = false;
 	if (Array.isArray(obj)) {
 		for (const item of obj) {
 			fixed ||= fixRecursive(item);
@@ -37,11 +40,7 @@ function fixRecursive(obj) {
 
 
 	for (const key in obj) {
-		if (isProbablyItem(obj[key])) {
-			fixed ||= fixItem(obj[key]);
-		} else {
-			fixed ||= fixRecursive(obj[key]);
-		}
+		fixed ||= fixRecursive(obj[key]);
 	}
 	return fixed;
 }

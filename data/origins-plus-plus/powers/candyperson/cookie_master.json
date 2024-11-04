@@ -5,16 +5,16 @@
     "type": "minecraft:crafting_shapeless",
     "ingredients": [
       {
-        "item": "minecraft:sugar"
+        "id": "minecraft:sugar"
       },
       {
-        "item": "minecraft:sugar"
+        "id": "minecraft:sugar"
       },
       {
-        "item": "minecraft:sugar"
+        "id": "minecraft:sugar"
       },
       {
-        "item": "minecraft:sugar"
+        "id": "minecraft:sugar"
       }
     ],
     "result": {

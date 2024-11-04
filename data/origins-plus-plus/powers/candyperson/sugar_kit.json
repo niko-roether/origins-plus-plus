@@ -1,25 +1,25 @@
 {
-	"type":"origins:starting_equipment",
-	"stacks":[
-		{
-			"item":"minecraft:sugar",
-			"amount":10
-		},
-		{
-			"item":"minecraft:sugar_cane",
-			"amount":4
-		},
-		{
-			"item":"minecraft:sweet_berries",
-			"amount":8
-		},
-		{
-			"item":"minecraft:honey_bottle",
-			"amount":3
-		},
-		{
-			"item":"minecraft:cake",
-			"amount":1
-		}
-	]
+  "type": "origins:starting_equipment",
+  "stacks": [
+    {
+      "id": "minecraft:sugar",
+      "count": 10
+    },
+    {
+      "id": "minecraft:sugar_cane",
+      "count": 4
+    },
+    {
+      "id": "minecraft:sweet_berries",
+      "count": 8
+    },
+    {
+      "id": "minecraft:honey_bottle",
+      "count": 3
+    },
+    {
+      "id": "minecraft:cake",
+      "count": 1
+    }
+  ]
 }
