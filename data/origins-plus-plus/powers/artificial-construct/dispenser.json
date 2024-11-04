@@ -48,7 +48,7 @@
       "equipment_slot": "offhand",
       "item_condition": {
         "type": "origins:nbt",
-        "nbt": "{Potion:\"minecraft:poison\"}"
+        "custom_data": "{Potion:\"minecraft:poison\"}"
       }
     }
   },
@@ -64,7 +64,7 @@
       "equipment_slot": "offhand",
       "item_condition": {
         "type": "origins:nbt",
-        "nbt": "{Potion:\"minecraft:night_vision\"}"
+        "custom_data": "{Potion:\"minecraft:night_vision\"}"
       }
     }
   },
@@ -80,7 +80,7 @@
       "equipment_slot": "offhand",
       "item_condition": {
         "type": "origins:nbt",
-        "nbt": "{Potion:\"minecraft:invisibility\"}"
+        "custom_data": "{Potion:\"minecraft:invisibility\"}"
       }
     }
   },
@@ -96,7 +96,7 @@
       "equipment_slot": "offhand",
       "item_condition": {
         "type": "origins:nbt",
-        "nbt": "{Potion:\"minecraft:leaping\"}"
+        "custom_data": "{Potion:\"minecraft:leaping\"}"
       }
     }
   },
@@ -112,7 +112,7 @@
       "equipment_slot": "offhand",
       "item_condition": {
         "type": "origins:nbt",
-        "nbt": "{Potion:\"minecraft:resistance\"}"
+        "custom_data": "{Potion:\"minecraft:resistance\"}"
       }
     }
   },
@@ -128,7 +128,7 @@
       "equipment_slot": "offhand",
       "item_condition": {
         "type": "origins:nbt",
-        "nbt": "{Potion:\"minecraft:swiftness\"}"
+        "custom_data": "{Potion:\"minecraft:swiftness\"}"
       }
     }
   },
@@ -144,7 +144,7 @@
       "equipment_slot": "offhand",
       "item_condition": {
         "type": "origins:nbt",
-        "nbt": "{Potion:\"minecraft:slowness\"}"
+        "custom_data": "{Potion:\"minecraft:slowness\"}"
       }
     }
   },
@@ -160,7 +160,7 @@
       "equipment_slot": "offhand",
       "item_condition": {
         "type": "origins:nbt",
-        "nbt": "{Potion:\"minecraft::water_breathing\"}"
+        "custom_data": "{Potion:\"minecraft::water_breathing\"}"
       }
     }
   },
@@ -176,7 +176,7 @@
       "equipment_slot": "offhand",
       "item_condition": {
         "type": "origins:nbt",
-        "nbt": "{Potion:\"minecraft:healing\"}"
+        "custom_data": "{Potion:\"minecraft:healing\"}"
       }
     }
   },
@@ -192,7 +192,7 @@
       "equipment_slot": "offhand",
       "item_condition": {
         "type": "origins:nbt",
-        "nbt": "{Potion:\"minecraft:harming\"}"
+        "custom_data": "{Potion:\"minecraft:harming\"}"
       }
     }
   },
@@ -208,7 +208,7 @@
       "equipment_slot": "offhand",
       "item_condition": {
         "type": "origins:nbt",
-        "nbt": "{Potion:\"minecraft:regeneration\"}"
+        "custom_data": "{Potion:\"minecraft:regeneration\"}"
       }
     }
   },
@@ -224,7 +224,7 @@
       "equipment_slot": "offhand",
       "item_condition": {
         "type": "origins:nbt",
-        "nbt": "{Potion:\"minecraft:strength\"}"
+        "custom_data": "{Potion:\"minecraft:strength\"}"
       }
     }
   },
@@ -240,7 +240,7 @@
       "equipment_slot": "offhand",
       "item_condition": {
         "type": "origins:nbt",
-        "nbt": "{Potion:\"minecraft:weakness\"}"
+        "custom_data": "{Potion:\"minecraft:weakness\"}"
       }
     }
   },
@@ -256,7 +256,7 @@
       "equipment_slot": "offhand",
       "item_condition": {
         "type": "origins:nbt",
-        "nbt": "{Potion:\"minecraft:levitation\"}"
+        "custom_data": "{Potion:\"minecraft:levitation\"}"
       }
     }
   },
@@ -272,7 +272,7 @@
       "equipment_slot": "offhand",
       "item_condition": {
         "type": "origins:nbt",
-        "nbt": "{Potion:\"minecraft:luck\"}"
+        "custom_data": "{Potion:\"minecraft:luck\"}"
       }
     }
   },
@@ -288,7 +288,7 @@
       "equipment_slot": "offhand",
       "item_condition": {
         "type": "origins:nbt",
-        "nbt": "{Potion:\"minecraft:turtle_master\"}"
+        "custom_data": "{Potion:\"minecraft:turtle_master\"}"
       }
     }
   },
@@ -304,7 +304,7 @@
       "equipment_slot": "offhand",
       "item_condition": {
         "type": "origins:nbt",
-        "nbt": "{Potion:\"minecraft:slow_falling\"}"
+        "custom_data": "{Potion:\"minecraft:slow_falling\"}"
       }
     }
   },

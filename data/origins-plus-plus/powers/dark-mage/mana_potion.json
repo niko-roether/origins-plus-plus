@@ -43,7 +43,7 @@
     },
     "item_condition": {
       "type": "origins:nbt",
-      "nbt": "{tag:\"empty\"}"
+      "custom_data": "{tag:\"empty\"}"
     }
   }
 }

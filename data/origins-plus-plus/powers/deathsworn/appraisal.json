@@ -17,7 +17,7 @@
         "equipment_slot": "mainhand",
         "item_condition": {
           "type": "origins:nbt",
-          "nbt": "{lnc:1}"
+          "custom_data": "{lnc:1}"
         }
       },
       {

@@ -9,7 +9,7 @@
     },
     "item_condition": {
       "type": "origins:nbt",
-      "nbt": "{Potion:\"minecraft:water\"}"
+      "custom_data": "{Potion:\"minecraft:water\"}"
     }
   },
   "water_bucket": {

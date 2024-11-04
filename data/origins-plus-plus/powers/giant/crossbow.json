@@ -39,7 +39,7 @@
           "equipment_slot": "mainhand",
           "item_condition": {
             "type": "origins:nbt",
-            "nbt": "{Charged:1b}"
+            "custom_data": "{Charged:1b}"
           }
         },
         "action": {
@@ -69,7 +69,7 @@
           "equipment_slot": "offhand",
           "item_condition": {
             "type": "origins:nbt",
-            "nbt": "{Charged:1b}"
+            "custom_data": "{Charged:1b}"
           }
         },
         "action": {
