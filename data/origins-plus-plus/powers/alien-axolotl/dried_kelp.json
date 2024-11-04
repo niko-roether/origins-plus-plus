@@ -16,37 +16,34 @@
       "operation": "multiply_total",
       "value": 1
     },
-    "entity_action": {
-      "type": "origins:all_of",
-      "actions": [
-        {
-          "type": "origins:apply_effect",
-          "effect": {
-            "duration": 100,
-            "show_particles": false,
-            "show_icon": false,
-            "id": "minecraft:saturation"
-          }
-        },
-        {
-          "type": "origins:apply_effect",
-          "effect": {
-            "duration": 1,
-            "show_particles": false,
-            "show_icon": false,
-            "id": "minecraft:speed"
-          }
-        },
-        {
-          "type": "origins:delay",
-          "ticks": 1,
-          "action": {
-            "type": "origins:execute_command",
-            "command": "effect clear @s minecraft:hunger"
-          }
+    "entity_action": [
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "duration": 100,
+          "show_particles": false,
+          "show_icon": false,
+          "id": "minecraft:saturation"
         }
-      ]
-    }
+      },
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "duration": 1,
+          "show_particles": false,
+          "show_icon": false,
+          "id": "minecraft:speed"
+        }
+      },
+      {
+        "type": "origins:delay",
+        "ticks": 1,
+        "action": {
+          "type": "origins:execute_command",
+          "command": "effect clear @s minecraft:hunger"
+        }
+      }
+    ]
   },
   "fish_2": {
     "type": "origins:modify_food",

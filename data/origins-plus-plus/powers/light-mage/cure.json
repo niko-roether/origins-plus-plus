@@ -2,24 +2,21 @@
   "type": "origins:active_self",
   "key": "key.origins.primary_active",
   "cooldown": 100,
-  "entity_action": {
-    "type": "origins:all_of",
-    "actions": [
-      {
-        "type": "origins:change_resource",
-        "resource": "origins-plus-plus:light-mage/resource",
-        "change": -100
-      },
-      {
-        "type": "origins:raycast",
-        "distance": 80,
-        "shape_type": "outline",
-        "fluid_handling": "none",
-        "command_at_hit": "function origins-plus-plus:light-mage/cure",
-        "command_along_ray": "particle minecraft:end_rod"
-      }
-    ]
-  },
+  "entity_action": [
+    {
+      "type": "origins:change_resource",
+      "resource": "origins-plus-plus:light-mage/resource",
+      "change": -100
+    },
+    {
+      "type": "origins:raycast",
+      "distance": 80,
+      "shape_type": "outline",
+      "fluid_handling": "none",
+      "command_at_hit": "function origins-plus-plus:light-mage/cure",
+      "command_along_ray": "particle minecraft:end_rod"
+    }
+  ],
   "condition": {
     "type": "origins:all_of",
     "conditions": [

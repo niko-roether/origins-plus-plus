@@ -1,43 +1,40 @@
 {
   "type": "origins:action_over_time",
-  "entity_action": {
-    "type": "origins:all_of",
-    "actions": [
-      {
-        "type": "origins:apply_effect",
-        "effect": {
-          "duration": 200,
-          "amplifier": 0,
-          "show_particles": true,
-          "show_icon": true,
-          "id": "minecraft:regeneration",
-          "ambient": false
-        }
-      },
-      {
-        "type": "origins:apply_effect",
-        "effect": {
-          "duration": 200,
-          "amplifier": 0,
-          "show_particles": true,
-          "show_icon": true,
-          "id": "minecraft:blindness",
-          "ambient": false
-        }
-      },
-      {
-        "type": "origins:apply_effect",
-        "effect": {
-          "duration": 200,
-          "amplifier": 2,
-          "show_particles": true,
-          "show_icon": true,
-          "id": "minecraft:slowness",
-          "ambient": false
-        }
+  "entity_action": [
+    {
+      "type": "origins:apply_effect",
+      "effect": {
+        "duration": 200,
+        "amplifier": 0,
+        "show_particles": true,
+        "show_icon": true,
+        "id": "minecraft:regeneration",
+        "ambient": false
       }
-    ]
-  },
+    },
+    {
+      "type": "origins:apply_effect",
+      "effect": {
+        "duration": 200,
+        "amplifier": 0,
+        "show_particles": true,
+        "show_icon": true,
+        "id": "minecraft:blindness",
+        "ambient": false
+      }
+    },
+    {
+      "type": "origins:apply_effect",
+      "effect": {
+        "duration": 200,
+        "amplifier": 2,
+        "show_particles": true,
+        "show_icon": true,
+        "id": "minecraft:slowness",
+        "ambient": false
+      }
+    }
+  ],
   "interval": 20,
   "condition": {
     "type": "origins:block_in_radius",

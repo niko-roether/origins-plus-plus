@@ -10,22 +10,19 @@
   },
   "revive": {
     "type": "origins:prevent_death",
-    "entity_action": {
-      "type": "origins:all_of",
-      "actions": [
-        {
-          "type": "origins:clear_effect"
-        },
-        {
-          "type": "origins:execute_command",
-          "command": "function origins-plus-plus:wizard/totem"
-        },
-        {
-          "type": "origins:trigger_cooldown",
-          "power": "*:*_cooldown"
-        }
-      ]
-    },
+    "entity_action": [
+      {
+        "type": "origins:clear_effect"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "function origins-plus-plus:wizard/totem"
+      },
+      {
+        "type": "origins:trigger_cooldown",
+        "power": "*:*_cooldown"
+      }
+    ],
     "condition": {
       "type": "origins:resource",
       "resource": "*:*_cooldown",

@@ -8,32 +8,29 @@
       "comparison": "<=",
       "compare_to": 0
     },
-    "entity_action": {
-      "type": "origins:all_of",
-      "actions": [
-        {
-          "type": "origins:and",
-          "actions": [
-            {
-              "type": "origins:trigger_cooldown",
-              "power": "*:*_duration"
-            },
-            {
-              "type": "origins:execute_command",
-              "command": "playsound minecraft:entity.fox.ambient master @a[distance=..20] ~ ~ ~ 1 1"
-            }
-          ]
-        },
-        {
-          "type": "origins:delay",
-          "action": {
+    "entity_action": [
+      {
+        "type": "origins:and",
+        "actions": [
+          {
             "type": "origins:trigger_cooldown",
-            "power": "*:*_cooldown"
+            "power": "*:*_duration"
           },
-          "ticks": 60
-        }
-      ]
-    }
+          {
+            "type": "origins:execute_command",
+            "command": "playsound minecraft:entity.fox.ambient master @a[distance=..20] ~ ~ ~ 1 1"
+          }
+        ]
+      },
+      {
+        "type": "origins:delay",
+        "action": {
+          "type": "origins:trigger_cooldown",
+          "power": "*:*_cooldown"
+        },
+        "ticks": 60
+      }
+    ]
   },
   "cooldown": {
     "type": "origins:cooldown",

@@ -29,23 +29,20 @@
   },
   "leave_team": {
     "type": "origins:target_action_on_hit",
-    "entity_action": {
-      "type": "origins:all_of",
-      "actions": [
-        {
+    "entity_action": [
+      {
+        "type": "origins:execute_command",
+        "command": "team leave @s[type=minecraft:enderman]"
+      },
+      {
+        "type": "origins:delay",
+        "ticks": 400,
+        "action": {
           "type": "origins:execute_command",
-          "command": "team leave @s[type=minecraft:enderman]"
-        },
-        {
-          "type": "origins:delay",
-          "ticks": 400,
-          "action": {
-            "type": "origins:execute_command",
-            "command": "team join warper"
-          }
+          "command": "team join warper"
         }
-      ]
-    },
+      }
+    ],
     "cooldown": 1
   }
 }

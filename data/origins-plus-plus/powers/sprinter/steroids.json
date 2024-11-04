@@ -26,17 +26,14 @@
       }
     ]
   },
-  "entity_action": {
-    "type": "origins:all_of",
-    "actions": [
-      {
-        "type": "origins:heal",
-        "amount": 10
-      },
-      {
-        "type": "origins:execute_command",
-        "command": "playsound minecraft:entity.parrot.eat player @s ~ ~ ~ 1 1"
-      }
-    ]
-  }
+  "entity_action": [
+    {
+      "type": "origins:heal",
+      "amount": 10
+    },
+    {
+      "type": "origins:execute_command",
+      "command": "playsound minecraft:entity.parrot.eat player @s ~ ~ ~ 1 1"
+    }
+  ]
 }

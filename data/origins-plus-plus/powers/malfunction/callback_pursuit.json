@@ -25,23 +25,20 @@
   "callback": {
     "type": "origins:active_self",
     "key": "key.saveToolbarActivator",
-    "entity_action": {
-      "type": "origins:all_of",
-      "actions": [
-        {
+    "entity_action": [
+      {
+        "type": "origins:execute_command",
+        "command": "function origins-plus-plus:malfunction/callback"
+      },
+      {
+        "type": "origins:delay",
+        "ticks": 5,
+        "action": {
           "type": "origins:execute_command",
-          "command": "function origins-plus-plus:malfunction/callback"
-        },
-        {
-          "type": "origins:delay",
-          "ticks": 5,
-          "action": {
-            "type": "origins:execute_command",
-            "command": "playsound minecraft:block.portal.trigger ambient @a ~ ~ ~ 2 2"
-          }
+          "command": "playsound minecraft:block.portal.trigger ambient @a ~ ~ ~ 2 2"
         }
-      ]
-    },
+      }
+    ],
     "condition": {
       "type": "origins:all_of",
       "conditions": [
@@ -61,23 +58,20 @@
   "pursuit": {
     "type": "origins:active_self",
     "key": "key.saveToolbarActivator",
-    "entity_action": {
-      "type": "origins:all_of",
-      "actions": [
-        {
+    "entity_action": [
+      {
+        "type": "origins:execute_command",
+        "command": "function origins-plus-plus:malfunction/pursuit"
+      },
+      {
+        "type": "origins:delay",
+        "ticks": 5,
+        "action": {
           "type": "origins:execute_command",
-          "command": "function origins-plus-plus:malfunction/pursuit"
-        },
-        {
-          "type": "origins:delay",
-          "ticks": 5,
-          "action": {
-            "type": "origins:execute_command",
-            "command": "playsound minecraft:block.portal.trigger ambient @a ~ ~ ~ 2 2"
-          }
+          "command": "playsound minecraft:block.portal.trigger ambient @a ~ ~ ~ 2 2"
         }
-      ]
-    },
+      }
+    ],
     "condition": {
       "type": "origins:all_of",
       "conditions": [

@@ -3,23 +3,20 @@
   "hidden": true,
   "key": "key.origins.primary_active",
   "cooldown": 100,
-  "entity_action": {
-    "type": "origins:all_of",
-    "actions": [
-      {
-        "type": "origins:execute_command",
-        "command": "function origins-plus-plus:dark-mage/shatter"
-      },
-      {
-        "type": "origins:equipped_item_action",
-        "equipment_slot": "offhand",
-        "action": {
-          "type": "origins:damage",
-          "amount": 50
-        }
+  "entity_action": [
+    {
+      "type": "origins:execute_command",
+      "command": "function origins-plus-plus:dark-mage/shatter"
+    },
+    {
+      "type": "origins:equipped_item_action",
+      "equipment_slot": "offhand",
+      "action": {
+        "type": "origins:damage",
+        "amount": 50
       }
-    ]
-  },
+    }
+  ],
   "condition": {
     "type": "origins:all_of",
     "conditions": [

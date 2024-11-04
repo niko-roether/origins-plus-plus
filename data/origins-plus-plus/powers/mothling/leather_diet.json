@@ -22,27 +22,24 @@
       }
     ]
   },
-  "entity_action": {
-    "type": "origins:all_of",
-    "actions": [
-      {
-        "type": "origins:equipped_item_action",
-        "equipment_slot": "mainhand",
-        "action": {
-          "type": "origins:consume",
-          "amount": 1
-        }
-      },
-      {
-        "type": "origins:execute_command",
-        "command": "playsound minecraft:entity.dolphin.eat player @s ~ ~ ~ 1 1"
-      },
-      {
-        "type": "origins:feed",
-        "saturation": 0.4,
-        "nutrition": 4
+  "entity_action": [
+    {
+      "type": "origins:equipped_item_action",
+      "equipment_slot": "mainhand",
+      "action": {
+        "type": "origins:consume",
+        "amount": 1
       }
-    ]
-  },
+    },
+    {
+      "type": "origins:execute_command",
+      "command": "playsound minecraft:entity.dolphin.eat player @s ~ ~ ~ 1 1"
+    },
+    {
+      "type": "origins:feed",
+      "saturation": 0.4,
+      "nutrition": 4
+    }
+  ],
   "key": "key.use"
 }

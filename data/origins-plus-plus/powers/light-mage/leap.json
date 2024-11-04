@@ -3,29 +3,26 @@
   "type": "origins:active_self",
   "key": "key.origins.primary_active",
   "cooldown": 100,
-  "entity_action": {
-    "type": "origins:all_of",
-    "actions": [
-      {
-        "type": "origins:add_velocity",
-        "z": 1.6,
-        "space": "local_horizontal"
-      },
-      {
-        "type": "origins:add_velocity",
-        "y": 0.9
-      },
-      {
-        "type": "origins:add_velocity",
-        "z": 0.7,
-        "space": "local"
-      },
-      {
-        "type": "origins:execute_command",
-        "command": "function origins-plus-plus:light-mage/leap"
-      }
-    ]
-  },
+  "entity_action": [
+    {
+      "type": "origins:add_velocity",
+      "z": 1.6,
+      "space": "local_horizontal"
+    },
+    {
+      "type": "origins:add_velocity",
+      "y": 0.9
+    },
+    {
+      "type": "origins:add_velocity",
+      "z": 0.7,
+      "space": "local"
+    },
+    {
+      "type": "origins:execute_command",
+      "command": "function origins-plus-plus:light-mage/leap"
+    }
+  ],
   "condition": {
     "type": "origins:all_of",
     "conditions": [

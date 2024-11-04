@@ -22,186 +22,183 @@
       }
     ]
   },
-  "entity_action": {
-    "type": "origins:all_of",
-    "actions": [
-      {
-        "type": "origins:delay",
+  "entity_action": [
+    {
+      "type": "origins:delay",
+      "action": {
+        "type": "origins:equipped_item_action",
+        "equipment_slot": "mainhand",
         "action": {
-          "type": "origins:equipped_item_action",
-          "equipment_slot": "mainhand",
-          "action": {
-            "type": "origins:consume",
-            "amount": 1
-          }
-        },
-        "ticks": 26
+          "type": "origins:consume",
+          "amount": 1
+        }
       },
-      {
-        "type": "origins:delay",
-        "action": {
-          "type": "origins:feed",
-          "saturation": 2.4,
-          "nutrition": 7
-        },
-        "ticks": 26
+      "ticks": 26
+    },
+    {
+      "type": "origins:delay",
+      "action": {
+        "type": "origins:feed",
+        "saturation": 2.4,
+        "nutrition": 7
       },
-      {
+      "ticks": 26
+    },
+    {
+      "type": "origins:execute_command",
+      "command": "playsound minecraft:entity.generic.eat player @s ~ ~ ~ 1 1"
+    },
+    {
+      "type": "origins:delay",
+      "action": {
         "type": "origins:execute_command",
-        "command": "playsound minecraft:entity.generic.eat player @s ~ ~ ~ 1 1"
+        "command": "playsound minecraft:entity.generic.eat player @a ~ ~ ~ 1 1"
       },
-      {
-        "type": "origins:delay",
-        "action": {
-          "type": "origins:execute_command",
-          "command": "playsound minecraft:entity.generic.eat player @a ~ ~ ~ 1 1"
-        },
-        "ticks": 4
-      },
-      {
-        "type": "origins:delay",
-        "action": {
-          "type": "origins:execute_command",
-          "command": "playsound minecraft:entity.generic.eat player @a ~ ~ ~ 1 1"
-        },
-        "ticks": 8
-      },
-      {
-        "type": "origins:delay",
-        "action": {
-          "type": "origins:execute_command",
-          "command": "playsound minecraft:entity.generic.eat player @a ~ ~ ~ 1 1"
-        },
-        "ticks": 12
-      },
-      {
-        "type": "origins:delay",
-        "action": {
-          "type": "origins:execute_command",
-          "command": "playsound minecraft:entity.generic.eat player @a ~ ~ ~ 1 1"
-        },
-        "ticks": 16
-      },
-      {
-        "type": "origins:delay",
-        "action": {
-          "type": "origins:execute_command",
-          "command": "playsound minecraft:entity.generic.eat player @a ~ ~ ~ 1 1"
-        },
-        "ticks": 20
-      },
-      {
-        "type": "origins:delay",
-        "action": {
-          "type": "origins:execute_command",
-          "command": "playsound minecraft:entity.player.burp player @a ~ ~ ~ 1 1"
-        },
-        "ticks": 24
-      },
-      {
+      "ticks": 4
+    },
+    {
+      "type": "origins:delay",
+      "action": {
         "type": "origins:execute_command",
-        "command": "particle item end_stone ~ ~1.4 ~ .1 .1 .1 0 5 normal"
+        "command": "playsound minecraft:entity.generic.eat player @a ~ ~ ~ 1 1"
       },
-      {
-        "type": "origins:delay",
-        "action": {
-          "type": "origins:execute_command",
-          "command": "particle item end_stone ~ ~1.4 ~ .1 .1 .1 0 5 normal"
-        },
-        "ticks": 2
+      "ticks": 8
+    },
+    {
+      "type": "origins:delay",
+      "action": {
+        "type": "origins:execute_command",
+        "command": "playsound minecraft:entity.generic.eat player @a ~ ~ ~ 1 1"
       },
-      {
-        "type": "origins:delay",
-        "action": {
-          "type": "origins:execute_command",
-          "command": "particle item end_stone ~ ~1.4 ~ .1 .1 .1 0 5 normal"
-        },
-        "ticks": 4
+      "ticks": 12
+    },
+    {
+      "type": "origins:delay",
+      "action": {
+        "type": "origins:execute_command",
+        "command": "playsound minecraft:entity.generic.eat player @a ~ ~ ~ 1 1"
       },
-      {
-        "type": "origins:delay",
-        "action": {
-          "type": "origins:execute_command",
-          "command": "particle item end_stone ~ ~1.4 ~ .1 .1 .1 0 5 normal"
-        },
-        "ticks": 6
+      "ticks": 16
+    },
+    {
+      "type": "origins:delay",
+      "action": {
+        "type": "origins:execute_command",
+        "command": "playsound minecraft:entity.generic.eat player @a ~ ~ ~ 1 1"
       },
-      {
-        "type": "origins:delay",
-        "action": {
-          "type": "origins:execute_command",
-          "command": "particle item end_stone ~ ~1.4 ~ .1 .1 .1 0 5 normal"
-        },
-        "ticks": 8
+      "ticks": 20
+    },
+    {
+      "type": "origins:delay",
+      "action": {
+        "type": "origins:execute_command",
+        "command": "playsound minecraft:entity.player.burp player @a ~ ~ ~ 1 1"
       },
-      {
-        "type": "origins:delay",
-        "action": {
-          "type": "origins:execute_command",
-          "command": "particle item end_stone ~ ~1.4 ~ .1 .1 .1 0 5 normal"
-        },
-        "ticks": 10
-      },
-      {
-        "type": "origins:delay",
-        "action": {
-          "type": "origins:execute_command",
-          "command": "particle item end_stone ~ ~1.4 ~ .1 .1 .1 0 5 normal"
-        },
-        "ticks": 12
-      },
-      {
+      "ticks": 24
+    },
+    {
+      "type": "origins:execute_command",
+      "command": "particle item end_stone ~ ~1.4 ~ .1 .1 .1 0 5 normal"
+    },
+    {
+      "type": "origins:delay",
+      "action": {
         "type": "origins:execute_command",
         "command": "particle item end_stone ~ ~1.4 ~ .1 .1 .1 0 5 normal"
       },
-      {
-        "type": "origins:delay",
-        "action": {
-          "type": "origins:execute_command",
-          "command": "particle item end_stone ~ ~1.4 ~ .1 .1 .1 0 5 normal"
-        },
-        "ticks": 14
+      "ticks": 2
+    },
+    {
+      "type": "origins:delay",
+      "action": {
+        "type": "origins:execute_command",
+        "command": "particle item end_stone ~ ~1.4 ~ .1 .1 .1 0 5 normal"
       },
-      {
-        "type": "origins:delay",
-        "action": {
-          "type": "origins:execute_command",
-          "command": "particle item end_stone ~ ~1.4 ~ .1 .1 .1 0 5 normal"
-        },
-        "ticks": 16
+      "ticks": 4
+    },
+    {
+      "type": "origins:delay",
+      "action": {
+        "type": "origins:execute_command",
+        "command": "particle item end_stone ~ ~1.4 ~ .1 .1 .1 0 5 normal"
       },
-      {
-        "type": "origins:delay",
-        "action": {
-          "type": "origins:execute_command",
-          "command": "particle item end_stone ~ ~1.4 ~ .1 .1 .1 0 5 normal"
-        },
-        "ticks": 18
+      "ticks": 6
+    },
+    {
+      "type": "origins:delay",
+      "action": {
+        "type": "origins:execute_command",
+        "command": "particle item end_stone ~ ~1.4 ~ .1 .1 .1 0 5 normal"
       },
-      {
-        "type": "origins:delay",
-        "action": {
-          "type": "origins:execute_command",
-          "command": "particle item end_stone ~ ~1.4 ~ .1 .1 .1 0 5 normal"
-        },
-        "ticks": 20
+      "ticks": 8
+    },
+    {
+      "type": "origins:delay",
+      "action": {
+        "type": "origins:execute_command",
+        "command": "particle item end_stone ~ ~1.4 ~ .1 .1 .1 0 5 normal"
       },
-      {
-        "type": "origins:delay",
-        "action": {
-          "type": "origins:execute_command",
-          "command": "particle item end_stone ~ ~1.4 ~ .1 .1 .1 0 5 normal"
-        },
-        "ticks": 22
+      "ticks": 10
+    },
+    {
+      "type": "origins:delay",
+      "action": {
+        "type": "origins:execute_command",
+        "command": "particle item end_stone ~ ~1.4 ~ .1 .1 .1 0 5 normal"
       },
-      {
-        "type": "origins:delay",
-        "action": {
-          "type": "origins:execute_command",
-          "command": "particle item end_stone ~ ~1.4 ~ .2 .2 .2 0 15 normal"
-        },
-        "ticks": 24
-      }
-    ]
-  }
+      "ticks": 12
+    },
+    {
+      "type": "origins:execute_command",
+      "command": "particle item end_stone ~ ~1.4 ~ .1 .1 .1 0 5 normal"
+    },
+    {
+      "type": "origins:delay",
+      "action": {
+        "type": "origins:execute_command",
+        "command": "particle item end_stone ~ ~1.4 ~ .1 .1 .1 0 5 normal"
+      },
+      "ticks": 14
+    },
+    {
+      "type": "origins:delay",
+      "action": {
+        "type": "origins:execute_command",
+        "command": "particle item end_stone ~ ~1.4 ~ .1 .1 .1 0 5 normal"
+      },
+      "ticks": 16
+    },
+    {
+      "type": "origins:delay",
+      "action": {
+        "type": "origins:execute_command",
+        "command": "particle item end_stone ~ ~1.4 ~ .1 .1 .1 0 5 normal"
+      },
+      "ticks": 18
+    },
+    {
+      "type": "origins:delay",
+      "action": {
+        "type": "origins:execute_command",
+        "command": "particle item end_stone ~ ~1.4 ~ .1 .1 .1 0 5 normal"
+      },
+      "ticks": 20
+    },
+    {
+      "type": "origins:delay",
+      "action": {
+        "type": "origins:execute_command",
+        "command": "particle item end_stone ~ ~1.4 ~ .1 .1 .1 0 5 normal"
+      },
+      "ticks": 22
+    },
+    {
+      "type": "origins:delay",
+      "action": {
+        "type": "origins:execute_command",
+        "command": "particle item end_stone ~ ~1.4 ~ .2 .2 .2 0 15 normal"
+      },
+      "ticks": 24
+    }
+  ]
 }

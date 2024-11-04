@@ -5,19 +5,16 @@
     "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_03.png",
     "bar_index": 23
   },
-  "entity_action": {
-    "type": "origins:all_of",
-    "actions": [
-      {
-        "type": "origins:execute_command",
-        "command": "function origins-plus-plus:ram/dash"
-      },
-      {
-        "type": "origins:add_velocity",
-        "z": 1,
-        "space": "local"
-      }
-    ]
-  },
+  "entity_action": [
+    {
+      "type": "origins:execute_command",
+      "command": "function origins-plus-plus:ram/dash"
+    },
+    {
+      "type": "origins:add_velocity",
+      "z": 1,
+      "space": "local"
+    }
+  ],
   "key": "key.origins.primary_active"
 }

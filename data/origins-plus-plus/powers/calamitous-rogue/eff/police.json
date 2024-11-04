@@ -20,45 +20,42 @@
   },
   "remove": {
     "type": "origins:action_over_time",
-    "entity_action": {
-      "type": "origins:all_of",
-      "actions": [
-        {
-          "type": "origins:execute_command",
-          "command": "power revoke @s origins-plus-plus:calamitous-rogue/eff/police"
+    "entity_action": [
+      {
+        "type": "origins:execute_command",
+        "command": "power revoke @s origins-plus-plus:calamitous-rogue/eff/police"
+      },
+      {
+        "type": "origins:if_else",
+        "condition": {
+          "type": "origins:command",
+          "command": "execute if entity @e[type=minecraft:villager,distance=..6]",
+          "compare_to": 0,
+          "comparison": ">"
         },
-        {
-          "type": "origins:if_else",
-          "condition": {
-            "type": "origins:command",
-            "command": "execute if entity @e[type=minecraft:villager,distance=..6]",
-            "compare_to": 0,
-            "comparison": ">"
+        "if_action": {
+          "type": "origins:area_of_effect",
+          "radius": 32,
+          "bientity_action": {
+            "type": "origins:damage",
+            "amount": 0,
+            "damage_type": "mob_attack"
           },
-          "if_action": {
-            "type": "origins:area_of_effect",
-            "radius": 32,
-            "bientity_action": {
-              "type": "origins:damage",
-              "amount": 0,
-              "damage_type": "mob_attack"
-            },
-            "bientity_condition": {
-              "type": "origins:target_condition",
-              "condition": {
-                "type": "origins:entity_type",
-                "entity_type": "minecraft:iron_golem"
-              }
+          "bientity_condition": {
+            "type": "origins:target_condition",
+            "condition": {
+              "type": "origins:entity_type",
+              "entity_type": "minecraft:iron_golem"
             }
           }
-        },
-        {
-          "type": "origins:change_resource",
-          "resource": "*:stealth_bar",
-          "change": -5
         }
-      ]
-    },
+      },
+      {
+        "type": "origins:change_resource",
+        "resource": "*:stealth_bar",
+        "change": -5
+      }
+    ],
     "interval": 1,
     "condition": {
       "type": "origins:resource",

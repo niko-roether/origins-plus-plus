@@ -33,59 +33,56 @@
   },
   "axe_strike": {
     "type": "origins:target_action_on_hit",
-    "entity_action": {
-      "type": "origins:all_of",
-      "actions": [
-        {
-          "type": "origins:execute_command",
-          "command": "particle minecraft:block redstone_wire ~ ~1 ~ 0.25 0.25 0.25 0 50"
-        },
-        {
-          "type": "origins:if_else",
-          "condition": {
-            "type": "origins:equipped_item",
-            "equipment_slot": "mainhand",
-            "item_condition": {
-              "type": "origins:ingredient",
-              "ingredient": {
-                "tag": "origins:shields"
-              }
-            }
-          },
-          "if_action": {
-            "type": "origins:equipped_item_action",
-            "equipment_slot": "mainhand",
-            "action": {
-              "type": "origins:damage",
-              "amount": 60,
-              "ignore_unbreaking": true
+    "entity_action": [
+      {
+        "type": "origins:execute_command",
+        "command": "particle minecraft:block redstone_wire ~ ~1 ~ 0.25 0.25 0.25 0 50"
+      },
+      {
+        "type": "origins:if_else",
+        "condition": {
+          "type": "origins:equipped_item",
+          "equipment_slot": "mainhand",
+          "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "tag": "origins:shields"
             }
           }
         },
-        {
-          "type": "origins:if_else",
-          "condition": {
-            "type": "origins:equipped_item",
-            "equipment_slot": "offhand",
-            "item_condition": {
-              "type": "origins:ingredient",
-              "ingredient": {
-                "tag": "origins:shields"
-              }
-            }
-          },
-          "if_action": {
-            "type": "origins:equipped_item_action",
-            "equipment_slot": "offhand",
-            "action": {
-              "type": "origins:damage",
-              "amount": 60,
-              "ignore_unbreaking": true
-            }
+        "if_action": {
+          "type": "origins:equipped_item_action",
+          "equipment_slot": "mainhand",
+          "action": {
+            "type": "origins:damage",
+            "amount": 60,
+            "ignore_unbreaking": true
           }
         }
-      ]
-    },
+      },
+      {
+        "type": "origins:if_else",
+        "condition": {
+          "type": "origins:equipped_item",
+          "equipment_slot": "offhand",
+          "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "tag": "origins:shields"
+            }
+          }
+        },
+        "if_action": {
+          "type": "origins:equipped_item_action",
+          "equipment_slot": "offhand",
+          "action": {
+            "type": "origins:damage",
+            "amount": 60,
+            "ignore_unbreaking": true
+          }
+        }
+      }
+    ],
     "damage_condition": {
       "type": "origins:name",
       "name": "aggro",
@@ -145,35 +142,32 @@
   },
   "shield_bash": {
     "type": "origins:target_action_on_hit",
-    "entity_action": {
-      "type": "origins:all_of",
-      "actions": [
-        {
-          "type": "origins:execute_command",
-          "command": "particle minecraft:block redstone_wire ~ ~1 ~ 0.25 0.25 0.25 0 50"
-        },
-        {
-          "type": "origins:apply_effect",
-          "effect": {
-            "duration": 80,
-            "amplifier": 3,
-            "id": "minecraft:slowness"
-          }
-        },
-        {
-          "type": "origins:apply_effect",
-          "effect": {
-            "duration": 80,
-            "amplifier": 3,
-            "id": "minecraft:mining_fatigue"
-          }
-        },
-        {
-          "type": "origins:add_velocity",
-          "y": -3
+    "entity_action": [
+      {
+        "type": "origins:execute_command",
+        "command": "particle minecraft:block redstone_wire ~ ~1 ~ 0.25 0.25 0.25 0 50"
+      },
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "duration": 80,
+          "amplifier": 3,
+          "id": "minecraft:slowness"
         }
-      ]
-    },
+      },
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "duration": 80,
+          "amplifier": 3,
+          "id": "minecraft:mining_fatigue"
+        }
+      },
+      {
+        "type": "origins:add_velocity",
+        "y": -3
+      }
+    ],
     "damage_condition": {
       "type": "origins:name",
       "name": "aggro",
@@ -208,27 +202,24 @@
   },
   "sword_cut": {
     "type": "origins:target_action_on_hit",
-    "entity_action": {
-      "type": "origins:all_of",
-      "actions": [
-        {
-          "type": "origins:execute_command",
-          "command": "particle minecraft:block redstone_wire ~ ~1 ~ 0.25 0.25 0.25 0 50"
-        },
-        {
-          "type": "origins:clear_effect",
-          "effect": "minecraft:regeneration"
-        },
-        {
-          "type": "origins:clear_effect",
-          "effect": "minecraft:absorption"
-        },
-        {
-          "type": "origins:clear_effect",
-          "effect": "minecraft:health_boost"
-        }
-      ]
-    },
+    "entity_action": [
+      {
+        "type": "origins:execute_command",
+        "command": "particle minecraft:block redstone_wire ~ ~1 ~ 0.25 0.25 0.25 0 50"
+      },
+      {
+        "type": "origins:clear_effect",
+        "effect": "minecraft:regeneration"
+      },
+      {
+        "type": "origins:clear_effect",
+        "effect": "minecraft:absorption"
+      },
+      {
+        "type": "origins:clear_effect",
+        "effect": "minecraft:health_boost"
+      }
+    ],
     "damage_condition": {
       "type": "origins:name",
       "name": "aggro",

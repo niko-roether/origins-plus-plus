@@ -1,24 +1,21 @@
 {
   "type": "origins:active_self",
-  "entity_action": {
-    "type": "origins:all_of",
-    "actions": [
-      {
-        "type": "origins:apply_effect",
-        "effect": {
-          "duration": 240,
-          "amplifier": 1,
-          "show_icon": false,
-          "show_particles": false,
-          "id": "minecraft:speed"
-        }
-      },
-      {
-        "type": "origins:execute_command",
-        "command": "particle minecraft:witch ~ ~ ~ 0 0 0 1 100"
+  "entity_action": [
+    {
+      "type": "origins:apply_effect",
+      "effect": {
+        "duration": 240,
+        "amplifier": 1,
+        "show_icon": false,
+        "show_particles": false,
+        "id": "minecraft:speed"
       }
-    ]
-  },
+    },
+    {
+      "type": "origins:execute_command",
+      "command": "particle minecraft:witch ~ ~ ~ 0 0 0 1 100"
+    }
+  ],
   "cooldown": 1200,
   "key": "key.origins.secondary_active",
   "hud_render": {

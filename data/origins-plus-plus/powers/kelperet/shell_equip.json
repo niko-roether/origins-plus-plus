@@ -12,20 +12,17 @@
         }
       }
     },
-    "if_action": {
-      "type": "origins:all_of",
-      "actions": [
-        {
-          "type": "origins:execute_command",
-          "command": "function origins-plus-plus:kelperet/shell_equip"
-        },
-        {
-          "type": "origins:damage",
-          "amount": 0,
-          "damage_type": "generic"
-        }
-      ]
-    }
+    "if_action": [
+      {
+        "type": "origins:execute_command",
+        "command": "function origins-plus-plus:kelperet/shell_equip"
+      },
+      {
+        "type": "origins:damage",
+        "amount": 0,
+        "damage_type": "generic"
+      }
+    ]
   },
   "hud_render": {
     "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_01.png",

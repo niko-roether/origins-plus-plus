@@ -488,32 +488,29 @@
   },
   "speed_10": {
     "type": "origins:action_over_time",
-    "entity_action": {
-      "type": "origins:all_of",
-      "actions": [
-        {
-          "type": "origins:apply_effect",
-          "effect": {
-            "amplifier": 9,
-            "duration": 200,
-            "show_particles": true,
-            "show_icon": true,
-            "id": "minecraft:speed",
-            "ambient": false
-          }
-        },
-        {
-          "type": "origins:apply_effect",
-          "effect": {
-            "duration": 200,
-            "show_particles": true,
-            "show_icon": true,
-            "id": "minecraft:strength",
-            "ambient": false
-          }
+    "entity_action": [
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "amplifier": 9,
+          "duration": 200,
+          "show_particles": true,
+          "show_icon": true,
+          "id": "minecraft:speed",
+          "ambient": false
         }
-      ]
-    },
+      },
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "duration": 200,
+          "show_particles": true,
+          "show_icon": true,
+          "id": "minecraft:strength",
+          "ambient": false
+        }
+      }
+    ],
     "interval": 40,
     "condition": {
       "type": "origins:all_of",

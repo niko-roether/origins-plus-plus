@@ -20,19 +20,16 @@
       }
     },
     "type": "origins:active_self",
-    "entity_action": {
-      "type": "origins:all_of",
-      "actions": [
-        {
-          "type": "origins:execute_command",
-          "command": "clear @s minecraft:book 1"
-        },
-        {
-          "type": "origins:add_xp",
-          "points": 10
-        }
-      ]
-    },
+    "entity_action": [
+      {
+        "type": "origins:execute_command",
+        "command": "clear @s minecraft:book 1"
+      },
+      {
+        "type": "origins:add_xp",
+        "points": 10
+      }
+    ],
     "cooldown": 10,
     "key": "key.use"
   }

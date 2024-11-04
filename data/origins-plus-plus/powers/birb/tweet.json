@@ -9,19 +9,16 @@
   },
   "trigger": {
     "type": "origins:active_self",
-    "entity_action": {
-      "type": "origins:all_of",
-      "actions": [
-        {
-          "type": "origins:trigger_cooldown",
-          "power": "*:*_timer"
-        },
-        {
-          "type": "origins:play_sound",
-          "sound": "entity.parrot.ambient"
-        }
-      ]
-    },
+    "entity_action": [
+      {
+        "type": "origins:trigger_cooldown",
+        "power": "*:*_timer"
+      },
+      {
+        "type": "origins:play_sound",
+        "sound": "entity.parrot.ambient"
+      }
+    ],
     "cooldown": 600,
     "hud_render": {
       "sprite_location": "origins:textures/gui/community/huang/resource_bar_02.png",

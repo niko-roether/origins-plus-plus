@@ -6,45 +6,42 @@
     "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_01.png",
     "bar_index": 1
   },
-  "entity_action": {
-    "type": "origins:all_of",
-    "actions": [
-      {
+  "entity_action": [
+    {
+      "type": "origins:execute_command",
+      "command": "function origins-plus-plus:zero-aizawa/super_sane"
+    },
+    {
+      "type": "origins:delay",
+      "ticks": 220,
+      "action": {
         "type": "origins:execute_command",
-        "command": "function origins-plus-plus:zero-aizawa/super_sane"
-      },
-      {
-        "type": "origins:delay",
-        "ticks": 220,
-        "action": {
-          "type": "origins:execute_command",
-          "command": "effect clear @s"
-        }
-      },
-      {
-        "type": "origins:delay",
-        "ticks": 221,
-        "action": {
-          "type": "origins:execute_command",
-          "command": "effect give @s minecraft:slowness 10 1 false"
-        }
-      },
-      {
-        "type": "origins:delay",
-        "ticks": 221,
-        "action": {
-          "type": "origins:execute_command",
-          "command": "effect give @s minecraft:weakness 10 0 false"
-        }
-      },
-      {
-        "type": "origins:delay",
-        "ticks": 221,
-        "action": {
-          "type": "origins:execute_command",
-          "command": "effect give @s minecraft:hunger 10 0 false"
-        }
+        "command": "effect clear @s"
       }
-    ]
-  }
+    },
+    {
+      "type": "origins:delay",
+      "ticks": 221,
+      "action": {
+        "type": "origins:execute_command",
+        "command": "effect give @s minecraft:slowness 10 1 false"
+      }
+    },
+    {
+      "type": "origins:delay",
+      "ticks": 221,
+      "action": {
+        "type": "origins:execute_command",
+        "command": "effect give @s minecraft:weakness 10 0 false"
+      }
+    },
+    {
+      "type": "origins:delay",
+      "ticks": 221,
+      "action": {
+        "type": "origins:execute_command",
+        "command": "effect give @s minecraft:hunger 10 0 false"
+      }
+    }
+  ]
 }

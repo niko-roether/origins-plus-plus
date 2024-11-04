@@ -11,23 +11,20 @@
   },
   "create_new": {
     "type": "origins:active_self",
-    "entity_action": {
-      "type": "origins:all_of",
-      "actions": [
-        {
+    "entity_action": [
+      {
+        "type": "origins:execute_command",
+        "command": "function origins-plus-plus:light-mage/create_pocket_dimension"
+      },
+      {
+        "type": "origins:delay",
+        "ticks": 10,
+        "action": {
           "type": "origins:execute_command",
-          "command": "function origins-plus-plus:light-mage/create_pocket_dimension"
-        },
-        {
-          "type": "origins:delay",
-          "ticks": 10,
-          "action": {
-            "type": "origins:execute_command",
-            "command": "function origins-plus-plus:light-mage/effects"
-          }
+          "command": "function origins-plus-plus:light-mage/effects"
         }
-      ]
-    },
+      }
+    ],
     "key": "key.loadToolbarActivator",
     "condition": {
       "type": "origins:all_of",
@@ -51,23 +48,20 @@
   },
   "go_to": {
     "type": "origins:active_self",
-    "entity_action": {
-      "type": "origins:all_of",
-      "actions": [
-        {
+    "entity_action": [
+      {
+        "type": "origins:execute_command",
+        "command": "function origins-plus-plus:light-mage/go_to_pocket_dimension"
+      },
+      {
+        "type": "origins:delay",
+        "ticks": 10,
+        "action": {
           "type": "origins:execute_command",
-          "command": "function origins-plus-plus:light-mage/go_to_pocket_dimension"
-        },
-        {
-          "type": "origins:delay",
-          "ticks": 10,
-          "action": {
-            "type": "origins:execute_command",
-            "command": "function origins-plus-plus:light-mage/effects"
-          }
+          "command": "function origins-plus-plus:light-mage/effects"
         }
-      ]
-    },
+      }
+    ],
     "key": "key.origins.primary_active",
     "condition": {
       "type": "origins:all_of",
@@ -97,31 +91,28 @@
   },
   "bring_to": {
     "type": "origins:active_self",
-    "entity_action": {
-      "type": "origins:all_of",
-      "actions": [
-        {
+    "entity_action": [
+      {
+        "type": "origins:execute_command",
+        "command": "function origins-plus-plus:light-mage/bring_to_pocket_dimension"
+      },
+      {
+        "type": "origins:delay",
+        "ticks": 10,
+        "action": {
           "type": "origins:execute_command",
-          "command": "function origins-plus-plus:light-mage/bring_to_pocket_dimension"
-        },
-        {
-          "type": "origins:delay",
-          "ticks": 10,
-          "action": {
-            "type": "origins:execute_command",
-            "command": "tag @e[distance=0..3] remove tppocket"
-          }
-        },
-        {
-          "type": "origins:delay",
-          "ticks": 10,
-          "action": {
-            "type": "origins:execute_command",
-            "command": "function origins-plus-plus:light-mage/effects"
-          }
+          "command": "tag @e[distance=0..3] remove tppocket"
         }
-      ]
-    },
+      },
+      {
+        "type": "origins:delay",
+        "ticks": 10,
+        "action": {
+          "type": "origins:execute_command",
+          "command": "function origins-plus-plus:light-mage/effects"
+        }
+      }
+    ],
     "key": "key.origins.primary_active",
     "condition": {
       "type": "origins:all_of",
@@ -150,31 +141,28 @@
   },
   "go_back": {
     "type": "origins:active_self",
-    "entity_action": {
-      "type": "origins:all_of",
-      "actions": [
-        {
+    "entity_action": [
+      {
+        "type": "origins:execute_command",
+        "command": "function origins-plus-plus:light-mage/bring_back_from_pocket_dimension"
+      },
+      {
+        "type": "origins:delay",
+        "ticks": 10,
+        "action": {
           "type": "origins:execute_command",
-          "command": "function origins-plus-plus:light-mage/bring_back_from_pocket_dimension"
-        },
-        {
-          "type": "origins:delay",
-          "ticks": 10,
-          "action": {
-            "type": "origins:execute_command",
-            "command": "kill @e[distance=..5,type=minecraft:armor_stand,tag=back]"
-          }
-        },
-        {
-          "type": "origins:delay",
-          "ticks": 10,
-          "action": {
-            "type": "origins:execute_command",
-            "command": "function origins-plus-plus:light-mage/effects"
-          }
+          "command": "kill @e[distance=..5,type=minecraft:armor_stand,tag=back]"
         }
-      ]
-    },
+      },
+      {
+        "type": "origins:delay",
+        "ticks": 10,
+        "action": {
+          "type": "origins:execute_command",
+          "command": "function origins-plus-plus:light-mage/effects"
+        }
+      }
+    ],
     "key": "key.origins.secondary_active",
     "condition": {
       "type": "origins:all_of",
@@ -202,39 +190,36 @@
   },
   "bring_back": {
     "type": "origins:active_self",
-    "entity_action": {
-      "type": "origins:all_of",
-      "actions": [
-        {
+    "entity_action": [
+      {
+        "type": "origins:execute_command",
+        "command": "function origins-plus-plus:light-mage/bring_back_from_pocket_dimension"
+      },
+      {
+        "type": "origins:delay",
+        "ticks": 10,
+        "action": {
           "type": "origins:execute_command",
-          "command": "function origins-plus-plus:light-mage/bring_back_from_pocket_dimension"
-        },
-        {
-          "type": "origins:delay",
-          "ticks": 10,
-          "action": {
-            "type": "origins:execute_command",
-            "command": "tag @e[distance=0..3] remove tppocket"
-          }
-        },
-        {
-          "type": "origins:delay",
-          "ticks": 10,
-          "action": {
-            "type": "origins:execute_command",
-            "command": "kill @e[distance=..5,type=minecraft:armor_stand,tag=back]"
-          }
-        },
-        {
-          "type": "origins:delay",
-          "ticks": 10,
-          "action": {
-            "type": "origins:execute_command",
-            "command": "function origins-plus-plus:light-mage/effects"
-          }
+          "command": "tag @e[distance=0..3] remove tppocket"
         }
-      ]
-    },
+      },
+      {
+        "type": "origins:delay",
+        "ticks": 10,
+        "action": {
+          "type": "origins:execute_command",
+          "command": "kill @e[distance=..5,type=minecraft:armor_stand,tag=back]"
+        }
+      },
+      {
+        "type": "origins:delay",
+        "ticks": 10,
+        "action": {
+          "type": "origins:execute_command",
+          "command": "function origins-plus-plus:light-mage/effects"
+        }
+      }
+    ],
     "key": "key.origins.secondary_active",
     "condition": {
       "type": "origins:all_of",

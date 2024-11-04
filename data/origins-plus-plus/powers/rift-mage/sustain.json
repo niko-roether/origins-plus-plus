@@ -1,24 +1,21 @@
 {
   "type": "origins:active_self",
   "hidden": true,
-  "entity_action": {
-    "type": "origins:all_of",
-    "actions": [
-      {
-        "type": "origins:equipped_item_action",
-        "equipment_slot": "mainhand",
-        "action": {
-          "type": "origins:consume",
-          "amount": 1
-        }
-      },
-      {
-        "type": "origins:feed",
-        "saturation": 0.25,
-        "nutrition": 6
+  "entity_action": [
+    {
+      "type": "origins:equipped_item_action",
+      "equipment_slot": "mainhand",
+      "action": {
+        "type": "origins:consume",
+        "amount": 1
       }
-    ]
-  },
+    },
+    {
+      "type": "origins:feed",
+      "saturation": 0.25,
+      "nutrition": 6
+    }
+  ],
   "cooldown": 50,
   "key": "key.use",
   "condition": {

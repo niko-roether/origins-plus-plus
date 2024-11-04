@@ -12,32 +12,29 @@
   },
   "combo_effects": {
     "type": "origins:target_action_on_hit",
-    "entity_action": {
-      "type": "origins:all_of",
-      "actions": [
-        {
-          "type": "origins:apply_effect",
-          "effect": {
-            "amplifier": 3,
-            "duration": 100,
-            "id": "minecraft:wither"
-          }
-        },
-        {
-          "type": "origins:apply_effect",
-          "effect": {
-            "amplifier": 3,
-            "duration": 100,
-            "id": "minecraft:slowness"
-          }
-        },
-        {
-          "type": "origins:change_resource",
-          "resource": "*:*_resource",
-          "change": -3
+    "entity_action": [
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "amplifier": 3,
+          "duration": 100,
+          "id": "minecraft:wither"
         }
-      ]
-    },
+      },
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "amplifier": 3,
+          "duration": 100,
+          "id": "minecraft:slowness"
+        }
+      },
+      {
+        "type": "origins:change_resource",
+        "resource": "*:*_resource",
+        "change": -3
+      }
+    ],
     "condition": {
       "type": "origins:resource",
       "resource": "*:*_resource",

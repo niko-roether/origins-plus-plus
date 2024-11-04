@@ -6,24 +6,21 @@
     "bar_index": 1
   },
   "cooldown": 300,
-  "entity_action": {
-    "type": "origins:all_of",
-    "actions": [
-      {
-        "type": "origins:apply_effect",
-        "effect": {
-          "duration": 80,
-          "amplifier": 4,
-          "show_particles": false,
-          "show_icon": false,
-          "id": "minecraft:resistance"
-        }
-      },
-      {
-        "type": "origins:feed",
-        "saturation": 0,
-        "nutrition": -7
+  "entity_action": [
+    {
+      "type": "origins:apply_effect",
+      "effect": {
+        "duration": 80,
+        "amplifier": 4,
+        "show_particles": false,
+        "show_icon": false,
+        "id": "minecraft:resistance"
       }
-    ]
-  }
+    },
+    {
+      "type": "origins:feed",
+      "saturation": 0,
+      "nutrition": -7
+    }
+  ]
 }

@@ -24,24 +24,21 @@
         "comparison": "!=",
         "compare_to": 0
       },
-      "if_action": {
-        "type": "origins:all_of",
-        "actions": [
-          {
-            "type": "origins:add_velocity",
-            "z": 0.75,
-            "space": "local_horizontal_normalized"
-          },
-          {
-            "type": "origins:trigger_cooldown",
-            "power": "*:*_cooldown"
-          },
-          {
-            "type": "origins:execute_command",
-            "command": "playsound minecraft:entity.witch.throw player @a[distance=..32] ~ ~ ~ .3 1"
-          }
-        ]
-      },
+      "if_action": [
+        {
+          "type": "origins:add_velocity",
+          "z": 0.75,
+          "space": "local_horizontal_normalized"
+        },
+        {
+          "type": "origins:trigger_cooldown",
+          "power": "*:*_cooldown"
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "playsound minecraft:entity.witch.throw player @a[distance=..32] ~ ~ ~ .3 1"
+        }
+      ],
       "else_action": {
         "type": "origins:trigger_cooldown",
         "power": "*:*_double_forward"
@@ -65,24 +62,21 @@
         "comparison": "!=",
         "compare_to": 0
       },
-      "if_action": {
-        "type": "origins:all_of",
-        "actions": [
-          {
-            "type": "origins:add_velocity",
-            "x": 0.75,
-            "space": "local_horizontal_normalized"
-          },
-          {
-            "type": "origins:trigger_cooldown",
-            "power": "*:*_cooldown"
-          },
-          {
-            "type": "origins:execute_command",
-            "command": "playsound minecraft:entity.witch.throw player @a[distance=..32] ~ ~ ~ .3 1"
-          }
-        ]
-      },
+      "if_action": [
+        {
+          "type": "origins:add_velocity",
+          "x": 0.75,
+          "space": "local_horizontal_normalized"
+        },
+        {
+          "type": "origins:trigger_cooldown",
+          "power": "*:*_cooldown"
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "playsound minecraft:entity.witch.throw player @a[distance=..32] ~ ~ ~ .3 1"
+        }
+      ],
       "else_action": {
         "type": "origins:trigger_cooldown",
         "power": "*:*_double_left"
@@ -106,24 +100,21 @@
         "comparison": "!=",
         "compare_to": 0
       },
-      "if_action": {
-        "type": "origins:all_of",
-        "actions": [
-          {
-            "type": "origins:add_velocity",
-            "z": -0.75,
-            "space": "local_horizontal_normalized"
-          },
-          {
-            "type": "origins:trigger_cooldown",
-            "power": "*:*_cooldown"
-          },
-          {
-            "type": "origins:execute_command",
-            "command": "playsound minecraft:entity.witch.throw player @a[distance=..32] ~ ~ ~ .3 1"
-          }
-        ]
-      },
+      "if_action": [
+        {
+          "type": "origins:add_velocity",
+          "z": -0.75,
+          "space": "local_horizontal_normalized"
+        },
+        {
+          "type": "origins:trigger_cooldown",
+          "power": "*:*_cooldown"
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "playsound minecraft:entity.witch.throw player @a[distance=..32] ~ ~ ~ .3 1"
+        }
+      ],
       "else_action": {
         "type": "origins:trigger_cooldown",
         "power": "*:*_double_back"
@@ -147,24 +138,21 @@
         "comparison": "!=",
         "compare_to": 0
       },
-      "if_action": {
-        "type": "origins:all_of",
-        "actions": [
-          {
-            "type": "origins:add_velocity",
-            "x": -0.75,
-            "space": "local_horizontal_normalized"
-          },
-          {
-            "type": "origins:trigger_cooldown",
-            "power": "*:*_cooldown"
-          },
-          {
-            "type": "origins:execute_command",
-            "command": "playsound minecraft:entity.witch.throw player @a[distance=..32] ~ ~ ~ .3 1"
-          }
-        ]
-      },
+      "if_action": [
+        {
+          "type": "origins:add_velocity",
+          "x": -0.75,
+          "space": "local_horizontal_normalized"
+        },
+        {
+          "type": "origins:trigger_cooldown",
+          "power": "*:*_cooldown"
+        },
+        {
+          "type": "origins:execute_command",
+          "command": "playsound minecraft:entity.witch.throw player @a[distance=..32] ~ ~ ~ .3 1"
+        }
+      ],
       "else_action": {
         "type": "origins:trigger_cooldown",
         "power": "*:*_double_right"

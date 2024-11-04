@@ -26,23 +26,20 @@
   },
   "modify_resource": {
     "type": "origins:active_self",
-    "entity_action": {
-      "type": "origins:all_of",
-      "actions": [
-        {
-          "type": "origins:delay",
-          "ticks": 5,
-          "action": {
-            "type": "origins:execute_command",
-            "command": "resource change @s origins-plus-plus:automaton/firebar -5000"
-          }
-        },
-        {
+    "entity_action": [
+      {
+        "type": "origins:delay",
+        "ticks": 5,
+        "action": {
           "type": "origins:execute_command",
-          "command": "function origins-plus-plus:automaton/fire_elemental_attack"
+          "command": "resource change @s origins-plus-plus:automaton/firebar -5000"
         }
-      ]
-    },
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "function origins-plus-plus:automaton/fire_elemental_attack"
+      }
+    ],
     "condition": {
       "type": "origins:all_of",
       "conditions": [

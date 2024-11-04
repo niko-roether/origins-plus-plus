@@ -3,23 +3,20 @@
   "hidden": true,
   "coals": {
     "type": "origins:active_self",
-    "entity_action": {
-      "type": "origins:all_of",
-      "actions": [
-        {
-          "type": "origins:execute_command",
-          "command": "function origins-plus-plus:automaton/firebar_increase_coal"
-        },
-        {
-          "type": "origins:equipped_item_action",
-          "equipment_slot": "mainhand",
-          "action": {
-            "type": "origins:consume",
-            "amount": 1
-          }
+    "entity_action": [
+      {
+        "type": "origins:execute_command",
+        "command": "function origins-plus-plus:automaton/firebar_increase_coal"
+      },
+      {
+        "type": "origins:equipped_item_action",
+        "equipment_slot": "mainhand",
+        "action": {
+          "type": "origins:consume",
+          "amount": 1
         }
-      ]
-    },
+      }
+    ],
     "condition": {
       "type": "origins:equipped_item",
       "equipment_slot": "mainhand",
@@ -35,23 +32,20 @@
   },
   "coal_block": {
     "type": "origins:active_self",
-    "entity_action": {
-      "type": "origins:all_of",
-      "actions": [
-        {
-          "type": "origins:execute_command",
-          "command": "function origins-plus-plus:automaton/firebar_increase_coal_block"
-        },
-        {
-          "type": "origins:equipped_item_action",
-          "equipment_slot": "mainhand",
-          "action": {
-            "type": "origins:consume",
-            "amount": 1
-          }
+    "entity_action": [
+      {
+        "type": "origins:execute_command",
+        "command": "function origins-plus-plus:automaton/firebar_increase_coal_block"
+      },
+      {
+        "type": "origins:equipped_item_action",
+        "equipment_slot": "mainhand",
+        "action": {
+          "type": "origins:consume",
+          "amount": 1
         }
-      ]
-    },
+      }
+    ],
     "condition": {
       "type": "origins:all_of",
       "conditions": [
@@ -75,23 +69,20 @@
   },
   "lava_bucket": {
     "type": "origins:active_self",
-    "entity_action": {
-      "type": "origins:all_of",
-      "actions": [
-        {
-          "type": "origins:execute_command",
-          "command": "function origins-plus-plus:automaton/firebar_increase_lava"
-        },
-        {
-          "type": "origins:equipped_item_action",
-          "equipment_slot": "mainhand",
-          "action": {
-            "type": "origins:consume",
-            "amount": 1
-          }
+    "entity_action": [
+      {
+        "type": "origins:execute_command",
+        "command": "function origins-plus-plus:automaton/firebar_increase_lava"
+      },
+      {
+        "type": "origins:equipped_item_action",
+        "equipment_slot": "mainhand",
+        "action": {
+          "type": "origins:consume",
+          "amount": 1
         }
-      ]
-    },
+      }
+    ],
     "condition": {
       "type": "origins:all_of",
       "conditions": [

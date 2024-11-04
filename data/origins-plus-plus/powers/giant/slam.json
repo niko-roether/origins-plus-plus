@@ -22,41 +22,35 @@
       "comparison": "==",
       "compare_to": 0
     },
-    "entity_action": {
-      "type": "origins:all_of",
-      "actions": [
-        {
-          "type": "origins:add_velocity",
-          "set": true,
-          "y": 0.5
-        },
-        {
-          "type": "origins:delay",
-          "ticks": 5,
-          "action": {
-            "type": "origins:and",
-            "actions": [
-              {
-                "type": "origins:add_velocity",
-                "set": true,
-                "y": -0.67
-              },
-              {
-                "type": "origins:passenger_action",
-                "action": {
-                  "type": "origins:dismount"
-                }
-              }
-            ]
+    "entity_action": [
+      {
+        "type": "origins:add_velocity",
+        "set": true,
+        "y": 0.5
+      },
+      {
+        "type": "origins:delay",
+        "ticks": 5,
+        "action": [
+          {
+            "type": "origins:add_velocity",
+            "set": true,
+            "y": -0.67
+          },
+          {
+            "type": "origins:passenger_action",
+            "action": {
+              "type": "origins:dismount"
+            }
           }
-        },
-        {
-          "type": "origins:change_resource",
-          "resource": "*:*_resource",
-          "change": 1
-        }
-      ]
-    }
+        ]
+      },
+      {
+        "type": "origins:change_resource",
+        "resource": "*:*_resource",
+        "change": 1
+      }
+    ]
   },
   "damage": {
     "type": "origins:action_on_land",
@@ -66,22 +60,19 @@
       "comparison": "==",
       "compare_to": 1
     },
-    "entity_action": {
-      "type": "origins:all_of",
-      "actions": [
-        {
-          "type": "origins:change_resource",
-          "resource": "*:*_resource",
-          "change": -1
-        },
-        {
-          "type": "origins:explode",
-          "power": 2,
-          "destruction_type": "none",
-          "damage_self": false
-        }
-      ]
-    }
+    "entity_action": [
+      {
+        "type": "origins:change_resource",
+        "resource": "*:*_resource",
+        "change": -1
+      },
+      {
+        "type": "origins:explode",
+        "power": 2,
+        "destruction_type": "none",
+        "damage_self": false
+      }
+    ]
   },
   "off": {
     "type": "origins:action_over_time",

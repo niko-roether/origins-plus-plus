@@ -3,27 +3,24 @@
   "hidden": true,
   "ram": {
     "type": "origins:active_self",
-    "entity_action": {
-      "type": "origins:all_of",
-      "actions": [
-        {
+    "entity_action": [
+      {
+        "type": "origins:trigger_cooldown",
+        "power": "*:*_duration"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "playsound minecraft:entity.ravager.roar master @a[distance=..20] ~ ~ ~ 1 1"
+      },
+      {
+        "type": "origins:delay",
+        "action": {
           "type": "origins:trigger_cooldown",
-          "power": "*:*_duration"
+          "power": "*:*_cooldown"
         },
-        {
-          "type": "origins:execute_command",
-          "command": "playsound minecraft:entity.ravager.roar master @a[distance=..20] ~ ~ ~ 1 1"
-        },
-        {
-          "type": "origins:delay",
-          "action": {
-            "type": "origins:trigger_cooldown",
-            "power": "*:*_cooldown"
-          },
-          "ticks": 60
-        }
-      ]
-    },
+        "ticks": 60
+      }
+    ],
     "condition": {
       "type": "origins:resource",
       "resource": "*:*_cooldown",

@@ -1,21 +1,18 @@
 {
   "type": "origins:prevent_death",
-  "entity_action": {
-    "type": "origins:all_of",
-    "actions": [
-      {
-        "type": "origins:clear_effect"
-      },
-      {
-        "type": "origins:heal",
-        "amount": 3
-      },
-      {
-        "type": "origins:execute_command",
-        "command": "function origins-plus-plus:deathsworn/take_soul"
-      }
-    ]
-  },
+  "entity_action": [
+    {
+      "type": "origins:clear_effect"
+    },
+    {
+      "type": "origins:heal",
+      "amount": 3
+    },
+    {
+      "type": "origins:execute_command",
+      "command": "function origins-plus-plus:deathsworn/take_soul"
+    }
+  ],
   "condition": {
     "type": "origins:command",
     "command": "execute if entity @e[tag=Deathsworn_Minion,distance=..10]",

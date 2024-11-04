@@ -90,29 +90,26 @@
         }
       ]
     },
-    "self_action": {
-      "type": "origins:all_of",
-      "actions": [
-        {
-          "type": "origins:execute_command",
-          "command": "particle minecraft:poof ~ ~1 ~ 0 0 0 0.1 50"
-        },
-        {
-          "type": "origins:play_sound",
-          "sound": "minecraft:entity.wither.ambient",
-          "pitch": 4
-        },
-        {
-          "type": "origins:add_velocity",
-          "y": 1,
-          "set": true
-        },
-        {
-          "type": "origins:trigger_cooldown",
-          "power": "*:*_cooldown"
-        }
-      ]
-    }
+    "self_action": [
+      {
+        "type": "origins:execute_command",
+        "command": "particle minecraft:poof ~ ~1 ~ 0 0 0 0.1 50"
+      },
+      {
+        "type": "origins:play_sound",
+        "sound": "minecraft:entity.wither.ambient",
+        "pitch": 4
+      },
+      {
+        "type": "origins:add_velocity",
+        "y": 1,
+        "set": true
+      },
+      {
+        "type": "origins:trigger_cooldown",
+        "power": "*:*_cooldown"
+      }
+    ]
   },
   "cooldown": {
     "type": "origins:cooldown",

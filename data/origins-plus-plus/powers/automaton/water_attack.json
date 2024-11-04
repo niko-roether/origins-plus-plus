@@ -3,29 +3,26 @@
   "hidden": true,
   "slowness": {
     "type": "origins:target_action_on_hit",
-    "entity_action": {
-      "type": "origins:all_of",
-      "actions": [
-        {
-          "type": "origins:apply_effect",
-          "effect": {
-            "duration": 30,
-            "id": "minecraft:slowness"
-          }
-        },
-        {
-          "type": "origins:add_velocity",
-          "y": 0.4
-        },
-        {
-          "type": "origins:extinguish"
-        },
-        {
-          "type": "origins:execute_command",
-          "command": "function origins-plus-plus:automaton/water_attack"
+    "entity_action": [
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "duration": 30,
+          "id": "minecraft:slowness"
         }
-      ]
-    },
+      },
+      {
+        "type": "origins:add_velocity",
+        "y": 0.4
+      },
+      {
+        "type": "origins:extinguish"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "function origins-plus-plus:automaton/water_attack"
+      }
+    ],
     "condition": {
       "type": "origins:all_of",
       "conditions": [

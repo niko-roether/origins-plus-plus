@@ -13,37 +13,34 @@
   "no_sprint": {
     "type": "origins:action_over_time",
     "interval": 1,
-    "entity_action": {
-      "type": "origins:all_of",
-      "actions": [
-        {
-          "type": "origins:if_else",
-          "condition": {
-            "type": "origins:food_level",
-            "comparison": ">",
-            "compare_to": 10
-          },
-          "if_action": {
-            "type": "origins:feed",
-            "saturation": 0,
-            "nutrition": -1
-          }
+    "entity_action": [
+      {
+        "type": "origins:if_else",
+        "condition": {
+          "type": "origins:food_level",
+          "comparison": ">",
+          "compare_to": 10
         },
-        {
-          "type": "origins:if_else",
-          "condition": {
-            "type": "origins:food_level",
-            "comparison": "<",
-            "compare_to": 10
-          },
-          "if_action": {
-            "type": "origins:feed",
-            "saturation": 0,
-            "nutrition": 1
-          }
+        "if_action": {
+          "type": "origins:feed",
+          "saturation": 0,
+          "nutrition": -1
         }
-      ]
-    }
+      },
+      {
+        "type": "origins:if_else",
+        "condition": {
+          "type": "origins:food_level",
+          "comparison": "<",
+          "compare_to": 10
+        },
+        "if_action": {
+          "type": "origins:feed",
+          "saturation": 0,
+          "nutrition": 1
+        }
+      }
+    ]
   },
   "stop_when_full": {
     "type": "origins:prevent_item_use",

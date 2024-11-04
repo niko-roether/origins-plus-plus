@@ -2,27 +2,14 @@ import fs from "node:fs";
 
 const paths = fs.globSync("./**/*.json");
 
-function isProbablyFeedAction(obj) {
+function isProbablyAndAction(obj) {
 	if (typeof obj !== "object") return false;
+	if (!("actions" in obj)) return false;
 	return obj.type === "origins:and" || obj.type == "origins:all_of";
-}
-
-function fixDamageAction(obj) {
-	if (typeof obj !== "object") return false;
-	let fixed = false;
-	if (obj.type !== "origins:all_of") {
-		obj.type = "origins:all_of"
-		fixed = true;
-	}
-	return fixed;
 }
 
 function fixRecursive(obj) {
 	if (typeof obj !== "object") return false;
-
-	if (isProbablyFeedAction(obj)) {
-		return fixDamageAction(obj);
-	}
 
 	let fixed = false;
 	if (Array.isArray(obj)) {
@@ -34,6 +21,11 @@ function fixRecursive(obj) {
 
 
 	for (const key in obj) {
+		if (isProbablyAndAction(obj[key])) {
+			obj[key] = obj[key].actions;
+			fixed = true;
+			continue;
+		}
 		fixed ||= fixRecursive(obj[key]);
 	}
 	return fixed;

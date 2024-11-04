@@ -51,18 +51,15 @@
           },
           "action": {
             "type": "origins:passenger_action",
-            "action": {
-              "type": "origins:all_of",
-              "actions": [
-                {
-                  "type": "origins:dismount"
-                },
-                {
-                  "type": "origins:add_velocity",
-                  "y": 0.66
-                }
-              ]
-            },
+            "action": [
+              {
+                "type": "origins:dismount"
+              },
+              {
+                "type": "origins:add_velocity",
+                "y": 0.66
+              }
+            ],
             "bientity_action": {
               "type": "origins:invert",
               "action": {

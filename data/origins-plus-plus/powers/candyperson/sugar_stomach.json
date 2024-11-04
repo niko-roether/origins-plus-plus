@@ -10,33 +10,30 @@
       }
     }
   },
-  "entity_action": {
-    "type": "origins:all_of",
-    "actions": [
-      {
-        "type": "origins:execute_command",
-        "command": "clear @s sugar 1"
-      },
-      {
-        "type": "origins:apply_effect",
-        "effects": [
-          {
-            "id": "minecraft:speed",
-            "duration": 90,
-            "amplifier": 2,
-            "show_particles": false,
-            "show_icon": false
-          },
-          {
-            "id": "minecraft:haste",
-            "duration": 90,
-            "amplifier": 1,
-            "show_particles": false,
-            "show_icon": false
-          }
-        ]
-      }
-    ]
-  },
+  "entity_action": [
+    {
+      "type": "origins:execute_command",
+      "command": "clear @s sugar 1"
+    },
+    {
+      "type": "origins:apply_effect",
+      "effects": [
+        {
+          "id": "minecraft:speed",
+          "duration": 90,
+          "amplifier": 2,
+          "show_particles": false,
+          "show_icon": false
+        },
+        {
+          "id": "minecraft:haste",
+          "duration": 90,
+          "amplifier": 1,
+          "show_particles": false,
+          "show_icon": false
+        }
+      ]
+    }
+  ],
   "interval": 80
 }

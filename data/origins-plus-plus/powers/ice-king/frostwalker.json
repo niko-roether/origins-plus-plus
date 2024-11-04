@@ -8,26 +8,23 @@
   "ice": {
     "type": "origins:action_over_time",
     "interval": 1,
-    "entity_action": {
-      "type": "origins:all_of",
-      "actions": [
-        {
-          "type": "origins:execute_command",
-          "command": "function origins-plus-plus:ice-king/frostwalker_ice"
-        },
-        {
-          "type": "origins:block_action_at",
-          "block_action": {
-            "type": "origins:offset",
-            "y": -1,
-            "action": {
-              "type": "origins:set_block",
-              "block": "minecraft:frosted_ice"
-            }
+    "entity_action": [
+      {
+        "type": "origins:execute_command",
+        "command": "function origins-plus-plus:ice-king/frostwalker_ice"
+      },
+      {
+        "type": "origins:block_action_at",
+        "block_action": {
+          "type": "origins:offset",
+          "y": -1,
+          "action": {
+            "type": "origins:set_block",
+            "block": "minecraft:frosted_ice"
           }
         }
-      ]
-    },
+      }
+    ],
     "condition": {
       "type": "origins:all_of",
       "conditions": [

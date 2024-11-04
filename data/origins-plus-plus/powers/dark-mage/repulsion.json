@@ -2,21 +2,18 @@
   "type": "origins:target_action_on_hit",
   "hidden": true,
   "cooldown": 100,
-  "entity_action": {
-    "type": "origins:all_of",
-    "actions": [
-      {
-        "type": "origins:add_velocity",
-        "space": "velocity_horizontal_normalized",
-        "y": 1,
-        "z": 3
-      },
-      {
-        "type": "origins:execute_command",
-        "command": "function origins-plus-plus:dark-mage/repulsion"
-      }
-    ]
-  },
+  "entity_action": [
+    {
+      "type": "origins:add_velocity",
+      "space": "velocity_horizontal_normalized",
+      "y": 1,
+      "z": 3
+    },
+    {
+      "type": "origins:execute_command",
+      "command": "function origins-plus-plus:dark-mage/repulsion"
+    }
+  ],
   "condition": {
     "type": "origins:equipped_item",
     "equipment_slot": "offhand",

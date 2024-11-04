@@ -1,20 +1,17 @@
 {
   "type": "origins:active_self",
   "key": "key.origins.primary_active",
-  "entity_action": {
-    "type": "origins:all_of",
-    "actions": [
-      {
-        "type": "origins:add_velocity",
-        "z": 2.6,
-        "space": "local"
-      },
-      {
-        "type": "origins:execute_command",
-        "command": "function origins-plus-plus:fallen-angel/velocity"
-      }
-    ]
-  },
+  "entity_action": [
+    {
+      "type": "origins:add_velocity",
+      "z": 2.6,
+      "space": "local"
+    },
+    {
+      "type": "origins:execute_command",
+      "command": "function origins-plus-plus:fallen-angel/velocity"
+    }
+  ],
   "cooldown": 500,
   "hud_render": {
     "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",

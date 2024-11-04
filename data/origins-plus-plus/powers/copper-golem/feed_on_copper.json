@@ -4,20 +4,17 @@
   "raw_copper": {
     "type": "origins:action_over_time",
     "interval": 50,
-    "entity_action": {
-      "type": "origins:all_of",
-      "actions": [
-        {
-          "type": "origins:feed",
-          "saturation": 2,
-          "nutrition": 2
-        },
-        {
-          "type": "origins:execute_command",
-          "command": "function origins-plus-plus:copper-golem/eat_raw"
-        }
-      ]
-    },
+    "entity_action": [
+      {
+        "type": "origins:feed",
+        "saturation": 2,
+        "nutrition": 2
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "function origins-plus-plus:copper-golem/eat_raw"
+      }
+    ],
     "condition": {
       "type": "origins:all_of",
       "conditions": [
@@ -42,20 +39,17 @@
   "copper_ingot": {
     "type": "origins:action_over_time",
     "interval": 50,
-    "entity_action": {
-      "type": "origins:all_of",
-      "actions": [
-        {
-          "type": "origins:feed",
-          "saturation": 3,
-          "nutrition": 3
-        },
-        {
-          "type": "origins:execute_command",
-          "command": "function origins-plus-plus:copper-golem/eat_ingot"
-        }
-      ]
-    },
+    "entity_action": [
+      {
+        "type": "origins:feed",
+        "saturation": 3,
+        "nutrition": 3
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "function origins-plus-plus:copper-golem/eat_ingot"
+      }
+    ],
     "condition": {
       "type": "origins:all_of",
       "conditions": [
@@ -80,20 +74,17 @@
   "copper_block": {
     "type": "origins:action_over_time",
     "interval": 50,
-    "entity_action": {
-      "type": "origins:all_of",
-      "actions": [
-        {
-          "type": "origins:feed",
-          "saturation": 7,
-          "nutrition": 10
-        },
-        {
-          "type": "origins:execute_command",
-          "command": "function origins-plus-plus:copper-golem/eat_block"
-        }
-      ]
-    },
+    "entity_action": [
+      {
+        "type": "origins:feed",
+        "saturation": 7,
+        "nutrition": 10
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "function origins-plus-plus:copper-golem/eat_block"
+      }
+    ],
     "condition": {
       "type": "origins:all_of",
       "conditions": [

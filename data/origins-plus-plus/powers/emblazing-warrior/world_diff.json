@@ -8,38 +8,32 @@
       "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_01.png",
       "bar_index": 0
     },
-    "max_action": {
-      "type": "origins:all_of",
-      "actions": [
-        {
-          "type": "origins:change_resource",
-          "change": 0,
-          "operation": "set",
-          "resource": "*:*_bar"
-        },
-        {
-          "type": "origins:execute_command",
-          "command": "function origins-plus-plus:emblazing-warrior/powers/emerald"
-        }
-      ]
-    }
+    "max_action": [
+      {
+        "type": "origins:change_resource",
+        "change": 0,
+        "operation": "set",
+        "resource": "*:*_bar"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "function origins-plus-plus:emblazing-warrior/powers/emerald"
+      }
+    ]
   },
   "xp_convert": {
     "type": "origins:action_over_time",
-    "entity_action": {
-      "type": "origins:all_of",
-      "actions": [
-        {
-          "type": "origins:change_resource",
-          "change": 1,
-          "resource": "*:*_bar"
-        },
-        {
-          "type": "origins:execute_command",
-          "command": "xp add @s -1 points"
-        }
-      ]
-    },
+    "entity_action": [
+      {
+        "type": "origins:change_resource",
+        "change": 1,
+        "resource": "*:*_bar"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "xp add @s -1 points"
+      }
+    ],
     "interval": 1,
     "condition": {
       "type": "origins:xp_points",

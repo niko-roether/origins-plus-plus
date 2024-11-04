@@ -1,19 +1,16 @@
 {
   "type": "origins:self_action_on_kill",
-  "entity_action": {
-    "type": "origins:all_of",
-    "actions": [
-      {
-        "type": "origins:feed",
-        "saturation": 2,
-        "nutrition": 6
-      },
-      {
-        "type": "origins:execute_command",
-        "command": "playsound minecraft:entity.evoker.prepare_summon player @a ~ ~ ~ 1 2"
-      }
-    ]
-  },
+  "entity_action": [
+    {
+      "type": "origins:feed",
+      "saturation": 2,
+      "nutrition": 6
+    },
+    {
+      "type": "origins:execute_command",
+      "command": "playsound minecraft:entity.evoker.prepare_summon player @a ~ ~ ~ 1 2"
+    }
+  ],
   "cooldown": 100,
   "hidden": true
 }

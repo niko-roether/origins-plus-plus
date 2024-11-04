@@ -1,18 +1,15 @@
 {
   "type": "origins:prevent_death",
-  "entity_action": {
-    "type": "origins:all_of",
-    "actions": [
-      {
-        "type": "origins:execute_command",
-        "command": "function origins-plus-plus:rift-mage/return_to_rift"
-      },
-      {
-        "type": "origins:heal",
-        "amount": 10
-      }
-    ]
-  },
+  "entity_action": [
+    {
+      "type": "origins:execute_command",
+      "command": "function origins-plus-plus:rift-mage/return_to_rift"
+    },
+    {
+      "type": "origins:heal",
+      "amount": 10
+    }
+  ],
   "damage_condition": {
     "type": "origins:name",
     "name": "outOfWorld",

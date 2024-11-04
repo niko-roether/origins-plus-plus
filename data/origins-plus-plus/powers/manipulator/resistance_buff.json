@@ -9,29 +9,26 @@
       "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_01.png",
       "bar_index": 0
     },
-    "entity_action": {
-      "type": "origins:all_of",
-      "actions": [
-        {
-          "type": "origins:equipped_item_action",
-          "equipment_slot": "offhand",
-          "action": {
-            "type": "origins:consume",
-            "amount": 1
-          }
-        },
-        {
-          "type": "origins:apply_effect",
-          "effect": {
-            "duration": 300,
-            "amplifier": 1,
-            "show_particles": false,
-            "show_icon": false,
-            "id": "minecraft:resistance"
-          }
+    "entity_action": [
+      {
+        "type": "origins:equipped_item_action",
+        "equipment_slot": "offhand",
+        "action": {
+          "type": "origins:consume",
+          "amount": 1
         }
-      ]
-    },
+      },
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "duration": 300,
+          "amplifier": 1,
+          "show_particles": false,
+          "show_icon": false,
+          "id": "minecraft:resistance"
+        }
+      }
+    ],
     "condition": {
       "type": "origins:all_of",
       "conditions": [

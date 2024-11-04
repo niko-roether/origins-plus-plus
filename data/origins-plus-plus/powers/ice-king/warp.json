@@ -7,137 +7,122 @@
     "hud_render": {
       "bar_index": 6
     },
-    "entity_action": {
-      "type": "origins:all_of",
-      "actions": [
-        {
-          "type": "origins:raycast",
-          "distance": 500,
-          "shape_type": "collider",
-          "fluid_handling": "none",
-          "bientity_action": {
-            "type": "origins:target_action",
-            "action": {
-              "type": "origins:execute_command",
-              "command": "tag @s add warptarget"
-            }
-          }
-        },
-        {
-          "type": "origins:execute_command",
-          "command": "summon minecraft:area_effect_cloud ~ ~ ~ {Duration:100,Tags:[\"warpeffect\"]}"
-        },
-        {
-          "type": "origins:apply_effect",
-          "effect": {
-            "duration": 50,
-            "amplifier": -2,
-            "show_particles": false,
-            "show_icon": false,
-            "id": "minecraft:levitation"
-          }
-        },
-        {
-          "type": "origins:change_resource",
-          "resource": "*:*_toggled",
-          "change": 1,
-          "operation": "add"
-        },
-        {
-          "type": "origins:delay",
-          "ticks": 50,
+    "entity_action": [
+      {
+        "type": "origins:raycast",
+        "distance": 500,
+        "shape_type": "collider",
+        "fluid_handling": "none",
+        "bientity_action": {
+          "type": "origins:target_action",
           "action": {
-            "type": "origins:and",
-            "actions": [
+            "type": "origins:execute_command",
+            "command": "tag @s add warptarget"
+          }
+        }
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "summon minecraft:area_effect_cloud ~ ~ ~ {Duration:100,Tags:[\"warpeffect\"]}"
+      },
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "duration": 50,
+          "amplifier": -2,
+          "show_particles": false,
+          "show_icon": false,
+          "id": "minecraft:levitation"
+        }
+      },
+      {
+        "type": "origins:change_resource",
+        "resource": "*:*_toggled",
+        "change": 1,
+        "operation": "add"
+      },
+      {
+        "type": "origins:delay",
+        "ticks": 50,
+        "action": [
+          {
+            "type": "origins:if_else",
+            "condition": {
+              "type": "origins:command",
+              "command": "execute if entity @e[tag=warptarget]",
+              "comparison": ">=",
+              "compare_to": 1
+            },
+            "if_action": [
               {
-                "type": "origins:if_else",
-                "condition": {
-                  "type": "origins:command",
-                  "command": "execute if entity @e[tag=warptarget]",
-                  "comparison": ">=",
-                  "compare_to": 1
-                },
-                "if_action": {
-                  "type": "origins:and",
-                  "actions": [
-                    {
-                      "type": "origins:execute_command",
-                      "command": "execute at @e[limit=1,sort=nearest,distance=0.1..,tag=warptarget] run tp ~ ~-2 ~"
-                    },
-                    {
-                      "type": "origins:execute_command",
-                      "command": "tag @e[limit=1,sort=nearest,distance=0.1..,tag=warptarget] remove warptarget"
-                    }
-                  ]
-                },
-                "else_action": {
-                  "type": "origins:execute_command",
-                  "command": "execute at @e[limit=1,sort=nearest,distance=0.1..,tag=!warpeffect] run tp ~ ~-2 ~"
-                }
+                "type": "origins:execute_command",
+                "command": "execute at @e[limit=1,sort=nearest,distance=0.1..,tag=warptarget] run tp ~ ~-2 ~"
               },
               {
                 "type": "origins:execute_command",
-                "command": "summon minecraft:area_effect_cloud ~ ~2 ~ {Duration:60,Tags:[\"warpeffect\"]}"
-              },
-              {
-                "type": "origins:apply_effect",
-                "effect": {
-                  "duration": 65,
-                  "show_particles": false,
-                  "show_icon": false,
-                  "id": "minecraft:levitation"
-                }
-              },
-              {
-                "type": "origins:delay",
-                "ticks": 50,
-                "action": {
-                  "type": "origins:change_resource",
-                  "resource": "*:*_toggled",
-                  "change": -1,
-                  "operation": "add"
-                }
+                "command": "tag @e[limit=1,sort=nearest,distance=0.1..,tag=warptarget] remove warptarget"
               }
-            ]
+            ],
+            "else_action": {
+              "type": "origins:execute_command",
+              "command": "execute at @e[limit=1,sort=nearest,distance=0.1..,tag=!warpeffect] run tp ~ ~-2 ~"
+            }
+          },
+          {
+            "type": "origins:execute_command",
+            "command": "summon minecraft:area_effect_cloud ~ ~2 ~ {Duration:60,Tags:[\"warpeffect\"]}"
+          },
+          {
+            "type": "origins:apply_effect",
+            "effect": {
+              "duration": 65,
+              "show_particles": false,
+              "show_icon": false,
+              "id": "minecraft:levitation"
+            }
+          },
+          {
+            "type": "origins:delay",
+            "ticks": 50,
+            "action": {
+              "type": "origins:change_resource",
+              "resource": "*:*_toggled",
+              "change": -1,
+              "operation": "add"
+            }
           }
-        }
-      ]
-    }
+        ]
+      }
+    ]
   },
   "toggled": {
     "type": "origins:resource",
     "min": 0,
     "max": 1,
-    "min_action": {
-      "type": "origins:all_of",
-      "actions": [
-        {
-          "type": "origins:execute_command",
-          "command": "team leave @s"
-        },
-        {
-          "type": "origins:execute_command",
-          "command": "execute if entity @a[team=!nocollide] run team remove nocollide"
-        }
-      ]
-    },
-    "max_action": {
-      "type": "origins:all_of",
-      "actions": [
-        {
-          "type": "origins:execute_command",
-          "command": "team add nocollide"
-        },
-        {
-          "type": "origins:execute_command",
-          "command": "team modify nocollide collisionRule never"
-        },
-        {
-          "type": "origins:execute_command",
-          "command": "team join nocollide"
-        }
-      ]
-    },
+    "min_action": [
+      {
+        "type": "origins:execute_command",
+        "command": "team leave @s"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "execute if entity @a[team=!nocollide] run team remove nocollide"
+      }
+    ],
+    "max_action": [
+      {
+        "type": "origins:execute_command",
+        "command": "team add nocollide"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "team modify nocollide collisionRule never"
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "team join nocollide"
+      }
+    ],
     "hud_render": {
       "should_render": false
     }

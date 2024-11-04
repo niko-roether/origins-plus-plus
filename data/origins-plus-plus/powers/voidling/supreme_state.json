@@ -11,85 +11,82 @@
   "active": {
     "type": "origins:active_self",
     "cooldown": 3600,
-    "entity_action": {
-      "type": "origins:all_of",
-      "actions": [
-        {
-          "type": "origins:apply_effect",
-          "effect": {
-            "duration": 1200,
-            "amplifier": 2,
-            "show_particles": false,
-            "show_icon": false,
-            "id": "minecraft:strength"
-          }
-        },
-        {
-          "type": "origins:apply_effect",
-          "effect": {
-            "duration": 1200,
-            "show_particles": false,
-            "show_icon": false,
-            "id": "minecraft:speed"
-          }
-        },
-        {
-          "type": "origins:apply_effect",
-          "effect": {
-            "duration": 1200,
-            "show_particles": false,
-            "show_icon": false,
-            "id": "minecraft:glowing"
-          }
-        },
-        {
-          "type": "origins:execute_command",
-          "command": "function origins-plus-plus:voidling/supreme_state"
-        },
-        {
-          "type": "origins:delay",
-          "ticks": 20,
-          "action": {
-            "type": "origins:change_resource",
-            "resource": "*:*_resource",
-            "change": -1
-          }
-        },
-        {
-          "type": "origins:delay",
-          "ticks": 1200,
-          "action": {
-            "type": "origins:change_resource",
-            "resource": "*:*_resource",
-            "change": -2
-          }
-        },
-        {
-          "type": "origins:delay",
-          "ticks": 1200,
-          "action": {
-            "type": "origins:execute_command",
-            "command": "team leave @e[tag=void_sight]"
-          }
-        },
-        {
-          "type": "origins:delay",
-          "ticks": 1200,
-          "action": {
-            "type": "origins:execute_command",
-            "command": "team remove voidling"
-          }
-        },
-        {
-          "type": "origins:delay",
-          "ticks": 1200,
-          "action": {
-            "type": "origins:execute_command",
-            "command": "tag @e[tag=void_sight] remove void_sight"
-          }
+    "entity_action": [
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "duration": 1200,
+          "amplifier": 2,
+          "show_particles": false,
+          "show_icon": false,
+          "id": "minecraft:strength"
         }
-      ]
-    },
+      },
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "duration": 1200,
+          "show_particles": false,
+          "show_icon": false,
+          "id": "minecraft:speed"
+        }
+      },
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "duration": 1200,
+          "show_particles": false,
+          "show_icon": false,
+          "id": "minecraft:glowing"
+        }
+      },
+      {
+        "type": "origins:execute_command",
+        "command": "function origins-plus-plus:voidling/supreme_state"
+      },
+      {
+        "type": "origins:delay",
+        "ticks": 20,
+        "action": {
+          "type": "origins:change_resource",
+          "resource": "*:*_resource",
+          "change": -1
+        }
+      },
+      {
+        "type": "origins:delay",
+        "ticks": 1200,
+        "action": {
+          "type": "origins:change_resource",
+          "resource": "*:*_resource",
+          "change": -2
+        }
+      },
+      {
+        "type": "origins:delay",
+        "ticks": 1200,
+        "action": {
+          "type": "origins:execute_command",
+          "command": "team leave @e[tag=void_sight]"
+        }
+      },
+      {
+        "type": "origins:delay",
+        "ticks": 1200,
+        "action": {
+          "type": "origins:execute_command",
+          "command": "team remove voidling"
+        }
+      },
+      {
+        "type": "origins:delay",
+        "ticks": 1200,
+        "action": {
+          "type": "origins:execute_command",
+          "command": "tag @e[tag=void_sight] remove void_sight"
+        }
+      }
+    ],
     "key": "key.origins.primary_active",
     "condition": {
       "type": "origins:all_of",

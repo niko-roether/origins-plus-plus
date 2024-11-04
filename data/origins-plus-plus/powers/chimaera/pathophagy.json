@@ -2,18 +2,15 @@
   "type": "origins:self_action_on_hit",
   "hidden": true,
   "cooldown": 20,
-  "entity_action": {
-    "type": "origins:all_of",
-    "actions": [
-      {
-        "type": "origins:feed",
-        "saturation": 1,
-        "nutrition": 1
-      },
-      {
-        "type": "origins:play_sound",
-        "sound": "entity.slime.squish"
-      }
-    ]
-  }
+  "entity_action": [
+    {
+      "type": "origins:feed",
+      "saturation": 1,
+      "nutrition": 1
+    },
+    {
+      "type": "origins:play_sound",
+      "sound": "entity.slime.squish"
+    }
+  ]
 }
