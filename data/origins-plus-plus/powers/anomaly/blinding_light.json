@@ -1,15 +1,15 @@
 {
-	"type":"origins:stacking_status_effect",
-	"min_stacks":0,
-	"max_stacks":3,
-	"duration_per_stack":20,
-	"effect":{
-		"effect":"minecraft:blindness",
-		"show_icon":false,
-		"show_particles":false
-	},
-	"condition":{
-	  	"type":"origins:exposed_to_sun"
-	},
-	"hidden":true
+  "type": "origins:stacking_status_effect",
+  "min_stacks": 0,
+  "max_stacks": 3,
+  "duration_per_stack": 20,
+  "effect": {
+    "show_icon": false,
+    "show_particles": false,
+    "id": "minecraft:blindness"
+  },
+  "condition": {
+    "type": "origins:exposed_to_sun"
+  },
+  "hidden": true
 }

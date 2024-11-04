@@ -1,25 +1,25 @@
 {
-	"type":"origins:stacking_status_effect",
-	"min_stacks":0,
-	"max_stacks":1,
-	"duration_per_stack":20,
-	"effects":[
-		{
-			"effect":"minecraft:speed",
-			"amplifier":1,
-			"show_particles":false,
-			"show_icon":false
-		},
-		{
-			"effect":"minecraft:jump_boost",
-			"show_particles":false,
-			"show_icon":false
-		}
-	],
-	"condition":{
-		"type":"origins:resource",
-		"resource":"origins-plus-plus:deranged/derangement",
-		"comparison":"<=",
-		"compare_to":25
-	}
+  "type": "origins:stacking_status_effect",
+  "min_stacks": 0,
+  "max_stacks": 1,
+  "duration_per_stack": 20,
+  "effects": [
+    {
+      "amplifier": 1,
+      "show_particles": false,
+      "show_icon": false,
+      "id": "minecraft:speed"
+    },
+    {
+      "show_particles": false,
+      "show_icon": false,
+      "id": "minecraft:jump_boost"
+    }
+  ],
+  "condition": {
+    "type": "origins:resource",
+    "resource": "origins-plus-plus:deranged/derangement",
+    "comparison": "<=",
+    "compare_to": 25
+  }
 }

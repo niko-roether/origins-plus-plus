@@ -1,25 +1,25 @@
 {
-	"type":"origins:stacking_status_effect",
-	"min_stacks":0,
-	"max_stacks":1,
-	"duration_per_stack":20,
-	"effects":[
-		{
-			"effect":"minecraft:strength",
-			"show_particles":false,
-			"show_icon":false
-		},
-		{
-			"effect":"minecraft:speed",
-			"show_particles":false,
-			"show_icon":false
-		}
-	],
-	"condition":{
-		"type":"origins:on_block",
-		"block_condition":{
-			"type":"origins:block",
-			"block":"minecraft:prismarine"
-		}
-	}
+  "type": "origins:stacking_status_effect",
+  "min_stacks": 0,
+  "max_stacks": 1,
+  "duration_per_stack": 20,
+  "effects": [
+    {
+      "show_particles": false,
+      "show_icon": false,
+      "id": "minecraft:strength"
+    },
+    {
+      "show_particles": false,
+      "show_icon": false,
+      "id": "minecraft:speed"
+    }
+  ],
+  "condition": {
+    "type": "origins:on_block",
+    "block_condition": {
+      "type": "origins:block",
+      "block": "minecraft:prismarine"
+    }
+  }
 }

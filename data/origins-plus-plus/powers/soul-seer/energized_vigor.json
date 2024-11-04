@@ -1,63 +1,63 @@
 {
-	"type":"origins:multiple",
-	"quarter-speed":{
-		"type":"origins:stacking_status_effect",
-		"min_stacks":0,
-		"max_stacks":1,
-		"duration_per_stack":20,
-		"effect":{
-			"effect":"minecraft:speed",
-			"show_particles":false,
-			"show_icon":false
-		},
-		"condition":{
-			"type":"origins:resource",
-			"resource":"origins-plus-plus:soul-seer/resource",
-			"comparison":">=",
-			"compare_to":25
-		}
-	},
-	"quarter-night_vision":{
-		"type":"origins:night_vision",
-		"condition":{
-			"type":"origins:resource",
-			"resource":"origins-plus-plus:soul-seer/resource",
-			"comparison":">=",
-			"compare_to":25
-		}
-	},
-	"half":{
-		"type":"origins:stacking_status_effect",
-		"min_stacks":0,
-		"max_stacks":1,
-		"duration_per_stack":20,
-		"effect":{
-			"effect":"minecraft:haste",
-			"show_particles":false,
-			"show_icon":false
-		},
-		"condition":{
-			"type":"origins:resource",
-			"resource":"origins-plus-plus:soul-seer/resource",
-			"comparison":">=",
-			"compare_to":50
-		}
-	},
-	"full":{
-		"type":"origins:stacking_status_effect",
-		"min_stacks":0,
-		"max_stacks":1,
-		"duration_per_stack":20,
-		"effect":{
-			"effect":"minecraft:strength",
-			"show_particles":false,
-			"show_icon":false
-		},
-		"condition":{
-			"type":"origins:resource",
-			"resource":"origins-plus-plus:soul-seer/resource",
-			"comparison":">=",
-			"compare_to":90
-		}
-	}
+  "type": "origins:multiple",
+  "quarter-speed": {
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 0,
+    "max_stacks": 1,
+    "duration_per_stack": 20,
+    "effect": {
+      "show_particles": false,
+      "show_icon": false,
+      "id": "minecraft:speed"
+    },
+    "condition": {
+      "type": "origins:resource",
+      "resource": "origins-plus-plus:soul-seer/resource",
+      "comparison": ">=",
+      "compare_to": 25
+    }
+  },
+  "quarter-night_vision": {
+    "type": "origins:night_vision",
+    "condition": {
+      "type": "origins:resource",
+      "resource": "origins-plus-plus:soul-seer/resource",
+      "comparison": ">=",
+      "compare_to": 25
+    }
+  },
+  "half": {
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 0,
+    "max_stacks": 1,
+    "duration_per_stack": 20,
+    "effect": {
+      "show_particles": false,
+      "show_icon": false,
+      "id": "minecraft:haste"
+    },
+    "condition": {
+      "type": "origins:resource",
+      "resource": "origins-plus-plus:soul-seer/resource",
+      "comparison": ">=",
+      "compare_to": 50
+    }
+  },
+  "full": {
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 0,
+    "max_stacks": 1,
+    "duration_per_stack": 20,
+    "effect": {
+      "show_particles": false,
+      "show_icon": false,
+      "id": "minecraft:strength"
+    },
+    "condition": {
+      "type": "origins:resource",
+      "resource": "origins-plus-plus:soul-seer/resource",
+      "comparison": ">=",
+      "compare_to": 90
+    }
+  }
 }

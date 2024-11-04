@@ -6,9 +6,9 @@
       "id": "minecraft:resistance",
       "duration": -1,
       "amplifier": 0,
-      "is_ambient": false,
       "show_particles": false,
-      "show_icon": true
+      "show_icon": true,
+      "ambient": false
     }
   },
   "falling_action": {
@@ -42,4 +42,3 @@
     ]
   }
 }
-
