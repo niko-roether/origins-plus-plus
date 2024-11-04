@@ -1,5 +1,5 @@
 {
-	"powers":[
+	"powers": [
 		"origins:nether_spawn",
 		"origins:fire_immunity",
 		"origins-plus-plus:hellforged/heat_powered",
@@ -9,6 +9,8 @@
 		"origins-plus-plus:hellforged/superheated",
 		"origins-plus-plus:hellforged/water_vulnerability"
 	],
-	"icon":"minecraft:netherite_ingot",
-	"impact":3
+	"icon": {
+		"id": "minecraft:netherite_ingot"
+	},
+	"impact": 3
 }

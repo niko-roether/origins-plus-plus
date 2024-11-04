@@ -1,5 +1,5 @@
 {
-	"powers":[
+	"powers": [
 		"origins:water_vulnerability",
 		"origins:elytra",
 		"origins-plus-plus:lost-draconian/launch_into_air",
@@ -14,6 +14,8 @@
 		"origins-plus-plus:lost-draconian/weakened",
 		"origins-plus-plus:lost-draconian/weapons"
 	],
-	"icon":"minecraft:chorus_fruit",
-	"impact":3
+	"icon": {
+		"id": "minecraft:chorus_fruit"
+	},
+	"impact": 3
 }

@@ -1,5 +1,5 @@
 {
-	"powers":[
+	"powers": [
 		"origins-plus-plus:glacier/chilly_person",
 		"origins-plus-plus:glacier/cold_blooded",
 		"origins-plus-plus:glacier/cold_feet",
@@ -23,6 +23,8 @@
 		"origins-plus-plus:glacier/snowflakes_particles",
 		"origins-plus-plus:glacier/snowy_sprinter"
 	],
-	"icon":"minecraft:snow",
-	"impact":3
+	"icon": {
+		"id": "minecraft:snow"
+	},
+	"impact": 3
 }

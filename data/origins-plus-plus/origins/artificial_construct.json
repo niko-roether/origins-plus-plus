@@ -1,5 +1,5 @@
 {
-	"powers":[
+	"powers": [
 		"origins-plus-plus:artificial-construct/battery",
 		"origins-plus-plus:artificial-construct/battery_resource",
 		"origins-plus-plus:artificial-construct/dispenser",
@@ -11,6 +11,8 @@
 		"origins-plus-plus:artificial-construct/reach",
 		"origins-plus-plus:artificial-construct/storage"
 	],
-	"icon":"minecraft:redstone_torch",
-	"impact":3
+	"icon": {
+		"id": "minecraft:redstone_torch"
+	},
+	"impact": 3
 }

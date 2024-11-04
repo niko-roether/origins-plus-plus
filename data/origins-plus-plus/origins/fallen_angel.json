@@ -1,5 +1,5 @@
 {
-	"powers":[
+	"powers": [
 		"origins:water_vulnerability",
 		"origins:natural_armor",
 		"origins:no_shield",
@@ -18,6 +18,8 @@
 		"origins-plus-plus:fallen-angel/translucent",
 		"origins-plus-plus:fallen-angel/velocity"
 	],
-	"icon":"minecraft:elytra",
-	"impact":3
+	"icon": {
+		"id": "minecraft:elytra"
+	},
+	"impact": 3
 }

@@ -1,5 +1,5 @@
 {
-	"powers":[
+	"powers": [
 		"origins:tailwind",
 		"origins:slow_falling",
 		"origins-plus-plus:sporeling/decomposer",
@@ -12,12 +12,14 @@
 		"origins-plus-plus:sporeling/speed",
 		"origins-plus-plus:sporeling/updraft"
 	],
-	"icon":"minecraft:brown_mushroom",
-	"impact":3,
-	"upgrades":[
+	"icon": {
+		"id": "minecraft:brown_mushroom"
+	},
+	"impact": 3,
+	"upgrades": [
 		{
-			"condition":"minecraft:end/kill_dragon",
-			"origin":"origins-plus-plus:shroomling"
+			"condition": "minecraft:end/kill_dragon",
+			"origin": "origins-plus-plus:shroomling"
 		}
 	]
 }

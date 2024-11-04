@@ -1,5 +1,5 @@
 {
-	"powers":[
+	"powers": [
 		"origins:no_shield",
 		"origins-plus-plus:illusioner/arrow",
 		"origins-plus-plus:illusioner/friendly_pillagers",
@@ -11,12 +11,14 @@
 		"origins-plus-plus:illusioner/sword_bad",
 		"origins-plus-plus:illusioner/villager_hate"
 	],
-	"upgrades":[
+	"upgrades": [
 		{
-			"condition":"minecraft:story/enter_the_nether",
-			"origin":"origins-plus-plus:illusioner/illusioner_apprentice"
+			"condition": "minecraft:story/enter_the_nether",
+			"origin": "origins-plus-plus:illusioner/illusioner_apprentice"
 		}
 	],
-	"icon":"minecraft:potion",
-	"impact":3
+	"icon": {
+		"id": "minecraft:potion"
+	},
+	"impact": 3
 }

@@ -1,5 +1,5 @@
 {
-	"powers":[
+	"powers": [
 		"origins:strong_arms",
 		"origins:strong_arms_break_speed",
 		"origins:water_vulnerability",
@@ -17,6 +17,8 @@
 		"origins-plus-plus:part-robot/unexhausted",
 		"origins-plus-plus:part-robot/water_breather"
 	],
-	"icon":"minecraft:iron_block",
-	"impact":2
+	"icon": {
+		"id": "minecraft:iron_block"
+	},
+	"impact": 2
 }

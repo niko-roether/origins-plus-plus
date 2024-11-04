@@ -1,5 +1,5 @@
 {
-	"powers":[
+	"powers": [
 		"origins:climbing",
 		"origins-plus-plus:red-panda/bamboo_eater",
 		"origins-plus-plus:red-panda/cute",
@@ -9,6 +9,8 @@
 		"origins-plus-plus:red-panda/lazy",
 		"origins-plus-plus:red-panda/nocturnal"
 	],
-	"icon":"minecraft:bamboo",
-	"impact":2
+	"icon": {
+		"id": "minecraft:bamboo"
+	},
+	"impact": 2
 }

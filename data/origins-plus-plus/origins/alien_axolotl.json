@@ -1,5 +1,5 @@
 {
-	"powers":[
+	"powers": [
 		"origins:more_kinetic_damage",
 		"origins-plus-plus:alien-axolotl/a_reminder",
 		"origins-plus-plus:alien-axolotl/adapted_oceaner",
@@ -17,6 +17,8 @@
 		"origins-plus-plus:alien-axolotl/swim_speed",
 		"origins-plus-plus:alien-axolotl/traitor"
 	],
-	"icon":"minecraft:kelp",
-	"impact":3
+	"icon": {
+		"id": "minecraft:kelp"
+	},
+	"impact": 3
 }

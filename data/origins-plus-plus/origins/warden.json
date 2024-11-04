@@ -1,5 +1,5 @@
 {
-	"powers":[
+	"powers": [
 		"origins:no_shield",
 		"origins-plus-plus:warden/blind",
 		"origins-plus-plus:warden/echolocation",
@@ -8,6 +8,8 @@
 		"origins-plus-plus:warden/size",
 		"origins-plus-plus:warden/strength"
 	],
-	"icon":"minecraft:sculk_sensor",
-	"impact":3
+	"icon": {
+		"id": "minecraft:sculk_sensor"
+	},
+	"impact": 3
 }

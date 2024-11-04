@@ -1,5 +1,5 @@
 {
-	"powers":[
+	"powers": [
 		"origins:aqua_affinity",
 		"origins:fall_immunity",
 		"origins:like_water",
@@ -16,6 +16,8 @@
 		"origins-plus-plus:dolphin/water_breathing",
 		"origins-plus-plus:dolphin/water_vision"
 	],
-	"icon":"minecraft:prismarine_shard",
-	"impact":2
+	"icon": {
+		"id": "minecraft:prismarine_shard"
+	},
+	"impact": 2
 }

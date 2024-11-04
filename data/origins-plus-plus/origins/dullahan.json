@@ -1,5 +1,5 @@
 {
-	"powers":[
+	"powers": [
 		"origins-plus-plus:dullahan/abilities/hell_chain",
 		"origins-plus-plus:dullahan/abilities/nightmare_steed",
 		"origins-plus-plus:dullahan/abilities/skull_bomb",
@@ -12,6 +12,8 @@
 		"origins-plus-plus:dullahan/debuffs/day_debuffs",
 		"origins-plus-plus:dullahan/debuffs/soul_seal"
 	],
-	"icon":"minecraft:skeleton_skull",
-	"impact":3
+	"icon": {
+		"id": "minecraft:skeleton_skull"
+	},
+	"impact": 3
 }

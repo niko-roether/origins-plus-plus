@@ -1,5 +1,5 @@
 {
-	"powers":[
+	"powers": [
 		"origins:light_armor",
 		"origins-plus-plus:golden-golem/extra_damage",
 		"origins-plus-plus:golden-golem/gold_color",
@@ -11,6 +11,8 @@
 		"origins-plus-plus:golden-golem/slower",
 		"origins-plus-plus:golden-golem/water"
 	],
-	"icon":"minecraft:totem_of_undying",
-	"impact":3
+	"icon": {
+		"id": "minecraft:totem_of_undying"
+	},
+	"impact": 3
 }

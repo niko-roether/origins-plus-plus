@@ -1,5 +1,5 @@
 {
-	"powers":[
+	"powers": [
 		"origins:no_shield",
 		"origins-plus-plus:wizard/ball",
 		"origins-plus-plus:wizard/broom",
@@ -23,6 +23,8 @@
 		"origins-plus-plus:wizard/villagers",
 		"origins-plus-plus:wizard/why"
 	],
-	"icon":"minecraft:totem_of_undying",
-	"impact":3
+	"icon": {
+		"id": "minecraft:totem_of_undying"
+	},
+	"impact": 3
 }

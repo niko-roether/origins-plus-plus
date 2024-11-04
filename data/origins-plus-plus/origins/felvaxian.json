@@ -1,5 +1,5 @@
 {
-	"powers":[
+	"powers": [
 		"origins:carnivore",
 		"origins:cat_vision",
 		"origins:elytra",
@@ -13,6 +13,8 @@
 		"origins-plus-plus:felvaxian/scavenger_pouch",
 		"origins-plus-plus:felvaxian/unholy_aura"
 	],
-	"icon":"minecraft:black_dye",
-	"impact":2
+	"icon": {
+		"id": "minecraft:black_dye"
+	},
+	"impact": 2
 }

@@ -1,5 +1,5 @@
 {
-	"powers":[
+	"powers": [
 		"origins:water_vulnerability",
 		"origins:fall_immunity",
 		"origins:fire_immunity",
@@ -10,6 +10,8 @@
 		"origins-plus-plus:ninetails/pocket",
 		"origins-plus-plus:ninetails/willow"
 	],
-	"icon":"minecraft:blaze_powder",
-	"impact":3
+	"icon": {
+		"id": "minecraft:blaze_powder"
+	},
+	"impact": 3
 }

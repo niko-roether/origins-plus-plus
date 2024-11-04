@@ -1,5 +1,5 @@
 {
-	"powers":[
+	"powers": [
 		"origins:climbing",
 		"origins:arthropod",
 		"origins-plus-plus:flea/antivore",
@@ -14,6 +14,8 @@
 		"origins-plus-plus:flea/small_heart",
 		"origins-plus-plus:flea/small_stomach"
 	],
-	"icon":"minecraft:beetroot_soup",
-	"impact":3
+	"icon": {
+		"id": "minecraft:beetroot_soup"
+	},
+	"impact": 3
 }

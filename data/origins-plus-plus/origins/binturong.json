@@ -1,5 +1,5 @@
 {
-	"powers":[
+	"powers": [
 		"origins:fragile",
 		"origins:climbing",
 		"origins:fall_immunity",
@@ -22,6 +22,8 @@
 		"origins-plus-plus:binturong/thick_hide",
 		"origins-plus-plus:binturong/too_heavy"
 	],
-	"icon":"minecraft:cocoa_beans",
-	"impact":2
+	"icon": {
+		"id": "minecraft:cocoa_beans"
+	},
+	"impact": 2
 }

@@ -1,5 +1,5 @@
 {
-	"powers":[
+	"powers": [
 		"origins:fall_immunity",
 		"origins:fire_immunity",
 		"origins:natural_armor",
@@ -41,6 +41,8 @@
 		"origins-plus-plus:bedrockean/toggle",
 		"origins-plus-plus:bedrockean/weakness"
 	],
-	"icon":"minecraft:bedrock",
-	"impact":3
+	"icon": {
+		"id": "minecraft:bedrock"
+	},
+	"impact": 3
 }

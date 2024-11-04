@@ -1,5 +1,5 @@
 {
-	"powers":[
+	"powers": [
 		"origins:elytra",
 		"origins:fall_immunity",
 		"origins:vegetarian",
@@ -11,6 +11,8 @@
 		"origins-plus-plus:pixie/pixie_dust",
 		"origins-plus-plus:pixie/speed"
 	],
-	"icon":"minecraft:glowstone_dust",
-	"impact":3
+	"icon": {
+		"id": "minecraft:glowstone_dust"
+	},
+	"impact": 3
 }

@@ -1,5 +1,5 @@
 {
-	"powers":[
+	"powers": [
 		"origins-plus-plus:stargazer/equinox",
 		"origins-plus-plus:stargazer/fragile_flame",
 		"origins-plus-plus:stargazer/hellish_will",
@@ -10,6 +10,8 @@
 		"origins-plus-plus:stargazer/starstalker",
 		"origins-plus-plus:stargazer/sunburn"
 	],
-	"icon":"minecraft:nether_star",
-	"impact":3
+	"icon": {
+		"id": "minecraft:nether_star"
+	},
+	"impact": 3
 }

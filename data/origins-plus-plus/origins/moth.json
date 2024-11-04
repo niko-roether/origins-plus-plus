@@ -1,5 +1,5 @@
 {
-	"powers":[
+	"powers": [
 		"origins:climbing",
 		"origins:nine_lives",
 		"origins:elytra",
@@ -16,6 +16,8 @@
 		"origins-plus-plus:moth/soul_lantern_affinity",
 		"origins-plus-plus:moth/soul_torch_affinity"
 	],
-	"icon":"minecraft:lantern",
-	"impact":2
+	"icon": {
+		"id": "minecraft:lantern"
+	},
+	"impact": 2
 }

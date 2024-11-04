@@ -1,5 +1,5 @@
 {
-	"powers":[
+	"powers": [
 		"origins-plus-plus:war-god/axe_god",
 		"origins-plus-plus:war-god/born_in_fire",
 		"origins-plus-plus:war-god/hungry",
@@ -11,6 +11,8 @@
 		"origins-plus-plus:war-god/swordsman",
 		"origins-plus-plus:war-god/warrior"
 	],
-	"icon":"minecraft:iron_axe",
-	"impact":2
+	"icon": {
+		"id": "minecraft:iron_axe"
+	},
+	"impact": 2
 }

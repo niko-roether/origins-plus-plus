@@ -1,5 +1,5 @@
 {
-	"powers":[
+	"powers": [
 		"origins:no_cobweb_slowdown",
 		"origins:fall_immunity",
 		"origins-plus-plus:vishaichian/chicken_status_clear",
@@ -13,6 +13,8 @@
 		"origins-plus-plus:vishaichian/upgrade/upgrade_jump",
 		"origins-plus-plus:vishaichian/upgrade/upgrade_strength"
 	],
-	"icon":"minecraft:rabbit_hide",
-	"impact":2
+	"icon": {
+		"id": "minecraft:rabbit_hide"
+	},
+	"impact": 2
 }

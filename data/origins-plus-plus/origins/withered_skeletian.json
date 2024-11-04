@@ -1,5 +1,5 @@
 {
-	"powers":[
+	"powers": [
 		"origins:fire_immunity",
 		"origins-plus-plus:withered-skeletian/immune",
 		"origins-plus-plus:withered-skeletian/nether_inhabitant",
@@ -14,6 +14,8 @@
 		"origins-plus-plus:withered-skeletian/unnatural_height",
 		"origins-plus-plus:withered-skeletian/withering_presence"
 	],
-	"icon":"minecraft:wither_skeleton_skull",
-	"impact":3
+	"icon": {
+		"id": "minecraft:wither_skeleton_skull"
+	},
+	"impact": 3
 }

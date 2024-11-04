@@ -1,5 +1,5 @@
 {
-	"powers":[
+	"powers": [
 		"origins-plus-plus:automaton/aging",
 		"origins-plus-plus:automaton/attack",
 		"origins-plus-plus:automaton/cold_biome",
@@ -29,6 +29,8 @@
 		"origins-plus-plus:automaton/waterbar",
 		"origins-plus-plus:automaton/waterbar_increase"
 	],
-	"icon":"minecraft:weathered_copper",
-	"impact":3
+	"icon": {
+		"id": "minecraft:weathered_copper"
+	},
+	"impact": 3
 }

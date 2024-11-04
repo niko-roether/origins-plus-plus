@@ -1,5 +1,5 @@
 {
-	"powers":[
+	"powers": [
 		"origins-plus-plus:void-samurai/armor",
 		"origins-plus-plus:void-samurai/channel",
 		"origins-plus-plus:void-samurai/charge",
@@ -15,6 +15,8 @@
 		"origins-plus-plus:void-samurai/speed",
 		"origins-plus-plus:void-samurai/unwieldy"
 	],
-	"icon":"minecraft:deepslate",
-	"impact":2
+	"icon": {
+		"id": "minecraft:deepslate"
+	},
+	"impact": 2
 }

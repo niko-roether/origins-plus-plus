@@ -1,5 +1,5 @@
 {
-	"powers":[
+	"powers": [
 		"origins-plus-plus:ravager/attributes",
 		"origins-plus-plus:ravager/axe_strength",
 		"origins-plus-plus:ravager/bad_omen_on_death",
@@ -18,6 +18,8 @@
 		"origins-plus-plus:ravager/thick_skin",
 		"origins-plus-plus:ravager/vexy"
 	],
-	"icon":"minecraft:saddle",
-	"impact":2
+	"icon": {
+		"id": "minecraft:saddle"
+	},
+	"impact": 2
 }

@@ -1,5 +1,5 @@
 {
-	"powers":[
+	"powers": [
 		"origins-plus-plus:marshmallow/change_resource",
 		"origins-plus-plus:marshmallow/melt_in_water",
 		"origins-plus-plus:marshmallow/pyrophobia",
@@ -8,6 +8,8 @@
 		"origins-plus-plus:marshmallow/sugar_level_2",
 		"origins-plus-plus:marshmallow/sugar_level_3"
 	],
-	"icon":"minecraft:bone_block",
-	"impact":2
+	"icon": {
+		"id": "minecraft:bone_block"
+	},
+	"impact": 2
 }

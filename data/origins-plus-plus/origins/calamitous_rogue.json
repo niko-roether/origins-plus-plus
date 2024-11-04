@@ -1,5 +1,5 @@
 {
-	"powers":[
+	"powers": [
 		"origins-plus-plus:calamitous-rogue/assassin",
 		"origins-plus-plus:calamitous-rogue/bad_trade",
 		"origins-plus-plus:calamitous-rogue/dps",
@@ -11,6 +11,8 @@
 		"origins-plus-plus:calamitous-rogue/strike",
 		"origins-plus-plus:calamitous-rogue/traceless"
 	],
-	"icon":"minecraft:spyglass",
-	"impact":2
+	"icon": {
+		"id": "minecraft:spyglass"
+	},
+	"impact": 2
 }

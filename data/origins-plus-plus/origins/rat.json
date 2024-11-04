@@ -1,5 +1,5 @@
 {
-	"powers":[
+	"powers": [
 		"origins:fragile",
 		"origins-plus-plus:rat/nimble_limbs",
 		"origins-plus-plus:rat/nocturnal_eyes",
@@ -11,6 +11,8 @@
 		"origins-plus-plus:rat/toxicity_evolved",
 		"origins-plus-plus:rat/vicious_bite"
 	],
-	"icon":"minecraft:rotten_flesh",
-	"impact":2
+	"icon": {
+		"id": "minecraft:rotten_flesh"
+	},
+	"impact": 2
 }

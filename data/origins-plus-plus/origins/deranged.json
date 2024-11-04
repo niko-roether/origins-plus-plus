@@ -1,5 +1,5 @@
 {
-	"powers":[
+	"powers": [
 		"origins-plus-plus:deranged/arrow_effect",
 		"origins-plus-plus:deranged/breathing",
 		"origins-plus-plus:deranged/dart",
@@ -12,6 +12,8 @@
 		"origins-plus-plus:deranged/persuasive",
 		"origins-plus-plus:deranged/tranquil"
 	],
-	"icon":"minecraft:nether_wart_block",
-	"impact":2
+	"icon": {
+		"id": "minecraft:nether_wart_block"
+	},
+	"impact": 2
 }

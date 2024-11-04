@@ -1,5 +1,5 @@
 {
-	"powers":[
+	"powers": [
 		"origins:water_vulnerability",
 		"origins:carnivore",
 		"origins:more_exhaustion",
@@ -20,6 +20,8 @@
 		"origins-plus-plus:ebon-wing/wings",
 		"origins-plus-plus:ebon-wing/withered"
 	],
-	"icon":"minecraft:amethyst_shard",
-	"impact":3
+	"icon": {
+		"id": "minecraft:amethyst_shard"
+	},
+	"impact": 3
 }

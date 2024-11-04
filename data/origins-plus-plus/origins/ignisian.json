@@ -1,5 +1,5 @@
 {
-	"powers":[
+	"powers": [
 		"origins-plus-plus:ignisian/archdemon_size",
 		"origins-plus-plus:ignisian/brawler",
 		"origins-plus-plus:ignisian/crimson",
@@ -21,6 +21,8 @@
 		"origins-plus-plus:ignisian/sluggish_arms",
 		"origins-plus-plus:ignisian/sluggish_break"
 	],
-	"icon":"minecraft:magma_block",
-	"impact":3
+	"icon": {
+		"id": "minecraft:magma_block"
+	},
+	"impact": 3
 }

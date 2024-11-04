@@ -1,5 +1,5 @@
 {
-	"powers":[
+	"powers": [
 		"origins:no_shield",
 		"origins:master_of_webs",
 		"origins:no_cobweb_slowdown",
@@ -21,6 +21,8 @@
 		"origins-plus-plus:broodmother/summon_the_army",
 		"origins-plus-plus:broodmother/web_shot"
 	],
-	"icon":"minecraft:spider_eye",
-	"impact":3
+	"icon": {
+		"id": "minecraft:spider_eye"
+	},
+	"impact": 3
 }

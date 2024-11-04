@@ -1,5 +1,5 @@
 {
-	"powers":[
+	"powers": [
 		"origins:fragile",
 		"origins:elytra",
 		"origins-plus-plus:mothling/boost",
@@ -11,6 +11,8 @@
 		"origins-plus-plus:mothling/weight",
 		"origins-plus-plus:mothling/zapper"
 	],
-	"icon":"minecraft:rabbit_hide",
-	"impact":3
+	"icon": {
+		"id": "minecraft:rabbit_hide"
+	},
+	"impact": 3
 }

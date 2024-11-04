@@ -1,5 +1,5 @@
 {
-	"powers":[
+	"powers": [
 		"origins:no_shield",
 		"origins-plus-plus:voidling/brittle_bones",
 		"origins-plus-plus:voidling/light_weakness",
@@ -7,12 +7,14 @@
 		"origins-plus-plus:voidling/void_child",
 		"origins-plus-plus:voidling/voidling_form"
 	],
-	"upgrades":[
+	"upgrades": [
 		{
-			"condition":"adventure/fall_from_world_height",
-			"origin":"origins-plus-plus:voidling/voidborne"
+			"condition": "adventure/fall_from_world_height",
+			"origin": "origins-plus-plus:voidling/voidborne"
 		}
 	],
-	"icon":"minecraft:obsidian",
-	"impact":3
+	"icon": {
+		"id": "minecraft:obsidian"
+	},
+	"impact": 3
 }

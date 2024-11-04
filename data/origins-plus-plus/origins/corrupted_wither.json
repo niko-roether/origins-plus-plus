@@ -1,5 +1,5 @@
 {
-	"powers":[
+	"powers": [
 		"origins:water_vulnerability",
 		"origins:no_shield",
 		"origins-plus-plus:corrupted-wither/hunger",
@@ -7,6 +7,8 @@
 		"origins-plus-plus:corrupted-wither/warp",
 		"origins-plus-plus:corrupted-wither/wieldy"
 	],
-	"icon":"minecraft:dragon_breath",
-	"impact":3
+	"icon": {
+		"id": "minecraft:dragon_breath"
+	},
+	"impact": 3
 }

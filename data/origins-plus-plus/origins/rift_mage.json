@@ -1,5 +1,5 @@
 {
-	"powers":[
+	"powers": [
 		"origins:fall_immunity",
 		"origins-plus-plus:rift-mage/city_memory",
 		"origins-plus-plus:rift-mage/frail",
@@ -13,6 +13,8 @@
 		"origins-plus-plus:rift-mage/turn_purpur",
 		"origins-plus-plus:rift-mage/water_hater"
 	],
-	"icon":"minecraft:purpur_block",
-	"impact":2
+	"icon": {
+		"id": "minecraft:purpur_block"
+	},
+	"impact": 2
 }

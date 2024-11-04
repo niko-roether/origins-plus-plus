@@ -1,5 +1,5 @@
 {
-	"powers":[
+	"powers": [
 		"origins:no_shield",
 		"origins-plus-plus:spectre/accursed",
 		"origins-plus-plus:spectre/archangel_size",
@@ -19,6 +19,8 @@
 		"origins-plus-plus:spectre/water_loathing",
 		"origins-plus-plus:spectre/weakened"
 	],
-	"icon":"minecraft:blackstone",
-	"impact":3
+	"icon": {
+		"id": "minecraft:blackstone"
+	},
+	"impact": 3
 }

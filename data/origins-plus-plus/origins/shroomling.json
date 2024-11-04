@@ -1,5 +1,5 @@
 {
-	"powers":[
+	"powers": [
 		"origins:tailwind",
 		"origins:slow_falling",
 		"origins-plus-plus:sporeling/decay",
@@ -14,7 +14,9 @@
 		"origins-plus-plus:sporeling/speed",
 		"origins-plus-plus:sporeling/updraft_upgrade"
 	],
-	"icon":"minecraft:red_mushroom",
-	"impact":3,
-	"unchoosable":true
+	"icon": {
+		"id": "minecraft:red_mushroom"
+	},
+	"impact": 3,
+	"unchoosable": true
 }

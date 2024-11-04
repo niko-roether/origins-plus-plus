@@ -1,5 +1,5 @@
 {
-	"powers":[
+	"powers": [
 		"origins:slow_falling",
 		"origins:fire_immunity",
 		"origins-plus-plus:withered-fox/berry_sat",
@@ -21,6 +21,8 @@
 		"origins-plus-plus:withered-fox/undead",
 		"origins-plus-plus:withered-fox/withered_hands"
 	],
-	"icon":"minecraft:wither_rose",
-	"impact":3
+	"icon": {
+		"id": "minecraft:wither_rose"
+	},
+	"impact": 3
 }

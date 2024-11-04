@@ -1,5 +1,5 @@
 {
-	"powers":[
+	"powers": [
 		"origins:elytra",
 		"origins:more_kinetic_damage",
 		"origins:no_shield",
@@ -17,6 +17,8 @@
 		"origins-plus-plus:birb/smaller_body",
 		"origins-plus-plus:birb/tweet"
 	],
-	"icon":"minecraft:chicken",
-	"impact":3
+	"icon": {
+		"id": "minecraft:chicken"
+	},
+	"impact": 3
 }

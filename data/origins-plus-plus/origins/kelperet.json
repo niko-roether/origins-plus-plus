@@ -1,5 +1,5 @@
 {
-	"powers":[
+	"powers": [
 		"origins:no_shield",
 		"origins:water_breathing",
 		"origins:fragile",
@@ -17,6 +17,8 @@
 		"origins-plus-plus:kelperet/water_vision",
 		"origins-plus-plus:kelperet/waterbound"
 	],
-	"icon":"minecraft:kelp",
-	"impact":3
+	"icon": {
+		"id": "minecraft:kelp"
+	},
+	"impact": 3
 }

@@ -1,5 +1,5 @@
 {
-	"powers":[
+	"powers": [
 		"origins:carnivore",
 		"origins:elytra",
 		"origins:water_vulnerability",
@@ -17,6 +17,8 @@
 		"origins-plus-plus:volcanic-dragon/volcanic_dash",
 		"origins-plus-plus:volcanic-dragon/weakness_in_cold"
 	],
-	"icon":"minecraft:lava_bucket",
-	"impact":3
+	"icon": {
+		"id": "minecraft:lava_bucket"
+	},
+	"impact": 3
 }

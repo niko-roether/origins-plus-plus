@@ -1,5 +1,5 @@
 {
-	"powers":[
+	"powers": [
 		"origins:cat_vision",
 		"origins:carnivore",
 		"origins-plus-plus:sprinter/adrenaline_boost",
@@ -8,6 +8,8 @@
 		"origins-plus-plus:sprinter/nimble",
 		"origins-plus-plus:sprinter/skinny"
 	],
-	"icon":"minecraft:leather_boots",
-	"impact":2
+	"icon": {
+		"id": "minecraft:leather_boots"
+	},
+	"impact": 2
 }

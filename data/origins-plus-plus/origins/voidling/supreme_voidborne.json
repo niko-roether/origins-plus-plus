@@ -1,5 +1,5 @@
 {
-	"powers":[
+	"powers": [
 		"origins:no_shield",
 		"origins-plus-plus:voidling/brittle_bones",
 		"origins-plus-plus:voidling/dive_attack",
@@ -14,7 +14,9 @@
 		"origins-plus-plus:voidling/winged",
 		"origins-plus-plus:voidling/winged_limits"
 	],
-	"icon":"minecraft:structure_void",
-	"impact":3,
-	"unchoosable":true
+	"icon": {
+		"id": "minecraft:structure_void"
+	},
+	"impact": 3,
+	"unchoosable": true
 }

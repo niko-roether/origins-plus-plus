@@ -1,5 +1,5 @@
 {
-	"powers":[
+	"powers": [
 		"origins:fall_immunity",
 		"origins-plus-plus:anomaly/blinding_light",
 		"origins-plus-plus:anomaly/eternity",
@@ -12,6 +12,8 @@
 		"origins-plus-plus:anomaly/time_space_who_dis",
 		"origins-plus-plus:anomaly/unstable"
 	],
-	"icon":"minecraft:nether_star",
-	"impact":3
+	"icon": {
+		"id": "minecraft:nether_star"
+	},
+	"impact": 3
 }

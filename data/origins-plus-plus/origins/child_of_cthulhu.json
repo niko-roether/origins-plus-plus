@@ -1,5 +1,5 @@
 {
-	"powers":[
+	"powers": [
 		"origins:elytra",
 		"origins-plus-plus:child-of-cthulhu/camouflage",
 		"origins-plus-plus:child-of-cthulhu/exhaust",
@@ -12,6 +12,8 @@
 		"origins-plus-plus:child-of-cthulhu/water_lungs",
 		"origins-plus-plus:child-of-cthulhu/water_vision"
 	],
-	"icon":"minecraft:purple_glazed_terracotta",
-	"impact":2
+	"icon": {
+		"id": "minecraft:purple_glazed_terracotta"
+	},
+	"impact": 2
 }

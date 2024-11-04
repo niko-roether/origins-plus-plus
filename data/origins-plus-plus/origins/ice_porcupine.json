@@ -1,5 +1,5 @@
 {
-	"powers":[
+	"powers": [
 		"origins:water_vulnerability",
 		"origins:carnivore",
 		"origins:fragile",
@@ -16,6 +16,8 @@
 		"origins-plus-plus:ice-porcupine/small_size_speed",
 		"origins-plus-plus:ice-porcupine/vanish"
 	],
-	"icon":"minecraft:packed_ice",
-	"impact":3
+	"icon": {
+		"id": "minecraft:packed_ice"
+	},
+	"impact": 3
 }

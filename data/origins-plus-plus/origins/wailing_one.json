@@ -1,5 +1,5 @@
 {
-	"powers":[
+	"powers": [
 		"origins:ender_particles",
 		"origins:burn_in_daylight",
 		"origins:water_vulnerability",
@@ -22,6 +22,8 @@
 		"origins-plus-plus:wailing-one/translucent",
 		"origins-plus-plus:wailing-one/wail"
 	],
-	"icon":"minecraft:ghast_tear",
-	"impact":3
+	"icon": {
+		"id": "minecraft:ghast_tear"
+	},
+	"impact": 3
 }

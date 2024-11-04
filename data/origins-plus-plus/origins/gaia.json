@@ -1,5 +1,5 @@
 {
-	"powers":[
+	"powers": [
 		"origins:slow_falling",
 		"origins:climbing",
 		"origins-plus-plus:gaia/floral_superiority",
@@ -31,6 +31,8 @@
 		"origins-plus-plus:gaia/rose_sized",
 		"origins-plus-plus:gaia/thorned_punch"
 	],
-	"icon":"minecraft:poppy",
-	"impact":2
+	"icon": {
+		"id": "minecraft:poppy"
+	},
+	"impact": 2
 }

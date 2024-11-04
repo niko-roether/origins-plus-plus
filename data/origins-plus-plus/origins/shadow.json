@@ -1,5 +1,5 @@
 {
-	"powers":[
+	"powers": [
 		"origins-plus-plus:shadow/behind_you",
 		"origins-plus-plus:shadow/cloud",
 		"origins-plus-plus:shadow/fragile",
@@ -9,6 +9,8 @@
 		"origins-plus-plus:shadow/no_food",
 		"origins-plus-plus:shadow/sun_weakness"
 	],
-	"icon":"minecraft:black_concrete",
-	"impact":3
+	"icon": {
+		"id": "minecraft:black_concrete"
+	},
+	"impact": 3
 }
