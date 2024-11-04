@@ -1,7 +1,7 @@
 {
   "type": "origins:action_over_time",
   "rising_action": {
-    "type": "origins:and",
+    "type": "origins:all_of",
     "actions": [
       {
         "type": "origins:area_of_effect",

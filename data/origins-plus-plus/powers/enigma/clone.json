@@ -21,7 +21,7 @@
     "type": "origins:active_self",
     "key": "key.origins.secondary_active",
     "entity_action": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "actions": [
         {
           "type": "origins:execute_command",
@@ -73,7 +73,7 @@
   "no_invisibility": {
     "type": "origins:self_action_when_hit",
     "entity_action": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "actions": [
         {
           "type": "origins:clear_effect",
@@ -90,7 +90,7 @@
   "get_damage": {
     "type": "origins:action_over_time",
     "rising_action": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "actions": [
         {
           "type": "origins:damage",

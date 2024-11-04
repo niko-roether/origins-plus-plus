@@ -5,7 +5,7 @@
     "type": "origins:action_over_time",
     "interval": 50,
     "entity_action": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "actions": [
         {
           "type": "origins:feed",
@@ -19,7 +19,7 @@
       ]
     },
     "condition": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "conditions": [
         {
           "type": "origins:equipped_item",
@@ -43,7 +43,7 @@
     "type": "origins:action_over_time",
     "interval": 50,
     "entity_action": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "actions": [
         {
           "type": "origins:feed",
@@ -57,7 +57,7 @@
       ]
     },
     "condition": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "conditions": [
         {
           "type": "origins:equipped_item",
@@ -81,7 +81,7 @@
     "type": "origins:action_over_time",
     "interval": 50,
     "entity_action": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "actions": [
         {
           "type": "origins:feed",
@@ -95,7 +95,7 @@
       ]
     },
     "condition": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "conditions": [
         {
           "type": "origins:equipped_item",

@@ -3,7 +3,7 @@
   "hidden": true,
   "cooldown": 50,
   "condition": {
-    "type": "origins:and",
+    "type": "origins:all_of",
     "conditions": [
       {
         "type": "origins:equipped_item",
@@ -23,7 +23,7 @@
     ]
   },
   "entity_action": {
-    "type": "origins:and",
+    "type": "origins:all_of",
     "actions": [
       {
         "type": "origins:equipped_item_action",

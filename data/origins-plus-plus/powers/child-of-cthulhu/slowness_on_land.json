@@ -9,7 +9,7 @@
     "id": "minecraft:slowness"
   },
   "condition": {
-    "type": "origins:and",
+    "type": "origins:all_of",
     "conditions": [
       {
         "type": "origins:fluid_height",

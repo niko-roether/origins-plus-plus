@@ -3,7 +3,7 @@
   "velocity": {
     "type": "origins:active_self",
     "entity_action": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "actions": [
         {
           "type": "origins:delay",
@@ -38,7 +38,7 @@
       ]
     },
     "condition": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "conditions": [
         {
           "type": "origins:equipped_item",
@@ -101,7 +101,7 @@
     "tag": "{Fire:2000,HasVisualFire:0,NoGravity:1,Silent:1}",
     "key": "key.use",
     "condition": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "conditions": [
         {
           "type": "origins:equipped_item",

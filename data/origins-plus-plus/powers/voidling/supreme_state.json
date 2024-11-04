@@ -12,7 +12,7 @@
     "type": "origins:active_self",
     "cooldown": 3600,
     "entity_action": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "actions": [
         {
           "type": "origins:apply_effect",
@@ -92,7 +92,7 @@
     },
     "key": "key.origins.primary_active",
     "condition": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "conditions": [
         {
           "type": "origins:resource",
@@ -173,7 +173,7 @@
     },
     "interval": 200,
     "condition": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "conditions": [
         {
           "type": "origins:command",

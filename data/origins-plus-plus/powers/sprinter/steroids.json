@@ -7,7 +7,7 @@
     "bar_index": 9
   },
   "condition": {
-    "type": "origins:and",
+    "type": "origins:all_of",
     "conditions": [
       {
         "type": "origins:equipped_item",
@@ -27,7 +27,7 @@
     ]
   },
   "entity_action": {
-    "type": "origins:and",
+    "type": "origins:all_of",
     "actions": [
       {
         "type": "origins:heal",

@@ -91,7 +91,7 @@
       ]
     },
     "self_action": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "actions": [
         {
           "type": "origins:execute_command",
@@ -125,7 +125,7 @@
     "type": "origins:invisibility",
     "render_armor": false,
     "condition": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "conditions": [
         {
           "type": "origins:resource",

@@ -9,7 +9,7 @@
       "nutrition": 1
     },
     "condition": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "conditions": [
         {
           "type": "origins:daytime"
@@ -44,7 +44,7 @@
       "amount": 2
     },
     "condition": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "conditions": [
         {
           "type": "origins:food_level",

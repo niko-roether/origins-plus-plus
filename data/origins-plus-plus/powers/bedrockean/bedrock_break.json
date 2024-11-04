@@ -12,7 +12,7 @@
       "amount": 0.005
     },
     "condition": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "conditions": [
         {
           "type": "origins:equipped_item",
@@ -53,7 +53,7 @@
       "amount": 0.006
     },
     "condition": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "conditions": [
         {
           "type": "origins:equipped_item",
@@ -94,7 +94,7 @@
       "amount": 0.0065
     },
     "condition": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "conditions": [
         {
           "type": "origins:equipped_item",
@@ -135,7 +135,7 @@
       "amount": 0.007
     },
     "condition": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "conditions": [
         {
           "type": "origins:equipped_item",
@@ -176,7 +176,7 @@
       "amount": 0.0075
     },
     "condition": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "conditions": [
         {
           "type": "origins:equipped_item",
@@ -217,7 +217,7 @@
       "amount": 0.008
     },
     "condition": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "conditions": [
         {
           "type": "origins:equipped_item",

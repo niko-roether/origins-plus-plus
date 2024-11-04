@@ -14,7 +14,7 @@
       }
     },
     "condition": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "conditions": [
         {
           "type": "origins:equipped_item",
@@ -49,7 +49,7 @@
     "key": "key.origins.primary_active",
     "cooldown": 1200,
     "condition": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "conditions": [
         {
           "type": "origins:equipped_item",

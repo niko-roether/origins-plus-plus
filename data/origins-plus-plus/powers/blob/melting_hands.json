@@ -9,7 +9,7 @@
     "id": "minecraft:weakness"
   },
   "condition": {
-    "type": "origins:and",
+    "type": "origins:all_of",
     "conditions": [
       {
         "type": "origins:biome",

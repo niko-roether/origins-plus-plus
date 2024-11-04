@@ -4,7 +4,7 @@
   "key": "key.origins.primary_active",
   "cooldown": 100,
   "entity_action": {
-    "type": "origins:and",
+    "type": "origins:all_of",
     "actions": [
       {
         "type": "origins:change_resource",
@@ -34,7 +34,7 @@
     ]
   },
   "condition": {
-    "type": "origins:and",
+    "type": "origins:all_of",
     "conditions": [
       {
         "type": "origins:sneaking"

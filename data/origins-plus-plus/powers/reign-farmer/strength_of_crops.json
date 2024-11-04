@@ -10,7 +10,7 @@
     "id": "minecraft:regeneration"
   },
   "condition": {
-    "type": "origins:and",
+    "type": "origins:all_of",
     "conditions": [
       {
         "type": "origins:block_in_radius",

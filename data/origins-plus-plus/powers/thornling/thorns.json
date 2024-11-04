@@ -40,7 +40,7 @@
   "damage_when_hit": {
     "type": "origins:attacker_action_when_hit",
     "entity_action": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "actions": [
         {
           "type": "origins:damage",

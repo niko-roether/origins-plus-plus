@@ -12,7 +12,7 @@
       "id": "minecraft:slowness"
     },
     "condition": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "conditions": [
         {
           "type": "origins:resource",
@@ -38,7 +38,7 @@
       "amount": 2
     },
     "condition": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "conditions": [
         {
           "type": "origins:resource",
@@ -63,7 +63,7 @@
     },
     "interval": 20,
     "condition": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "conditions": [
         {
           "type": "origins:resource",
@@ -90,7 +90,7 @@
     },
     "update_health": true,
     "condition": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "conditions": [
         {
           "type": "origins:resource",

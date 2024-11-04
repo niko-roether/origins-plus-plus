@@ -6,7 +6,7 @@
     "command": "function origins-plus-plus:end-mage/mage_book"
   },
   "condition": {
-    "type": "origins:and",
+    "type": "origins:all_of",
     "conditions": [
       {
         "type": "origins:sneaking"

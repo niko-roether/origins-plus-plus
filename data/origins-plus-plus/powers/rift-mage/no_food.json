@@ -1,17 +1,17 @@
 {
-  "type":"origins:prevent_item_use",
-  "item_condition":{
-    "type":"origins:and",
-    "conditions":[
+  "type": "origins:prevent_item_use",
+  "item_condition": {
+    "type": "origins:all_of",
+    "conditions": [
       {
-        "type":"origins:food"
+        "type": "origins:food"
       },
       {
-        "type":"origins:ingredient",
-        "ingredient":{
-          "tag":"origins:ignore_diet"
+        "type": "origins:ingredient",
+        "ingredient": {
+          "tag": "origins:ignore_diet"
         },
-        "inverted":true
+        "inverted": true
       }
     ]
   }

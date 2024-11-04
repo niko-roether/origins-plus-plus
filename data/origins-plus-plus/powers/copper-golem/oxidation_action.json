@@ -87,7 +87,7 @@
       "command": "function origins-plus-plus:copper-golem/decrease_oxidation"
     },
     "condition": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "conditions": [
         {
           "type": "origins:equipped_item",

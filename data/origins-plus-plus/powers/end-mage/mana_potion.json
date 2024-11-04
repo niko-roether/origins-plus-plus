@@ -10,7 +10,7 @@
       "command": "function origins-plus-plus:end-mage/mana_potion"
     },
     "condition": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "conditions": [
         {
           "type": "origins:sneaking"

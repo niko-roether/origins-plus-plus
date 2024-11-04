@@ -110,7 +110,7 @@
     "type": "origins:invisibility",
     "render_armor": false,
     "condition": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "conditions": [
         {
           "type": "origins:resource",
@@ -146,7 +146,7 @@
     },
     "interval": 1,
     "condition": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "conditions": [
         {
           "type": "origins:resource",

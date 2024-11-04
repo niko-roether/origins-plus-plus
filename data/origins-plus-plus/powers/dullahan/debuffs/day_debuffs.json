@@ -1,7 +1,7 @@
 {
   "hidden": true,
   "condition": {
-    "type": "origins:and",
+    "type": "origins:all_of",
     "conditions": [
       {
         "type": "origins:exposed_to_sky"

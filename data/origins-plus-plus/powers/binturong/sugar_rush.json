@@ -3,7 +3,7 @@
   "effects": {
     "type": "origins:active_self",
     "entity_action": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "actions": [
         {
           "type": "origins:apply_effect",

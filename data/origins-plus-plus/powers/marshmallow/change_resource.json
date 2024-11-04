@@ -19,7 +19,7 @@
     "type": "origins:active_self",
     "key": "key.origins.primary_active",
     "entity_action": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "actions": [
         {
           "type": "origins:change_resource",

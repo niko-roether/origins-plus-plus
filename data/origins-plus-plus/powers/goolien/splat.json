@@ -12,7 +12,7 @@
       }
     },
     "damage_condition": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "conditions": [
         {
           "type": "origins:name",
@@ -39,7 +39,7 @@
       }
     },
     "damage_condition": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "conditions": [
         {
           "type": "origins:name",
@@ -67,7 +67,7 @@
       }
     },
     "damage_condition": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "conditions": [
         {
           "type": "origins:name",
@@ -95,7 +95,7 @@
       }
     },
     "damage_condition": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "conditions": [
         {
           "type": "origins:name",
@@ -123,7 +123,7 @@
       }
     },
     "damage_condition": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "conditions": [
         {
           "type": "origins:name",
@@ -151,7 +151,7 @@
       }
     },
     "damage_condition": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "conditions": [
         {
           "type": "origins:name",
@@ -179,7 +179,7 @@
       }
     },
     "damage_condition": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "conditions": [
         {
           "type": "origins:name",
@@ -207,7 +207,7 @@
       }
     },
     "damage_condition": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "conditions": [
         {
           "type": "origins:name",
@@ -235,7 +235,7 @@
       }
     },
     "damage_condition": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "conditions": [
         {
           "type": "origins:name",
@@ -263,7 +263,7 @@
       }
     },
     "damage_condition": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "conditions": [
         {
           "type": "origins:name",
@@ -291,7 +291,7 @@
       }
     },
     "damage_condition": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "conditions": [
         {
           "type": "origins:name",
@@ -319,7 +319,7 @@
       }
     },
     "damage_condition": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "conditions": [
         {
           "type": "origins:name",

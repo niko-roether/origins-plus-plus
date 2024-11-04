@@ -36,7 +36,7 @@
       "tag": "origins:unphasable"
     },
     "phase_down_condition": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "conditions": [
         {
           "type": "origins:sneaking"
@@ -47,7 +47,7 @@
       ]
     },
     "condition": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "conditions": [
         {
           "type": "origins:power_active",
@@ -71,7 +71,7 @@
     },
     "interval": 20,
     "condition": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "conditions": [
         {
           "type": "origins:power_active",
@@ -95,7 +95,7 @@
     },
     "interval": 30,
     "condition": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "conditions": [
         {
           "type": "origins:power_active",
@@ -123,7 +123,7 @@
     "visible_in_third_person": true,
     "hide_with_hud": true,
     "condition": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "conditions": [
         {
           "type": "origins:power_active",
@@ -142,7 +142,7 @@
     "type": "origins:invisibility",
     "render_armor": true,
     "condition": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "conditions": [
         {
           "type": "origins:power_active",
@@ -171,7 +171,7 @@
       "amount": -0.75
     },
     "condition": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "conditions": [
         {
           "type": "origins:resource",
@@ -191,7 +191,7 @@
     "interval": 20,
     "exhaustion": 0.812,
     "condition": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "conditions": [
         {
           "type": "origins:power_active",

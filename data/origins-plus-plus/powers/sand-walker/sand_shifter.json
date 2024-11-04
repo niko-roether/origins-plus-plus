@@ -28,7 +28,7 @@
       "name": "fall"
     },
     "condition": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "conditions": [
         {
           "type": "origins:sneaking"
@@ -52,7 +52,7 @@
     "entity_action": {
       "type": "origins:if_else",
       "condition": {
-        "type": "origins:and",
+        "type": "origins:all_of",
         "conditions": [
           {
             "type": "origins:in_block",
@@ -190,7 +190,7 @@
     "entity_action": {
       "type": "origins:if_else",
       "condition": {
-        "type": "origins:and",
+        "type": "origins:all_of",
         "conditions": [
           {
             "type": "origins:power_active",

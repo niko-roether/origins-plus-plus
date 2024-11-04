@@ -3,7 +3,7 @@
   "hidden": true,
   "cooldown": 100,
   "entity_action": {
-    "type": "origins:and",
+    "type": "origins:all_of",
     "actions": [
       {
         "type": "origins:add_velocity",

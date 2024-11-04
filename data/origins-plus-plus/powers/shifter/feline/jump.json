@@ -6,7 +6,7 @@
     "amount": 0.5
   },
   "condition": {
-    "type": "origins:and",
+    "type": "origins:all_of",
     "conditions": [
       {
         "type": "origins:sprinting"

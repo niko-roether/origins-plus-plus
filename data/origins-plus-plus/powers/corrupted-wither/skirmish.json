@@ -28,7 +28,7 @@
         "compare_to": 1
       },
       "if_action": {
-        "type": "origins:and",
+        "type": "origins:all_of",
         "actions": [
           {
             "type": "origins:change_resource",
@@ -42,7 +42,7 @@
         ]
       },
       "else_action": {
-        "type": "origins:and",
+        "type": "origins:all_of",
         "actions": [
           {
             "type": "origins:change_resource",
@@ -154,7 +154,7 @@
     "type": "origins:action_over_time",
     "interval": 10,
     "entity_action": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "actions": [
         {
           "type": "origins:change_resource",

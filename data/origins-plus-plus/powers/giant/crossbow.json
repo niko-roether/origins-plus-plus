@@ -46,7 +46,7 @@
           "type": "origins:delay",
           "ticks": 1,
           "action": {
-            "type": "origins:and",
+            "type": "origins:all_of",
             "actions": [
               {
                 "type": "origins:equipped_item_action",
@@ -79,7 +79,7 @@
           "type": "origins:delay",
           "ticks": 1,
           "action": {
-            "type": "origins:and",
+            "type": "origins:all_of",
             "actions": [
               {
                 "type": "origins:equipped_item_action",

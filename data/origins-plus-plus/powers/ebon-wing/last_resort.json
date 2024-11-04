@@ -1,24 +1,24 @@
 {
-	"type":"origins:action_over_time",
-	"rising_action":{
-		"type":"origins:execute_command",
-		"command":"function origins-plus-plus:ebon-wing/last_resort"
-	},
-	"interval":3,
-	"condition":{
-		"type":"origins:and",
-		"conditions":[
-			{
-				"type":"origins:health",
-				"comparison":"<",
-				"compare_to":3
-			},
-			{
-				"type":"origins:resource",
-				"resource":"origins-plus-plus:ebon-wing/last_resort_cooldown",
-				"comparison":"==",
-				"compare_to":0
-			}
-		]
-	}
+  "type": "origins:action_over_time",
+  "rising_action": {
+    "type": "origins:execute_command",
+    "command": "function origins-plus-plus:ebon-wing/last_resort"
+  },
+  "interval": 3,
+  "condition": {
+    "type": "origins:all_of",
+    "conditions": [
+      {
+        "type": "origins:health",
+        "comparison": "<",
+        "compare_to": 3
+      },
+      {
+        "type": "origins:resource",
+        "resource": "origins-plus-plus:ebon-wing/last_resort_cooldown",
+        "comparison": "==",
+        "compare_to": 0
+      }
+    ]
+  }
 }

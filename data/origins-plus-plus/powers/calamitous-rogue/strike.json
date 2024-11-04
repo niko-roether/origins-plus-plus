@@ -10,7 +10,7 @@
       }
     },
     "condition": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "conditions": [
         {
           "type": "origins:resource",
@@ -34,7 +34,7 @@
   "axe_strike": {
     "type": "origins:target_action_on_hit",
     "entity_action": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "actions": [
         {
           "type": "origins:execute_command",
@@ -92,7 +92,7 @@
       "inverted": true
     },
     "condition": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "conditions": [
         {
           "type": "origins:equipped_item",
@@ -146,7 +146,7 @@
   "shield_bash": {
     "type": "origins:target_action_on_hit",
     "entity_action": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "actions": [
         {
           "type": "origins:execute_command",
@@ -180,7 +180,7 @@
       "inverted": true
     },
     "condition": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "conditions": [
         {
           "type": "origins:equipped_item",
@@ -209,7 +209,7 @@
   "sword_cut": {
     "type": "origins:target_action_on_hit",
     "entity_action": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "actions": [
         {
           "type": "origins:execute_command",
@@ -235,7 +235,7 @@
       "inverted": true
     },
     "condition": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "conditions": [
         {
           "type": "origins:equipped_item",
@@ -278,7 +278,7 @@
       "inverted": true
     },
     "condition": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "conditions": [
         {
           "type": "origins:equipped_item",

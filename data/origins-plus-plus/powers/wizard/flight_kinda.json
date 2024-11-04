@@ -10,7 +10,7 @@
     "id": "minecraft:levitation"
   },
   "condition": {
-    "type": "origins:and",
+    "type": "origins:all_of",
     "conditions": [
       {
         "type": "origins:equipped_item",

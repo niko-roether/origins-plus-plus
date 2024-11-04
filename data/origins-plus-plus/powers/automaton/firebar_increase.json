@@ -4,7 +4,7 @@
   "coals": {
     "type": "origins:active_self",
     "entity_action": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "actions": [
         {
           "type": "origins:execute_command",
@@ -36,7 +36,7 @@
   "coal_block": {
     "type": "origins:active_self",
     "entity_action": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "actions": [
         {
           "type": "origins:execute_command",
@@ -53,7 +53,7 @@
       ]
     },
     "condition": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "conditions": [
         {
           "type": "origins:equipped_item",
@@ -76,7 +76,7 @@
   "lava_bucket": {
     "type": "origins:active_self",
     "entity_action": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "actions": [
         {
           "type": "origins:execute_command",
@@ -93,7 +93,7 @@
       ]
     },
     "condition": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "conditions": [
         {
           "type": "origins:equipped_item",

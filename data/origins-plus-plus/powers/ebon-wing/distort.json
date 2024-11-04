@@ -2,7 +2,7 @@
   "type": "origins:active_self",
   "key": "key.origins.secondary_active",
   "entity_action": {
-    "type": "origins:and",
+    "type": "origins:all_of",
     "actions": [
       {
         "type": "origins:spawn_effect_cloud",
@@ -36,4 +36,3 @@
     "compare_to": 120
   }
 }
-

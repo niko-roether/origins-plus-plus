@@ -7,7 +7,7 @@
     "command": "function origins-plus-plus:dark-mage/recover"
   },
   "condition": {
-    "type": "origins:and",
+    "type": "origins:all_of",
     "conditions": [
       {
         "type": "origins:sneaking"

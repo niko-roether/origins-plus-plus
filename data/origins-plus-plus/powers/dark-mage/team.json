@@ -13,7 +13,7 @@
     "key": "key.origins.primary_active",
     "cooldown": 100,
     "entity_action": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "actions": [
         {
           "type": "origins:execute_command",
@@ -30,7 +30,7 @@
       ]
     },
     "condition": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "conditions": [
         {
           "type": "origins:sneaking"
@@ -53,7 +53,7 @@
     "key": "key.origins.secondary_active",
     "cooldown": 100,
     "entity_action": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "actions": [
         {
           "type": "origins:execute_command",
@@ -70,7 +70,7 @@
       ]
     },
     "condition": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "conditions": [
         {
           "type": "origins:sneaking"

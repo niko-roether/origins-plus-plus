@@ -22,7 +22,7 @@
           "entity_type": "minecraft:strider"
         },
         {
-          "type": "origins:and",
+          "type": "origins:all_of",
           "conditions": [
             {
               "type": "origins:entity_type",
@@ -59,7 +59,7 @@
     "bar_index": 8
   },
   "damage_condition": {
-    "type": "origins:and",
+    "type": "origins:all_of",
     "conditions": [
       {
         "type": "origins:attacker",
@@ -86,7 +86,7 @@
     ]
   },
   "target_condition": {
-    "type": "origins:and",
+    "type": "origins:all_of",
     "conditions": [
       {
         "type": "origins:entity_type",

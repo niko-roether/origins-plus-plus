@@ -14,7 +14,7 @@
     "type": "origins:action_over_time",
     "interval": 1,
     "entity_action": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "actions": [
         {
           "type": "origins:if_else",
@@ -48,7 +48,7 @@
   "stop_when_full": {
     "type": "origins:prevent_item_use",
     "item_condition": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "conditions": [
         {
           "type": "origins:food"

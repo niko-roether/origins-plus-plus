@@ -9,7 +9,7 @@
       "command": "function origins-plus-plus:end-mage/waypoint_create"
     },
     "condition": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "conditions": [
         {
           "type": "origins:sneaking"
@@ -35,7 +35,7 @@
       "command": "function origins-plus-plus:end-mage/waypoint_teleport"
     },
     "condition": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "conditions": [
         {
           "type": "origins:sneaking",

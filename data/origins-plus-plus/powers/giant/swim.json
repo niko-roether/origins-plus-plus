@@ -23,7 +23,7 @@
       "amount": -0.6
     },
     "condition": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "conditions": [
         {
           "type": "origins:fluid_height",
@@ -50,7 +50,7 @@
       "amount": -0.4
     },
     "condition": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "conditions": [
         {
           "type": "origins:fluid_height",
@@ -77,7 +77,7 @@
       "amount": -0.2
     },
     "condition": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "conditions": [
         {
           "type": "origins:fluid_height",

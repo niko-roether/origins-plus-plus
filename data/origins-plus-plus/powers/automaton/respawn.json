@@ -1,19 +1,19 @@
 {
-	"hidden":true,
-	"type":"origins:action_on_callback",
-	"entity_action_respawned":{
-		"type":"origins:and",
-		"actions":[
-			{
-				"type":"origins:change_resource",
-				"resource":"origins-plus-plus:automaton/waterbar",
-				"change":5000
-			},
-			{
-				"type":"origins:change_resource",
-				"resource":"origins-plus-plus:automaton/firebar",
-				"change":5000
-			}
-		]
-	}
+  "hidden": true,
+  "type": "origins:action_on_callback",
+  "entity_action_respawned": {
+    "type": "origins:all_of",
+    "actions": [
+      {
+        "type": "origins:change_resource",
+        "resource": "origins-plus-plus:automaton/waterbar",
+        "change": 5000
+      },
+      {
+        "type": "origins:change_resource",
+        "resource": "origins-plus-plus:automaton/firebar",
+        "change": 5000
+      }
+    ]
+  }
 }

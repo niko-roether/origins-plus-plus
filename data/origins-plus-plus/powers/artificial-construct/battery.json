@@ -4,7 +4,7 @@
     "type": "origins:action_over_time",
     "interval": 20,
     "entity_action": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "actions": [
         {
           "type": "origins:change_resource",
@@ -22,7 +22,7 @@
       ]
     },
     "condition": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "conditions": [
         {
           "type": "origins:equipped_item",

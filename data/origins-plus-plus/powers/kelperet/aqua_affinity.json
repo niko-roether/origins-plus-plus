@@ -9,7 +9,7 @@
       "amount": 4
     },
     "condition": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "conditions": [
         {
           "type": "origins:submerged_in",
@@ -32,7 +32,7 @@
       "amount": 4
     },
     "condition": {
-      "type": "origins:and",
+      "type": "origins:all_of",
       "conditions": [
         {
           "type": "origins:fluid_height",

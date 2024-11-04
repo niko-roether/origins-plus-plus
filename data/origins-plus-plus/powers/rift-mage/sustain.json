@@ -2,7 +2,7 @@
   "type": "origins:active_self",
   "hidden": true,
   "entity_action": {
-    "type": "origins:and",
+    "type": "origins:all_of",
     "actions": [
       {
         "type": "origins:equipped_item_action",

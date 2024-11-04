@@ -1,53 +1,53 @@
 {
-	"type": "origins:action_over_time",
-	"entity_action": {
-		"type": "origins:and",
-		"actions": [
-			{
-				"type": "origins:apply_effect",
-				"effect": {
-					"duration": 200,
-					"amplifier": 0,
-					"show_particles": true,
-					"show_icon": true,
-					"id": "minecraft:regeneration",
-					"ambient": false
-				}
-			},
-			{
-				"type": "origins:apply_effect",
-				"effect": {
-					"duration": 200,
-					"amplifier": 0,
-					"show_particles": true,
-					"show_icon": true,
-					"id": "minecraft:blindness",
-					"ambient": false
-				}
-			},
-			{
-				"type": "origins:apply_effect",
-				"effect": {
-					"duration": 200,
-					"amplifier": 2,
-					"show_particles": true,
-					"show_icon": true,
-					"id": "minecraft:slowness",
-					"ambient": false
-				}
-			}
-		]
-	},
-	"interval": 20,
-	"condition": {
-		"type": "origins:block_in_radius",
-		"radius": 1,
-		"shape": "cube",
-		"comparison": ">=",
-		"compare_to": 1,
-		"block_condition": {
-			"type": "origins:block",
-			"block": "minecraft:kelp"
-		}
-	}
+  "type": "origins:action_over_time",
+  "entity_action": {
+    "type": "origins:all_of",
+    "actions": [
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "duration": 200,
+          "amplifier": 0,
+          "show_particles": true,
+          "show_icon": true,
+          "id": "minecraft:regeneration",
+          "ambient": false
+        }
+      },
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "duration": 200,
+          "amplifier": 0,
+          "show_particles": true,
+          "show_icon": true,
+          "id": "minecraft:blindness",
+          "ambient": false
+        }
+      },
+      {
+        "type": "origins:apply_effect",
+        "effect": {
+          "duration": 200,
+          "amplifier": 2,
+          "show_particles": true,
+          "show_icon": true,
+          "id": "minecraft:slowness",
+          "ambient": false
+        }
+      }
+    ]
+  },
+  "interval": 20,
+  "condition": {
+    "type": "origins:block_in_radius",
+    "radius": 1,
+    "shape": "cube",
+    "comparison": ">=",
+    "compare_to": 1,
+    "block_condition": {
+      "type": "origins:block",
+      "block": "minecraft:kelp"
+    }
+  }
 }
