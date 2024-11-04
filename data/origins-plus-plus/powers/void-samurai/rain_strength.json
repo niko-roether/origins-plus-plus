@@ -1,19 +1,15 @@
 {
-	"type":"origins:target_action_on_hit",
-	"entity_action":{
-		"type":"origins:damage",
-		"amount":2,
-		"source":{
-			"name":"player",
-			"unblockable":true,
-			"bypasses_armor":true
-		}
-	},
-	"condition":{
-		"type":"origins:resource",
-		"resource":"origins-plus-plus:void-samurai/charge",
-		"comparison":">",
-		"compare_to":0
-	},
-	"cooldown":40
+  "type": "origins:target_action_on_hit",
+  "entity_action": {
+    "type": "origins:damage",
+    "amount": 2,
+    "damage_type": "player_attack"
+  },
+  "condition": {
+    "type": "origins:resource",
+    "resource": "origins-plus-plus:void-samurai/charge",
+    "comparison": ">",
+    "compare_to": 0
+  },
+  "cooldown": 40
 }

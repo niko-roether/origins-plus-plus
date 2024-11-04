@@ -22,11 +22,7 @@
         {
           "type": "origins:damage",
           "amount": 0,
-          "source": {
-            "name": "damage",
-            "unblockable": true,
-            "bypasses_armor": true
-          }
+          "damage_type": "generic"
         }
       ]
     }

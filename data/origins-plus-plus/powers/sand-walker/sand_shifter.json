@@ -73,10 +73,7 @@
       "else_action": {
         "type": "origins:damage",
         "amount": 0,
-        "source": {
-          "name": "null",
-          "bypasses_armor": true
-        }
+        "damage_type": "generic"
       },
       "if_action": {
         "type": "origins:change_resource",

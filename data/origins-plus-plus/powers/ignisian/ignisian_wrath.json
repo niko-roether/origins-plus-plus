@@ -8,10 +8,7 @@
       "bientity_action": {
         "type": "origins:damage",
         "amount": 4,
-        "source": {
-          "name": "generic",
-          "bypasses_armor": true
-        }
+        "damage_type": "generic"
       },
       "bientity_condition": {
         "type": "origins:can_see"
@@ -89,10 +86,7 @@
     "entity_action": {
       "type": "origins:damage",
       "amount": 4,
-      "source": {
-        "name": "thorns",
-        "bypasses_armor": true
-      }
+      "damage_type": "thorns"
     },
     "condition": {
       "type": "origins:power_active",

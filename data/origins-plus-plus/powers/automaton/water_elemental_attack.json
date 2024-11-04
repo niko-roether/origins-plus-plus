@@ -18,11 +18,7 @@
               {
                 "type": "origins:damage",
                 "amount": 8,
-                "source": {
-                  "name": "hurt_by_water",
-                  "unblockable": false,
-                  "bypasses_armor": false
-                }
+                "damage_type": "drown"
               },
               {
                 "type": "origins:execute_command",
@@ -94,4 +90,3 @@
   "key": "key.origins.primary_active",
   "cooldown": 500
 }
-

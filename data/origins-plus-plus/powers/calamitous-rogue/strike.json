@@ -269,10 +269,7 @@
       "action": {
         "type": "origins:damage",
         "amount": 4,
-        "source": {
-          "name": "drowning",
-          "bypasses_armor": true
-        }
+        "damage_type": "drown"
       }
     },
     "damage_condition": {

@@ -18,11 +18,9 @@
             "actions": [
               {
                 "type": "origins:damage",
-                "source": {
-                  "name": "freeze.player"
-                },
                 "amount": 5,
-                "bypasses_armor": true
+                "bypasses_armor": true,
+                "damage_type": "freeze"
               },
               {
                 "type": "origins:apply_effect",
@@ -46,4 +44,3 @@
     "bar_index": 0
   }
 }
-

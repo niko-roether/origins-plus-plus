@@ -50,9 +50,7 @@
     "else_action": {
       "type": "origins:damage",
       "amount": 5,
-      "source": {
-        "name": "player"
-      }
+      "damage_type": "player_attack"
     }
   },
   "cooldown": 100,
