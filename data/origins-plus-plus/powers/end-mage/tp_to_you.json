@@ -1,52 +1,52 @@
 {
-	"type":"origins:active_self",
-	"key":"key.origins.primary_active",
-	"cooldown":60,
-	"entity_action":{
-		"type":"origins:and",
-		"actions":[
+	"type": "origins:active_self",
+	"key": "key.origins.primary_active",
+	"cooldown": 60,
+	"entity_action": {
+		"type": "origins:and",
+		"actions": [
 			{
-				"type":"origins:change_resource",
-				"resource":"origins-plus-plus:end-mage/resource",
-				"change":-100
+				"type": "origins:change_resource",
+				"resource": "origins-plus-plus:end-mage/resource",
+				"change": -100
 			},
 			{
-				"type":"origins:raycast",
-				"distance":50,
-				"shape_type":"outline",
-				"fluid_handling":"none",
-				"command_at_hit":"function origins-plus-plus:end-mage/tp_to_you",
-				"command_along_ray_only_on_hit":true
+				"type": "origins:raycast",
+				"distance": 50,
+				"shape_type": "outline",
+				"fluid_handling": "none",
+				"command_at_hit": "function origins-plus-plus:end-mage/tp_to_you",
+				"command_along_ray_only_on_hit": true
 			}
 		]
 	},
-	"condition":{
-		"type":"origins:and",
-		"conditions":[
+	"condition": {
+		"type": "origins:and",
+		"conditions": [
 			{
-				"type":"origins:sneaking"
+				"type": "origins:sneaking"
 			},
 			{
-				"type":"origins:equipped_item",
-				"equipment_slot":"offhand",
-				"item_condition":{
-					"type":"origins:ingredient",
-					"ingredient":{
-						"item":"minecraft:book"
+				"type": "origins:equipped_item",
+				"equipment_slot": "offhand",
+				"item_condition": {
+					"type": "origins:ingredient",
+					"ingredient": {
+						"item": "minecraft:book"
 					}
 				},
-				"inverted":true
+				"inverted": true
 			},
 			{
-				"type":"origins:equipped_item",
-				"equipment_slot":"offhand",
-				"item_condition":{
-					"type":"origins:ingredient",
-					"ingredient":{
-						"item":"minecraft:nether_star"
+				"type": "origins:equipped_item",
+				"equipment_slot": "offhand",
+				"item_condition": {
+					"type": "origins:ingredient",
+					"ingredient": {
+						"item": "minecraft:nether_star"
 					}
 				},
-				"inverted":true
+				"inverted": true
 			}
 		]
 	}

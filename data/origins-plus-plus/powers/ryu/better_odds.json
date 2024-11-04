@@ -1,30 +1,30 @@
 {
-	"type":"origins:action_over_time",
-	"entity_action":{
-		"type":"origins:choice",
-		"actions":[
+	"type": "origins:action_over_time",
+	"entity_action": {
+		"type": "origins:choice",
+		"actions": [
 			{
-				"element":{
-					"type":"origins:execute_command",
-					"command":"effect clear @s minecraft:poison"
+				"element": {
+					"type": "origins:execute_command",
+					"command": "effect clear @s minecraft:poison"
 				},
-				"weight":50
+				"weight": 50
 			},
 			{
-				"element":{
-					"type":"origins:execute_command",
-					"command":"effect clear @s minecraft:slowness"
+				"element": {
+					"type": "origins:execute_command",
+					"command": "effect clear @s minecraft:slowness"
 				},
-				"weight":50
+				"weight": 50
 			},
 			{
-				"element":{
-					"type":"origins:execute_command",
-					"command":"effect clear @s minecraft:weakness"
+				"element": {
+					"type": "origins:execute_command",
+					"command": "effect clear @s minecraft:weakness"
 				},
-				"weight":50
+				"weight": 50
 			}
 		]
 	},
-	"interval":20
+	"interval": 20
 }

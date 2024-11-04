@@ -1,27 +1,27 @@
 {
-	"type":"origins:active_self",
-	"entity_action":{
-		"type":"origins:and",
-		"actions":[
+	"type": "origins:active_self",
+	"entity_action": {
+		"type": "origins:and",
+		"actions": [
 			{
-				"type":"origins:apply_effect",
-				"effect":{
-					"effect":"minecraft:speed",
-					"duration":240,
-					"amplifier":1,
-					"show_icon":false,
-					"show_particles":false
+				"type": "origins:apply_effect",
+				"effect": {
+					"duration": 240,
+					"amplifier": 1,
+					"show_icon": false,
+					"show_particles": false,
+					"id": "minecraft:speed"
 				}
 			},
 			{
-				"type":"origins:execute_command",
-				"command":"particle minecraft:witch ~ ~ ~ 0 0 0 1 100"
+				"type": "origins:execute_command",
+				"command": "particle minecraft:witch ~ ~ ~ 0 0 0 1 100"
 			}
 		]
 	},
-	"cooldown":1200,
-	"key":"key.origins.secondary_active",
-	"hud_render":{
-		"bar_index":3
+	"cooldown": 1200,
+	"key": "key.origins.secondary_active",
+	"hud_render": {
+		"bar_index": 3
 	}
 }
