@@ -17,7 +17,7 @@
         {
           "type": "origins:in_block",
           "block_condition": {
-            "type": "origins:or",
+            "type": "origins:any_of",
             "conditions": [
               {
                 "type": "origins:in_tag",
@@ -55,7 +55,7 @@
         {
           "type": "origins:in_block",
           "block_condition": {
-            "type": "origins:or",
+            "type": "origins:any_of",
             "conditions": [
               {
                 "type": "origins:in_tag",
@@ -93,7 +93,7 @@
         {
           "type": "origins:in_block",
           "block_condition": {
-            "type": "origins:or",
+            "type": "origins:any_of",
             "conditions": [
               {
                 "type": "origins:in_tag",
@@ -123,7 +123,7 @@
     "condition": {
       "type": "origins:in_block",
       "block_condition": {
-        "type": "origins:or",
+        "type": "origins:any_of",
         "conditions": [
           {
             "type": "origins:in_tag",

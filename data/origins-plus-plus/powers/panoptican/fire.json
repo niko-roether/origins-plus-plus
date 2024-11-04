@@ -2,7 +2,7 @@
   "hidden": true,
   "type": "origins:modify_damage_taken",
   "damage_condition": {
-    "type": "origins:or",
+    "type": "origins:any_of",
     "conditions": [
       {
         "type": "origins:name",

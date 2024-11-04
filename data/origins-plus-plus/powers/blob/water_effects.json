@@ -17,7 +17,7 @@
     }
   ],
   "condition": {
-    "type": "origins:or",
+    "type": "origins:any_of",
     "conditions": [
       {
         "type": "origins:in_block",

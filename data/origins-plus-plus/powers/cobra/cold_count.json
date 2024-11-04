@@ -26,7 +26,7 @@
       "change": -1
     },
     "condition": {
-      "type": "origins:or",
+      "type": "origins:any_of",
       "conditions": [
         {
           "type": "origins:all_of",

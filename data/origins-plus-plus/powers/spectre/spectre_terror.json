@@ -59,7 +59,7 @@
       "power": "*:*_toggle"
     },
     "phase_down_condition": {
-      "type": "origins:or",
+      "type": "origins:any_of",
       "conditions": [
         {
           "type": "origins:sneaking"

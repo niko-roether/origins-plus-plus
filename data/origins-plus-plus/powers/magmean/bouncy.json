@@ -358,7 +358,7 @@
       "change": -14
     },
     "condition": {
-      "type": "origins:or",
+      "type": "origins:any_of",
       "conditions": [
         {
           "type": "origins:sneaking"

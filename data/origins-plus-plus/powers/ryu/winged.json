@@ -87,7 +87,7 @@
           "type": "origins:fall_flying"
         },
         {
-          "type": "origins:or",
+          "type": "origins:any_of",
           "conditions": [
             {
               "type": "origins:resource",

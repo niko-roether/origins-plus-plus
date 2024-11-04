@@ -1,101 +1,101 @@
 {
-	"type":"origins:restrict_armor",
-	"head":{
-		"type":"origins:or",
-		"conditions":[
-			{
-				"type":"origins:ingredient",
-				"ingredient":{
-					"tag":"origins-plus-plus:iron_armour"
-				}
-			},
-			{
-				"type":"origins:ingredient",
-				"ingredient":{
-					"tag":"origins-plus-plus:diamond_armour"
-				}
-			},
-			{
-				"type":"origins:ingredient",
-				"ingredient":{
-					"tag":"origins-plus-plus:heavy_armour"
-				}
-			}
-		]
-	},
-	"chest":{
-		"type":"origins:or",
-		"conditions":[
-			{
-				"type":"origins:ingredient",
-				"ingredient":{
-					"tag":"origins-plus-plus:iron_armour"
-				}
-			},
-			{
-				"type":"origins:ingredient",
-				"ingredient":{
-					"tag":"origins-plus-plus:diamond_armour"
-				}
-			},
-			{
-				"type":"origins:ingredient",
-				"ingredient":{
-					"tag":"origins-plus-plus:heavy_armour"
-				}
-			},
-			{
-				"type":"origins:ingredient",
-				"ingredient":{
-					"tag":"origins-plus-plus:wings"
-				}
-			}
-		]
-	},
-	"legs":{
-		"type":"origins:or",
-		"conditions":[
-			{
-				"type":"origins:ingredient",
-				"ingredient":{
-					"tag":"origins-plus-plus:iron_armour"
-				}
-			},
-			{
-				"type":"origins:ingredient",
-				"ingredient":{
-					"tag":"origins-plus-plus:diamond_armour"
-				}
-			},
-			{
-				"type":"origins:ingredient",
-				"ingredient":{
-					"tag":"origins-plus-plus:heavy_armour"
-				}
-			}
-		]
-	},
-	"feet":{
-		"type":"origins:or",
-		"conditions":[
-			{
-				"type":"origins:ingredient",
-				"ingredient":{
-					"tag":"origins-plus-plus:iron_armour"
-				}
-			},
-			{
-				"type":"origins:ingredient",
-				"ingredient":{
-					"tag":"origins-plus-plus:diamond_armour"
-				}
-			},
-			{
-				"type":"origins:ingredient",
-				"ingredient":{
-					"tag":"origins-plus-plus:heavy_armour"
-				}
-			}
-		]
-	}
+  "type": "origins:restrict_armor",
+  "head": {
+    "type": "origins:any_of",
+    "conditions": [
+      {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "tag": "origins-plus-plus:iron_armour"
+        }
+      },
+      {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "tag": "origins-plus-plus:diamond_armour"
+        }
+      },
+      {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "tag": "origins-plus-plus:heavy_armour"
+        }
+      }
+    ]
+  },
+  "chest": {
+    "type": "origins:any_of",
+    "conditions": [
+      {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "tag": "origins-plus-plus:iron_armour"
+        }
+      },
+      {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "tag": "origins-plus-plus:diamond_armour"
+        }
+      },
+      {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "tag": "origins-plus-plus:heavy_armour"
+        }
+      },
+      {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "tag": "origins-plus-plus:wings"
+        }
+      }
+    ]
+  },
+  "legs": {
+    "type": "origins:any_of",
+    "conditions": [
+      {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "tag": "origins-plus-plus:iron_armour"
+        }
+      },
+      {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "tag": "origins-plus-plus:diamond_armour"
+        }
+      },
+      {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "tag": "origins-plus-plus:heavy_armour"
+        }
+      }
+    ]
+  },
+  "feet": {
+    "type": "origins:any_of",
+    "conditions": [
+      {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "tag": "origins-plus-plus:iron_armour"
+        }
+      },
+      {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "tag": "origins-plus-plus:diamond_armour"
+        }
+      },
+      {
+        "type": "origins:ingredient",
+        "ingredient": {
+          "tag": "origins-plus-plus:heavy_armour"
+        }
+      }
+    ]
+  }
 }

@@ -56,7 +56,7 @@
       "change": -3
     },
     "condition": {
-      "type": "origins:or",
+      "type": "origins:any_of",
       "conditions": [
         {
           "type": "origins:fluid_height",
@@ -79,7 +79,7 @@
       "change": -3
     },
     "damage_condition": {
-      "type": "origins:or",
+      "type": "origins:any_of",
       "conditions": [
         {
           "type": "origins:name",

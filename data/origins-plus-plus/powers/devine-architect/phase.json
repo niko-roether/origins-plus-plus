@@ -18,7 +18,7 @@
   "invulnerability": {
     "type": "origins:invulnerability",
     "damage_condition": {
-      "type": "origins:or",
+      "type": "origins:any_of",
       "conditions": [
         {
           "type": "origins:name",
@@ -111,7 +111,7 @@
           "power": "*:*_toggle"
         },
         {
-          "type": "origins:or",
+          "type": "origins:any_of",
           "conditions": [
             {
               "type": "origins:swimming"

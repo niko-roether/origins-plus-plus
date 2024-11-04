@@ -11,7 +11,7 @@
   "protection_enchantment": "origins:water_protection",
   "protection_effectiveness": 1,
   "condition": {
-    "type": "origins:or",
+    "type": "origins:any_of",
     "conditions": [
       {
         "type": "origins:all_of",

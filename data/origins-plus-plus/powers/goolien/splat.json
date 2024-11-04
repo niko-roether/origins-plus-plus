@@ -342,7 +342,7 @@
       "amount": -0.85
     },
     "damage_condition": {
-      "type": "origins:or",
+      "type": "origins:any_of",
       "conditions": [
         {
           "type": "origins:name",

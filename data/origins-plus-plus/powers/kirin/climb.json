@@ -10,7 +10,7 @@
       "type": "origins:all_of",
       "conditions": [
         {
-          "type": "origins:or",
+          "type": "origins:any_of",
           "conditions": [
             {
               "type": "origins:block_collision",

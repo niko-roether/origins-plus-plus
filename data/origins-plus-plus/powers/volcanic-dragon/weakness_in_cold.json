@@ -11,7 +11,7 @@
   "condition": {
     "type": "origins:biome",
     "condition": {
-      "type": "origins:or",
+      "type": "origins:any_of",
       "conditions": [
         {
           "type": "origins:temperature",

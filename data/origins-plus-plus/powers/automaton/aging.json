@@ -9,7 +9,7 @@
       "command": "function origins-plus-plus:automaton/exhaust"
     },
     "condition": {
-      "type": "origins:or",
+      "type": "origins:any_of",
       "conditions": [
         {
           "type": "origins:sprinting"

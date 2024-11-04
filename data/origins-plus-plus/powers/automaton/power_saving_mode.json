@@ -9,7 +9,7 @@
       "amount": -1
     },
     "condition": {
-      "type": "origins:or",
+      "type": "origins:any_of",
       "conditions": [
         {
           "type": "origins:resource",
@@ -34,7 +34,7 @@
       "amount": -2
     },
     "condition": {
-      "type": "origins:or",
+      "type": "origins:any_of",
       "conditions": [
         {
           "type": "origins:resource",
@@ -59,7 +59,7 @@
       "command": "effect give @s minecraft:blindness 2 1 true"
     },
     "condition": {
-      "type": "origins:or",
+      "type": "origins:any_of",
       "conditions": [
         {
           "type": "origins:resource",
