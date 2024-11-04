@@ -6,7 +6,7 @@
     "item_condition": {
       "type": "origins:ingredient",
       "ingredient": {
-        "item": "minecraft:sugar"
+        "id": "minecraft:sugar"
       }
     }
   },
@@ -40,4 +40,3 @@
   },
   "interval": 80
 }
-

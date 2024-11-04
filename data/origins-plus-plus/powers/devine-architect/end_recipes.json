@@ -31,14 +31,14 @@
       ],
       "key": {
         "#": {
-          "item": "minecraft:end_stone"
+          "id": "minecraft:end_stone"
         },
         "B": {
-          "item": "minecraft:blaze_rod"
+          "id": "minecraft:blaze_rod"
         }
       },
       "result": {
-        "item": "minecraft:brewing_stand"
+        "id": "minecraft:brewing_stand"
       }
     }
   },
@@ -54,11 +54,11 @@
       ],
       "key": {
         "#": {
-          "item": "minecraft:end_stone"
+          "id": "minecraft:end_stone"
         }
       },
       "result": {
-        "item": "minecraft:furnace"
+        "id": "minecraft:furnace"
       }
     }
   },
@@ -73,14 +73,14 @@
       ],
       "key": {
         "#": {
-          "item": "minecraft:end_stone"
+          "id": "minecraft:end_stone"
         },
         "S": {
-          "item": "minecraft:stick"
+          "id": "minecraft:stick"
         }
       },
       "result": {
-        "item": "minecraft:lever"
+        "id": "minecraft:lever"
       }
     }
   },
@@ -96,14 +96,14 @@
       ],
       "key": {
         "#": {
-          "item": "minecraft:end_stone"
+          "id": "minecraft:end_stone"
         },
         "S": {
-          "item": "minecraft:stick"
+          "id": "minecraft:stick"
         }
       },
       "result": {
-        "item": "minecraft:stone_sword"
+        "id": "minecraft:stone_sword"
       }
     }
   },
@@ -119,14 +119,14 @@
       ],
       "key": {
         "#": {
-          "item": "minecraft:end_stone"
+          "id": "minecraft:end_stone"
         },
         "S": {
-          "item": "minecraft:stick"
+          "id": "minecraft:stick"
         }
       },
       "result": {
-        "item": "minecraft:stone_pickaxe"
+        "id": "minecraft:stone_pickaxe"
       }
     }
   },
@@ -142,14 +142,14 @@
       ],
       "key": {
         "#": {
-          "item": "minecraft:end_stone"
+          "id": "minecraft:end_stone"
         },
         "S": {
-          "item": "minecraft:stick"
+          "id": "minecraft:stick"
         }
       },
       "result": {
-        "item": "minecraft:stone_axe"
+        "id": "minecraft:stone_axe"
       }
     }
   },
@@ -165,14 +165,14 @@
       ],
       "key": {
         "#": {
-          "item": "minecraft:end_stone"
+          "id": "minecraft:end_stone"
         },
         "S": {
-          "item": "minecraft:stick"
+          "id": "minecraft:stick"
         }
       },
       "result": {
-        "item": "minecraft:stone_axe"
+        "id": "minecraft:stone_axe"
       }
     }
   },
@@ -188,14 +188,14 @@
       ],
       "key": {
         "#": {
-          "item": "minecraft:end_stone"
+          "id": "minecraft:end_stone"
         },
         "S": {
-          "item": "minecraft:stick"
+          "id": "minecraft:stick"
         }
       },
       "result": {
-        "item": "minecraft:stone_shovel"
+        "id": "minecraft:stone_shovel"
       }
     }
   },
@@ -211,14 +211,14 @@
       ],
       "key": {
         "#": {
-          "item": "minecraft:end_stone"
+          "id": "minecraft:end_stone"
         },
         "S": {
-          "item": "minecraft:stick"
+          "id": "minecraft:stick"
         }
       },
       "result": {
-        "item": "minecraft:stone_hoe"
+        "id": "minecraft:stone_hoe"
       }
     }
   },
@@ -234,14 +234,14 @@
       ],
       "key": {
         "#": {
-          "item": "minecraft:end_stone"
+          "id": "minecraft:end_stone"
         },
         "S": {
-          "item": "minecraft:stick"
+          "id": "minecraft:stick"
         }
       },
       "result": {
-        "item": "minecraft:stone_hoe"
+        "id": "minecraft:stone_hoe"
       }
     }
   }

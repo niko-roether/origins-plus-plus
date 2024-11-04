@@ -1,20 +1,20 @@
 {
-	"type":"origins:recipe",
-	"recipe":{
-		"id":"origins-plus-plus:cake",
-		"type":"minecraft:crafting_shaped",
-		"pattern":[
-			"###",
-			"###",
-			"###"
-		],
-		"key":{
-			"#":{
-				"item":"minecraft:sugar"
-			}
-		},
-		"result":{
-			"item":"minecraft:cake"
-		}
-	}
+  "type": "origins:recipe",
+  "recipe": {
+    "id": "origins-plus-plus:cake",
+    "type": "minecraft:crafting_shaped",
+    "pattern": [
+      "###",
+      "###",
+      "###"
+    ],
+    "key": {
+      "#": {
+        "id": "minecraft:sugar"
+      }
+    },
+    "result": {
+      "id": "minecraft:cake"
+    }
+  }
 }

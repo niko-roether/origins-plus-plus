@@ -1,18 +1,18 @@
 {
-	"type":"origins:recipe",
-	"recipe":{
-		"id":"origins-plus-plus:purpur_block",
-		"type":"minecraft:crafting_shapeless",
-		"ingredients":[
-			{
-				"item":"minecraft:stone_bricks"
-			},
-			{
-				"item":"minecraft:amethyst_shard"
-			}
-		],
-		"result":{
-			"item":"minecraft:purpur_block"
-		}
-	}
+  "type": "origins:recipe",
+  "recipe": {
+    "id": "origins-plus-plus:purpur_block",
+    "type": "minecraft:crafting_shapeless",
+    "ingredients": [
+      {
+        "item": "minecraft:stone_bricks"
+      },
+      {
+        "item": "minecraft:amethyst_shard"
+      }
+    ],
+    "result": {
+      "id": "minecraft:purpur_block"
+    }
+  }
 }

@@ -1,28 +1,24 @@
 import fs from "node:fs";
-import { randomUUID } from "node:crypto";
 
 const paths = fs.globSync("./**/*.json");
 
-function fixModifier(obj) {
+function isProbablyItem(obj) {
+	if (typeof obj !== "object") return false;
+	return ("item" in obj || "id" in obj) && ("amount" in obj || "count" in obj || Object.keys(obj).length == 1);
+}
+
+function fixItem(obj) {
 	if (typeof obj !== "object") return false;
 	let fixed = false;
-	if (!("id" in obj)) {
-		obj.id = `origins-plus-plus:${randomUUID().replace(/-/g, "_")}`;
+	if ("item" in obj) {
+		obj.id = obj.item;
+		obj.item = undefined;
 		fixed = true;
 	}
-	switch (obj.operation) {
-		case "addition":
-			obj.operation = "add_value";
-			fixed = true;
-			break;
-		case "multiply_base":
-			obj.operation = "add_multiplied_base";
-			fixed = true;
-			break;
-		case "multiply_total":
-			obj.operation = "add_multiplied_total";
-			fixed = true;
-			break;
+	if ("amount" in obj) {
+		obj.count = obj.amount;
+		obj.amount = undefined;
+		fixed = true;
 	}
 	return fixed;
 }
@@ -41,8 +37,8 @@ function fixRecursive(obj) {
 
 
 	for (const key in obj) {
-		if (key == "modifier" && typeof obj[key] == "object") {
-			fixed ||= fixModifier(obj[key]);
+		if (isProbablyItem(obj[key])) {
+			fixed ||= fixItem(obj[key]);
 		} else {
 			fixed ||= fixRecursive(obj[key]);
 		}

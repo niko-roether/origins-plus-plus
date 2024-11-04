@@ -46,7 +46,7 @@
           "item_condition": {
             "type": "origins:ingredient",
             "ingredient": {
-              "item": "minecraft:light_blue_dye"
+              "id": "minecraft:light_blue_dye"
             }
           }
         },
@@ -62,7 +62,7 @@
           "item_condition": {
             "type": "origins:ingredient",
             "ingredient": {
-              "item": "minecraft:carrot_on_a_stick"
+              "id": "minecraft:carrot_on_a_stick"
             }
           }
         },
@@ -101,7 +101,7 @@
           "item_condition": {
             "type": "origins:ingredient",
             "ingredient": {
-              "item": "minecraft:light_blue_dye"
+              "id": "minecraft:light_blue_dye"
             }
           }
         },
@@ -117,7 +117,7 @@
           "item_condition": {
             "type": "origins:ingredient",
             "ingredient": {
-              "item": "minecraft:carrot_on_a_stick"
+              "id": "minecraft:carrot_on_a_stick"
             }
           }
         },

@@ -41,7 +41,7 @@
           "item_condition": {
             "type": "origins:ingredient",
             "ingredient": {
-              "item": "minecraft:golden_apple"
+              "id": "minecraft:golden_apple"
             }
           }
         },

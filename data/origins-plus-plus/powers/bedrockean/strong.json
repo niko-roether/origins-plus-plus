@@ -6,7 +6,7 @@
     "item_condition": {
       "type": "origins:ingredient",
       "ingredient": {
-        "item": "minecraft:air"
+        "id": "minecraft:air"
       }
     }
   },

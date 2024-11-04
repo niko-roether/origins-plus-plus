@@ -289,7 +289,7 @@
           "item_condition": {
             "type": "origins:ingredient",
             "ingredient": {
-              "item": "minecraft:trident"
+              "id": "minecraft:trident"
             }
           }
         },

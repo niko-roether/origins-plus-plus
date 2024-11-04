@@ -1,10 +1,10 @@
 {
-  "type":"origins:prevent_item_use",
-  "hidden":true,
-  "item_condition":{
-    "type":"origins:ingredient",
-    "ingredient":{
-      "item":"minecraft:firework_rocket"
+  "type": "origins:prevent_item_use",
+  "hidden": true,
+  "item_condition": {
+    "type": "origins:ingredient",
+    "ingredient": {
+      "id": "minecraft:firework_rocket"
     }
   }
 }
