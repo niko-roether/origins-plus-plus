@@ -4,7 +4,8 @@
     "type": "origins:self_action_when_hit",
     "entity_action": {
       "type": "origins:chance",
-      "action": {
+      "chance": 0.1,
+      "success_action": {
         "type": "origins:apply_effect",
         "effects": [
           {
@@ -29,8 +30,7 @@
             "id": "minecraft:jump_boost"
           }
         ]
-      },
-      "chance": 0.1
+      }
     },
     "cooldown": 200
   },

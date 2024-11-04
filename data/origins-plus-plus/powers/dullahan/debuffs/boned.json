@@ -1,17 +1,17 @@
 {
-	"type":"origins:self_action_when_hit",
-	"entity_action":{
-		"type":"origins:chance",
-		"chance":0.5,
-		"action":{
-			"type":"origins:execute_command",
-			"command":"function origins-plus-plus:dullahan/boned"
-		}
-	},
-	"damage_condition":{
-		"type":"origins:amount",
-		"comparison":">=",
-		"compare_to":3
-	},
-	"cooldown":20
+  "type": "origins:self_action_when_hit",
+  "entity_action": {
+    "type": "origins:chance",
+    "chance": 0.5,
+    "success_action": {
+      "type": "origins:execute_command",
+      "command": "function origins-plus-plus:dullahan/boned"
+    }
+  },
+  "damage_condition": {
+    "type": "origins:amount",
+    "comparison": ">=",
+    "compare_to": 3
+  },
+  "cooldown": 20
 }

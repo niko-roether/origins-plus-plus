@@ -3,7 +3,7 @@
   "entity_action": {
     "type": "origins:chance",
     "chance": 0.99,
-    "action": {
+    "success_action": {
       "type": "origins:choice",
       "actions": [
         {

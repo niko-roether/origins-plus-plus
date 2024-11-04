@@ -3,7 +3,8 @@
   "cooldown": 250,
   "entity_action": {
     "type": "origins:chance",
-    "action": {
+    "chance": 1000,
+    "success_action": {
       "type": "origins:apply_effect",
       "effects": [
         {
@@ -20,7 +21,6 @@
           "id": "minecraft:weakness"
         }
       ]
-    },
-    "chance": 1000
+    }
   }
 }

@@ -13,7 +13,7 @@
     "entity_action": {
       "type": "origins:chance",
       "chance": 0.25,
-      "action": {
+      "success_action": {
         "type": "origins:apply_effect",
         "effect": {
           "duration": 1,
