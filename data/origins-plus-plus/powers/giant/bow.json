@@ -6,7 +6,7 @@
     "item_condition": {
       "type": "origins:ingredient",
       "ingredient": {
-        "id": "minecraft:bow"
+        "item": "minecraft:bow"
       }
     }
   },
@@ -20,7 +20,7 @@
           "item_condition": {
             "type": "origins:ingredient",
             "ingredient": {
-              "id": "minecraft:bow"
+              "item": "minecraft:bow"
             }
           }
         },
@@ -48,7 +48,7 @@
           "item_condition": {
             "type": "origins:ingredient",
             "ingredient": {
-              "id": "minecraft:bow"
+              "item": "minecraft:bow"
             }
           }
         },

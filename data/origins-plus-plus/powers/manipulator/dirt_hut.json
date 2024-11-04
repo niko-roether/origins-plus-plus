@@ -35,7 +35,7 @@
               {
                 "type": "origins:ingredient",
                 "ingredient": {
-                  "id": "minecraft:dirt"
+                  "item": "minecraft:dirt"
                 }
               },
               {

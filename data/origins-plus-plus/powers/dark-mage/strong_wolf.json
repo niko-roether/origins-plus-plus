@@ -33,7 +33,7 @@
         "item_condition": {
           "type": "origins:ingredient",
           "ingredient": {
-            "id": "minecraft:bone_block"
+            "item": "minecraft:bone_block"
           }
         }
       }

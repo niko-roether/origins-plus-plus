@@ -22,7 +22,7 @@
         "item_condition": {
           "type": "origins:ingredient",
           "ingredient": {
-            "id": "minecraft:quartz"
+            "item": "minecraft:quartz"
           }
         }
       }

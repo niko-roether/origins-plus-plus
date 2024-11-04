@@ -3,7 +3,7 @@
   "item_condition": {
     "type": "origins:ingredient",
     "ingredient": {
-      "id": "minecraft:cookie"
+      "item": "minecraft:cookie"
     }
   },
   "food_modifier": {

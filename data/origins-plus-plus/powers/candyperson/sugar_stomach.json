@@ -6,7 +6,7 @@
     "item_condition": {
       "type": "origins:ingredient",
       "ingredient": {
-        "id": "minecraft:sugar"
+        "item": "minecraft:sugar"
       }
     }
   },

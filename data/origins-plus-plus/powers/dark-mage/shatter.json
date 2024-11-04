@@ -29,7 +29,7 @@
         "item_condition": {
           "type": "origins:ingredient",
           "ingredient": {
-            "id": "minecraft:netherite_pickaxe"
+            "item": "minecraft:netherite_pickaxe"
           }
         }
       },

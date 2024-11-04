@@ -32,7 +32,7 @@
         "item_condition": {
           "type": "origins:ingredient",
           "ingredient": {
-            "id": "minecraft:nether_star"
+            "item": "minecraft:nether_star"
           }
         }
       }

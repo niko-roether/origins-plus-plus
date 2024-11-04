@@ -33,7 +33,7 @@
       "item_condition": {
         "type": "origins:ingredient",
         "ingredient": {
-          "id": "minecraft:red_dye"
+          "item": "minecraft:red_dye"
         }
       }
     },

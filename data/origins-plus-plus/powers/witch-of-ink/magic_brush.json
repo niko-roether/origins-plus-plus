@@ -10,7 +10,7 @@
           "item_condition": {
             "type": "origins:ingredient",
             "ingredient": {
-              "id": "minecraft:red_dye"
+              "item": "minecraft:red_dye"
             }
           }
         },
@@ -27,7 +27,7 @@
           "item_condition": {
             "type": "origins:ingredient",
             "ingredient": {
-              "id": "minecraft:blue_dye"
+              "item": "minecraft:blue_dye"
             }
           }
         },
@@ -44,7 +44,7 @@
           "item_condition": {
             "type": "origins:ingredient",
             "ingredient": {
-              "id": "minecraft:green_dye"
+              "item": "minecraft:green_dye"
             }
           }
         },

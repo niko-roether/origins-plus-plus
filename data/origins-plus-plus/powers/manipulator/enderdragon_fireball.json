@@ -22,7 +22,7 @@
           "item_condition": {
             "type": "origins:ingredient",
             "ingredient": {
-              "id": "minecraft:dragon_breath"
+              "item": "minecraft:dragon_breath"
             }
           }
         },
@@ -56,7 +56,7 @@
           "item_condition": {
             "type": "origins:ingredient",
             "ingredient": {
-              "id": "minecraft:dragon_breath"
+              "item": "minecraft:dragon_breath"
             }
           }
         },

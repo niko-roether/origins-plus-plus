@@ -12,7 +12,7 @@
       "item_condition": {
         "type": "origins:ingredient",
         "ingredient": {
-          "id": "minecraft:phantom_membrane"
+          "item": "minecraft:phantom_membrane"
         }
       }
     },

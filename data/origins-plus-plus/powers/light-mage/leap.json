@@ -35,7 +35,7 @@
         "item_condition": {
           "type": "origins:ingredient",
           "ingredient": {
-            "id": "minecraft:rabbit_foot"
+            "item": "minecraft:rabbit_foot"
           }
         }
       }

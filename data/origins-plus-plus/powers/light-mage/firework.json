@@ -34,7 +34,7 @@
         "item_condition": {
           "type": "origins:ingredient",
           "ingredient": {
-            "id": "minecraft:firework_star"
+            "item": "minecraft:firework_star"
           }
         }
       }

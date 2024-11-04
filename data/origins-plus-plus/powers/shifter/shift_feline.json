@@ -12,7 +12,7 @@
       "item_condition": {
         "type": "origins:ingredient",
         "ingredient": {
-          "id": "minecraft:string"
+          "item": "minecraft:string"
         }
       }
     },
@@ -30,7 +30,7 @@
       "item_condition": {
         "type": "origins:ingredient",
         "ingredient": {
-          "id": "minecraft:orange_wool"
+          "item": "minecraft:orange_wool"
         }
       }
     },

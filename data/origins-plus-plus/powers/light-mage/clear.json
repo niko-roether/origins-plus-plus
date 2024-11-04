@@ -18,7 +18,7 @@
         "item_condition": {
           "type": "origins:ingredient",
           "ingredient": {
-            "id": "minecraft:feather"
+            "item": "minecraft:feather"
           }
         },
         "inverted": true
@@ -29,7 +29,7 @@
         "item_condition": {
           "type": "origins:ingredient",
           "ingredient": {
-            "id": "minecraft:honey_bottle"
+            "item": "minecraft:honey_bottle"
           }
         },
         "inverted": true
@@ -40,7 +40,7 @@
         "item_condition": {
           "type": "origins:ingredient",
           "ingredient": {
-            "id": "minecraft:dragon_breath"
+            "item": "minecraft:dragon_breath"
           }
         },
         "inverted": true
@@ -51,7 +51,7 @@
         "item_condition": {
           "type": "origins:ingredient",
           "ingredient": {
-            "id": "minecraft:dragon_head"
+            "item": "minecraft:dragon_head"
           }
         },
         "inverted": true
@@ -62,7 +62,7 @@
         "item_condition": {
           "type": "origins:ingredient",
           "ingredient": {
-            "id": "minecraft:wooden_sword"
+            "item": "minecraft:wooden_sword"
           }
         },
         "inverted": true
@@ -73,7 +73,7 @@
         "item_condition": {
           "type": "origins:ingredient",
           "ingredient": {
-            "id": "minecraft:firework_star"
+            "item": "minecraft:firework_star"
           }
         },
         "inverted": true
@@ -84,7 +84,7 @@
         "item_condition": {
           "type": "origins:ingredient",
           "ingredient": {
-            "id": "minecraft:clock"
+            "item": "minecraft:clock"
           }
         },
         "inverted": true
@@ -95,7 +95,7 @@
         "item_condition": {
           "type": "origins:ingredient",
           "ingredient": {
-            "id": "minecraft:lodestone"
+            "item": "minecraft:lodestone"
           }
         },
         "inverted": true
@@ -106,7 +106,7 @@
         "item_condition": {
           "type": "origins:ingredient",
           "ingredient": {
-            "id": "minecraft:flowering_azalea"
+            "item": "minecraft:flowering_azalea"
           }
         },
         "inverted": true
@@ -117,7 +117,7 @@
         "item_condition": {
           "type": "origins:ingredient",
           "ingredient": {
-            "id": "minecraft:blaze_rod"
+            "item": "minecraft:blaze_rod"
           }
         },
         "inverted": true
@@ -128,7 +128,7 @@
         "item_condition": {
           "type": "origins:ingredient",
           "ingredient": {
-            "id": "minecraft:carved_pumpkin"
+            "item": "minecraft:carved_pumpkin"
           }
         },
         "inverted": true
@@ -150,7 +150,7 @@
         "item_condition": {
           "type": "origins:ingredient",
           "ingredient": {
-            "id": "minecraft:quartz"
+            "item": "minecraft:quartz"
           }
         },
         "inverted": true
@@ -161,7 +161,7 @@
         "item_condition": {
           "type": "origins:ingredient",
           "ingredient": {
-            "id": "minecraft:book"
+            "item": "minecraft:book"
           }
         },
         "inverted": true
@@ -172,7 +172,7 @@
         "item_condition": {
           "type": "origins:ingredient",
           "ingredient": {
-            "id": "minecraft:magma_cream"
+            "item": "minecraft:magma_cream"
           }
         },
         "inverted": true
@@ -183,7 +183,7 @@
         "item_condition": {
           "type": "origins:ingredient",
           "ingredient": {
-            "id": "minecraft:nether_star"
+            "item": "minecraft:nether_star"
           }
         },
         "inverted": true
@@ -194,7 +194,7 @@
         "item_condition": {
           "type": "origins:ingredient",
           "ingredient": {
-            "id": "minecraft:glowstone_dust"
+            "item": "minecraft:glowstone_dust"
           }
         },
         "inverted": true
@@ -205,7 +205,7 @@
         "item_condition": {
           "type": "origins:ingredient",
           "ingredient": {
-            "id": "minecraft:rabbit_foot"
+            "item": "minecraft:rabbit_foot"
           }
         },
         "inverted": true
@@ -216,7 +216,7 @@
         "item_condition": {
           "type": "origins:ingredient",
           "ingredient": {
-            "id": "minecraft:totem_of_undying"
+            "item": "minecraft:totem_of_undying"
           }
         },
         "inverted": true
@@ -227,7 +227,7 @@
         "item_condition": {
           "type": "origins:ingredient",
           "ingredient": {
-            "id": "minecraft:heart_of_the_sea"
+            "item": "minecraft:heart_of_the_sea"
           }
         },
         "inverted": true

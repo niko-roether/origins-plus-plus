@@ -12,7 +12,7 @@
       "item_condition": {
         "type": "origins:ingredient",
         "ingredient": {
-          "id": "minecraft:spider_eye"
+          "item": "minecraft:spider_eye"
         }
       }
     },
@@ -30,7 +30,7 @@
       "item_condition": {
         "type": "origins:ingredient",
         "ingredient": {
-          "id": "minecraft:cobweb"
+          "item": "minecraft:cobweb"
         }
       }
     },

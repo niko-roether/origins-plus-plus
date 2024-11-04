@@ -14,7 +14,7 @@
         "item_condition": {
           "type": "origins:ingredient",
           "ingredient": {
-            "id": "minecraft:crossbow"
+            "item": "minecraft:crossbow"
           }
         }
       },
@@ -24,7 +24,7 @@
         "item_condition": {
           "type": "origins:ingredient",
           "ingredient": {
-            "id": "minecraft:crossbow"
+            "item": "minecraft:crossbow"
           }
         }
       }

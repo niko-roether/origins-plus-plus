@@ -25,7 +25,7 @@
     "item_condition": {
       "type": "origins:ingredient",
       "ingredient": {
-        "id": "minecraft:end_crystal"
+        "item": "minecraft:end_crystal"
       }
     }
   }

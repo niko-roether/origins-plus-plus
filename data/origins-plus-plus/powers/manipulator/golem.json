@@ -32,7 +32,7 @@
           "item_condition": {
             "type": "origins:ingredient",
             "ingredient": {
-              "id": "minecraft:iron_block"
+              "item": "minecraft:iron_block"
             }
           }
         },

@@ -19,7 +19,7 @@
         "item_condition": {
           "type": "origins:ingredient",
           "ingredient": {
-            "id": "minecraft:carved_pumpkin"
+            "item": "minecraft:carved_pumpkin"
           }
         }
       }

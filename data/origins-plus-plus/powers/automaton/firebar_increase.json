@@ -55,7 +55,7 @@
           "item_condition": {
             "type": "origins:ingredient",
             "ingredient": {
-              "id": "minecraft:coal_block"
+              "item": "minecraft:coal_block"
             }
           }
         },
@@ -92,7 +92,7 @@
           "item_condition": {
             "type": "origins:ingredient",
             "ingredient": {
-              "id": "minecraft:lava_bucket"
+              "item": "minecraft:lava_bucket"
             }
           }
         },

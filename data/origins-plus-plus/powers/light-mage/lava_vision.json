@@ -9,7 +9,7 @@
     "item_condition": {
       "type": "origins:ingredient",
       "ingredient": {
-        "id": "minecraft:magma_cream"
+        "item": "minecraft:magma_cream"
       }
     }
   }

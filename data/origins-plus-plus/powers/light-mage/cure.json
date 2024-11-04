@@ -30,7 +30,7 @@
         "item_condition": {
           "type": "origins:ingredient",
           "ingredient": {
-            "id": "minecraft:lodestone"
+            "item": "minecraft:lodestone"
           }
         },
         "inverted": true

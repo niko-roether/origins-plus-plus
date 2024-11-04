@@ -20,7 +20,7 @@
     "item_condition": {
       "type": "origins:ingredient",
       "ingredient": {
-        "id": "minecraft:slime_ball"
+        "item": "minecraft:slime_ball"
       }
     }
   }

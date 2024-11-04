@@ -17,7 +17,7 @@
         "item_condition": {
           "type": "origins:ingredient",
           "ingredient": {
-            "id": "minecraft:book"
+            "item": "minecraft:book"
           }
         }
       }

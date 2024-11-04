@@ -38,7 +38,7 @@
           "item_condition": {
             "type": "origins:ingredient",
             "ingredient": {
-              "id": "minecraft:wooden_sword"
+              "item": "minecraft:wooden_sword"
             }
           }
         }
@@ -75,7 +75,7 @@
           "item_condition": {
             "type": "origins:ingredient",
             "ingredient": {
-              "id": "minecraft:wooden_sword"
+              "item": "minecraft:wooden_sword"
             }
           }
         }

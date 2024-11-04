@@ -34,7 +34,7 @@
         "item_condition": {
           "type": "origins:ingredient",
           "ingredient": {
-            "id": "minecraft:gunpowder"
+            "item": "minecraft:gunpowder"
           }
         }
       }

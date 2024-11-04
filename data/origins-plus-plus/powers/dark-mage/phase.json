@@ -26,7 +26,7 @@
       "item_condition": {
         "type": "origins:ingredient",
         "ingredient": {
-          "id": "minecraft:glistering_melon_slice"
+          "item": "minecraft:glistering_melon_slice"
         }
       }
     }
@@ -47,7 +47,7 @@
           "item_condition": {
             "type": "origins:ingredient",
             "ingredient": {
-              "id": "minecraft:glistering_melon_slice"
+              "item": "minecraft:glistering_melon_slice"
             }
           }
         },

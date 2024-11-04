@@ -95,7 +95,7 @@
           "item_condition": {
             "type": "origins:ingredient",
             "ingredient": {
-              "id": "minecraft:honeycomb"
+              "item": "minecraft:honeycomb"
             }
           }
         },

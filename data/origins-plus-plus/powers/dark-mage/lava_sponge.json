@@ -19,7 +19,7 @@
         "item_condition": {
           "type": "origins:ingredient",
           "ingredient": {
-            "id": "minecraft:magma_block"
+            "item": "minecraft:magma_block"
           }
         }
       }

@@ -11,7 +11,7 @@
     "item_condition": {
       "type": "origins:ingredient",
       "ingredient": {
-        "id": "minecraft:honey_bottle"
+        "item": "minecraft:honey_bottle"
       }
     }
   },
@@ -39,7 +39,7 @@
       "item_condition": {
         "type": "origins:ingredient",
         "ingredient": {
-          "id": "minecraft:honey_block"
+          "item": "minecraft:honey_block"
         }
       }
     }
