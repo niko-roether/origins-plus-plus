@@ -17,7 +17,7 @@
           "type": "origins:and",
           "conditions": [
             {
-              "type": "origins:nbt",
+              "type": "origins:custom_data",
               "nbt": "{Tags:['Deathsworn_Minion']}",
               "inverted": true
             },

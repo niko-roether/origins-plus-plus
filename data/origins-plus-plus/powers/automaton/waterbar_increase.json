@@ -8,7 +8,7 @@
       "command": "function origins-plus-plus:automaton/waterbar_increase_bottle"
     },
     "item_condition": {
-      "type": "origins:nbt",
+      "type": "origins:custom_data",
       "nbt": "{Potion:\"minecraft:water\"}"
     }
   },
