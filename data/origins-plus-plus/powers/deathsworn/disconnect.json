@@ -4,9 +4,9 @@
     "type": "origins:attribute",
     "modifier": {
       "attribute": "minecraft:generic.max_health",
-      "value": -4,
       "operation": "add_value",
-      "id": "origins-plus-plus:be460b72_37b5_4d24_8cbf_92a9e1b684cd"
+      "id": "origins-plus-plus:be460b72_37b5_4d24_8cbf_92a9e1b684cd",
+      "amount": -4
     },
     "update_health": true
   },
@@ -14,9 +14,9 @@
     "type": "origins:conditioned_attribute",
     "modifier": {
       "attribute": "minecraft:generic.max_health",
-      "value": -8,
       "operation": "add_value",
-      "id": "origins-plus-plus:8adcdc5b_5df4_41d0_8266_10613a7e958a"
+      "id": "origins-plus-plus:8adcdc5b_5df4_41d0_8266_10613a7e958a",
+      "amount": -8
     },
     "update_health": true,
     "condition": {

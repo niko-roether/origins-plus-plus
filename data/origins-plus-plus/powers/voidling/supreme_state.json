@@ -113,8 +113,8 @@
     "type": "origins:modify_damage_taken",
     "modifier": {
       "operation": "add_multiplied_total",
-      "value": 3,
-      "id": "origins-plus-plus:181ae223_991b_4dd6_a123_c3af4d8da449"
+      "id": "origins-plus-plus:181ae223_991b_4dd6_a123_c3af4d8da449",
+      "amount": 3
     },
     "condition": {
       "type": "origins:resource",
@@ -127,8 +127,8 @@
     "type": "origins:modify_projectile_damage",
     "modifier": {
       "operation": "add_multiplied_total",
-      "value": 2,
-      "id": "origins-plus-plus:e07fa432_9244_441e_9a56_7d339330bff4"
+      "id": "origins-plus-plus:e07fa432_9244_441e_9a56_7d339330bff4",
+      "amount": 2
     },
     "condition": {
       "type": "origins:resource",

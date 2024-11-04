@@ -8,8 +8,8 @@
     },
     "modifier": {
       "operation": "add_value",
-      "value": 0.005,
-      "id": "origins-plus-plus:99fba567_a6a7_43b7_8411_22fbb4664080"
+      "id": "origins-plus-plus:99fba567_a6a7_43b7_8411_22fbb4664080",
+      "amount": 0.005
     },
     "condition": {
       "type": "origins:and",
@@ -49,8 +49,8 @@
     },
     "modifier": {
       "operation": "add_value",
-      "value": 0.006,
-      "id": "origins-plus-plus:fc6411d1_6ecb_49db_9bbd_7238771af65c"
+      "id": "origins-plus-plus:fc6411d1_6ecb_49db_9bbd_7238771af65c",
+      "amount": 0.006
     },
     "condition": {
       "type": "origins:and",
@@ -90,8 +90,8 @@
     },
     "modifier": {
       "operation": "add_value",
-      "value": 0.0065,
-      "id": "origins-plus-plus:4aa5489a_4c16_407b_99b3_d63907b6408d"
+      "id": "origins-plus-plus:4aa5489a_4c16_407b_99b3_d63907b6408d",
+      "amount": 0.0065
     },
     "condition": {
       "type": "origins:and",
@@ -131,8 +131,8 @@
     },
     "modifier": {
       "operation": "add_value",
-      "value": 0.007,
-      "id": "origins-plus-plus:39d30a1f_cc3f_4f93_a26f_3d9737ccba13"
+      "id": "origins-plus-plus:39d30a1f_cc3f_4f93_a26f_3d9737ccba13",
+      "amount": 0.007
     },
     "condition": {
       "type": "origins:and",
@@ -172,8 +172,8 @@
     },
     "modifier": {
       "operation": "add_value",
-      "value": 0.0075,
-      "id": "origins-plus-plus:7601e12f_634c_49f8_9520_ed169b86f69e"
+      "id": "origins-plus-plus:7601e12f_634c_49f8_9520_ed169b86f69e",
+      "amount": 0.0075
     },
     "condition": {
       "type": "origins:and",
@@ -213,8 +213,8 @@
     },
     "modifier": {
       "operation": "add_value",
-      "value": 0.008,
-      "id": "origins-plus-plus:c8528ce0_fbc8_499e_9368_65a85749a640"
+      "id": "origins-plus-plus:c8528ce0_fbc8_499e_9368_65a85749a640",
+      "amount": 0.008
     },
     "condition": {
       "type": "origins:and",

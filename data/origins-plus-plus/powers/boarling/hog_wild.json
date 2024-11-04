@@ -9,14 +9,14 @@
     {
       "attribute": "minecraft:generic.movement_speed",
       "operation": "add_multiplied_base",
-      "value": 0.15,
-      "id": "origins-plus-plus:1f12723d_9dd7_4c67_bbbb_5e7d7aa25015"
+      "id": "origins-plus-plus:1f12723d_9dd7_4c67_bbbb_5e7d7aa25015",
+      "amount": 0.15
     },
     {
       "attribute": "minecraft:generic.attack_damage",
       "operation": "add_multiplied_base",
-      "value": 0.25,
-      "id": "origins-plus-plus:a6e095e9_45ab_439c_914c_0070fa595770"
+      "id": "origins-plus-plus:a6e095e9_45ab_439c_914c_0070fa595770",
+      "amount": 0.25
     }
   ]
 }

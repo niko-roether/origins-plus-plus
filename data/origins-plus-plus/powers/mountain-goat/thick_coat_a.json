@@ -3,8 +3,8 @@
   "modifier": {
     "attribute": "minecraft:generic.movement_speed",
     "operation": "add_value",
-    "value": -0.02,
-    "id": "origins-plus-plus:12212d46_9d7f_4f7c_9e59_8edef4accfe5"
+    "id": "origins-plus-plus:12212d46_9d7f_4f7c_9e59_8edef4accfe5",
+    "amount": -0.02
   },
   "condition": {
     "type": "origins:biome",

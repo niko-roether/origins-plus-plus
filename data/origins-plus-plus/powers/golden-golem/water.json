@@ -8,8 +8,8 @@
     "modifier": {
       "attribute": "minecraft:generic.movement_speed",
       "operation": "add_value",
-      "value": -0.03,
-      "id": "origins-plus-plus:0fa87bd3_d627_4aeb_b2ca_99912d9ca439"
+      "id": "origins-plus-plus:0fa87bd3_d627_4aeb_b2ca_99912d9ca439",
+      "amount": -0.03
     },
     "condition": {
       "type": "origins:fluid_height",

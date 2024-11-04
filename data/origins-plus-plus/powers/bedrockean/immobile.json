@@ -5,8 +5,8 @@
     "modifier": {
       "attribute": "minecraft:generic.movement_speed",
       "operation": "add_multiplied_total",
-      "value": -1,
-      "id": "origins-plus-plus:2f3f2a4d_047b_431c_9b02_d0e302c50d29"
+      "id": "origins-plus-plus:2f3f2a4d_047b_431c_9b02_d0e302c50d29",
+      "amount": -1
     },
     "condition": {
       "type": "origins:power_active",
@@ -17,8 +17,8 @@
     "type": "origins:modify_jump",
     "modifier": {
       "operation": "add_multiplied_total",
-      "value": -1,
-      "id": "origins-plus-plus:77df884d_b2a4_496d_9ef6_a3b66f347bfa"
+      "id": "origins-plus-plus:77df884d_b2a4_496d_9ef6_a3b66f347bfa",
+      "amount": -1
     },
     "condition": {
       "type": "origins:power_active",

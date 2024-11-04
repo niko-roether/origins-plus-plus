@@ -19,8 +19,8 @@
     "modifier": {
       "attribute": "minecraft:generic.movement_speed",
       "operation": "add_multiplied_total",
-      "value": -0.6,
-      "id": "origins-plus-plus:27eccaf3_3266_437e_8134_4b8249c9f87f"
+      "id": "origins-plus-plus:27eccaf3_3266_437e_8134_4b8249c9f87f",
+      "amount": -0.6
     },
     "condition": {
       "type": "origins:and",
@@ -46,8 +46,8 @@
     "modifier": {
       "attribute": "minecraft:generic.movement_speed",
       "operation": "add_multiplied_total",
-      "value": -0.4,
-      "id": "origins-plus-plus:7f3276e1_bc6a_47bb_9605_8adf7940405e"
+      "id": "origins-plus-plus:7f3276e1_bc6a_47bb_9605_8adf7940405e",
+      "amount": -0.4
     },
     "condition": {
       "type": "origins:and",
@@ -73,8 +73,8 @@
     "modifier": {
       "attribute": "minecraft:generic.movement_speed",
       "operation": "add_multiplied_total",
-      "value": -0.2,
-      "id": "origins-plus-plus:7298daf4_da88_480d_9f99_219a1b7e6b11"
+      "id": "origins-plus-plus:7298daf4_da88_480d_9f99_219a1b7e6b11",
+      "amount": -0.2
     },
     "condition": {
       "type": "origins:and",

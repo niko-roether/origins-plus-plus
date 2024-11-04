@@ -3,8 +3,8 @@
   "modifier": {
     "attribute": "minecraft:generic.max_health",
     "operation": "add_value",
-    "value": -4,
-    "id": "origins-plus-plus:4137d3eb_5cf3_4393_b80d_b36d5b41b6c3"
+    "id": "origins-plus-plus:4137d3eb_5cf3_4393_b80d_b36d5b41b6c3",
+    "amount": -4
   },
   "update_health": true
 }

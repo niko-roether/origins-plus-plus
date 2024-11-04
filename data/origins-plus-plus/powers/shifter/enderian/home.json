@@ -2,9 +2,9 @@
   "type": "origins:conditioned_attribute",
   "modifier": {
     "attribute": "minecraft:generic.attack_damage",
-    "value": -2,
     "operation": "add_value",
-    "id": "origins-plus-plus:b526bb57_074f_4b70_be8d_ef96538e2005"
+    "id": "origins-plus-plus:b526bb57_074f_4b70_be8d_ef96538e2005",
+    "amount": -2
   },
   "condition": {
     "type": "origins:and",

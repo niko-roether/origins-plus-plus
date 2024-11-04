@@ -2,7 +2,7 @@
   "type": "origins:modify_damage_dealt",
   "modifier": {
     "operation": "add_value",
-    "value": 5,
-    "id": "origins-plus-plus:404b5b95_1551_41c0_9918_f460199f0d97"
+    "id": "origins-plus-plus:404b5b95_1551_41c0_9918_f460199f0d97",
+    "amount": 5
   }
 }

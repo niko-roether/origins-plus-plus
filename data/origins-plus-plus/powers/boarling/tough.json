@@ -7,8 +7,8 @@
     },
     "modifier": {
       "operation": "add_multiplied_total",
-      "value": -0.5,
-      "id": "origins-plus-plus:c23e1f9a_f54d_487e_885d_6229aa91818c"
+      "id": "origins-plus-plus:c23e1f9a_f54d_487e_885d_6229aa91818c",
+      "amount": -0.5
     },
     "self_action": {
       "type": "origins:play_sound",
@@ -22,8 +22,8 @@
     "modifier": {
       "attribute": "minecraft:generic.knockback_resistance",
       "operation": "add_value",
-      "value": 0.85,
-      "id": "origins-plus-plus:c7023761_8fa3_4c98_89c2_01ed91fc82ae"
+      "id": "origins-plus-plus:c7023761_8fa3_4c98_89c2_01ed91fc82ae",
+      "amount": 0.85
     }
   }
 }

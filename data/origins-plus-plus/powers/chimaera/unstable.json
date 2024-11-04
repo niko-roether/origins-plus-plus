@@ -14,8 +14,8 @@
     "status_effect": "minecraft:blindness",
     "modifier": {
       "operation": "add_value",
-      "value": 1,
-      "id": "origins-plus-plus:5709a376_4c4b_494c_94b6_dc95ef1caefe"
+      "id": "origins-plus-plus:5709a376_4c4b_494c_94b6_dc95ef1caefe",
+      "amount": 1
     }
   },
   "m2": {
@@ -23,8 +23,8 @@
     "status_effect": "minecraft:glowing",
     "modifier": {
       "operation": "add_value",
-      "value": 1,
-      "id": "origins-plus-plus:0707d1b2_2e00_417e_89b2_8dba2859bebf"
+      "id": "origins-plus-plus:0707d1b2_2e00_417e_89b2_8dba2859bebf",
+      "amount": 1
     }
   },
   "m3": {
@@ -32,8 +32,8 @@
     "status_effect": "minecraft:hunger",
     "modifier": {
       "operation": "add_value",
-      "value": 1,
-      "id": "origins-plus-plus:cd995c2f_8cab_49ed_941f_af7e96db8cc3"
+      "id": "origins-plus-plus:cd995c2f_8cab_49ed_941f_af7e96db8cc3",
+      "amount": 1
     }
   },
   "m5": {
@@ -41,8 +41,8 @@
     "status_effect": "minecraft:levitation",
     "modifier": {
       "operation": "add_value",
-      "value": 1,
-      "id": "origins-plus-plus:2cd80f2a_cb39_41ac_9d20_522a2ec7efb3"
+      "id": "origins-plus-plus:2cd80f2a_cb39_41ac_9d20_522a2ec7efb3",
+      "amount": 1
     }
   },
   "m6": {
@@ -50,8 +50,8 @@
     "status_effect": "minecraft:mining_fatigue",
     "modifier": {
       "operation": "add_value",
-      "value": 1,
-      "id": "origins-plus-plus:5a9aad3d_2b9e_4b0e_8a7c_75189dffa849"
+      "id": "origins-plus-plus:5a9aad3d_2b9e_4b0e_8a7c_75189dffa849",
+      "amount": 1
     }
   },
   "m7": {
@@ -59,8 +59,8 @@
     "status_effect": "minecraft:nausea",
     "modifier": {
       "operation": "add_value",
-      "value": 1,
-      "id": "origins-plus-plus:b2496360_d1e5_4a84_83c2_8a8745520545"
+      "id": "origins-plus-plus:b2496360_d1e5_4a84_83c2_8a8745520545",
+      "amount": 1
     }
   },
   "m8": {
@@ -68,8 +68,8 @@
     "status_effect": "minecraft:poison",
     "modifier": {
       "operation": "add_value",
-      "value": 1,
-      "id": "origins-plus-plus:8db41b22_0b53_450b_8fd4_30169a11092a"
+      "id": "origins-plus-plus:8db41b22_0b53_450b_8fd4_30169a11092a",
+      "amount": 1
     }
   },
   "m9": {
@@ -77,8 +77,8 @@
     "status_effect": "minecraft:slowness",
     "modifier": {
       "operation": "add_value",
-      "value": 1,
-      "id": "origins-plus-plus:cf040368_7c38_48ff_8f46_4e004aeedb3e"
+      "id": "origins-plus-plus:cf040368_7c38_48ff_8f46_4e004aeedb3e",
+      "amount": 1
     }
   },
   "m10": {
@@ -86,8 +86,8 @@
     "status_effect": "minecraft:weakness",
     "modifier": {
       "operation": "add_value",
-      "value": 1,
-      "id": "origins-plus-plus:2115d112_9e9a_4226_ae0d_d99194099370"
+      "id": "origins-plus-plus:2115d112_9e9a_4226_ae0d_d99194099370",
+      "amount": 1
     }
   },
   "m11": {
@@ -95,8 +95,8 @@
     "status_effect": "minecraft:wither",
     "modifier": {
       "operation": "add_value",
-      "value": 1,
-      "id": "origins-plus-plus:08756bd9_d895_4c79_b647_576513890afd"
+      "id": "origins-plus-plus:08756bd9_d895_4c79_b647_576513890afd",
+      "amount": 1
     }
   },
   "m12": {
@@ -104,8 +104,8 @@
     "status_effect": "minecraft:unluck",
     "modifier": {
       "operation": "add_value",
-      "value": 1,
-      "id": "origins-plus-plus:c3a8b27a_597f_4a7a_ab3c_deeacf70ac5e"
+      "id": "origins-plus-plus:c3a8b27a_597f_4a7a_ab3c_deeacf70ac5e",
+      "amount": 1
     }
   },
   "m13": {
@@ -113,8 +113,8 @@
     "status_effect": "minecraft:haste",
     "modifier": {
       "operation": "add_value",
-      "value": 1,
-      "id": "origins-plus-plus:e4e37f75_1f28_472c_be58_674da3cc10eb"
+      "id": "origins-plus-plus:e4e37f75_1f28_472c_be58_674da3cc10eb",
+      "amount": 1
     }
   },
   "m14": {
@@ -122,8 +122,8 @@
     "status_effect": "minecraft:strength",
     "modifier": {
       "operation": "add_value",
-      "value": 1,
-      "id": "origins-plus-plus:90355541_a51a_4faa_9045_788deaecdd64"
+      "id": "origins-plus-plus:90355541_a51a_4faa_9045_788deaecdd64",
+      "amount": 1
     }
   },
   "m16": {
@@ -131,8 +131,8 @@
     "status_effect": "minecraft:instant_damage",
     "modifier": {
       "operation": "add_value",
-      "value": 1,
-      "id": "origins-plus-plus:a2066796_5a53_452a_ab9d_d8e133a02b4a"
+      "id": "origins-plus-plus:a2066796_5a53_452a_ab9d_d8e133a02b4a",
+      "amount": 1
     }
   },
   "m17": {
@@ -140,8 +140,8 @@
     "status_effect": "minecraft:jump_boost",
     "modifier": {
       "operation": "add_value",
-      "value": 1,
-      "id": "origins-plus-plus:4f79dc78_fb7f_431f_a3e7_ac29fe01854b"
+      "id": "origins-plus-plus:4f79dc78_fb7f_431f_a3e7_ac29fe01854b",
+      "amount": 1
     }
   },
   "m18": {
@@ -149,8 +149,8 @@
     "status_effect": "minecraft:regeneration",
     "modifier": {
       "operation": "add_value",
-      "value": 1,
-      "id": "origins-plus-plus:9cd9301b_619c_492d_b38e_dc8f1a94f4c3"
+      "id": "origins-plus-plus:9cd9301b_619c_492d_b38e_dc8f1a94f4c3",
+      "amount": 1
     }
   },
   "m19": {
@@ -158,8 +158,8 @@
     "status_effect": "minecraft:resistance",
     "modifier": {
       "operation": "add_value",
-      "value": 1,
-      "id": "origins-plus-plus:bf5ebf7a_609a_4a4a_bf9b_ea3362a5ee09"
+      "id": "origins-plus-plus:bf5ebf7a_609a_4a4a_bf9b_ea3362a5ee09",
+      "amount": 1
     }
   },
   "m20": {
@@ -167,8 +167,8 @@
     "status_effect": "minecraft:fire_resistance",
     "modifier": {
       "operation": "add_value",
-      "value": 1,
-      "id": "origins-plus-plus:d832c7c0_a6b4_4653_b060_53d85fe4999f"
+      "id": "origins-plus-plus:d832c7c0_a6b4_4653_b060_53d85fe4999f",
+      "amount": 1
     }
   },
   "m21": {
@@ -176,8 +176,8 @@
     "status_effect": "minecraft:invisibility",
     "modifier": {
       "operation": "add_value",
-      "value": 1,
-      "id": "origins-plus-plus:4b46f08f_5cd1_4c75_937b_1ec657bf1d01"
+      "id": "origins-plus-plus:4b46f08f_5cd1_4c75_937b_1ec657bf1d01",
+      "amount": 1
     }
   },
   "m22": {
@@ -185,8 +185,8 @@
     "status_effect": "minecraft:health_boost",
     "modifier": {
       "operation": "add_value",
-      "value": 1,
-      "id": "origins-plus-plus:d9c91cda_1c43_4a9f_b0fe_203eb50fea27"
+      "id": "origins-plus-plus:d9c91cda_1c43_4a9f_b0fe_203eb50fea27",
+      "amount": 1
     }
   },
   "m23": {
@@ -194,8 +194,8 @@
     "status_effect": "minecraft:absorption",
     "modifier": {
       "operation": "add_value",
-      "value": 1,
-      "id": "origins-plus-plus:6a4897e9_5c39_4147_942a_87e336591359"
+      "id": "origins-plus-plus:6a4897e9_5c39_4147_942a_87e336591359",
+      "amount": 1
     }
   },
   "m24": {
@@ -203,8 +203,8 @@
     "status_effect": "minecraft:saturation",
     "modifier": {
       "operation": "add_value",
-      "value": 1,
-      "id": "origins-plus-plus:62320f78_f08e_4c03_8d04_fd577196021e"
+      "id": "origins-plus-plus:62320f78_f08e_4c03_8d04_fd577196021e",
+      "amount": 1
     }
   },
   "m25": {
@@ -212,8 +212,8 @@
     "status_effect": "minecraft:luck",
     "modifier": {
       "operation": "add_value",
-      "value": 1,
-      "id": "origins-plus-plus:7a4ec404_9259_4eb9_8459_17c9fe3d220d"
+      "id": "origins-plus-plus:7a4ec404_9259_4eb9_8459_17c9fe3d220d",
+      "amount": 1
     }
   },
   "m27": {
@@ -221,8 +221,8 @@
     "status_effect": "minecraft:slow_falling",
     "modifier": {
       "operation": "add_value",
-      "value": 1,
-      "id": "origins-plus-plus:423f4e9b_3783_46b1_8cce_0e4fdd2a57d9"
+      "id": "origins-plus-plus:423f4e9b_3783_46b1_8cce_0e4fdd2a57d9",
+      "amount": 1
     }
   }
 }

@@ -5,8 +5,8 @@
     "type": "origins:modify_break_speed",
     "modifier": {
       "operation": "add_multiplied_total",
-      "value": 4,
-      "id": "origins-plus-plus:c64a07c8_c56b_4124_8663_e37f9ee10a32"
+      "id": "origins-plus-plus:c64a07c8_c56b_4124_8663_e37f9ee10a32",
+      "amount": 4
     },
     "condition": {
       "type": "origins:and",
@@ -28,8 +28,8 @@
     "type": "origins:modify_break_speed",
     "modifier": {
       "operation": "add_multiplied_total",
-      "value": 4,
-      "id": "origins-plus-plus:438909c1_e628_4dc9_adb8_a7a636bd94c7"
+      "id": "origins-plus-plus:438909c1_e628_4dc9_adb8_a7a636bd94c7",
+      "amount": 4
     },
     "condition": {
       "type": "origins:and",

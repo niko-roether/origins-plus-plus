@@ -3,7 +3,7 @@
   "modifier": {
     "attribute": "minecraft:generic.luck",
     "operation": "add_multiplied_base",
-    "value": 100,
-    "id": "origins-plus-plus:e3d67186_c219_48fe_990a_ab27fa6da568"
+    "id": "origins-plus-plus:e3d67186_c219_48fe_990a_ab27fa6da568",
+    "amount": 100
   }
 }

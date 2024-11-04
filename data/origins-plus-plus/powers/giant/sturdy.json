@@ -5,16 +5,16 @@
     "modifier": {
       "attribute": "minecraft:generic.knockback_resistance",
       "operation": "add_value",
-      "value": 0.33,
-      "id": "origins-plus-plus:90b50d4e_e699_4fda_933b_a8ce616ba499"
+      "id": "origins-plus-plus:90b50d4e_e699_4fda_933b_a8ce616ba499",
+      "amount": 0.33
     }
   },
   "mining_speed": {
     "type": "origins:modify_break_speed",
     "modifier": {
       "operation": "add_multiplied_base",
-      "value": 0.5,
-      "id": "origins-plus-plus:5baf3203_a3bb_44de_810a_7bbe486d2a5d"
+      "id": "origins-plus-plus:5baf3203_a3bb_44de_810a_7bbe486d2a5d",
+      "amount": 0.5
     }
   }
 }

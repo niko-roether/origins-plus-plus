@@ -7,8 +7,8 @@
     "type": "origins:modify_exhaustion",
     "modifier": {
       "operation": "add_multiplied_total",
-      "value": -1,
-      "id": "origins-plus-plus:988d904f_3348_462a_8888_8a58d38491c6"
+      "id": "origins-plus-plus:988d904f_3348_462a_8888_8a58d38491c6",
+      "amount": -1
     }
   },
   "hidden": true

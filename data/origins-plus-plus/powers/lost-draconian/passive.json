@@ -4,15 +4,15 @@
     "type": "origins:modify_exhaustion",
     "modifier": {
       "operation": "add_multiplied_base",
-      "value": -0.1,
-      "id": "origins-plus-plus:6a658fad_c9e1_4cd5_93d3_dd4a2fdb40b8"
+      "id": "origins-plus-plus:6a658fad_c9e1_4cd5_93d3_dd4a2fdb40b8",
+      "amount": -0.1
     }
   },
   "modifier": {
     "type": "origins:attribute",
     "attribute": "minecraft:generic.movement_speed",
-    "value": 0.35,
     "operation": "add_value",
-    "id": "origins-plus-plus:5df16ae6_e680_4771_9c2f_8980aaf9ce4d"
+    "id": "origins-plus-plus:5df16ae6_e680_4771_9c2f_8980aaf9ce4d",
+    "amount": 0.35
   }
 }

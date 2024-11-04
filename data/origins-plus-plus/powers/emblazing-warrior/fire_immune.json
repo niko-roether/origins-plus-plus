@@ -8,8 +8,8 @@
     },
     "modifier": {
       "operation": "add_multiplied_total",
-      "value": -0.7,
-      "id": "origins-plus-plus:40a42d98_af14_4724_9e1a_87aa1458e466"
+      "id": "origins-plus-plus:40a42d98_af14_4724_9e1a_87aa1458e466",
+      "amount": -0.7
     }
   },
   "b": {
@@ -20,8 +20,8 @@
     },
     "modifier": {
       "operation": "add_multiplied_total",
-      "value": -1,
-      "id": "origins-plus-plus:c3e1ece1_a10c_4db8_8d34_4f6367ebef0e"
+      "id": "origins-plus-plus:c3e1ece1_a10c_4db8_8d34_4f6367ebef0e",
+      "amount": -1
     },
     "condition": {
       "type": "origins:resource",

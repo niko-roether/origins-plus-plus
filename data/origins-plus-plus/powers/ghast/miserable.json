@@ -2,8 +2,8 @@
   "type": "origins:modify_damage_dealt",
   "modifier": {
     "operation": "add_value",
-    "value": -1.5,
-    "id": "origins-plus-plus:a1e1af81_6eb6_4a70_bb9e_cefff2532965"
+    "id": "origins-plus-plus:a1e1af81_6eb6_4a70_bb9e_cefff2532965",
+    "amount": -1.5
   },
   "damage_condition": {
     "type": "origins:projectile",

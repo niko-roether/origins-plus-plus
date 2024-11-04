@@ -2,7 +2,7 @@
   "type": "origins:modify_swim_speed",
   "modifier": {
     "operation": "add_multiplied_total",
-    "value": -0.75,
-    "id": "origins-plus-plus:b056c1be_bb04_44d0_ac17_40e5775cac3b"
+    "id": "origins-plus-plus:b056c1be_bb04_44d0_ac17_40e5775cac3b",
+    "amount": -0.75
   }
 }

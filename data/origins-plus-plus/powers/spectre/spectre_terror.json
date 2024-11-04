@@ -38,8 +38,8 @@
     "type": "origins:modify_air_speed",
     "modifier": {
       "operation": "add_multiplied_total",
-      "value": 1,
-      "id": "origins-plus-plus:132cd1e7_f31a_45e5_9b19_de2e0d0aed24"
+      "id": "origins-plus-plus:132cd1e7_f31a_45e5_9b19_de2e0d0aed24",
+      "amount": 1
     },
     "condition": {
       "type": "origins:power_active",
@@ -118,8 +118,8 @@
     "type": "origins:modify_damage_dealt",
     "modifier": {
       "operation": "add_multiplied_total",
-      "value": -1,
-      "id": "origins-plus-plus:644c0fa1_ca91_41aa_9a69_73b52db4dcda"
+      "id": "origins-plus-plus:644c0fa1_ca91_41aa_9a69_73b52db4dcda",
+      "amount": -1
     },
     "condition": {
       "type": "origins:power_active",

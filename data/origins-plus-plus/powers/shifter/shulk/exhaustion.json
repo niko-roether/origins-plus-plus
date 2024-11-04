@@ -1,9 +1,9 @@
 {
   "type": "origins:modify_exhaustion",
   "modifier": {
-    "value": 0.6,
     "operation": "add_multiplied_base",
-    "id": "origins-plus-plus:232016dc_ca8f_4cc0_8525_cbcb2894c92a"
+    "id": "origins-plus-plus:232016dc_ca8f_4cc0_8525_cbcb2894c92a",
+    "amount": 0.6
   },
   "condition": {
     "type": "origins:resource",

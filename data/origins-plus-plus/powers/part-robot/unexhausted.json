@@ -2,7 +2,7 @@
   "type": "origins:modify_exhaustion",
   "modifier": {
     "operation": "add_multiplied_base",
-    "value": -1,
-    "id": "origins-plus-plus:a02af052_409e_4fbd_bcad_652dd5d4defb"
+    "id": "origins-plus-plus:a02af052_409e_4fbd_bcad_652dd5d4defb",
+    "amount": -1
   }
 }

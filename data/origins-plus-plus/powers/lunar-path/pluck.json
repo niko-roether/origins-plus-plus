@@ -3,8 +3,8 @@
   "modifiers": {
     "attribute": "minecraft:generic.attack_damage",
     "operation": "add_value",
-    "value": 2,
-    "id": "origins-plus-plus:9a0811c8_4538_4d01_af77_aac35ebe3dbe"
+    "id": "origins-plus-plus:9a0811c8_4538_4d01_af77_aac35ebe3dbe",
+    "amount": 2
   },
   "condition": {
     "type": "origins:equipped_item",

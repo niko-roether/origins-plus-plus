@@ -11,8 +11,8 @@
     "modifier": {
       "attribute": "minecraft:generic.armor",
       "operation": "add_value",
-      "value": 4,
-      "id": "origins-plus-plus:4d47dd9a_1f92_4211_971b_3385c3fa8a19"
+      "id": "origins-plus-plus:4d47dd9a_1f92_4211_971b_3385c3fa8a19",
+      "amount": 4
     }
   }
 }

@@ -4,9 +4,9 @@
   "swim_speed": {
     "type": "origins:modify_swim_speed",
     "modifier": {
-      "value": 0.5,
       "operation": "add_multiplied_base",
-      "id": "origins-plus-plus:4d2cc29f_601b_468d_be2b_b63dff75c3eb"
+      "id": "origins-plus-plus:4d2cc29f_601b_468d_be2b_b63dff75c3eb",
+      "amount": 0.5
     }
   },
   "lava_swim": {

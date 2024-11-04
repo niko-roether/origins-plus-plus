@@ -24,8 +24,8 @@
     "modifier": {
       "attribute": "minecraft:generic.attack_damage",
       "operation": "add_value",
-      "value": 4,
-      "id": "origins-plus-plus:fc3c15e4_ed0c_40e8_9fad_e5dba7860edc"
+      "id": "origins-plus-plus:fc3c15e4_ed0c_40e8_9fad_e5dba7860edc",
+      "amount": 4
     },
     "condition": {
       "type": "origins:and",
@@ -64,8 +64,8 @@
     "modifier": {
       "attribute": "minecraft:generic.max_health",
       "operation": "add_value",
-      "value": -4,
-      "id": "origins-plus-plus:0ba6f238_cd27_40fc_83d2_62c4630d4d3c"
+      "id": "origins-plus-plus:0ba6f238_cd27_40fc_83d2_62c4630d4d3c",
+      "amount": -4
     },
     "update_health": true,
     "condition": {

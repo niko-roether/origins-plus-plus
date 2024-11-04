@@ -2,9 +2,9 @@
   "type": "origins:attribute",
   "modifier": {
     "attribute": "minecraft:generic.max_health",
-    "value": 10,
     "operation": "add_value",
-    "id": "origins-plus-plus:5aa91bae_9d2e_4659_9030_9136560be98e"
+    "id": "origins-plus-plus:5aa91bae_9d2e_4659_9030_9136560be98e",
+    "amount": 10
   },
   "update_health": true
 }

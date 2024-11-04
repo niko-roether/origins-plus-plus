@@ -2,9 +2,9 @@
   "type": "origins:conditioned_attribute",
   "modifier": {
     "attribute": "minecraft:generic.max_health",
-    "value": -6,
     "operation": "add_value",
-    "id": "origins-plus-plus:cf294d87_35a0_4220_9828_a6580230e7f1"
+    "id": "origins-plus-plus:cf294d87_35a0_4220_9828_a6580230e7f1",
+    "amount": -6
   },
   "update_health": true,
   "condition": {

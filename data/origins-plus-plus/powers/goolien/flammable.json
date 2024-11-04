@@ -18,8 +18,8 @@
     },
     "modifier": {
       "operation": "add_value",
-      "value": 3,
-      "id": "origins-plus-plus:948ef7f3_6399_496f_a99d_9d9940bbc5d3"
+      "id": "origins-plus-plus:948ef7f3_6399_496f_a99d_9d9940bbc5d3",
+      "amount": 3
     }
   }
 }

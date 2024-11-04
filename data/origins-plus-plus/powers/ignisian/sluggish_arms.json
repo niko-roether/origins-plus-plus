@@ -3,7 +3,7 @@
   "modifier": {
     "attribute": "minecraft:generic.attack_speed",
     "operation": "add_multiplied_base",
-    "value": -0.25,
-    "id": "origins-plus-plus:80023428_9fde_402c_8001_ea53ac0629ef"
+    "id": "origins-plus-plus:80023428_9fde_402c_8001_ea53ac0629ef",
+    "amount": -0.25
   }
 }

@@ -1,9 +1,9 @@
 {
   "type": "origins:modify_damage_taken",
   "modifier": {
-    "value": 1,
     "operation": "add_value",
-    "id": "origins-plus-plus:bb795b13_6e31_495f_98f8_382c1f6e322c"
+    "id": "origins-plus-plus:bb795b13_6e31_495f_98f8_382c1f6e322c",
+    "amount": 1
   },
   "damage_condition": {
     "type": "origins:fire"

@@ -2,8 +2,8 @@
   "type": "origins:modify_jump",
   "modifier": {
     "operation": "add_value",
-    "value": 0.1,
-    "id": "origins-plus-plus:bd064341_e378_4ec9_98d7_2e2c5cac0458"
+    "id": "origins-plus-plus:bd064341_e378_4ec9_98d7_2e2c5cac0458",
+    "amount": 0.1
   },
   "hidden": true
 }

@@ -4,8 +4,8 @@
     "type": "origins:modify_break_speed",
     "modifier": {
       "operation": "add_multiplied_total",
-      "value": 4,
-      "id": "origins-plus-plus:222f1e2b_717e_47e8_b917_8ab5cbf9b819"
+      "id": "origins-plus-plus:222f1e2b_717e_47e8_b917_8ab5cbf9b819",
+      "amount": 4
     },
     "condition": {
       "type": "origins:and",
@@ -33,8 +33,8 @@
     "type": "origins:modify_break_speed",
     "modifier": {
       "operation": "add_multiplied_total",
-      "value": 4,
-      "id": "origins-plus-plus:f6c54f05_289a_477a_85c6_3c5444ca12d7"
+      "id": "origins-plus-plus:f6c54f05_289a_477a_85c6_3c5444ca12d7",
+      "amount": 4
     },
     "condition": {
       "type": "origins:and",
@@ -62,8 +62,8 @@
     "type": "origins:modify_break_speed",
     "modifier": {
       "operation": "add_multiplied_total",
-      "value": -0.75,
-      "id": "origins-plus-plus:3d5b7656_31df_4d18_b3d5_de29b313c46b"
+      "id": "origins-plus-plus:3d5b7656_31df_4d18_b3d5_de29b313c46b",
+      "amount": -0.75
     },
     "condition": {
       "type": "origins:and",

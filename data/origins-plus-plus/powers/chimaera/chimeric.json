@@ -8,8 +8,8 @@
     },
     "modifier": {
       "operation": "add_multiplied_total",
-      "value": 2,
-      "id": "origins-plus-plus:737bd220_8fae_45d2_befb_6fc2ccace782"
+      "id": "origins-plus-plus:737bd220_8fae_45d2_befb_6fc2ccace782",
+      "amount": 2
     }
   },
   "more_onfire_damage": {
@@ -20,8 +20,8 @@
     },
     "modifier": {
       "operation": "add_multiplied_total",
-      "value": 2,
-      "id": "origins-plus-plus:d768d526_b514_4095_a672_ff90cc10628e"
+      "id": "origins-plus-plus:d768d526_b514_4095_a672_ff90cc10628e",
+      "amount": 2
     }
   },
   "more_lighting_damage": {
@@ -32,8 +32,8 @@
     },
     "modifier": {
       "operation": "add_multiplied_total",
-      "value": 1,
-      "id": "origins-plus-plus:66006b93_44af_429c_ae84_e45623084f4e"
+      "id": "origins-plus-plus:66006b93_44af_429c_ae84_e45623084f4e",
+      "amount": 1
     }
   },
   "more_lava_damage": {
@@ -44,8 +44,8 @@
     },
     "modifier": {
       "operation": "add_multiplied_total",
-      "value": 5,
-      "id": "origins-plus-plus:57e021f1_e88c_4dd1_81e9_6aba5d69b52d"
+      "id": "origins-plus-plus:57e021f1_e88c_4dd1_81e9_6aba5d69b52d",
+      "amount": 5
     }
   },
   "more_firework_damage": {
@@ -56,8 +56,8 @@
     },
     "modifier": {
       "operation": "add_multiplied_total",
-      "value": 2,
-      "id": "origins-plus-plus:c73dabe8_54cd_4870_8918_09df37c939f7"
+      "id": "origins-plus-plus:c73dabe8_54cd_4870_8918_09df37c939f7",
+      "amount": 2
     }
   }
 }

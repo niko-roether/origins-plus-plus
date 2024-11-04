@@ -3,15 +3,15 @@
   "modifiers": [
     {
       "attribute": "minecraft:generic.max_health",
-      "value": 10,
       "operation": "add_value",
-      "id": "origins-plus-plus:27b644c8_0e2d_4bb3_9f97_313e2051a296"
+      "id": "origins-plus-plus:27b644c8_0e2d_4bb3_9f97_313e2051a296",
+      "amount": 10
     },
     {
       "attribute": "minecraft:generic.armor",
-      "value": 6,
       "operation": "add_value",
-      "id": "origins-plus-plus:7b829b24_fbc5_45c0_bfaf_4b5ed19bc79d"
+      "id": "origins-plus-plus:7b829b24_fbc5_45c0_bfaf_4b5ed19bc79d",
+      "amount": 6
     }
   ],
   "update_health": true

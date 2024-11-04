@@ -20,9 +20,9 @@
     "hidden": true,
     "modifier": {
       "attribute": "minecraft:generic.max_health",
-      "value": -10,
       "operation": "add_value",
-      "id": "origins-plus-plus:0215e462_300c_4394_9750_3ace184d5d02"
+      "id": "origins-plus-plus:0215e462_300c_4394_9750_3ace184d5d02",
+      "amount": -10
     },
     "update_health": true
   }

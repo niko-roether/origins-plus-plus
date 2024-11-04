@@ -14,18 +14,18 @@
     "type": "origins:attribute",
     "modifier": {
       "attribute": "minecraft:generic.armor",
-      "value": -0.7,
       "operation": "add_multiplied_total",
-      "id": "origins-plus-plus:035f661c_5d7e_412f_8bec_55884f2ca2b5"
+      "id": "origins-plus-plus:035f661c_5d7e_412f_8bec_55884f2ca2b5",
+      "amount": -0.7
     }
   },
   "yourarmor": {
     "type": "origins:attribute",
     "modifier": {
       "attribute": "minecraft:generic.armor",
-      "value": 28,
       "operation": "add_value",
-      "id": "origins-plus-plus:6620a84d_0c56_4fec_b042_0be75c4c7739"
+      "id": "origins-plus-plus:6620a84d_0c56_4fec_b042_0be75c4c7739",
+      "amount": 28
     }
   }
 }

@@ -2,9 +2,9 @@
   "type": "origins:conditioned_attribute",
   "modifier": {
     "attribute": "minecraft:generic.armor",
-    "value": 4,
     "operation": "add_value",
-    "id": "origins-plus-plus:92729839_d279_46fb_b216_2db3b3805586"
+    "id": "origins-plus-plus:92729839_d279_46fb_b216_2db3b3805586",
+    "amount": 4
   },
   "condition": {
     "type": "origins:resource",

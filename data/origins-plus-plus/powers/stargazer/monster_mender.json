@@ -3,8 +3,8 @@
   "modifier": {
     "attribute": "minecraft:generic.attack_speed",
     "operation": "add_multiplied_total",
-    "value": 0.5,
-    "id": "origins-plus-plus:210e9c1a_1463_4a70_9ae7_ca0a52db0a0b"
+    "id": "origins-plus-plus:210e9c1a_1463_4a70_9ae7_ca0a52db0a0b",
+    "amount": 0.5
   },
   "condition": {
     "type": "origins:in_block",

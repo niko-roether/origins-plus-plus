@@ -5,8 +5,8 @@
     "name": "explosion"
   },
   "modifier": {
-    "value": 2,
     "operation": "add_multiplied_total",
-    "id": "origins-plus-plus:b3984e87_ccc9_4d8c_977a_3a0544d56147"
+    "id": "origins-plus-plus:b3984e87_ccc9_4d8c_977a_3a0544d56147",
+    "amount": 2
   }
 }

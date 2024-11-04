@@ -2,9 +2,9 @@
   "type": "origins:conditioned_attribute",
   "modifier": {
     "attribute": "minecraft:generic.movement_speed",
-    "value": 0.1,
     "operation": "add_multiplied_base",
-    "id": "origins-plus-plus:08b23a90_25a8_4638_b4b4_a37a10736f9b"
+    "id": "origins-plus-plus:08b23a90_25a8_4638_b4b4_a37a10736f9b",
+    "amount": 0.1
   },
   "condition": {
     "type": "origins:resource",

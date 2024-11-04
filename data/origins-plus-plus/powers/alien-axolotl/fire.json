@@ -5,7 +5,7 @@
   },
   "modifier": {
     "operation": "add_multiplied_base",
-    "value": 2,
-    "id": "origins-plus-plus:d28703bc_6ef9_4f3f_809f_184405a18a61"
+    "id": "origins-plus-plus:d28703bc_6ef9_4f3f_809f_184405a18a61",
+    "amount": 2
   }
 }

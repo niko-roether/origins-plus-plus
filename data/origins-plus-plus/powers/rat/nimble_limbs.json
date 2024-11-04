@@ -5,18 +5,18 @@
     "type": "origins:attribute",
     "modifier": {
       "attribute": "minecraft:generic.attack_speed",
-      "value": 1.15,
       "operation": "add_multiplied_total",
-      "id": "origins-plus-plus:68376f78_51b3_49d7_9e78_174ab6488fd2"
+      "id": "origins-plus-plus:68376f78_51b3_49d7_9e78_174ab6488fd2",
+      "amount": 1.15
     }
   },
   "movement_speed": {
     "type": "origins:attribute",
     "modifier": {
       "attribute": "minecraft:generic.movement_speed",
-      "value": 0.6,
       "operation": "add_multiplied_total",
-      "id": "origins-plus-plus:edf955de_ffb1_4065_8cbe_0cae9d3392cc"
+      "id": "origins-plus-plus:edf955de_ffb1_4065_8cbe_0cae9d3392cc",
+      "amount": 0.6
     }
   }
 }

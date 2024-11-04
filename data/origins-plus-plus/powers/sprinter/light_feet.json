@@ -3,8 +3,8 @@
   "modifier": {
     "attribute": "minecraft:generic.movement_speed",
     "operation": "add_value",
-    "value": 0.08,
-    "id": "origins-plus-plus:0b140160_17bd_46e8_a559_dff6dfce0d44"
+    "id": "origins-plus-plus:0b140160_17bd_46e8_a559_dff6dfce0d44",
+    "amount": 0.08
   },
   "condition": {
     "type": "origins:on_block",

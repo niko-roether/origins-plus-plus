@@ -2,8 +2,8 @@
   "type": "origins:modify_damage_dealt",
   "modifier": {
     "operation": "add_multiplied_total",
-    "value": -0.75,
-    "id": "origins-plus-plus:a87f3c2a_ed42_461b_b41b_f94715965411"
+    "id": "origins-plus-plus:a87f3c2a_ed42_461b_b41b_f94715965411",
+    "amount": -0.75
   },
   "condition": {
     "type": "origins:equipped_item",

@@ -5,8 +5,8 @@
     "modifier": {
       "attribute": "minecraft:generic.attack_damage",
       "operation": "add_value",
-      "value": 1,
-      "id": "origins-plus-plus:6094cd29_4f74_4026_8337_2ec75d0299db"
+      "id": "origins-plus-plus:6094cd29_4f74_4026_8337_2ec75d0299db",
+      "amount": 1
     },
     "condition": {
       "type": "origins:resource",
@@ -20,8 +20,8 @@
     "modifier": {
       "attribute": "minecraft:generic.attack_damage",
       "operation": "add_value",
-      "value": 2,
-      "id": "origins-plus-plus:19e1008e_5913_4c76_b278_57acdca2fb07"
+      "id": "origins-plus-plus:19e1008e_5913_4c76_b278_57acdca2fb07",
+      "amount": 2
     },
     "condition": {
       "type": "origins:resource",
@@ -35,8 +35,8 @@
     "modifier": {
       "attribute": "minecraft:generic.attack_damage",
       "operation": "add_value",
-      "value": 4,
-      "id": "origins-plus-plus:5ead97a5_d1dd_4a14_8c5b_5ab16f35db53"
+      "id": "origins-plus-plus:5ead97a5_d1dd_4a14_8c5b_5ab16f35db53",
+      "amount": 4
     },
     "condition": {
       "type": "origins:resource",

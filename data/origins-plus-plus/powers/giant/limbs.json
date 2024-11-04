@@ -4,16 +4,16 @@
     "type": "origins:modify_jump",
     "modifier": {
       "operation": "add_multiplied_base",
-      "value": 0.5,
-      "id": "origins-plus-plus:fdbf5292_a365_4a47_a4be_6f9c8c3e5d7f"
+      "id": "origins-plus-plus:fdbf5292_a365_4a47_a4be_6f9c8c3e5d7f",
+      "amount": 0.5
     }
   },
   "ice_slip": {
     "type": "origins:modify_slipperiness",
     "modifier": {
       "operation": "add_value",
-      "value": -0.38,
-      "id": "origins-plus-plus:42e82e74_e1ad_4fcb_a602_d98013a5f6e7"
+      "id": "origins-plus-plus:42e82e74_e1ad_4fcb_a602_d98013a5f6e7",
+      "amount": -0.38
     },
     "block_condition": {
       "type": "origins:in_tag",

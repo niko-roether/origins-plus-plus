@@ -9,8 +9,8 @@
     },
     "modifier": {
       "operation": "add_multiplied_base",
-      "value": -0.6,
-      "id": "origins-plus-plus:9cbdf6b9_01b8_4e39_a3a3_b36c4f6c4918"
+      "id": "origins-plus-plus:9cbdf6b9_01b8_4e39_a3a3_b36c4f6c4918",
+      "amount": -0.6
     }
   },
   "glowing": {

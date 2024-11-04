@@ -16,8 +16,8 @@
     "modifier": {
       "attribute": "minecraft:generic.movement_speed",
       "operation": "add_multiplied_base",
-      "value": 0.5,
-      "id": "origins-plus-plus:4dcd56d4_70f0_448e_88a6_ed01a92715c3"
+      "id": "origins-plus-plus:4dcd56d4_70f0_448e_88a6_ed01a92715c3",
+      "amount": 0.5
     }
   }
 }

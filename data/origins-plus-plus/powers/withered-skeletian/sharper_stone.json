@@ -12,7 +12,7 @@
   },
   "modifier": {
     "operation": "add_multiplied_total",
-    "value": 1.25,
-    "id": "origins-plus-plus:932da448_deee_421d_acdd_7538b344b6c4"
+    "id": "origins-plus-plus:932da448_deee_421d_acdd_7538b344b6c4",
+    "amount": 1.25
   }
 }

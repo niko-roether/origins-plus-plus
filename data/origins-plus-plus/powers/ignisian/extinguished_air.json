@@ -3,8 +3,8 @@
   "hidden": true,
   "modifier": {
     "operation": "add_multiplied_base",
-    "value": -0.5,
-    "id": "origins-plus-plus:0f87f682_3937_48ff_bc1e_e1338286704f"
+    "id": "origins-plus-plus:0f87f682_3937_48ff_bc1e_e1338286704f",
+    "amount": -0.5
   },
   "condition": {
     "type": "origins:fluid_height",

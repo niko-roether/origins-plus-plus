@@ -3,8 +3,8 @@
   "modifier": {
     "attribute": "minecraft:generic.armor",
     "operation": "add_value",
-    "value": 3,
-    "id": "origins-plus-plus:e081d6f2_c959_4456_aefb_4f6f26514fa3"
+    "id": "origins-plus-plus:e081d6f2_c959_4456_aefb_4f6f26514fa3",
+    "amount": 3
   },
   "condition": {
     "type": "origins:on_block",

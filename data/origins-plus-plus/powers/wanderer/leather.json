@@ -48,21 +48,21 @@
   "modifier": {
     "attribute": "minecraft:generic.armor",
     "operation": "add_multiplied_total",
-    "value": 1.05,
-    "id": "origins-plus-plus:e0257ada_ed3b_462c_a40c_cab6f7c0700f"
+    "id": "origins-plus-plus:e0257ada_ed3b_462c_a40c_cab6f7c0700f",
+    "amount": 1.05
   },
   "modifiers": [
     {
       "attribute": "minecraft:generic.movement_speed",
       "operation": "add_value",
-      "value": 0.0125,
-      "id": "origins-plus-plus:7027a2a8_4c0e_450a_9b80_25a10d71e5f3"
+      "id": "origins-plus-plus:7027a2a8_4c0e_450a_9b80_25a10d71e5f3",
+      "amount": 0.0125
     },
     {
       "attribute": "minecraft:generic.attack_damage",
       "operation": "add_multiplied_base",
-      "value": 2,
-      "id": "origins-plus-plus:4f97ad89_d08d_4c79_b225_38d3e2a7bb5f"
+      "id": "origins-plus-plus:4f97ad89_d08d_4c79_b225_38d3e2a7bb5f",
+      "amount": 2
     }
   ]
 }

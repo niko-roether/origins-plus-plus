@@ -6,20 +6,20 @@
       {
         "attribute": "minecraft:generic.movement_speed",
         "operation": "add_multiplied_base",
-        "value": 0.75,
-        "id": "origins-plus-plus:5d2100c6_3a46_4586_89f3_9bf447526e8d"
+        "id": "origins-plus-plus:5d2100c6_3a46_4586_89f3_9bf447526e8d",
+        "amount": 0.75
       },
       {
         "attribute": "minecraft:generic.attack_damage",
         "operation": "add_multiplied_base",
-        "value": 0.75,
-        "id": "origins-plus-plus:0fe8defb_04be_4c96_9931_4a3531682082"
+        "id": "origins-plus-plus:0fe8defb_04be_4c96_9931_4a3531682082",
+        "amount": 0.75
       },
       {
         "attribute": "minecraft:generic.max_health",
         "operation": "add_value",
-        "value": 8,
-        "id": "origins-plus-plus:0d9880e7_9623_464b_af3d_7f44080d094b"
+        "id": "origins-plus-plus:0d9880e7_9623_464b_af3d_7f44080d094b",
+        "amount": 8
       }
     ],
     "condition": {

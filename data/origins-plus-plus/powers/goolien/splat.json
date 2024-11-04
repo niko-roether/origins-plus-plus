@@ -337,9 +337,9 @@
   "reduced_kinetic_damage": {
     "type": "origins:modify_damage_taken",
     "modifier": {
-      "value": -0.85,
       "operation": "add_multiplied_base",
-      "id": "origins-plus-plus:e00d8d18_875d_478e_9d9a_ba356758d660"
+      "id": "origins-plus-plus:e00d8d18_875d_478e_9d9a_ba356758d660",
+      "amount": -0.85
     },
     "damage_condition": {
       "type": "origins:or",

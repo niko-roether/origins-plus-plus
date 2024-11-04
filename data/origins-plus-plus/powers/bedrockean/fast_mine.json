@@ -2,7 +2,7 @@
   "type": "origins:modify_break_speed",
   "modifier": {
     "operation": "add_multiplied_base",
-    "value": 2,
-    "id": "origins-plus-plus:d824aa76_692a_4d4a_969b_2953ff1ac4be"
+    "id": "origins-plus-plus:d824aa76_692a_4d4a_969b_2953ff1ac4be",
+    "amount": 2
   }
 }

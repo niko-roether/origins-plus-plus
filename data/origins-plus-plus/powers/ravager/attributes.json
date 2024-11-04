@@ -4,17 +4,17 @@
     "type": "origins:modify_damage_taken",
     "modifier": {
       "operation": "add_multiplied_base",
-      "value": -0.125,
-      "id": "origins-plus-plus:f83de360_5286_4985_871e_a6448d7bd2e8"
+      "id": "origins-plus-plus:f83de360_5286_4985_871e_a6448d7bd2e8",
+      "amount": -0.125
     }
   },
   "knockback_resistance": {
     "type": "origins:attribute",
     "modifier": {
       "attribute": "minecraft:generic.knockback_resistance",
-      "value": 999,
       "operation": "add_value",
-      "id": "origins-plus-plus:9e349626_36d0_4a03_b05f_a35629f8b5b3"
+      "id": "origins-plus-plus:9e349626_36d0_4a03_b05f_a35629f8b5b3",
+      "amount": 999
     }
   }
 }

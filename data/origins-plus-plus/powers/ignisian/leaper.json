@@ -2,7 +2,7 @@
   "type": "origins:modify_jump",
   "modifier": {
     "operation": "add_value",
-    "value": 0.1,
-    "id": "origins-plus-plus:2ee85558_21e0_4cc1_8853_23affce19171"
+    "id": "origins-plus-plus:2ee85558_21e0_4cc1_8853_23affce19171",
+    "amount": 0.1
   }
 }

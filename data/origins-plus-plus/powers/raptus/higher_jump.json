@@ -1,9 +1,9 @@
 {
   "type": "origins:modify_jump",
   "modifier": {
-    "value": 0.5,
     "operation": "add_multiplied_base",
-    "id": "origins-plus-plus:6a85575d_202c_4fd0_b803_bee85f94dfde"
+    "id": "origins-plus-plus:6a85575d_202c_4fd0_b803_bee85f94dfde",
+    "amount": 0.5
   },
   "condition": {
     "type": "origins:sprinting"

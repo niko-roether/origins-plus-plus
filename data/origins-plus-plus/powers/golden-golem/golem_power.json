@@ -5,8 +5,8 @@
     "modifier": {
       "attribute": "minecraft:generic.movement_speed",
       "operation": "add_value",
-      "value": 0.02,
-      "id": "origins-plus-plus:bef1f181_7e36_4538_bf9e_c5ae2d315e66"
+      "id": "origins-plus-plus:bef1f181_7e36_4538_bf9e_c5ae2d315e66",
+      "amount": 0.02
     },
     "condition": {
       "type": "origins:health",
@@ -19,8 +19,8 @@
     "modifier": {
       "attribute": "minecraft:generic.attack_damage",
       "operation": "add_value",
-      "value": 1,
-      "id": "origins-plus-plus:3c0f94ed_cf34_422b_8fc7_7557ad144887"
+      "id": "origins-plus-plus:3c0f94ed_cf34_422b_8fc7_7557ad144887",
+      "amount": 1
     },
     "condition": {
       "type": "origins:health",
@@ -33,8 +33,8 @@
     "modifier": {
       "attribute": "minecraft:generic.attack_speed",
       "operation": "add_value",
-      "value": 0.2,
-      "id": "origins-plus-plus:01106d25_035b_4806_bfec_60ed435e5f6b"
+      "id": "origins-plus-plus:01106d25_035b_4806_bfec_60ed435e5f6b",
+      "amount": 0.2
     },
     "condition": {
       "type": "origins:health",
@@ -47,8 +47,8 @@
     "modifier": {
       "attribute": "minecraft:generic.armor",
       "operation": "add_value",
-      "value": 5,
-      "id": "origins-plus-plus:3c2d142b_579a_459b_9cae_16cbf1ffae10"
+      "id": "origins-plus-plus:3c2d142b_579a_459b_9cae_16cbf1ffae10",
+      "amount": 5
     },
     "condition": {
       "type": "origins:health",

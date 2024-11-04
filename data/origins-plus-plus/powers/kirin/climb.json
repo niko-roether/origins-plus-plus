@@ -49,9 +49,9 @@
     "type": "origins:attribute",
     "modifier": {
       "attribute": "minecraft:generic.movement_speed",
-      "value": 0.05,
       "operation": "add_value",
-      "id": "origins-plus-plus:3217d040_b438_4a55_954a_31ae8097045c"
+      "id": "origins-plus-plus:3217d040_b438_4a55_954a_31ae8097045c",
+      "amount": 0.05
     }
   }
 }

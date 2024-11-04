@@ -2,9 +2,9 @@
   "type": "origins:attribute",
   "modifier": {
     "attribute": "minecraft:generic.movement_speed",
-    "value": 0.5,
     "operation": "add_multiplied_total",
-    "id": "origins-plus-plus:e0e45a90_c661_40ad_a689_6f6643c9d13c"
+    "id": "origins-plus-plus:e0e45a90_c661_40ad_a689_6f6643c9d13c",
+    "amount": 0.5
   },
   "hidden": true
 }

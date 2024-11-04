@@ -1,9 +1,9 @@
 {
   "type": "origins:modify_swim_speed",
   "modifier": {
-    "value": 1,
     "operation": "add_multiplied_base",
-    "id": "origins-plus-plus:35521161_27c7_43b8_a955_23b6debc917a"
+    "id": "origins-plus-plus:35521161_27c7_43b8_a955_23b6debc917a",
+    "amount": 1
   },
   "hidden": true
 }

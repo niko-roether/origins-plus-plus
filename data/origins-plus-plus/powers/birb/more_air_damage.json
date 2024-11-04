@@ -1,9 +1,9 @@
 {
   "type": "origins:modify_damage_dealt",
   "modifier": {
-    "value": 1,
     "operation": "add_multiplied_base",
-    "id": "origins-plus-plus:40fe1bdb_2e89_4bab_89bc_907c66c97546"
+    "id": "origins-plus-plus:40fe1bdb_2e89_4bab_89bc_907c66c97546",
+    "amount": 1
   },
   "condition": {
     "type": "origins:fall_flying"

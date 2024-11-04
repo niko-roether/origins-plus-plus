@@ -167,8 +167,8 @@
     "type": "origins:modify_break_speed",
     "modifier": {
       "operation": "add_multiplied_total",
-      "value": -0.75,
-      "id": "origins-plus-plus:68bb11e6_8fb9_4fa6_8e5e_39f37f6275ba"
+      "id": "origins-plus-plus:68bb11e6_8fb9_4fa6_8e5e_39f37f6275ba",
+      "amount": -0.75
     },
     "condition": {
       "type": "origins:and",

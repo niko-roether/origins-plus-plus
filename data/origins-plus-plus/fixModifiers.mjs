@@ -10,6 +10,11 @@ function fixModifier(obj) {
 		obj.id = `origins-plus-plus:${randomUUID().replace(/-/g, "_")}`;
 		fixed = true;
 	}
+	if ("value" in obj) {
+		obj.amount = obj.value;
+		obj.value = undefined;
+		fixed = true;
+	}
 	switch (obj.operation) {
 		case "addition":
 			obj.operation = "add_value";

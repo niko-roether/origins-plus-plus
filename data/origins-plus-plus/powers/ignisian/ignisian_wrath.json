@@ -27,8 +27,8 @@
     "type": "origins:modify_damage_taken",
     "modifier": {
       "operation": "add_multiplied_total",
-      "value": -0.8,
-      "id": "origins-plus-plus:2dacfdc3_cc41_433a_b775_2563fb9af5b7"
+      "id": "origins-plus-plus:2dacfdc3_cc41_433a_b775_2563fb9af5b7",
+      "amount": -0.8
     },
     "condition": {
       "type": "origins:power_active",
@@ -40,8 +40,8 @@
     "modifier": {
       "attribute": "minecraft:generic.movement_speed",
       "operation": "add_multiplied_base",
-      "value": 0.5,
-      "id": "origins-plus-plus:c65f62ad_b727_46a3_a5a8_b9464750f626"
+      "id": "origins-plus-plus:c65f62ad_b727_46a3_a5a8_b9464750f626",
+      "amount": 0.5
     },
     "condition": {
       "type": "origins:power_active",
@@ -53,8 +53,8 @@
     "modifier": {
       "attribute": "minecraft:generic.knockback_resistance",
       "operation": "add_value",
-      "value": 1,
-      "id": "origins-plus-plus:0d812c9f_ae98_4759_9107_49030da71847"
+      "id": "origins-plus-plus:0d812c9f_ae98_4759_9107_49030da71847",
+      "amount": 1
     },
     "condition": {
       "type": "origins:power_active",

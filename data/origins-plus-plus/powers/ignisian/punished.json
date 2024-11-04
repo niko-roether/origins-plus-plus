@@ -27,7 +27,7 @@
   },
   "modifier": {
     "operation": "add_multiplied_base",
-    "value": 2,
-    "id": "origins-plus-plus:961e7fda_5700_46a3_a80c_b0656a40662b"
+    "id": "origins-plus-plus:961e7fda_5700_46a3_a80c_b0656a40662b",
+    "amount": 2
   }
 }

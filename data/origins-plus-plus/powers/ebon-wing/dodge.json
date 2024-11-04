@@ -4,8 +4,8 @@
     "type": "origins:modify_damage_taken",
     "modifier": {
       "operation": "add_multiplied_total",
-      "value": -1,
-      "id": "origins-plus-plus:115a0e34_b083_4fa9_b84f_ca5452019ecb"
+      "id": "origins-plus-plus:115a0e34_b083_4fa9_b84f_ca5452019ecb",
+      "amount": -1
     },
     "condition": {
       "type": "origins:and",
@@ -150,8 +150,8 @@
     "type": "origins:modify_damage_taken",
     "modifier": {
       "operation": "add_multiplied_total",
-      "value": 0,
-      "id": "origins-plus-plus:c9a0cdff_f29d_4d95_9d43_bd3b970c83b9"
+      "id": "origins-plus-plus:c9a0cdff_f29d_4d95_9d43_bd3b970c83b9",
+      "amount": 0
     },
     "condition": {
       "type": "origins:and",

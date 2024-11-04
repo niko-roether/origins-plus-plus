@@ -5,8 +5,8 @@
     "type": "origins:modify_damage_dealt",
     "modifier": {
       "operation": "add_value",
-      "value": 2.5,
-      "id": "origins-plus-plus:38c331ec_4a0a_43ee_ae2d_4ca1ca70a4fd"
+      "id": "origins-plus-plus:38c331ec_4a0a_43ee_ae2d_4ca1ca70a4fd",
+      "amount": 2.5
     },
     "condition": {
       "type": "origins:equipped_item",
@@ -24,8 +24,8 @@
     "modifier": {
       "attribute": "minecraft:generic.armor",
       "operation": "add_value",
-      "value": 1,
-      "id": "origins-plus-plus:8d996596_16c6_4beb_9a05_3b6638247606"
+      "id": "origins-plus-plus:8d996596_16c6_4beb_9a05_3b6638247606",
+      "amount": 1
     },
     "condition": {
       "type": "origins:equipped_item",
@@ -43,8 +43,8 @@
     "modifier": {
       "attribute": "minecraft:generic.armor",
       "operation": "add_value",
-      "value": 2,
-      "id": "origins-plus-plus:618324a3_562c_4120_9878_a8efde18343f"
+      "id": "origins-plus-plus:618324a3_562c_4120_9878_a8efde18343f",
+      "amount": 2
     },
     "condition": {
       "type": "origins:equipped_item",
@@ -62,8 +62,8 @@
     "modifier": {
       "attribute": "minecraft:generic.armor",
       "operation": "add_value",
-      "value": 2,
-      "id": "origins-plus-plus:b74055a1_a824_49bf_8019_e34d5b2687a2"
+      "id": "origins-plus-plus:b74055a1_a824_49bf_8019_e34d5b2687a2",
+      "amount": 2
     },
     "condition": {
       "type": "origins:equipped_item",
@@ -81,8 +81,8 @@
     "modifier": {
       "attribute": "minecraft:generic.armor",
       "operation": "add_value",
-      "value": 1,
-      "id": "origins-plus-plus:43e1a585_9d3d_4698_afa7_372eddcd1f18"
+      "id": "origins-plus-plus:43e1a585_9d3d_4698_afa7_372eddcd1f18",
+      "amount": 1
     },
     "condition": {
       "type": "origins:equipped_item",

@@ -3,7 +3,7 @@
   "modifier": {
     "attribute": "minecraft:generic.attack_damage",
     "operation": "add_value",
-    "value": 2,
-    "id": "origins-plus-plus:1ea8a0c9_12b3_4845_8569_b64ef689417a"
+    "id": "origins-plus-plus:1ea8a0c9_12b3_4845_8569_b64ef689417a",
+    "amount": 2
   }
 }

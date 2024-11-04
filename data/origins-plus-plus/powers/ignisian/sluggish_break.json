@@ -3,7 +3,7 @@
   "hidden": true,
   "modifier": {
     "operation": "add_multiplied_total",
-    "value": -0.25,
-    "id": "origins-plus-plus:dab6bdfe_9df7_4af4_a692_153f540276aa"
+    "id": "origins-plus-plus:dab6bdfe_9df7_4af4_a692_153f540276aa",
+    "amount": -0.25
   }
 }

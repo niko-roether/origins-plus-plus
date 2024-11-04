@@ -3,8 +3,8 @@
   "modifier": {
     "attribute": "minecraft:generic.attack_damage",
     "operation": "add_multiplied_total",
-    "value": -0.4,
-    "id": "origins-plus-plus:dbd4d466_ab61_482e_befb_54b2848ed966"
+    "id": "origins-plus-plus:dbd4d466_ab61_482e_befb_54b2848ed966",
+    "amount": -0.4
   },
   "update_health": true
 }

@@ -13,15 +13,15 @@
   "modifier": {
     "attribute": "minecraft:generic.attack_damage",
     "operation": "add_multiplied_base",
-    "value": 1.25,
-    "id": "origins-plus-plus:9007b829_829c_493e_8397_017f1bb318e1"
+    "id": "origins-plus-plus:9007b829_829c_493e_8397_017f1bb318e1",
+    "amount": 1.25
   },
   "modifiers": [
     {
       "attribute": "minecraft:generic.attack_speed",
       "operation": "add_value",
-      "value": 1.25,
-      "id": "origins-plus-plus:8d8c9235_5272_4d9f_91f8_1dab9e1052ae"
+      "id": "origins-plus-plus:8d8c9235_5272_4d9f_91f8_1dab9e1052ae",
+      "amount": 1.25
     }
   ]
 }

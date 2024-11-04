@@ -3,8 +3,8 @@
   "type": "origins:modify_break_speed",
   "modifier": {
     "operation": "add_multiplied_total",
-    "value": -0.75,
-    "id": "origins-plus-plus:f2e15ca3_34ce_4860_84a3_f9b6a318781b"
+    "id": "origins-plus-plus:f2e15ca3_34ce_4860_84a3_f9b6a318781b",
+    "amount": -0.75
   },
   "condition": {
     "type": "origins:and",

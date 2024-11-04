@@ -2,8 +2,8 @@
   "type": "origins:modify_exhaustion",
   "modifier": {
     "operation": "add_value",
-    "value": 0.06,
-    "id": "origins-plus-plus:83e5294e_fa81_435a_9977_e354d68b609e"
+    "id": "origins-plus-plus:83e5294e_fa81_435a_9977_e354d68b609e",
+    "amount": 0.06
   },
   "condition": {
     "type": "origins:power_active",
