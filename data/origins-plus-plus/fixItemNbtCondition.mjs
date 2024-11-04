@@ -10,8 +10,8 @@ function isProbablyIngredientCondition(obj) {
 function fixIngredientCondition(obj) {
 	if (typeof obj !== "object") return false;
 	let fixed = false;
-	if (obj.type !== "apoli:custom_data") {
-		obj.type = "apoli:custom_data";
+	if (obj.type !== "custom_data") {
+		obj.type = "custom_data";
 		fixed = true;
 	}
 	return fixed;
