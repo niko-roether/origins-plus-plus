@@ -42,7 +42,7 @@
       "change": 100
     },
     "item_condition": {
-      "type": "minecraft:custom_data",
+      "type": "apoli:custom_data",
       "nbt": "{tag:\"empty\"}"
     }
   }

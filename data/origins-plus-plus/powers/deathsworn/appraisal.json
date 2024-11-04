@@ -16,7 +16,7 @@
         "type": "origins:equipped_item",
         "equipment_slot": "mainhand",
         "item_condition": {
-          "type": "minecraft:custom_data",
+          "type": "apoli:custom_data",
           "nbt": "{lnc:1}"
         }
       },
