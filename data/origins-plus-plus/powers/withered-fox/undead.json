@@ -1,4 +1,4 @@
 {
-	"type":"origins:entity_group",
-	"group":"undead"
+  "type": "origins:in_tag",
+  "tag": "undead"
 }

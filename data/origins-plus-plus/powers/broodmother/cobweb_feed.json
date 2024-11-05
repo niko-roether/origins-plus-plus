@@ -30,9 +30,9 @@
         }
       },
       {
-        "type": "origins:entity_group",
-        "group": "arthropod",
-        "inverted": true
+        "type": "origins:in_tag",
+        "inverted": true,
+        "tag": "arthropod"
       }
     ]
   }

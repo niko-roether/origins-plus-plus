@@ -3,8 +3,8 @@
   "bientity_condition": {
     "type": "origins:actor_condition",
     "condition": {
-      "type": "origins:entity_group",
-      "group": "undead"
+      "type": "origins:in_tag",
+      "tag": "undead"
     }
   },
   "modifier": {
