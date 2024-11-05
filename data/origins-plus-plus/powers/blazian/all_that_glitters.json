@@ -4,7 +4,7 @@
   "golden_tool_boost": {
     "type": "origins:modify_damage_dealt",
     "modifier": {
-      "operation": "addition",
+      "operation": "add_total_early",
       "id": "origins-plus-plus:38c331ec_4a0a_43ee_ae2d_4ca1ca70a4fd",
       "amount": 2.5
     },

@@ -7,7 +7,7 @@
     "type": "origins:attacker"
   },
   "modifier": {
-    "operation": "multiply_base",
+    "operation": "multiply_base_additive",
     "id": "origins-plus-plus:e9ee6b0c_373f_423e_997c_3a7996c73280",
     "amount": 0.5
   }

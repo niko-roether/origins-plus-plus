@@ -69,7 +69,7 @@
   "increase_damage_after_stack": {
     "type": "origins:modify_damage_dealt",
     "modifier": {
-      "operation": "multiply_total",
+      "operation": "multiply_total_additive",
       "id": "origins-plus-plus:fa4c365f_cd62_4f70_a8d9_39290b5637f8",
       "amount": 0.5
     },

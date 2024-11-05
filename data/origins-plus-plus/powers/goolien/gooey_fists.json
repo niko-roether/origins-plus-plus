@@ -3,7 +3,7 @@
   "less_damage_dealt": {
     "type": "origins:modify_damage_dealt",
     "modifier": {
-      "operation": "multiply_base",
+      "operation": "multiply_base_additive",
       "id": "origins-plus-plus:b0beec78_07ff_4df0_a1e3_ca58d040c4d3",
       "amount": -0.25
     }

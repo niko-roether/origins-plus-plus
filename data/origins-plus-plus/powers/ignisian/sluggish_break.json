@@ -2,7 +2,7 @@
   "type": "origins:modify_break_speed",
   "hidden": true,
   "modifier": {
-    "operation": "multiply_total",
+    "operation": "multiply_total_additive",
     "id": "origins-plus-plus:dab6bdfe_9df7_4af4_a692_153f540276aa",
     "amount": -0.25
   }

@@ -5,7 +5,7 @@
     "projectile": "minecraft:spectral_arrow"
   },
   "modifier": {
-    "operation": "addition",
+    "operation": "add_total_early",
     "id": "origins-plus-plus:08b4f6f1_2067_4b05_a325_e23cb037b55b",
     "amount": -10
   },

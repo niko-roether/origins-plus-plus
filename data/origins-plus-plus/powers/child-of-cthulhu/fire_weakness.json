@@ -4,7 +4,7 @@
     "type": "origins:fire"
   },
   "modifier": {
-    "operation": "multiply_base",
+    "operation": "multiply_base_additive",
     "id": "origins-plus-plus:f1b5ae4f_deef_421c_8b7f_09e0a1466eb9",
     "amount": 3
   }

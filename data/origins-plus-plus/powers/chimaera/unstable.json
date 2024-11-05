@@ -13,7 +13,7 @@
     "type": "origins:modify_status_effect_amplifier",
     "status_effect": "minecraft:blindness",
     "modifier": {
-      "operation": "addition",
+      "operation": "add_total_early",
       "id": "origins-plus-plus:5709a376_4c4b_494c_94b6_dc95ef1caefe",
       "amount": 1
     }

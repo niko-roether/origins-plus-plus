@@ -1,7 +1,7 @@
 {
   "type": "origins:modify_lava_speed",
   "modifier": {
-    "operation": "addition",
+    "operation": "add_total_early",
     "id": "origins-plus-plus:532e5769_262c_4ae6_9a2f_fea3705e6844",
     "amount": 0.42
   }

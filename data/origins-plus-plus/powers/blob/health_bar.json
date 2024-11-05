@@ -23,7 +23,7 @@
     "type": "origins:modify_damage_taken",
     "modifier": {
       "name": "health",
-      "operation": "multiply_base",
+      "operation": "multiply_base_additive",
       "id": "origins-plus-plus:378fde64_a52f_45ca_b6d3_3095c8c42e82",
       "amount": -0.9999
     },

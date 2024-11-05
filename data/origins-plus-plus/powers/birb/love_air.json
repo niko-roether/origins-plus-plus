@@ -4,7 +4,7 @@
     "type": "origins:on_block"
   },
   "modifier": {
-    "operation": "multiply_total",
+    "operation": "multiply_total_additive",
     "id": "origins-plus-plus:c753b095_d0f5_4a60_99f1_a4194836719b",
     "amount": 0.5
   }

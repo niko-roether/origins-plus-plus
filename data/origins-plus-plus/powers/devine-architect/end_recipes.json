@@ -7,7 +7,7 @@
       "tag": "origins-plus-plus:end_blocks"
     },
     "modifier": {
-      "operation": "multiply_base",
+      "operation": "multiply_base_additive",
       "id": "origins-plus-plus:d1195059_eb65_49b6_8d7f_b3f2bf5f644d",
       "amount": 6
     }

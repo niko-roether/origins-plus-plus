@@ -6,7 +6,7 @@
   "no_exhaustion": {
     "type": "origins:modify_exhaustion",
     "modifier": {
-      "operation": "multiply_total",
+      "operation": "multiply_total_additive",
       "id": "origins-plus-plus:988d904f_3348_462a_8888_8a58d38491c6",
       "amount": -1
     }

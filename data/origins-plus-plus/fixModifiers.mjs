@@ -21,17 +21,20 @@ function fixModifier(obj) {
 	switch (obj.operation) {
 		case "addition":
 		case "add_value":
-			obj.operation = isAttrMod ? "add_value" : "addition";
+		case "add_total_early":
+			obj.operation = isAttrMod ? "add_value" : "add_total_early";
 			fixed = true;
 			break;
 		case "multiply_base":
+		case "multiply_base_additive":
 		case "add_multiplied_base":
-			obj.operation = isAttrMod ? "add_multiplied_base" : "multiply_base";
+			obj.operation = isAttrMod ? "add_multiplied_base" : "multiply_base_additive";
 			fixed = true;
 			break;
 		case "multiply_total":
+		case "multiply_total_additive":
 		case "add_multiplied_total":
-			obj.operation = isAttrMod ? "add_multiplied_total" : "multiply_total";
+			obj.operation = isAttrMod ? "add_multiplied_total" : "multiply_total_additive";
 			fixed = true;
 			break;
 	}

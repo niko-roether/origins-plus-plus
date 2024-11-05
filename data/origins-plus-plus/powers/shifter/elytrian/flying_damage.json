@@ -3,7 +3,7 @@
   "increase_damage_when_flying": {
     "type": "origins:modify_damage_dealt",
     "modifier": {
-      "operation": "multiply_base",
+      "operation": "multiply_base_additive",
       "id": "origins-plus-plus:e9402e1b_2283_46f5_b534_1ee5b2c8cb98",
       "amount": 0.5
     },

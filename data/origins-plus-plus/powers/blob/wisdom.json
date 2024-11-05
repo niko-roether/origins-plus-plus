@@ -3,7 +3,7 @@
   "xp": {
     "type": "origins:modify_xp_gain",
     "modifier": {
-      "operation": "multiply_total",
+      "operation": "multiply_total_additive",
       "id": "origins-plus-plus:b71082ee_f94c_4e03_b51e_5c5c4c388923",
       "amount": 1.75
     }

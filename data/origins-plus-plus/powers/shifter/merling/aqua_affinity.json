@@ -3,7 +3,7 @@
   "underwater": {
     "type": "origins:modify_break_speed",
     "modifier": {
-      "operation": "multiply_total",
+      "operation": "multiply_total_additive",
       "id": "origins-plus-plus:222f1e2b_717e_47e8_b917_8ab5cbf9b819",
       "amount": 4
     },

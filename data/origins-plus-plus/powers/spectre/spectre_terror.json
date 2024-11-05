@@ -37,7 +37,7 @@
   "airspeed": {
     "type": "origins:modify_air_speed",
     "modifier": {
-      "operation": "multiply_total",
+      "operation": "multiply_total_additive",
       "id": "origins-plus-plus:132cd1e7_f31a_45e5_9b19_de2e0d0aed24",
       "amount": 1
     },

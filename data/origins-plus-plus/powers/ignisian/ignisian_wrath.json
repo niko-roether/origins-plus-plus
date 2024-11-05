@@ -23,7 +23,7 @@
   "tank": {
     "type": "origins:modify_damage_taken",
     "modifier": {
-      "operation": "multiply_total",
+      "operation": "multiply_total_additive",
       "id": "origins-plus-plus:2dacfdc3_cc41_433a_b775_2563fb9af5b7",
       "amount": -0.8
     },

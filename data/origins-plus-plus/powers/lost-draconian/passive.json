@@ -3,7 +3,7 @@
   "less_exhaustion": {
     "type": "origins:modify_exhaustion",
     "modifier": {
-      "operation": "multiply_base",
+      "operation": "multiply_base_additive",
       "id": "origins-plus-plus:6a658fad_c9e1_4cd5_93d3_dd4a2fdb40b8",
       "amount": -0.1
     }

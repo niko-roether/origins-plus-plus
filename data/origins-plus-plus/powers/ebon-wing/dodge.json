@@ -3,7 +3,7 @@
   "iframes": {
     "type": "origins:modify_damage_taken",
     "modifier": {
-      "operation": "multiply_total",
+      "operation": "multiply_total_additive",
       "id": "origins-plus-plus:115a0e34_b083_4fa9_b84f_ca5452019ecb",
       "amount": -1
     },

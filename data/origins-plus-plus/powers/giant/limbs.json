@@ -3,7 +3,7 @@
   "jump": {
     "type": "origins:modify_jump",
     "modifier": {
-      "operation": "multiply_base",
+      "operation": "multiply_base_additive",
       "id": "origins-plus-plus:fdbf5292_a365_4a47_a4be_6f9c8c3e5d7f",
       "amount": 0.5
     }

@@ -2,7 +2,7 @@
   "type": "origins:modify_air_speed",
   "hidden": true,
   "modifier": {
-    "operation": "multiply_base",
+    "operation": "multiply_base_additive",
     "id": "origins-plus-plus:0f87f682_3937_48ff_bc1e_e1338286704f",
     "amount": -0.5
   },

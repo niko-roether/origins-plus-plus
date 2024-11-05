@@ -1,7 +1,7 @@
 {
   "type": "origins:modify_jump",
   "modifier": {
-    "operation": "addition",
+    "operation": "add_total_early",
     "id": "origins-plus-plus:8d59af75_5662_43f2_8191_ec7724f7a8c5",
     "amount": 0.3
   },

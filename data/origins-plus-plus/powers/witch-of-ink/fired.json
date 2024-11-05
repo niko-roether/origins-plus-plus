@@ -5,7 +5,7 @@
     "name": "onFire"
   },
   "modifier": {
-    "operation": "addition",
+    "operation": "add_total_early",
     "id": "origins-plus-plus:2ba365b6_71e5_4427_a229_6c5f162145eb",
     "amount": 3
   }

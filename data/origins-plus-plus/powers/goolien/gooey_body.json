@@ -6,7 +6,7 @@
       "type": "origins:attacker"
     },
     "modifier": {
-      "operation": "multiply_total",
+      "operation": "multiply_total_additive",
       "id": "origins-plus-plus:df41ab8a_8ae0_42f3_b8b3_7431aa9e771e",
       "amount": -0.3
     }
