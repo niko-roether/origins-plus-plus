@@ -1,5 +1,0 @@
-{
-	"type":"origins:prevent_sleep",
-	"set_spawn_point":true,
-	"message":"origins-plus-plus.bedrockean.sleep_fail"
-}
