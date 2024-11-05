@@ -1,5 +1,5 @@
 {
-	"values":[
+	"values": [
 		"#minecraft:bee_growables",
 		"#minecraft:buttons",
 		"#minecraft:climbable",
@@ -34,7 +34,7 @@
 		"minecraft:end_gateway",
 		"minecraft:end_portal",
 		"minecraft:fern",
-		"minecraft:grass",
+		"minecraft:short_grass",
 		"minecraft:kelp_plant",
 		"minecraft:large_fern",
 		"minecraft:lava",
