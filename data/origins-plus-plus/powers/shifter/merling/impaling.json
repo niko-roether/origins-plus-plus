@@ -1,11 +1,11 @@
 {
-  "type": "origins:in_tag",
-  "hidden": true,
-  "condition": {
-    "type": "origins:resource",
-    "resource": "origins-plus-plus:shifter/shift_bar",
-    "comparison": "==",
-    "compare_to": 7
-  },
-  "tag": "aquatic"
+	"type": "origins:modify_type_tag",
+	"hidden": true,
+	"condition": {
+		"type": "origins:resource",
+		"resource": "origins-plus-plus:shifter/shift_bar",
+		"comparison": "==",
+		"compare_to": 7
+	},
+	"tag": "aquatic"
 }

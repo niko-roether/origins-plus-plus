@@ -1,38 +1,39 @@
 {
-  "type": "origins:prevent_item_use",
-  "item_condition": {
-    "type": "origins:all_of",
-    "conditions": [
-      {
-        "type": "origins:any_of",
-        "conditions": [
-          {
-            "type": "origins:ingredient",
-            "ingredient": {
-              "tag": "origins:meat"
-            }
-          },
-          {
-            "type": "origins:meat"
-          }
-        ]
-      },
-      {
-        "type": "origins:food"
-      },
-      {
-        "type": "origins:ingredient",
-        "ingredient": {
-          "tag": "origins:ignore_diet"
-        },
-        "inverted": true
-      }
-    ]
-  },
-  "condition": {
-    "type": "origins:resource",
-    "resource": "origins-plus-plus:shifter/shift_bar",
-    "comparison": "==",
-    "compare_to": 0
-  }
+	"type": "origins:prevent_item_use",
+	"item_condition": {
+		"type": "origins:all_of",
+		"conditions": [
+			{
+				"type": "origins:any_of",
+				"conditions": [
+					{
+						"type": "origins:ingredient",
+						"ingredient": {
+							"tag": "origins:meat"
+						}
+					},
+					{
+						"type": "origins:custom_data",
+						"nbt": "{\"tag\":\"minecraft:meat\"}"
+					}
+				]
+			},
+			{
+				"type": "origins:food"
+			},
+			{
+				"type": "origins:ingredient",
+				"ingredient": {
+					"tag": "origins:ignore_diet"
+				},
+				"inverted": true
+			}
+		]
+	},
+	"condition": {
+		"type": "origins:resource",
+		"resource": "origins-plus-plus:shifter/shift_bar",
+		"comparison": "==",
+		"compare_to": 0
+	}
 }
