@@ -15,17 +15,23 @@ function fixModifier(obj) {
 		obj.value = undefined;
 		fixed = true;
 	}
+
+	let isAttrMod = "attribute" in obj;
+
 	switch (obj.operation) {
 		case "addition":
-			obj.operation = "add_value";
+		case "add_value":
+			obj.operation = isAttrMod ? "add_value" : "addition";
 			fixed = true;
 			break;
 		case "multiply_base":
-			obj.operation = "add_multiplied_base";
+		case "add_multiplied_base":
+			obj.operation = isAttrMod ? "add_multiplied_base" : "multiply_base";
 			fixed = true;
 			break;
 		case "multiply_total":
-			obj.operation = "add_multiplied_total";
+		case "add_multiplied_total":
+			obj.operation = isAttrMod ? "add_multiplied_total" : "multiply_total";
 			fixed = true;
 			break;
 	}

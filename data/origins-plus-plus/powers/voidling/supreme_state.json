@@ -109,7 +109,7 @@
   "glass_cannon": {
     "type": "origins:modify_damage_taken",
     "modifier": {
-      "operation": "add_multiplied_total",
+      "operation": "multiply_total",
       "id": "origins-plus-plus:181ae223_991b_4dd6_a123_c3af4d8da449",
       "amount": 3
     },

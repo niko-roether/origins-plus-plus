@@ -6,7 +6,7 @@
       "type": "origins:projectile"
     },
     "modifier": {
-      "operation": "add_multiplied_total",
+      "operation": "multiply_total",
       "id": "origins-plus-plus:c23e1f9a_f54d_487e_885d_6229aa91818c",
       "amount": -0.5
     },

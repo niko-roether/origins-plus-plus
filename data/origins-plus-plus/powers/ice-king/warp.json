@@ -166,7 +166,7 @@
     },
     "type": "origins:modify_air_speed",
     "modifier": {
-      "operation": "add_multiplied_total",
+      "operation": "multiply_total",
       "id": "origins-plus-plus:3cc7d174_6aac_421b_81e5_0d1557dcca59",
       "amount": -1
     }

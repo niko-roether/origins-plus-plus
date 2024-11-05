@@ -2,7 +2,7 @@
   "type": "origins:modify_damage_taken",
   "hidden": true,
   "modifier": {
-    "operation": "add_multiplied_base",
+    "operation": "multiply_base",
     "id": "origins-plus-plus:6295ac5e_7432_45d2_b245_69fbb4df9fa5",
     "amount": -0.7
   },

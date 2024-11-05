@@ -1,7 +1,7 @@
 {
   "type": "origins:modify_damage_taken",
   "modifier": {
-    "operation": "add_multiplied_total",
+    "operation": "multiply_total",
     "id": "origins-plus-plus:b555408d_a814_4c94_a3ab_c297a4d32b58",
     "amount": 2
   },

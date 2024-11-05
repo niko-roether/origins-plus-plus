@@ -4,7 +4,7 @@
   "swim_speed": {
     "type": "origins:modify_swim_speed",
     "modifier": {
-      "operation": "add_multiplied_base",
+      "operation": "multiply_base",
       "id": "origins-plus-plus:4d2cc29f_601b_468d_be2b_b63dff75c3eb",
       "amount": 0.5
     }

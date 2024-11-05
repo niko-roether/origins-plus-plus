@@ -3,7 +3,7 @@
   "axe_damage": {
     "type": "origins:modify_damage_dealt",
     "modifier": {
-      "operation": "add_value",
+      "operation": "addition",
       "id": "origins-plus-plus:edf5721d_12b5_43b1_9fd0_71c5f33483d2",
       "amount": 4
     },

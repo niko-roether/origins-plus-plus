@@ -5,7 +5,7 @@
     "projectile": "minecraft:arrow"
   },
   "modifier": {
-    "operation": "add_value",
+    "operation": "addition",
     "id": "origins-plus-plus:01dbda30_b7d7_4036_a3e2_2bace61ec82d",
     "amount": -10
   }

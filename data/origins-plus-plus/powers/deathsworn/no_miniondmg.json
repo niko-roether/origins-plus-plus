@@ -8,7 +8,7 @@
     }
   },
   "modifier": {
-    "operation": "add_multiplied_total",
+    "operation": "multiply_total",
     "id": "origins-plus-plus:54ce4454_2898_4cd1_bfc3_ed1ab2a2ca51",
     "amount": -1
   },

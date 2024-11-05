@@ -7,7 +7,7 @@
       "block": "minecraft:bedrock"
     },
     "modifier": {
-      "operation": "add_value",
+      "operation": "addition",
       "id": "origins-plus-plus:99fba567_a6a7_43b7_8411_22fbb4664080",
       "amount": 0.005
     },

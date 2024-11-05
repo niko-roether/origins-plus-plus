@@ -7,7 +7,7 @@
       "name": "inFire"
     },
     "modifier": {
-      "operation": "add_multiplied_total",
+      "operation": "multiply_total",
       "id": "origins-plus-plus:bf235e92_238d_4c61_b958_8a51d5faf6af",
       "amount": 2
     }

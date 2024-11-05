@@ -5,7 +5,7 @@
     "name": "indirectMagic"
   },
   "modifier": {
-    "operation": "add_multiplied_base",
+    "operation": "multiply_base",
     "id": "origins-plus-plus:3d0cdb5e_4057_4c36_a3f8_8129a8ad1ff1",
     "amount": 1
   }

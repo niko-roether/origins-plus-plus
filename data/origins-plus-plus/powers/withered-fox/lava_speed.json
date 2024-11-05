@@ -2,7 +2,7 @@
   "type": "origins:modify_swim_speed",
   "hidden": true,
   "modifier": {
-    "operation": "add_multiplied_base",
+    "operation": "multiply_base",
     "id": "origins-plus-plus:2cb184e1_efbf_4826_9f82_8e4422ee790d",
     "amount": 0.9
   }

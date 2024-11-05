@@ -54,7 +54,7 @@
   "modify_swim_speed": {
     "type": "origins:modify_swim_speed",
     "modifier": {
-      "operation": "add_value",
+      "operation": "addition",
       "id": "origins-plus-plus:599c425e_d77d_4829_be42_a1c390124b57",
       "amount": 0.03
     },

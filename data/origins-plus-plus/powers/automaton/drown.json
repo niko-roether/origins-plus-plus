@@ -5,7 +5,7 @@
     "name": "drown"
   },
   "modifier": {
-    "operation": "add_multiplied_total",
+    "operation": "multiply_total",
     "id": "origins-plus-plus:8f4adf8c_ac92_4e55_9cf3_384742e98649",
     "amount": -1
   },

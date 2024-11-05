@@ -22,7 +22,7 @@
     ]
   },
   "modifier": {
-    "operation": "add_multiplied_total",
+    "operation": "multiply_total",
     "id": "origins-plus-plus:07545ff1_cea3_4d4a_9790_16e0b3059abe",
     "amount": 1.5
   }

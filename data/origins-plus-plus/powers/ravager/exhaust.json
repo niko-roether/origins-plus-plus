@@ -1,7 +1,7 @@
 {
   "type": "origins:modify_exhaustion",
   "modifier": {
-    "operation": "add_multiplied_base",
+    "operation": "multiply_base",
     "id": "origins-plus-plus:6a855107_9c25_47bf_8f68_71d7890dbbed",
     "amount": 1.7
   }

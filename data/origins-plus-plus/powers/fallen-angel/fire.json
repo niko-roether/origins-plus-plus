@@ -22,7 +22,7 @@
     ]
   },
   "modifier": {
-    "operation": "add_value",
+    "operation": "addition",
     "id": "origins-plus-plus:ff2cb616_0384_4154_af50_d833e008adb8",
     "amount": 2
   }

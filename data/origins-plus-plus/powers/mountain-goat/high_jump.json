@@ -8,7 +8,7 @@
   "jump": {
     "type": "origins:modify_jump",
     "modifier": {
-      "operation": "add_value",
+      "operation": "addition",
       "id": "origins-plus-plus:e062c829_c450_4c22_8095_68d2ad3c82b6",
       "amount": 0.3
     },

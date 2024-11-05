@@ -3,7 +3,7 @@
   "attack_damage": {
     "type": "origins:modify_damage_taken",
     "modifier": {
-      "operation": "add_multiplied_base",
+      "operation": "multiply_base",
       "id": "origins-plus-plus:f83de360_5286_4985_871e_a6448d7bd2e8",
       "amount": -0.125
     }

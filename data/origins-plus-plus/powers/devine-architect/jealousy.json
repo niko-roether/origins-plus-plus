@@ -8,7 +8,7 @@
     }
   },
   "modifier": {
-    "operation": "add_value",
+    "operation": "addition",
     "id": "origins-plus-plus:cd747d1a_e79b_4f02_9d3c_1a18fa9ae8f6",
     "amount": 8
   }
