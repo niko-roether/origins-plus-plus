@@ -53,7 +53,7 @@
     "bientity_condition": {
       "type": "origins:target_condition",
       "condition": {
-        "type": "origins:custom_data",
+        "type": "origins:nbt",
         "nbt": "{Tags:['Deathsworn_Minion']}",
         "inverted": true
       }
