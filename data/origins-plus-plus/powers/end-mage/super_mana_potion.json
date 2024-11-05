@@ -42,7 +42,7 @@
       "change": 250
     },
     "item_condition": {
-      "type": "apoli::nbt",
+      "type": "apoli:nbt",
       "nbt": "{tag:\"superempty\"}"
     }
   }

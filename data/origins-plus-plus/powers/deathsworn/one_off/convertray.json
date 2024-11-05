@@ -17,7 +17,7 @@
           "type": "origins:and",
           "conditions": [
             {
-              "type": "apoli::nbt",
+              "type": "apoli:nbt",
               "nbt": "{Tags:['Deathsworn_Minion']}",
               "inverted": true
             },

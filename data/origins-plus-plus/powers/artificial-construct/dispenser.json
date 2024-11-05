@@ -47,7 +47,7 @@
       "type": "origins:equipped_item",
       "equipment_slot": "offhand",
       "item_condition": {
-        "type": "apoli::nbt",
+        "type": "apoli:nbt",
         "nbt": "{Potion:\"minecraft:poison\"}"
       }
     }
@@ -63,7 +63,7 @@
       "type": "origins:equipped_item",
       "equipment_slot": "offhand",
       "item_condition": {
-        "type": "apoli::nbt",
+        "type": "apoli:nbt",
         "nbt": "{Potion:\"minecraft:night_vision\"}"
       }
     }
@@ -79,7 +79,7 @@
       "type": "origins:equipped_item",
       "equipment_slot": "offhand",
       "item_condition": {
-        "type": "apoli::nbt",
+        "type": "apoli:nbt",
         "nbt": "{Potion:\"minecraft:invisibility\"}"
       }
     }
@@ -95,7 +95,7 @@
       "type": "origins:equipped_item",
       "equipment_slot": "offhand",
       "item_condition": {
-        "type": "apoli::nbt",
+        "type": "apoli:nbt",
         "nbt": "{Potion:\"minecraft:leaping\"}"
       }
     }
@@ -111,7 +111,7 @@
       "type": "origins:equipped_item",
       "equipment_slot": "offhand",
       "item_condition": {
-        "type": "apoli::nbt",
+        "type": "apoli:nbt",
         "nbt": "{Potion:\"minecraft:resistance\"}"
       }
     }
@@ -127,7 +127,7 @@
       "type": "origins:equipped_item",
       "equipment_slot": "offhand",
       "item_condition": {
-        "type": "apoli::nbt",
+        "type": "apoli:nbt",
         "nbt": "{Potion:\"minecraft:swiftness\"}"
       }
     }
@@ -143,7 +143,7 @@
       "type": "origins:equipped_item",
       "equipment_slot": "offhand",
       "item_condition": {
-        "type": "apoli::nbt",
+        "type": "apoli:nbt",
         "nbt": "{Potion:\"minecraft:slowness\"}"
       }
     }
@@ -159,7 +159,7 @@
       "type": "origins:equipped_item",
       "equipment_slot": "offhand",
       "item_condition": {
-        "type": "apoli::nbt",
+        "type": "apoli:nbt",
         "nbt": "{Potion:\"minecraft::water_breathing\"}"
       }
     }
@@ -175,7 +175,7 @@
       "type": "origins:equipped_item",
       "equipment_slot": "offhand",
       "item_condition": {
-        "type": "apoli::nbt",
+        "type": "apoli:nbt",
         "nbt": "{Potion:\"minecraft:healing\"}"
       }
     }
@@ -191,7 +191,7 @@
       "type": "origins:equipped_item",
       "equipment_slot": "offhand",
       "item_condition": {
-        "type": "apoli::nbt",
+        "type": "apoli:nbt",
         "nbt": "{Potion:\"minecraft:harming\"}"
       }
     }
@@ -207,7 +207,7 @@
       "type": "origins:equipped_item",
       "equipment_slot": "offhand",
       "item_condition": {
-        "type": "apoli::nbt",
+        "type": "apoli:nbt",
         "nbt": "{Potion:\"minecraft:regeneration\"}"
       }
     }
@@ -223,7 +223,7 @@
       "type": "origins:equipped_item",
       "equipment_slot": "offhand",
       "item_condition": {
-        "type": "apoli::nbt",
+        "type": "apoli:nbt",
         "nbt": "{Potion:\"minecraft:strength\"}"
       }
     }
@@ -239,7 +239,7 @@
       "type": "origins:equipped_item",
       "equipment_slot": "offhand",
       "item_condition": {
-        "type": "apoli::nbt",
+        "type": "apoli:nbt",
         "nbt": "{Potion:\"minecraft:weakness\"}"
       }
     }
@@ -255,7 +255,7 @@
       "type": "origins:equipped_item",
       "equipment_slot": "offhand",
       "item_condition": {
-        "type": "apoli::nbt",
+        "type": "apoli:nbt",
         "nbt": "{Potion:\"minecraft:levitation\"}"
       }
     }
@@ -271,7 +271,7 @@
       "type": "origins:equipped_item",
       "equipment_slot": "offhand",
       "item_condition": {
-        "type": "apoli::nbt",
+        "type": "apoli:nbt",
         "nbt": "{Potion:\"minecraft:luck\"}"
       }
     }
@@ -287,7 +287,7 @@
       "type": "origins:equipped_item",
       "equipment_slot": "offhand",
       "item_condition": {
-        "type": "apoli::nbt",
+        "type": "apoli:nbt",
         "nbt": "{Potion:\"minecraft:turtle_master\"}"
       }
     }
@@ -303,7 +303,7 @@
       "type": "origins:equipped_item",
       "equipment_slot": "offhand",
       "item_condition": {
-        "type": "apoli::nbt",
+        "type": "apoli:nbt",
         "nbt": "{Potion:\"minecraft:slow_falling\"}"
       }
     }
