@@ -8,31 +8,31 @@
       "id": "origins-plus-plus:end_stone",
       "ingredients": [
         {
-          "id": "minecraft:cobblestone"
+          "item": "minecraft:cobblestone"
         },
         {
-          "id": "minecraft:cobblestone"
+          "item": "minecraft:cobblestone"
         },
         {
-          "id": "minecraft:cobblestone"
+          "item": "minecraft:cobblestone"
         },
         {
-          "id": "minecraft:cobblestone"
+          "item": "minecraft:cobblestone"
         },
         {
-          "id": "minecraft:cobblestone"
+          "item": "minecraft:cobblestone"
         },
         {
-          "id": "minecraft:cobblestone"
+          "item": "minecraft:cobblestone"
         },
         {
-          "id": "minecraft:cobblestone"
+          "item": "minecraft:cobblestone"
         },
         {
-          "id": "minecraft:sand"
+          "item": "minecraft:sand"
         },
         {
-          "id": "minecraft:ender_pearl"
+          "item": "minecraft:ender_pearl"
         }
       ],
       "result": {
@@ -48,31 +48,31 @@
       "id": "origins-plus-plus:chorus_flower",
       "ingredients": [
         {
-          "id": "minecraft:oak_sapling"
+          "item": "minecraft:oak_sapling"
         },
         {
-          "id": "minecraft:oak_sapling"
+          "item": "minecraft:oak_sapling"
         },
         {
-          "id": "minecraft:oak_sapling"
+          "item": "minecraft:oak_sapling"
         },
         {
-          "id": "minecraft:oak_sapling"
+          "item": "minecraft:oak_sapling"
         },
         {
-          "id": "minecraft:oak_sapling"
+          "item": "minecraft:oak_sapling"
         },
         {
-          "id": "minecraft:oak_sapling"
+          "item": "minecraft:oak_sapling"
         },
         {
-          "id": "minecraft:oak_sapling"
+          "item": "minecraft:oak_sapling"
         },
         {
-          "id": "minecraft:purple_dye"
+          "item": "minecraft:purple_dye"
         },
         {
-          "id": "minecraft:ender_pearl"
+          "item": "minecraft:ender_pearl"
         }
       ],
       "result": {

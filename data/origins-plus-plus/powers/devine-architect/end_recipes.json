@@ -31,10 +31,10 @@
       ],
       "key": {
         "#": {
-          "id": "minecraft:end_stone"
+          "item": "minecraft:end_stone"
         },
         "B": {
-          "id": "minecraft:blaze_rod"
+          "item": "minecraft:blaze_rod"
         }
       },
       "result": {
@@ -54,7 +54,7 @@
       ],
       "key": {
         "#": {
-          "id": "minecraft:end_stone"
+          "item": "minecraft:end_stone"
         }
       },
       "result": {
@@ -73,10 +73,10 @@
       ],
       "key": {
         "#": {
-          "id": "minecraft:end_stone"
+          "item": "minecraft:end_stone"
         },
         "S": {
-          "id": "minecraft:stick"
+          "item": "minecraft:stick"
         }
       },
       "result": {
@@ -96,10 +96,10 @@
       ],
       "key": {
         "#": {
-          "id": "minecraft:end_stone"
+          "item": "minecraft:end_stone"
         },
         "S": {
-          "id": "minecraft:stick"
+          "item": "minecraft:stick"
         }
       },
       "result": {
@@ -119,10 +119,10 @@
       ],
       "key": {
         "#": {
-          "id": "minecraft:end_stone"
+          "item": "minecraft:end_stone"
         },
         "S": {
-          "id": "minecraft:stick"
+          "item": "minecraft:stick"
         }
       },
       "result": {
@@ -142,10 +142,10 @@
       ],
       "key": {
         "#": {
-          "id": "minecraft:end_stone"
+          "item": "minecraft:end_stone"
         },
         "S": {
-          "id": "minecraft:stick"
+          "item": "minecraft:stick"
         }
       },
       "result": {
@@ -165,10 +165,10 @@
       ],
       "key": {
         "#": {
-          "id": "minecraft:end_stone"
+          "item": "minecraft:end_stone"
         },
         "S": {
-          "id": "minecraft:stick"
+          "item": "minecraft:stick"
         }
       },
       "result": {
@@ -188,10 +188,10 @@
       ],
       "key": {
         "#": {
-          "id": "minecraft:end_stone"
+          "item": "minecraft:end_stone"
         },
         "S": {
-          "id": "minecraft:stick"
+          "item": "minecraft:stick"
         }
       },
       "result": {
@@ -211,10 +211,10 @@
       ],
       "key": {
         "#": {
-          "id": "minecraft:end_stone"
+          "item": "minecraft:end_stone"
         },
         "S": {
-          "id": "minecraft:stick"
+          "item": "minecraft:stick"
         }
       },
       "result": {
@@ -234,10 +234,10 @@
       ],
       "key": {
         "#": {
-          "id": "minecraft:end_stone"
+          "item": "minecraft:end_stone"
         },
         "S": {
-          "id": "minecraft:stick"
+          "item": "minecraft:stick"
         }
       },
       "result": {
