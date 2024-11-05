@@ -53,7 +53,7 @@
     "bientity_condition": {
       "type": "origins:target_condition",
       "condition": {
-        "type": "minecraft:custom_data",
+        "type": "origins:custom_data",
         "nbt": "{Tags:['Deathsworn_Minion']}",
         "inverted": true
       }
