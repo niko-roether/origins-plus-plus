@@ -97,7 +97,7 @@
     ],
     "interval": 1,
     "condition": {
-      "type": "custom_data",
+      "type": "apoli:custom_data",
       "nbt": "{Tags:['Enigma_Damage']}"
     }
   }

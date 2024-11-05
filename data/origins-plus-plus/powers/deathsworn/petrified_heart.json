@@ -24,7 +24,7 @@
         "tag": "origins-plus-plus:petrified_heart_mobs"
       },
       {
-        "type": "custom_data",
+        "type": "apoli:custom_data",
         "nbt": "{Tags:['Deathsworn_Minion']}",
         "inverted": true
       }

@@ -13,7 +13,7 @@
     "bientity_condition": {
       "type": "origins:target_condition",
       "condition": {
-        "type": "custom_data",
+        "type": "apoli:custom_data",
         "nbt": "{Tags:['Deathsworn_Minion']}",
         "inverted": true
       }
