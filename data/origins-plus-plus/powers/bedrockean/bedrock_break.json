@@ -18,7 +18,7 @@
           "type": "origins:equipped_item",
           "equipment_slot": "mainhand",
           "item_condition": {
-            "type": "origins:and",
+            "type": "origins:all_of",
             "conditions": [
               {
                 "type": "origins:enchantment",
@@ -59,7 +59,7 @@
           "type": "origins:equipped_item",
           "equipment_slot": "mainhand",
           "item_condition": {
-            "type": "origins:and",
+            "type": "origins:all_of",
             "conditions": [
               {
                 "type": "origins:enchantment",
@@ -100,7 +100,7 @@
           "type": "origins:equipped_item",
           "equipment_slot": "mainhand",
           "item_condition": {
-            "type": "origins:and",
+            "type": "origins:all_of",
             "conditions": [
               {
                 "type": "origins:enchantment",
@@ -141,7 +141,7 @@
           "type": "origins:equipped_item",
           "equipment_slot": "mainhand",
           "item_condition": {
-            "type": "origins:and",
+            "type": "origins:all_of",
             "conditions": [
               {
                 "type": "origins:enchantment",
@@ -182,7 +182,7 @@
           "type": "origins:equipped_item",
           "equipment_slot": "mainhand",
           "item_condition": {
-            "type": "origins:and",
+            "type": "origins:all_of",
             "conditions": [
               {
                 "type": "origins:enchantment",
@@ -223,7 +223,7 @@
           "type": "origins:equipped_item",
           "equipment_slot": "mainhand",
           "item_condition": {
-            "type": "origins:and",
+            "type": "origins:all_of",
             "conditions": [
               {
                 "type": "origins:enchantment",
