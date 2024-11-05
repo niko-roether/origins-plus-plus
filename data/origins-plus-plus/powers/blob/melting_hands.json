@@ -1,29 +1,29 @@
 {
-  "type": "origins:stacking_status_effect",
-  "min_stacks": 0,
-  "max_stacks": 1,
-  "duration_per_stack": 20,
-  "effect": {
-    "show_particles": false,
-    "show_icon": false,
-    "id": "minecraft:weakness"
-  },
-  "condition": {
-    "type": "origins:all_of",
-    "conditions": [
-      {
-        "type": "origins:biome",
-        "condition": {
-          "type": "origins:temperature",
-          "comparison": ">",
-          "compare_to": 1
-        }
-      },
-      {
-        "type": "origins:dimension",
-        "dimension": "minecraft:nether",
-        "inverted": true
-      }
-    ]
-  }
+	"type": "origins:stacking_status_effect",
+	"min_stacks": 0,
+	"max_stacks": 1,
+	"duration_per_stack": 20,
+	"effect": {
+		"show_particles": false,
+		"show_icon": false,
+		"id": "minecraft:weakness"
+	},
+	"condition": {
+		"type": "origins:all_of",
+		"conditions": [
+			{
+				"type": "origins:biome",
+				"condition": {
+					"type": "origins:temperature",
+					"comparison": ">",
+					"compare_to": 1
+				}
+			},
+			{
+				"type": "origins:dimension",
+				"dimension": "minecraft:the_nether",
+				"inverted": true
+			}
+		]
+	}
 }
