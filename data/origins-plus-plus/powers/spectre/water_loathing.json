@@ -1,8 +1,8 @@
 {
-  "type": "origins:modify_swim_speed",
-  "modifier": {
-    "operation": "multiply_base_additive",
-    "id": "origins-plus-plus:9200b2b3_c5d9_4993_b9b7_8b3617f31346",
-    "amount": -0.667
-  }
+	"type": "origins:modify_swim_speed",
+	"modifier": {
+		"operation": "add_multiplied_base",
+		"id": "origins-plus-plus:9200b2b3_c5d9_4993_b9b7_8b3617f31346",
+		"amount": -0.667
+	}
 }

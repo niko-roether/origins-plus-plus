@@ -1,20 +1,20 @@
 {
-  "type": "origins:multiple",
-  "hidden": true,
-  "speed": {
-    "type": "origins:modify_swim_speed",
-    "modifier": {
-      "operation": "add_total_early",
-      "id": "origins-plus-plus:7dc2fdfc_e524_4ab2_86ee_7c17a5b2b1d8",
-      "amount": 0.03
-    }
-  },
-  "night_vision": {
-    "type": "origins:night_vision",
-    "strength": 0.5,
-    "condition": {
-      "type": "origins:submerged_in",
-      "fluid": "minecraft:water"
-    }
-  }
+	"type": "origins:multiple",
+	"hidden": true,
+	"speed": {
+		"type": "origins:modify_swim_speed",
+		"modifier": {
+			"operation": "add_value",
+			"id": "origins-plus-plus:7dc2fdfc_e524_4ab2_86ee_7c17a5b2b1d8",
+			"amount": 0.03
+		}
+	},
+	"night_vision": {
+		"type": "origins:night_vision",
+		"strength": 0.5,
+		"condition": {
+			"type": "origins:submerged_in",
+			"fluid": "minecraft:water"
+		}
+	}
 }

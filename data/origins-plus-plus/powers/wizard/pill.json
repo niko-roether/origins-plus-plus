@@ -1,5 +1,5 @@
 {
-  "type": "origins:in_tag",
-  "hidden": true,
-  "tag": "illager"
+	"type": "origins:modify_type_tag",
+	"hidden": true,
+	"tag": "illager"
 }

@@ -1,26 +1,26 @@
 {
-  "type": "origins:attacker_action_when_hit",
-  "cooldown": 250,
-  "entity_action": {
-    "type": "origins:chance",
-    "chance": 1000,
-    "success_action": {
-      "type": "origins:apply_effect",
-      "effects": [
-        {
-          "amplifier": 1,
-          "duration": 60,
-          "show_icon": false,
-          "show_particles": false,
-          "id": "minecraft:slowness"
-        },
-        {
-          "duration": 60,
-          "show_icon": false,
-          "show_particles": false,
-          "id": "minecraft:weakness"
-        }
-      ]
-    }
-  }
+	"type": "origins:attacker_action_when_hit",
+	"cooldown": 250,
+	"entity_action": {
+		"type": "origins:chance",
+		"chance": 1.0,
+		"success_action": {
+			"type": "origins:apply_effect",
+			"effects": [
+				{
+					"amplifier": 1,
+					"duration": 60,
+					"show_icon": false,
+					"show_particles": false,
+					"id": "minecraft:slowness"
+				},
+				{
+					"duration": 60,
+					"show_icon": false,
+					"show_particles": false,
+					"id": "minecraft:weakness"
+				}
+			]
+		}
+	}
 }

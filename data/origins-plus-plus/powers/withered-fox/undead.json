@@ -1,4 +1,4 @@
 {
-  "type": "origins:in_tag",
-  "tag": "undead"
+	"type": "origins:modify_type_tag",
+	"tag": "undead"
 }
