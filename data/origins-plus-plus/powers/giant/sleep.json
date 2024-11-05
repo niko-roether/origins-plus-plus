@@ -14,7 +14,7 @@
             "enum": "south"
           },
           {
-            "type": "origins:or",
+            "type": "origins:any_of",
             "conditions": [
               {
                 "type": "origins:and",
@@ -151,7 +151,7 @@
             "enum": "west"
           },
           {
-            "type": "origins:or",
+            "type": "origins:any_of",
             "conditions": [
               {
                 "type": "origins:and",
@@ -288,7 +288,7 @@
             "enum": "north"
           },
           {
-            "type": "origins:or",
+            "type": "origins:any_of",
             "conditions": [
               {
                 "type": "origins:and",
@@ -425,7 +425,7 @@
             "enum": "east"
           },
           {
-            "type": "origins:or",
+            "type": "origins:any_of",
             "conditions": [
               {
                 "type": "origins:and",
