@@ -3,7 +3,7 @@
   "damage_condition": {
     "type": "origins:attacker",
     "entity_condition": {
-      "type": "apoli:custom_data",
+      "type": "minecraft:custom_data",
       "nbt": "{Tags:['Deathsworn_Minion']}"
     }
   },
