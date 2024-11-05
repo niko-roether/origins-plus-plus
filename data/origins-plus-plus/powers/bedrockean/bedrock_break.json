@@ -48,7 +48,7 @@
       "block": "minecraft:bedrock"
     },
     "modifier": {
-      "operation": "add_value",
+      "operation": "add_total_early",
       "id": "origins-plus-plus:fc6411d1_6ecb_49db_9bbd_7238771af65c",
       "amount": 0.006
     },
@@ -89,7 +89,7 @@
       "block": "minecraft:bedrock"
     },
     "modifier": {
-      "operation": "add_value",
+      "operation": "add_total_early",
       "id": "origins-plus-plus:4aa5489a_4c16_407b_99b3_d63907b6408d",
       "amount": 0.0065
     },
@@ -130,7 +130,7 @@
       "block": "minecraft:bedrock"
     },
     "modifier": {
-      "operation": "add_value",
+      "operation": "add_total_early",
       "id": "origins-plus-plus:39d30a1f_cc3f_4f93_a26f_3d9737ccba13",
       "amount": 0.007
     },
@@ -171,7 +171,7 @@
       "block": "minecraft:bedrock"
     },
     "modifier": {
-      "operation": "add_value",
+      "operation": "add_total_early",
       "id": "origins-plus-plus:7601e12f_634c_49f8_9520_ed169b86f69e",
       "amount": 0.0075
     },
@@ -212,7 +212,7 @@
       "block": "minecraft:bedrock"
     },
     "modifier": {
-      "operation": "add_value",
+      "operation": "add_total_early",
       "id": "origins-plus-plus:c8528ce0_fbc8_499e_9368_65a85749a640",
       "amount": 0.008
     },

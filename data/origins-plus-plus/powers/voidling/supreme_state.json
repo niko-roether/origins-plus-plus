@@ -123,7 +123,7 @@
   "ranged_damage_increase": {
     "type": "origins:modify_projectile_damage",
     "modifier": {
-      "operation": "add_multiplied_total",
+      "operation": "multiply_total_additive",
       "id": "origins-plus-plus:e07fa432_9244_441e_9a56_7d339330bff4",
       "amount": 2
     },

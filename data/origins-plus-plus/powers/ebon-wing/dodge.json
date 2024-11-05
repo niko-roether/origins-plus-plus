@@ -149,7 +149,7 @@
   "dodge": {
     "type": "origins:modify_damage_taken",
     "modifier": {
-      "operation": "add_multiplied_total",
+      "operation": "multiply_total_additive",
       "id": "origins-plus-plus:c9a0cdff_f29d_4d95_9d43_bd3b970c83b9",
       "amount": 0
     },

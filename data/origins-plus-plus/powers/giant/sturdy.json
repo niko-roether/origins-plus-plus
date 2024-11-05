@@ -12,7 +12,7 @@
   "mining_speed": {
     "type": "origins:modify_break_speed",
     "modifier": {
-      "operation": "add_multiplied_base",
+      "operation": "multiply_base_additive",
       "id": "origins-plus-plus:5baf3203_a3bb_44de_810a_7bbe486d2a5d",
       "amount": 0.5
     }

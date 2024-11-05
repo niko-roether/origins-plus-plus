@@ -117,7 +117,7 @@
   "ghost": {
     "type": "origins:modify_damage_dealt",
     "modifier": {
-      "operation": "add_multiplied_total",
+      "operation": "multiply_total_additive",
       "id": "origins-plus-plus:644c0fa1_ca91_41aa_9a69_73b52db4dcda",
       "amount": -1
     },

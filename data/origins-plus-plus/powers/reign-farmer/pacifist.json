@@ -46,7 +46,7 @@
   "weaker_ranged": {
     "type": "origins:modify_projectile_damage",
     "modifier": {
-      "operation": "add_multiplied_total",
+      "operation": "multiply_total_additive",
       "id": "origins-plus-plus:b777c3bb_a916_452c_819e_0c84c9751a58",
       "amount": -0.3
     }

@@ -19,7 +19,7 @@
       "name": "onFire"
     },
     "modifier": {
-      "operation": "add_multiplied_total",
+      "operation": "multiply_total_additive",
       "id": "origins-plus-plus:c3e1ece1_a10c_4db8_8d34_4f6367ebef0e",
       "amount": -1
     },

@@ -16,7 +16,7 @@
   "no_jump": {
     "type": "origins:modify_jump",
     "modifier": {
-      "operation": "add_multiplied_total",
+      "operation": "multiply_total_additive",
       "id": "origins-plus-plus:77df884d_b2a4_496d_9ef6_a3b66f347bfa",
       "amount": -1
     },

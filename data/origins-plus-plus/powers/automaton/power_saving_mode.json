@@ -29,7 +29,7 @@
   "no_jump": {
     "type": "origins:modify_jump",
     "modifier": {
-      "operation": "add_multiplied_total",
+      "operation": "multiply_total_additive",
       "id": "origins-plus-plus:bfb62c0e_8e46_4cb5_95b1_7457243f124f",
       "amount": -2
     },

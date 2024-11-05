@@ -19,7 +19,7 @@
       "name": "onFire"
     },
     "modifier": {
-      "operation": "add_multiplied_total",
+      "operation": "multiply_total_additive",
       "id": "origins-plus-plus:c84c3fa7_4123_421e_803e_5f95b32ec796",
       "amount": 2
     }
@@ -31,7 +31,7 @@
       "name": "lightningBolt"
     },
     "modifier": {
-      "operation": "add_multiplied_total",
+      "operation": "multiply_total_additive",
       "id": "origins-plus-plus:e2f9444a_1cd6_4541_b14a_45378a49b6c3",
       "amount": 3
     }
@@ -43,7 +43,7 @@
       "name": "lava"
     },
     "modifier": {
-      "operation": "add_multiplied_total",
+      "operation": "multiply_total_additive",
       "id": "origins-plus-plus:20ae40e8_c97d_4860_8f05_a3c8ad062d73",
       "amount": 2
     }
@@ -55,7 +55,7 @@
       "name": "hotFloor"
     },
     "modifier": {
-      "operation": "add_multiplied_total",
+      "operation": "multiply_total_additive",
       "id": "origins-plus-plus:690a2242_2c1e_42f7_9875_f2e35c23bb05",
       "amount": 2
     }
@@ -67,7 +67,7 @@
       "name": "fireworks"
     },
     "modifier": {
-      "operation": "add_multiplied_total",
+      "operation": "multiply_total_additive",
       "id": "origins-plus-plus:f3a0da48_78b2_4f92_ad3e_fb4ebe1b1932",
       "amount": 2
     }
@@ -79,7 +79,7 @@
       "name": "onFire"
     },
     "modifier": {
-      "operation": "add_multiplied_total",
+      "operation": "multiply_total_additive",
       "id": "origins-plus-plus:d52fcb4d_de64_4caa_bca5_da553740740b",
       "amount": 2
     }
@@ -91,7 +91,7 @@
       "name": "explosion.player"
     },
     "modifier": {
-      "operation": "add_multiplied_total",
+      "operation": "multiply_total_additive",
       "id": "origins-plus-plus:d3283804_d34f_42f8_a8ad_a7c495de087b",
       "amount": 2
     }

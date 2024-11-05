@@ -27,7 +27,7 @@
   "ungrounded": {
     "type": "origins:modify_break_speed",
     "modifier": {
-      "operation": "add_multiplied_total",
+      "operation": "multiply_total_additive",
       "id": "origins-plus-plus:438909c1_e628_4dc9_adb8_a7a636bd94c7",
       "amount": 4
     },

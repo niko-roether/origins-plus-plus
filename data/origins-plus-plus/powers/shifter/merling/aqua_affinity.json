@@ -32,7 +32,7 @@
   "ungrounded": {
     "type": "origins:modify_break_speed",
     "modifier": {
-      "operation": "add_multiplied_total",
+      "operation": "multiply_total_additive",
       "id": "origins-plus-plus:f6c54f05_289a_477a_85c6_3c5444ca12d7",
       "amount": 4
     },
@@ -61,7 +61,7 @@
   "slowland": {
     "type": "origins:modify_break_speed",
     "modifier": {
-      "operation": "add_multiplied_total",
+      "operation": "multiply_total_additive",
       "id": "origins-plus-plus:3d5b7656_31df_4d18_b3d5_de29b313c46b",
       "amount": -0.75
     },

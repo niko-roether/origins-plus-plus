@@ -11,7 +11,7 @@
   "ice_slip": {
     "type": "origins:modify_slipperiness",
     "modifier": {
-      "operation": "add_value",
+      "operation": "add_total_early",
       "id": "origins-plus-plus:42e82e74_e1ad_4fcb_a602_d98013a5f6e7",
       "amount": -0.38
     },
