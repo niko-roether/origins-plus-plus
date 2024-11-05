@@ -1,17 +1,19 @@
 {
-	"type":"origins:modify_food",
-	"item_condition":{
-		"type":"origins:ingredient",
-		"ingredient":{
-			"tag":"origins-plus-plus:sea_foods"
-		}
-	},
-	"food_modifier":{
-		"operation":"addition",
-		"value":4
-	},
-	"saturation_modifier":{
-		"operation":"addition",
-		"value":6
-	}
+  "type": "origins:modify_food",
+  "item_condition": {
+    "type": "origins:ingredient",
+    "ingredient": {
+      "tag": "origins-plus-plus:sea_foods"
+    }
+  },
+  "food_modifier": {
+    "operation": "add_total_early",
+    "id": "origins-plus-plus:46b913e6_0859_4566_a7f6_0324ae9e17b9",
+    "amount": 4
+  },
+  "saturation_modifier": {
+    "operation": "add_total_early",
+    "id": "origins-plus-plus:ba3305b9_67e4_4557_b46d_5b5f24b21e2c",
+    "amount": 6
+  }
 }

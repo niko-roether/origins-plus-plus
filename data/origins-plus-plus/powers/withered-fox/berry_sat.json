@@ -1,17 +1,19 @@
 {
-	"type":"origins:modify_food",
-	"item_condition":{
-		"type":"origins:ingredient",
-		"ingredient":{
-			"tag":"minecraft:fox_food"
-		}
-	},
-	"food_modifier":{
-		"operation":"addition",
-		"value":10
-	},
-	"saturation_modifier":{
-		"operation":"addition",
-		"value":9
-	}
+  "type": "origins:modify_food",
+  "item_condition": {
+    "type": "origins:ingredient",
+    "ingredient": {
+      "tag": "minecraft:fox_food"
+    }
+  },
+  "food_modifier": {
+    "operation": "add_total_early",
+    "id": "origins-plus-plus:bd02549c_5711_4da7_98eb_f7bb1c4431aa",
+    "amount": 10
+  },
+  "saturation_modifier": {
+    "operation": "add_total_early",
+    "id": "origins-plus-plus:a8981d8e_00f3_4929_bff5_f5581bf5c742",
+    "amount": 9
+  }
 }

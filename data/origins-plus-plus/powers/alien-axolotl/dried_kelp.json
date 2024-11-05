@@ -9,12 +9,14 @@
       }
     },
     "food_modifier": {
-      "operation": "multiply_total",
-      "value": 1
+      "operation": "multiply_total_additive",
+      "id": "origins-plus-plus:ae182cc6_d2e9_4be5_90e1_f6db83b3296f",
+      "amount": 1
     },
     "saturation_modifier": {
-      "operation": "multiply_total",
-      "value": 1
+      "operation": "multiply_total_additive",
+      "id": "origins-plus-plus:db7c02fc_6fde_48e9_8e7a_bbf59ee0d853",
+      "amount": 1
     },
     "entity_action": [
       {
@@ -54,12 +56,14 @@
       }
     },
     "food_modifier": {
-      "operation": "multiply_total",
-      "value": 1
+      "operation": "multiply_total_additive",
+      "id": "origins-plus-plus:452524a5_2e13_4b1c_bffe_bb9bf2909634",
+      "amount": 1
     },
     "saturation_modifier": {
-      "operation": "multiply_total",
-      "value": 1
+      "operation": "multiply_total_additive",
+      "id": "origins-plus-plus:10cc4c1c_e5e8_4961_9739_e0c53e126f77",
+      "amount": 1
     },
     "entity_action": {
       "type": "origins:delay",
@@ -79,12 +83,14 @@
       }
     },
     "food_modifier": {
-      "operation": "multiply_total",
-      "value": 1
+      "operation": "multiply_total_additive",
+      "id": "origins-plus-plus:1be1e892_d9d5_436b_901e_66b5b91e0613",
+      "amount": 1
     },
     "saturation_modifier": {
-      "operation": "multiply_total",
-      "value": 1
+      "operation": "multiply_total_additive",
+      "id": "origins-plus-plus:b157a78a_5440_48cc_ba53_c01e2ca6d0c2",
+      "amount": 1
     },
     "entity_action": {
       "type": "origins:delay",

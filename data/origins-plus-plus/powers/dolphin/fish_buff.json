@@ -1,18 +1,20 @@
 {
-	"type":"origins:modify_food",
-	"item_condition":{
-		"type":"origins:ingredient",
-		"ingredient":{
-			"tag":"minecraft:fishes"
-		}
-	},
-	"food_modifier":{
-		"value":3,
-		"operation":"addition"
-	},
-	"saturation_modifier":{
-		"value":3,
-		"operation":"addition"
-	},
-	"hidden":true
+  "type": "origins:modify_food",
+  "item_condition": {
+    "type": "origins:ingredient",
+    "ingredient": {
+      "tag": "minecraft:fishes"
+    }
+  },
+  "food_modifier": {
+    "operation": "add_total_early",
+    "id": "origins-plus-plus:e1cf1bbb_dd38_45a7_ad77_8f69c91da974",
+    "amount": 3
+  },
+  "saturation_modifier": {
+    "operation": "add_total_early",
+    "id": "origins-plus-plus:88b2ebaf_b7af_4501_a627_bcaaeb81b217",
+    "amount": 3
+  },
+  "hidden": true
 }

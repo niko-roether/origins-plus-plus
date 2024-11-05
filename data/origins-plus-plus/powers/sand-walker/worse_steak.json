@@ -1,18 +1,20 @@
 {
-	"type":"origins:modify_food",
-	"item_condition":{
-		"type":"origins:ingredient",
-		"ingredient":{
-			"tag":"origins-plus-plus:cooked_meat"
-		}
-	},
-	"food_modifier":{
-		"operation":"addition",
-		"value":-4
-	},
-	"saturation_modifier":{
-		"operation":"addition",
-		"value":-2
-	},
-	"hidden":true
+  "type": "origins:modify_food",
+  "item_condition": {
+    "type": "origins:ingredient",
+    "ingredient": {
+      "tag": "origins-plus-plus:cooked_meat"
+    }
+  },
+  "food_modifier": {
+    "operation": "add_total_early",
+    "id": "origins-plus-plus:5296e73c_9d40_412e_a57a_c2e8253bf2df",
+    "amount": -4
+  },
+  "saturation_modifier": {
+    "operation": "add_total_early",
+    "id": "origins-plus-plus:0f3eceee_4963_4033_8b61_f9ba9e7e15b4",
+    "amount": -2
+  },
+  "hidden": true
 }

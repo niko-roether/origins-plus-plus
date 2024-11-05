@@ -7,11 +7,13 @@
     }
   },
   "food_modifier": {
-    "operation": "addition",
-    "value": 2
+    "operation": "add_total_early",
+    "id": "origins-plus-plus:be011d05_64fc_4f8d_92cc_24f0e8d290bc",
+    "amount": 2
   },
   "saturation_modifier": {
-    "operation": "addition",
-    "value": 0.6
+    "operation": "add_total_early",
+    "id": "origins-plus-plus:9528c3ea_961d_483d_b100_74d0bf9cbe65",
+    "amount": 0.6
   }
 }

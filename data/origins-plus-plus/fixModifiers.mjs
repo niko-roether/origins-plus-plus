@@ -60,7 +60,9 @@ function fixRecursive(obj) {
 				else fixed = fixModifier(obj.modifier) || fixed;
 				break;
 			case "modifier":
-				fixed = fixModifier(obj.modifier) || fixed;
+			case "food_modifier":
+			case "saturation_modifier":
+				fixed = fixModifier(obj[key]) || fixed;
 				break;
 			default:
 				fixed = fixRecursive(obj[key]) || fixed;

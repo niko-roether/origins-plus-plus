@@ -1,11 +1,13 @@
 {
-	"type":"origins:modify_food",
-	"food_modifier":{
-		"operation":"multiply_total",
-		"value":-1
-	},
-	"saturation_modifier":{
-		"operation":"multiply_total",
-		"value":-1
-	}
+  "type": "origins:modify_food",
+  "food_modifier": {
+    "operation": "multiply_total_additive",
+    "id": "origins-plus-plus:6d2d1d6e_9e6f_4b69_ab46_6ef7aed4d539",
+    "amount": -1
+  },
+  "saturation_modifier": {
+    "operation": "multiply_total_additive",
+    "id": "origins-plus-plus:412df609_196a_4b8d_839c_7a3b045f2138",
+    "amount": -1
+  }
 }

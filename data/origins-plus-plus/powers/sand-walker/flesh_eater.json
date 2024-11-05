@@ -1,17 +1,19 @@
 {
-	"type":"origins:modify_food",
-	"item_condition":{
-		"type":"origins:ingredient",
-		"ingredient":{
-			"tag":"origins-plus-plus:raw_meat"
-		}
-	},
-	"food_modifier":{
-		"operation":"addition",
-		"value":4
-	},
-	"saturation_modifier":{
-		"operation":"addition",
-		"value":3
-	}
+  "type": "origins:modify_food",
+  "item_condition": {
+    "type": "origins:ingredient",
+    "ingredient": {
+      "tag": "origins-plus-plus:raw_meat"
+    }
+  },
+  "food_modifier": {
+    "operation": "add_total_early",
+    "id": "origins-plus-plus:09066209_2426_4312_9d50_f045818b03ee",
+    "amount": 4
+  },
+  "saturation_modifier": {
+    "operation": "add_total_early",
+    "id": "origins-plus-plus:b252836a_0db3_4f3c_a8a8_0373db5e9326",
+    "amount": 3
+  }
 }
