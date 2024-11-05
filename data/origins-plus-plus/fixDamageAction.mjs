@@ -62,14 +62,14 @@ function fixRecursive(obj) {
 	let fixed = false;
 	if (Array.isArray(obj)) {
 		for (const item of obj) {
-			fixed ||= fixRecursive(item);
+			fixed = fixRecursive(item) || fixed;
 		}
 		return fixed;
 	}
 
 
 	for (const key in obj) {
-		fixed ||= fixRecursive(obj[key]);
+		fixed = fixRecursive(obj[key]) || fixed;
 	}
 	return fixed;
 }

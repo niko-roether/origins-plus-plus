@@ -48,19 +48,22 @@ function fixRecursive(obj) {
 
 	if (Array.isArray(obj)) {
 		for (const item of obj) {
-			fixed ||= fixRecursive(item);
+			fixed = fixRecursive(item) || fixed;
 		}
 		return fixed;
 	}
 
-
-	for (const key in obj) {
-		if (key == "modifiers" && Array.isArray(obj[key])) {
-			for (let i = 0; i < obj[key].length; i++) fixed ||= fixModifier(obj[key][i]);
-		} else if ((key == "modifier" || key == "modifiers") && typeof obj[key] == "object") {
-			fixed ||= fixModifier(obj[key]);
-		} else {
-			fixed ||= fixRecursive(obj[key]);
+	for (const key of Object.keys(obj)) {
+		switch (key) {
+			case "modifiers":
+				if (Array.isArray(obj.modifiers)) for (const mod of obj.modifiers) fixed = fixModifier(mod) || fixed;
+				else fixed = fixModifier(obj.modifier) || fixed;
+				break;
+			case "modifier":
+				fixed = fixModifier(obj.modifier) || fixed;
+				break;
+			default:
+				fixed = fixRecursive(obj[key]) || fixed;
 		}
 	}
 	return fixed;
