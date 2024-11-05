@@ -13,7 +13,7 @@
       {
         "type": "origins:target_condition",
         "condition": {
-          "type": "apoli:nbt",
+          "type": "custom_data",
           "nbt": "{Tags:['Tradable']}",
           "inverted": true
         }
