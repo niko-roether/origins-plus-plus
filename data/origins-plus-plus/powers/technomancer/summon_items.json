@@ -1,11 +1,11 @@
 {
-	"type":"origins:action_on_callback",
-	"entity_action_chosen":{
-		"type":"origins:execute_command",
-		"command":"execute as @s run function origins-plus-plus:technomancer/technomancer_items_give"
-	},
-	"entity_action_respawned":{
-		"type":"origins:execute_command",
-		"command":"execute as @s run function origins-plus-plus:technomancer/technomancer_items_give"
-	}
+  "type": "origins:action_on_callback",
+  "entity_action_chosen": {
+    "type": "origins:execute_command",
+    "command": "execute as @s run function origins-plus-plus:technomancer/technomancer_items_give {power:\"power\",resource:\"resource\"}"
+  },
+  "entity_action_respawned": {
+    "type": "origins:execute_command",
+    "command": "execute as @s run function origins-plus-plus:technomancer/technomancer_items_give {power:\"power\",resource:\"resource\"}"
+  }
 }

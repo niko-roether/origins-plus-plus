@@ -20,7 +20,7 @@
       },
       {
         "type": "origins:execute_command",
-        "command": "execute at @s run function origins-plus-plus:manipulator/dirt_hut"
+        "command": "execute at @s run function origins-plus-plus:manipulator/dirt_hut {power:\"power\",resource:\"resource\"}"
       }
     ],
     "condition": {

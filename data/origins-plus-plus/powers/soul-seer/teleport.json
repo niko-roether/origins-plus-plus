@@ -4,7 +4,7 @@
   "entity_action": [
     {
       "type": "origins:execute_command",
-      "command": "execute as @s at @s positioned ^ ^ ^4 run function origins-plus-plus:soul-seer/ray"
+      "command": "execute as @s at @s positioned ^ ^ ^4 run function origins-plus-plus:soul-seer/ray {power:\"power\",resource:\"resource\"}"
     },
     {
       "type": "origins:change_resource",

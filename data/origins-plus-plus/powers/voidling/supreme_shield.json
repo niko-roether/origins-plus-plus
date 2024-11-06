@@ -5,7 +5,7 @@
     "entity_action": [
       {
         "type": "origins:execute_command",
-        "command": "execute as @s run function origins-plus-plus:voidling/shield_summon"
+        "command": "execute as @s run function origins-plus-plus:voidling/shield_summon {power:\"power\",resource:\"resource\"}"
       },
       {
         "type": "origins:delay",
@@ -84,7 +84,7 @@
     "entity_action": [
       {
         "type": "origins:execute_command",
-        "command": "execute as @s run function origins-plus-plus:voidling/shield"
+        "command": "execute as @s run function origins-plus-plus:voidling/shield {power:\"power\",resource:\"resource\"}"
       },
       {
         "type": "origins:change_resource",

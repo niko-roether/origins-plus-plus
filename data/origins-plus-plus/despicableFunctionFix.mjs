@@ -4,9 +4,9 @@ const paths = fs.globSync("./**/*.json");
 
 function despicableFunctionFix(cmd) {
 	if (typeof cmd !== "string") return null;
-	const result = /^function ([^ ]+)/.exec(cmd);
+	const result = /^((?:execute .* run )?)function ([^ ]+)/.exec(cmd);
 	if (!result) return null;
-	return `function ${result[1]} {power:"power",resource:"resource"}`
+	return `${result[1]}function ${result[2]} {power:"power",resource:"resource"}`
 }
 
 function fixRecursive(obj) {
