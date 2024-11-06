@@ -15,7 +15,7 @@
       "shape_type": "outline",
       "fluid_handling": "none",
       "command_along_ray": "particle minecraft:firework",
-      "command_at_hit": "function origins-plus-plus:light-mage/firework"
+      "command_at_hit": "function origins-plus-plus:light-mage/firework {power:\"power\",resource:\"resource\"}"
     },
     {
       "type": "origins:execute_command",

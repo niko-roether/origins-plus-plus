@@ -3,7 +3,7 @@
   "entity_action": [
     {
       "type": "origins:execute_command",
-      "command": "function origins-plus-plus:voidling/void_shield"
+      "command": "function origins-plus-plus:voidling/void_shield {power:\"power\",resource:\"resource\"}"
     },
     {
       "type": "origins:apply_effect",

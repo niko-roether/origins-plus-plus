@@ -2,7 +2,7 @@
   "type": "origins:action_over_time",
   "rising_action": {
     "type": "origins:execute_command",
-    "command": "function origins-plus-plus:ebon-wing/last_resort"
+    "command": "function origins-plus-plus:ebon-wing/last_resort {power:\"power\",resource:\"resource\"}"
   },
   "interval": 3,
   "condition": {

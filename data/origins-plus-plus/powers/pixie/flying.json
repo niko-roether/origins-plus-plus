@@ -16,7 +16,7 @@
     },
     {
       "type": "origins:execute_command",
-      "command": "function origins-plus-plus:pixie/particles"
+      "command": "function origins-plus-plus:pixie/particles {power:\"power\",resource:\"resource\"}"
     }
   ],
   "cooldown": 500,

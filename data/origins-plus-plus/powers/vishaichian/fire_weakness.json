@@ -10,6 +10,6 @@
   },
   "self_action": {
     "type": "origins:execute_command",
-    "command": "function origins-plus-plus:vishaichian/fire_weakness"
+    "command": "function origins-plus-plus:vishaichian/fire_weakness {power:\"power\",resource:\"resource\"}"
   }
 }

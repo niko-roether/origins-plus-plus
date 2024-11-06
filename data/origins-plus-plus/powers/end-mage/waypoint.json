@@ -6,7 +6,7 @@
     "key": "key.origins.primary_active",
     "entity_action": {
       "type": "origins:execute_command",
-      "command": "function origins-plus-plus:end-mage/waypoint_create"
+      "command": "function origins-plus-plus:end-mage/waypoint_create {power:\"power\",resource:\"resource\"}"
     },
     "condition": {
       "type": "origins:all_of",
@@ -32,7 +32,7 @@
     "key": "key.origins.primary_active",
     "entity_action": {
       "type": "origins:execute_command",
-      "command": "function origins-plus-plus:end-mage/waypoint_teleport"
+      "command": "function origins-plus-plus:end-mage/waypoint_teleport {power:\"power\",resource:\"resource\"}"
     },
     "condition": {
       "type": "origins:all_of",

@@ -3,7 +3,7 @@
   "entity_action": [
     {
       "type": "origins:execute_command",
-      "command": "function origins-plus-plus:moth/expulsion"
+      "command": "function origins-plus-plus:moth/expulsion {power:\"power\",resource:\"resource\"}"
     },
     {
       "type": "origins:add_velocity",

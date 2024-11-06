@@ -3,17 +3,17 @@
   "entity_action": [
     {
       "type": "origins:execute_command",
-      "command": "function origins-plus-plus:corrupted-wither/start"
+      "command": "function origins-plus-plus:corrupted-wither/start {power:\"power\",resource:\"resource\"}"
     },
     {
       "type": "origins:execute_command",
-      "command": "function origins-plus-plus:corrupted-wither/save_motion"
+      "command": "function origins-plus-plus:corrupted-wither/save_motion {power:\"power\",resource:\"resource\"}"
     },
     {
       "type": "origins:delay",
       "action": {
         "type": "origins:execute_command",
-        "command": "function origins-plus-plus:corrupted-wither/stop"
+        "command": "function origins-plus-plus:corrupted-wither/stop {power:\"power\",resource:\"resource\"}"
       },
       "ticks": 1000
     },
@@ -21,7 +21,7 @@
       "type": "origins:delay",
       "action": {
         "type": "origins:execute_command",
-        "command": "function origins-plus-plus:corrupted-wither/resume_motion"
+        "command": "function origins-plus-plus:corrupted-wither/resume_motion {power:\"power\",resource:\"resource\"}"
       },
       "ticks": 1000
     }

@@ -9,11 +9,11 @@
     },
     "if_action": {
       "type": "origins:execute_command",
-      "command": "function origins-plus-plus:deathsworn/crystallize"
+      "command": "function origins-plus-plus:deathsworn/crystallize {power:\"power\",resource:\"resource\"}"
     },
     "else_action": {
       "type": "origins:execute_command",
-      "command": "function origins-plus-plus:deathsworn/set_stats"
+      "command": "function origins-plus-plus:deathsworn/set_stats {power:\"power\",resource:\"resource\"}"
     }
   },
   "target_condition": {

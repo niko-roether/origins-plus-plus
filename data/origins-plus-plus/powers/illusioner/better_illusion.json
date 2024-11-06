@@ -10,14 +10,14 @@
   "entity_action": [
     {
       "type": "origins:execute_command",
-      "command": "function origins-plus-plus:illusioner/better_illusion"
+      "command": "function origins-plus-plus:illusioner/better_illusion {power:\"power\",resource:\"resource\"}"
     },
     {
       "type": "origins:delay",
       "ticks": 300,
       "action": {
         "type": "origins:execute_command",
-        "command": "function origins-plus-plus:illusioner/better_illusion_end"
+        "command": "function origins-plus-plus:illusioner/better_illusion_end {power:\"power\",resource:\"resource\"}"
       }
     }
   ],

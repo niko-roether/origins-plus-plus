@@ -1,13 +1,13 @@
 {
-	"type":"origins:active_self",
-	"cooldown":200,
-	"key":"key.origins.secondary_active",
-	"entity_action":{
-		"type":"origins:execute_command",
-		"command":"function origins-plus-plus:ravager/vexy"
-	},
-	"hud_render":{
-		"sprite_location":"origins:textures/gui/community/spiderkolo/resource_bar_02.png",
-		"bar_index":17
-	}
+  "type": "origins:active_self",
+  "cooldown": 200,
+  "key": "key.origins.secondary_active",
+  "entity_action": {
+    "type": "origins:execute_command",
+    "command": "function origins-plus-plus:ravager/vexy {power:\"power\",resource:\"resource\"}"
+  },
+  "hud_render": {
+    "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+    "bar_index": 17
+  }
 }

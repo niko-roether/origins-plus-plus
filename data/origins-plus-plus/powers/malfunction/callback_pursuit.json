@@ -4,7 +4,7 @@
     "type": "origins:target_action_on_hit",
     "entity_action": {
       "type": "origins:execute_command",
-      "command": "function origins-plus-plus:malfunction/pin"
+      "command": "function origins-plus-plus:malfunction/pin {power:\"power\",resource:\"resource\"}"
     },
     "cooldown": 5,
     "hud_render": {
@@ -28,7 +28,7 @@
     "entity_action": [
       {
         "type": "origins:execute_command",
-        "command": "function origins-plus-plus:malfunction/callback"
+        "command": "function origins-plus-plus:malfunction/callback {power:\"power\",resource:\"resource\"}"
       },
       {
         "type": "origins:delay",
@@ -61,7 +61,7 @@
     "entity_action": [
       {
         "type": "origins:execute_command",
-        "command": "function origins-plus-plus:malfunction/pursuit"
+        "command": "function origins-plus-plus:malfunction/pursuit {power:\"power\",resource:\"resource\"}"
       },
       {
         "type": "origins:delay",

@@ -9,7 +9,7 @@
   "entity_action": [
     {
       "type": "origins:execute_command",
-      "command": "function origins-plus-plus:zero-aizawa/super_sane"
+      "command": "function origins-plus-plus:zero-aizawa/super_sane {power:\"power\",resource:\"resource\"}"
     },
     {
       "type": "origins:delay",

@@ -14,7 +14,7 @@
       "distance": 16,
       "shape_type": "outline",
       "fluid_handling": "none",
-      "command_at_hit": "function origins-plus-plus:dark-mage/wolf"
+      "command_at_hit": "function origins-plus-plus:dark-mage/wolf {power:\"power\",resource:\"resource\"}"
     },
     {
       "type": "origins:execute_command",

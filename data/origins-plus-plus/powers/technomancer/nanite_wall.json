@@ -89,7 +89,7 @@
     "type": "origins:action_over_time",
     "entity_action": {
       "type": "origins:execute_command",
-      "command": "function origins-plus-plus:technomancer/nanite_wall"
+      "command": "function origins-plus-plus:technomancer/nanite_wall {power:\"power\",resource:\"resource\"}"
     },
     "interval": 20,
     "condition": {

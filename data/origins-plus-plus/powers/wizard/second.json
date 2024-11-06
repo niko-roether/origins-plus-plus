@@ -16,7 +16,7 @@
       },
       {
         "type": "origins:execute_command",
-        "command": "function origins-plus-plus:wizard/totem"
+        "command": "function origins-plus-plus:wizard/totem {power:\"power\",resource:\"resource\"}"
       },
       {
         "type": "origins:trigger_cooldown",

@@ -15,7 +15,7 @@
     "entity_action": [
       {
         "type": "origins:execute_command",
-        "command": "function origins-plus-plus:dark-mage/team_add"
+        "command": "function origins-plus-plus:dark-mage/team_add {power:\"power\",resource:\"resource\"}"
       },
       {
         "type": "origins:equipped_item_action",
@@ -52,7 +52,7 @@
     "entity_action": [
       {
         "type": "origins:execute_command",
-        "command": "function origins-plus-plus:dark-mage/team_remove"
+        "command": "function origins-plus-plus:dark-mage/team_remove {power:\"power\",resource:\"resource\"}"
       },
       {
         "type": "origins:equipped_item_action",

@@ -8,7 +8,7 @@
     },
     {
       "type": "origins:execute_command",
-      "command": "function origins-plus-plus:ravager/dash"
+      "command": "function origins-plus-plus:ravager/dash {power:\"power\",resource:\"resource\"}"
     }
   ],
   "condition": {

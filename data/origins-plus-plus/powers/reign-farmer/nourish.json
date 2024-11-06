@@ -3,7 +3,7 @@
   "entity_action": [
     {
       "type": "origins:execute_command",
-      "command": "function origins-plus-plus:reign-farmer/nourish"
+      "command": "function origins-plus-plus:reign-farmer/nourish {power:\"power\",resource:\"resource\"}"
     },
     {
       "type": "origins:delay",

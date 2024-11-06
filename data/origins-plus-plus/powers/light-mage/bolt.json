@@ -14,7 +14,7 @@
       "distance": 64,
       "shape_type": "outline",
       "fluid_handling": "none",
-      "command_at_hit": "function origins-plus-plus:light-mage/bolt"
+      "command_at_hit": "function origins-plus-plus:light-mage/bolt {power:\"power\",resource:\"resource\"}"
     }
   ],
   "condition": {

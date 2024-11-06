@@ -45,7 +45,7 @@
     "type": "origins:active_self",
     "entity_action": {
       "type": "origins:execute_command",
-      "command": "function origins-plus-plus:golden-golem/health_resource"
+      "command": "function origins-plus-plus:golden-golem/health_resource {power:\"power\",resource:\"resource\"}"
     },
     "condition": {
       "type": "origins:resource",

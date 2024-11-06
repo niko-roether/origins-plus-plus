@@ -4,7 +4,7 @@
   "cooldown": 100,
   "entity_action": {
     "type": "origins:execute_command",
-    "command": "function origins-plus-plus:dark-mage/recover"
+    "command": "function origins-plus-plus:dark-mage/recover {power:\"power\",resource:\"resource\"}"
   },
   "condition": {
     "type": "origins:all_of",

@@ -13,7 +13,7 @@
       "distance": 80,
       "shape_type": "outline",
       "fluid_handling": "none",
-      "command_at_hit": "function origins-plus-plus:light-mage/diminish",
+      "command_at_hit": "function origins-plus-plus:light-mage/diminish {power:\"power\",resource:\"resource\"}",
       "command_along_ray": "particle minecraft:enchant"
     }
   ],

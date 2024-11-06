@@ -198,7 +198,7 @@
     "type": "origins:action_over_time",
     "entity_action": {
       "type": "origins:execute_command",
-      "command": "function origins-plus-plus:rift-mage/if_portal_exists"
+      "command": "function origins-plus-plus:rift-mage/if_portal_exists {power:\"power\",resource:\"resource\"}"
     },
     "interval": 1
   },
@@ -207,7 +207,7 @@
     "key": "key.origins.primary_active",
     "entity_action": {
       "type": "origins:execute_command",
-      "command": "function origins-plus-plus:rift-mage/portality"
+      "command": "function origins-plus-plus:rift-mage/portality {power:\"power\",resource:\"resource\"}"
     },
     "cooldown": 3600,
     "hud_render": {

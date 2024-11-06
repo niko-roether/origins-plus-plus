@@ -15,7 +15,7 @@
       },
       {
         "type": "origins:execute_command",
-        "command": "function origins-plus-plus:binturong/sugar_rush"
+        "command": "function origins-plus-plus:binturong/sugar_rush {power:\"power\",resource:\"resource\"}"
       },
       {
         "type": "origins:apply_effect",

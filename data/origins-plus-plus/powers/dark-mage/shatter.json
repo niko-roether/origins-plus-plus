@@ -6,7 +6,7 @@
   "entity_action": [
     {
       "type": "origins:execute_command",
-      "command": "function origins-plus-plus:dark-mage/shatter"
+      "command": "function origins-plus-plus:dark-mage/shatter {power:\"power\",resource:\"resource\"}"
     },
     {
       "type": "origins:equipped_item_action",

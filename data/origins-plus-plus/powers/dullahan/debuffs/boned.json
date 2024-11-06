@@ -5,7 +5,7 @@
     "chance": 0.5,
     "success_action": {
       "type": "origins:execute_command",
-      "command": "function origins-plus-plus:dullahan/boned"
+      "command": "function origins-plus-plus:dullahan/boned {power:\"power\",resource:\"resource\"}"
     }
   },
   "damage_condition": {

@@ -1,12 +1,12 @@
 {
-	"type":"origins:active_self",
-	"key":"key.origins.secondary_active",
-	"cooldown":100,
-	"entity_action":{
-		"type":"origins:execute_command",
-		"command":"function origins-plus-plus:end-mage/end_rage"
-	},
-	"condition":{
-		"type":"origins:sneaking"
-	}
+  "type": "origins:active_self",
+  "key": "key.origins.secondary_active",
+  "cooldown": 100,
+  "entity_action": {
+    "type": "origins:execute_command",
+    "command": "function origins-plus-plus:end-mage/end_rage {power:\"power\",resource:\"resource\"}"
+  },
+  "condition": {
+    "type": "origins:sneaking"
+  }
 }

@@ -3,7 +3,7 @@
   "entity_action": [
     {
       "type": "origins:execute_command",
-      "command": "function origins-plus-plus:rift-mage/return_to_rift"
+      "command": "function origins-plus-plus:rift-mage/return_to_rift {power:\"power\",resource:\"resource\"}"
     },
     {
       "type": "origins:heal",

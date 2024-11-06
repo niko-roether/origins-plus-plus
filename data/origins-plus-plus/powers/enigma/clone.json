@@ -23,7 +23,7 @@
     "entity_action": [
       {
         "type": "origins:execute_command",
-        "command": "function origins-plus-plus:enigma/if_clone"
+        "command": "function origins-plus-plus:enigma/if_clone {power:\"power\",resource:\"resource\"}"
       },
       {
         "type": "origins:if_else",
@@ -53,7 +53,7 @@
           },
           "if_action": {
             "type": "origins:execute_command",
-            "command": "function origins-plus-plus:enigma/clone"
+            "command": "function origins-plus-plus:enigma/clone {power:\"power\",resource:\"resource\"}"
           }
         }
       }

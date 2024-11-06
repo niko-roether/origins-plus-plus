@@ -9,7 +9,7 @@
   "entity_action": [
     {
       "type": "origins:execute_command",
-      "command": "function origins-plus-plus:sprinter/adrenaline_boost"
+      "command": "function origins-plus-plus:sprinter/adrenaline_boost {power:\"power\",resource:\"resource\"}"
     },
     {
       "type": "origins:delay",

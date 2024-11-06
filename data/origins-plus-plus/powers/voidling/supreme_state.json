@@ -42,7 +42,7 @@
       },
       {
         "type": "origins:execute_command",
-        "command": "function origins-plus-plus:voidling/supreme_state"
+        "command": "function origins-plus-plus:voidling/supreme_state {power:\"power\",resource:\"resource\"}"
       },
       {
         "type": "origins:delay",
@@ -138,7 +138,7 @@
     "type": "origins:action_over_time",
     "entity_action": {
       "type": "origins:execute_command",
-      "command": "function origins-plus-plus:voidling/supreme_state_available"
+      "command": "function origins-plus-plus:voidling/supreme_state_available {power:\"power\",resource:\"resource\"}"
     },
     "interval": 20,
     "condition": {

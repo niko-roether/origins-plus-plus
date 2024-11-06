@@ -14,14 +14,14 @@
     "entity_action": [
       {
         "type": "origins:execute_command",
-        "command": "function origins-plus-plus:light-mage/create_pocket_dimension"
+        "command": "function origins-plus-plus:light-mage/create_pocket_dimension {power:\"power\",resource:\"resource\"}"
       },
       {
         "type": "origins:delay",
         "ticks": 10,
         "action": {
           "type": "origins:execute_command",
-          "command": "function origins-plus-plus:light-mage/effects"
+          "command": "function origins-plus-plus:light-mage/effects {power:\"power\",resource:\"resource\"}"
         }
       }
     ],
@@ -51,14 +51,14 @@
     "entity_action": [
       {
         "type": "origins:execute_command",
-        "command": "function origins-plus-plus:light-mage/go_to_pocket_dimension"
+        "command": "function origins-plus-plus:light-mage/go_to_pocket_dimension {power:\"power\",resource:\"resource\"}"
       },
       {
         "type": "origins:delay",
         "ticks": 10,
         "action": {
           "type": "origins:execute_command",
-          "command": "function origins-plus-plus:light-mage/effects"
+          "command": "function origins-plus-plus:light-mage/effects {power:\"power\",resource:\"resource\"}"
         }
       }
     ],
@@ -94,7 +94,7 @@
     "entity_action": [
       {
         "type": "origins:execute_command",
-        "command": "function origins-plus-plus:light-mage/bring_to_pocket_dimension"
+        "command": "function origins-plus-plus:light-mage/bring_to_pocket_dimension {power:\"power\",resource:\"resource\"}"
       },
       {
         "type": "origins:delay",
@@ -109,7 +109,7 @@
         "ticks": 10,
         "action": {
           "type": "origins:execute_command",
-          "command": "function origins-plus-plus:light-mage/effects"
+          "command": "function origins-plus-plus:light-mage/effects {power:\"power\",resource:\"resource\"}"
         }
       }
     ],
@@ -144,7 +144,7 @@
     "entity_action": [
       {
         "type": "origins:execute_command",
-        "command": "function origins-plus-plus:light-mage/bring_back_from_pocket_dimension"
+        "command": "function origins-plus-plus:light-mage/bring_back_from_pocket_dimension {power:\"power\",resource:\"resource\"}"
       },
       {
         "type": "origins:delay",
@@ -159,7 +159,7 @@
         "ticks": 10,
         "action": {
           "type": "origins:execute_command",
-          "command": "function origins-plus-plus:light-mage/effects"
+          "command": "function origins-plus-plus:light-mage/effects {power:\"power\",resource:\"resource\"}"
         }
       }
     ],
@@ -193,7 +193,7 @@
     "entity_action": [
       {
         "type": "origins:execute_command",
-        "command": "function origins-plus-plus:light-mage/bring_back_from_pocket_dimension"
+        "command": "function origins-plus-plus:light-mage/bring_back_from_pocket_dimension {power:\"power\",resource:\"resource\"}"
       },
       {
         "type": "origins:delay",
@@ -216,7 +216,7 @@
         "ticks": 10,
         "action": {
           "type": "origins:execute_command",
-          "command": "function origins-plus-plus:light-mage/effects"
+          "command": "function origins-plus-plus:light-mage/effects {power:\"power\",resource:\"resource\"}"
         }
       }
     ],

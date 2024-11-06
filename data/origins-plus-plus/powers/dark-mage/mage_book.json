@@ -3,7 +3,7 @@
   "key": "key.origins.primary_active",
   "entity_action": {
     "type": "origins:execute_command",
-    "command": "function origins-plus-plus:dark-mage/mage_book"
+    "command": "function origins-plus-plus:dark-mage/mage_book {power:\"power\",resource:\"resource\"}"
   },
   "condition": {
     "type": "origins:all_of",

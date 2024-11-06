@@ -5,7 +5,7 @@
     "entity_action": [
       {
         "type": "origins:execute_command",
-        "command": "function origins-plus-plus:emblazing-warrior/powers/xslash"
+        "command": "function origins-plus-plus:emblazing-warrior/powers/xslash {power:\"power\",resource:\"resource\"}"
       },
       {
         "type": "origins:damage",
@@ -25,7 +25,7 @@
     "type": "origins:active_self",
     "entity_action": {
       "type": "origins:execute_command",
-      "command": "function origins-plus-plus:emblazing-warrior/powers/crossslash"
+      "command": "function origins-plus-plus:emblazing-warrior/powers/crossslash {power:\"power\",resource:\"resource\"}"
     },
     "cooldown": 20,
     "condition": {

@@ -51,7 +51,7 @@
     "type": "origins:action_over_time",
     "entity_action": {
       "type": "origins:execute_command",
-      "command": "function origins-plus-plus:spirit-ram/mist_effects"
+      "command": "function origins-plus-plus:spirit-ram/mist_effects {power:\"power\",resource:\"resource\"}"
     },
     "interval": 1,
     "condition": {

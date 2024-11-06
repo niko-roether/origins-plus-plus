@@ -7,7 +7,7 @@
       "chance": 0.33,
       "success_action": {
         "type": "origins:execute_command",
-        "command": "function origins-plus-plus:emblazing-warrior/powers/ignition"
+        "command": "function origins-plus-plus:emblazing-warrior/powers/ignition {power:\"power\",resource:\"resource\"}"
       }
     },
     "condition": {
@@ -25,7 +25,7 @@
       "chance": 0.66,
       "success_action": {
         "type": "origins:execute_command",
-        "command": "function origins-plus-plus:emblazing-warrior/powers/ignition2"
+        "command": "function origins-plus-plus:emblazing-warrior/powers/ignition2 {power:\"power\",resource:\"resource\"}"
       }
     },
     "condition": {
@@ -43,7 +43,7 @@
       "chance": 1,
       "success_action": {
         "type": "origins:execute_command",
-        "command": "function origins-plus-plus:emblazing-warrior/powers/ignition2"
+        "command": "function origins-plus-plus:emblazing-warrior/powers/ignition2 {power:\"power\",resource:\"resource\"}"
       }
     },
     "condition": {

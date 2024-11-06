@@ -1,12 +1,12 @@
 {
-	"type":"origins:action_over_time",
-	"entity_action":{
-		"type":"origins:execute_command",
-		"command":"function origins-plus-plus:alien-axolotl/nether"
-	},
-	"interval":20,
-	"condition":{
-		"type":"origins:dimension",
-		"dimension":"minecraft:the_nether"
-	}
+  "type": "origins:action_over_time",
+  "entity_action": {
+    "type": "origins:execute_command",
+    "command": "function origins-plus-plus:alien-axolotl/nether {power:\"power\",resource:\"resource\"}"
+  },
+  "interval": 20,
+  "condition": {
+    "type": "origins:dimension",
+    "dimension": "minecraft:the_nether"
+  }
 }

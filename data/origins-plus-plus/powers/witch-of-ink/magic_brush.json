@@ -17,7 +17,7 @@
         "action": {
           "type": "origins:raycast",
           "distance": 16,
-          "command_at_hit": "function origins-plus-plus:witch-of-ink/brush/red"
+          "command_at_hit": "function origins-plus-plus:witch-of-ink/brush/red {power:\"power\",resource:\"resource\"}"
         }
       },
       {
@@ -34,7 +34,7 @@
         "action": {
           "type": "origins:raycast",
           "distance": 16,
-          "command_at_hit": "function origins-plus-plus:witch-of-ink/brush/blue"
+          "command_at_hit": "function origins-plus-plus:witch-of-ink/brush/blue {power:\"power\",resource:\"resource\"}"
         }
       },
       {
@@ -51,7 +51,7 @@
         "action": {
           "type": "origins:raycast",
           "distance": 16,
-          "command_at_hit": "function origins-plus-plus:witch-of-ink/brush/green"
+          "command_at_hit": "function origins-plus-plus:witch-of-ink/brush/green {power:\"power\",resource:\"resource\"}"
         }
       }
     ]

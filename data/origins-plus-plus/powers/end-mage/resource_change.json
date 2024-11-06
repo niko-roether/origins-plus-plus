@@ -58,7 +58,7 @@
       "type": "origins:action_over_time",
       "entity_action": {
         "type": "origins:execute_command",
-        "command": "function origins-plus-plus:end-mage/bug"
+        "command": "function origins-plus-plus:end-mage/bug {power:\"power\",resource:\"resource\"}"
       },
       "interval": 200,
       "condition": {

@@ -1,9 +1,9 @@
 {
-	"type":"origins:action_over_time",
-	"entity_action":{
-		"type":"origins:execute_command",
-		"command":"function origins-plus-plus:illusioner/better_illusion_tp"
-	},
-	"interval":1,
-	"hidden":true
+  "type": "origins:action_over_time",
+  "entity_action": {
+    "type": "origins:execute_command",
+    "command": "function origins-plus-plus:illusioner/better_illusion_tp {power:\"power\",resource:\"resource\"}"
+  },
+  "interval": 1,
+  "hidden": true
 }

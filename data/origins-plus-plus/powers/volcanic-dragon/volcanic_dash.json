@@ -12,7 +12,7 @@
     },
     {
       "type": "origins:execute_command",
-      "command": "function origins-plus-plus:volcanic-dragon/dash"
+      "command": "function origins-plus-plus:volcanic-dragon/dash {power:\"power\",resource:\"resource\"}"
     }
   ],
   "condition": {

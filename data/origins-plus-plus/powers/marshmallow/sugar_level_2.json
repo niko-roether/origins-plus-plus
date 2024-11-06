@@ -59,7 +59,7 @@
     "type": "origins:action_over_time",
     "entity_action": {
       "type": "origins:execute_command",
-      "command": "function origins-plus-plus:marshmallow/size2"
+      "command": "function origins-plus-plus:marshmallow/size2 {power:\"power\",resource:\"resource\"}"
     },
     "interval": 20,
     "condition": {

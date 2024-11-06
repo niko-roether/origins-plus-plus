@@ -11,7 +11,7 @@
     "entity_action": [
       {
         "type": "origins:execute_command",
-        "command": "function origins-plus-plus:ice-king/frostwalker_ice"
+        "command": "function origins-plus-plus:ice-king/frostwalker_ice {power:\"power\",resource:\"resource\"}"
       },
       {
         "type": "origins:block_action_at",
@@ -53,7 +53,7 @@
     "interval": 2,
     "entity_action": {
       "type": "origins:execute_command",
-      "command": "function origins-plus-plus:ice-king/frostwalker_fancy"
+      "command": "function origins-plus-plus:ice-king/frostwalker_fancy {power:\"power\",resource:\"resource\"}"
     },
     "condition": {
       "type": "origins:all_of",

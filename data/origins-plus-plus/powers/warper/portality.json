@@ -16,11 +16,11 @@
     },
     "max_action": {
       "type": "origins:execute_command",
-      "command": "function origins-plus-plus:warper/portality_max_action"
+      "command": "function origins-plus-plus:warper/portality_max_action {power:\"power\",resource:\"resource\"}"
     },
     "min_action": {
       "type": "origins:execute_command",
-      "command": "function origins-plus-plus:warper/portality_min_action"
+      "command": "function origins-plus-plus:warper/portality_min_action {power:\"power\",resource:\"resource\"}"
     }
   },
   "toggled_orange": {

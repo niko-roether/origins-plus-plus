@@ -9,7 +9,7 @@
     },
     {
       "type": "origins:execute_command",
-      "command": "function origins-plus-plus:fallen-angel/velocity"
+      "command": "function origins-plus-plus:fallen-angel/velocity {power:\"power\",resource:\"resource\"}"
     }
   ],
   "cooldown": 500,

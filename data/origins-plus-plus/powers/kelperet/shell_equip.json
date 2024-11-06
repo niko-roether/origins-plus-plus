@@ -15,7 +15,7 @@
     "if_action": [
       {
         "type": "origins:execute_command",
-        "command": "function origins-plus-plus:kelperet/shell_equip"
+        "command": "function origins-plus-plus:kelperet/shell_equip {power:\"power\",resource:\"resource\"}"
       },
       {
         "type": "origins:damage",

@@ -1,31 +1,31 @@
 {
-	"type": "origins:multiple",
-	"illager": {
-		"type": "origins:modify_type_tag",
-		"tag": "illager"
-	},
-	"high_prices": {
-		"type": "origins:action_over_time",
-		"interval": 10,
-		"entity_action": {
-			"type": "origins:execute_command",
-			"command": "function origins-plus-plus:ravager/high_prices"
-		}
-	},
-	"iron_golem": {
-		"type": "origins:action_over_time",
-		"interval": 10,
-		"entity_action": {
-			"type": "origins:execute_command",
-			"command": "function origins-plus-plus:ravager/iron_golem"
-		}
-	},
-	"iron_golem_no": {
-		"type": "origins:action_over_time",
-		"interval": 10,
-		"entity_action": {
-			"type": "origins:execute_command",
-			"command": "function origins-plus-plus:ravager/iron_golem_no"
-		}
-	}
+  "type": "origins:multiple",
+  "illager": {
+    "type": "origins:modify_type_tag",
+    "tag": "illager"
+  },
+  "high_prices": {
+    "type": "origins:action_over_time",
+    "interval": 10,
+    "entity_action": {
+      "type": "origins:execute_command",
+      "command": "function origins-plus-plus:ravager/high_prices {power:\"power\",resource:\"resource\"}"
+    }
+  },
+  "iron_golem": {
+    "type": "origins:action_over_time",
+    "interval": 10,
+    "entity_action": {
+      "type": "origins:execute_command",
+      "command": "function origins-plus-plus:ravager/iron_golem {power:\"power\",resource:\"resource\"}"
+    }
+  },
+  "iron_golem_no": {
+    "type": "origins:action_over_time",
+    "interval": 10,
+    "entity_action": {
+      "type": "origins:execute_command",
+      "command": "function origins-plus-plus:ravager/iron_golem_no {power:\"power\",resource:\"resource\"}"
+    }
+  }
 }

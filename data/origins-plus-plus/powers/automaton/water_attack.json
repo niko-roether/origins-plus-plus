@@ -20,7 +20,7 @@
       },
       {
         "type": "origins:execute_command",
-        "command": "function origins-plus-plus:automaton/water_attack"
+        "command": "function origins-plus-plus:automaton/water_attack {power:\"power\",resource:\"resource\"}"
       }
     ],
     "condition": {

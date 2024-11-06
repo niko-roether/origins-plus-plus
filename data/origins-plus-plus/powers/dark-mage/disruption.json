@@ -18,7 +18,7 @@
         "amount": 7,
         "damage_type": "cramming"
       },
-      "command_at_hit": "function origins-plus-plus:dark-mage/disruption",
+      "command_at_hit": "function origins-plus-plus:dark-mage/disruption {power:\"power\",resource:\"resource\"}",
       "command_along_ray_only_on_hit": true
     }
   ],

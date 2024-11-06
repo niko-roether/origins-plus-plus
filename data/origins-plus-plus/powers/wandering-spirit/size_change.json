@@ -1,35 +1,35 @@
 {
-	"type":"origins:action_over_time",
-	"hidden":true,
-	"entity_action":{
-		"type":"origins:if_else",
-		"condition":{
-			"type":"origins:resource",
-			"resource":"origins-plus-plus:wandering-spirit/size_resource",
-			"comparison":"<",
-			"compare_to":1
-		},
-		"if_action":{
-			"type":"origins:execute_command",
-			"command":"function origins-plus-plus:wandering-spirit/small"
-		},
-		"else_action":{
-			"type":"origins:if_else",
-			"condition":{
-				"type":"origins:resource",
-				"resource":"origins-plus-plus:wandering-spirit/size_resource",
-				"comparison":">",
-				"compare_to":1
-			},
-			"if_action":{
-				"type":"origins:execute_command",
-				"command":"function origins-plus-plus:wandering-spirit/large"
-			},
-			"else_action":{
-				"type":"origins:execute_command",
-				"command":"function origins-plus-plus:wandering-spirit/normal"
-			}
-		}
-	},
-	"interval":20
+  "type": "origins:action_over_time",
+  "hidden": true,
+  "entity_action": {
+    "type": "origins:if_else",
+    "condition": {
+      "type": "origins:resource",
+      "resource": "origins-plus-plus:wandering-spirit/size_resource",
+      "comparison": "<",
+      "compare_to": 1
+    },
+    "if_action": {
+      "type": "origins:execute_command",
+      "command": "function origins-plus-plus:wandering-spirit/small {power:\"power\",resource:\"resource\"}"
+    },
+    "else_action": {
+      "type": "origins:if_else",
+      "condition": {
+        "type": "origins:resource",
+        "resource": "origins-plus-plus:wandering-spirit/size_resource",
+        "comparison": ">",
+        "compare_to": 1
+      },
+      "if_action": {
+        "type": "origins:execute_command",
+        "command": "function origins-plus-plus:wandering-spirit/large {power:\"power\",resource:\"resource\"}"
+      },
+      "else_action": {
+        "type": "origins:execute_command",
+        "command": "function origins-plus-plus:wandering-spirit/normal {power:\"power\",resource:\"resource\"}"
+      }
+    }
+  },
+  "interval": 20
 }

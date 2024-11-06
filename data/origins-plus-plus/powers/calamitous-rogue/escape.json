@@ -6,7 +6,7 @@
     "entity_action": [
       {
         "type": "origins:execute_command",
-        "command": "function origins-plus-plus:calamitous-rogue/if_point"
+        "command": "function origins-plus-plus:calamitous-rogue/if_point {power:\"power\",resource:\"resource\"}"
       },
       {
         "type": "origins:if_else",
@@ -21,7 +21,7 @@
         },
         "else_action": {
           "type": "origins:execute_command",
-          "command": "function origins-plus-plus:calamitous-rogue/make_point"
+          "command": "function origins-plus-plus:calamitous-rogue/make_point {power:\"power\",resource:\"resource\"}"
         }
       }
     ],
@@ -32,7 +32,7 @@
     "entity_action": [
       {
         "type": "origins:execute_command",
-        "command": "function origins-plus-plus:calamitous-rogue/if_point"
+        "command": "function origins-plus-plus:calamitous-rogue/if_point {power:\"power\",resource:\"resource\"}"
       },
       {
         "type": "origins:if_else",
@@ -47,7 +47,7 @@
         },
         "if_action": {
           "type": "origins:execute_command",
-          "command": "function origins-plus-plus:calamitous-rogue/tp_point"
+          "command": "function origins-plus-plus:calamitous-rogue/tp_point {power:\"power\",resource:\"resource\"}"
         }
       }
     ],

@@ -42,7 +42,7 @@
     "type": "origins:self_action_on_hit",
     "entity_action": {
       "type": "origins:execute_command",
-      "command": "function origins-plus-plus:blob/stack"
+      "command": "function origins-plus-plus:blob/stack {power:\"power\",resource:\"resource\"}"
     },
     "condition": {
       "type": "origins:resource",
@@ -56,7 +56,7 @@
     "type": "origins:self_action_on_hit",
     "entity_action": {
       "type": "origins:execute_command",
-      "command": "function origins-plus-plus:blob/action_after_stack"
+      "command": "function origins-plus-plus:blob/action_after_stack {power:\"power\",resource:\"resource\"}"
     },
     "condition": {
       "type": "origins:resource",

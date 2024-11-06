@@ -12,7 +12,7 @@
       },
       {
         "type": "origins:execute_command",
-        "command": "function origins-plus-plus:copper-golem/eat_raw"
+        "command": "function origins-plus-plus:copper-golem/eat_raw {power:\"power\",resource:\"resource\"}"
       }
     ],
     "condition": {
@@ -47,7 +47,7 @@
       },
       {
         "type": "origins:execute_command",
-        "command": "function origins-plus-plus:copper-golem/eat_ingot"
+        "command": "function origins-plus-plus:copper-golem/eat_ingot {power:\"power\",resource:\"resource\"}"
       }
     ],
     "condition": {
@@ -82,7 +82,7 @@
       },
       {
         "type": "origins:execute_command",
-        "command": "function origins-plus-plus:copper-golem/eat_block"
+        "command": "function origins-plus-plus:copper-golem/eat_block {power:\"power\",resource:\"resource\"}"
       }
     ],
     "condition": {

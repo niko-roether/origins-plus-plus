@@ -22,7 +22,7 @@
         }
       },
       "command_along_ray": "particle minecraft:flame ~ ~ ~ 0 0 0 0 20",
-      "command_at_hit": "function origins-plus-plus:dark-mage/scorch",
+      "command_at_hit": "function origins-plus-plus:dark-mage/scorch {power:\"power\",resource:\"resource\"}",
       "command_along_ray_only_on_hit": true
     },
     {

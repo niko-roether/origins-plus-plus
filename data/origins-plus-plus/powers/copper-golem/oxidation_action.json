@@ -84,7 +84,7 @@
     "interval": 20,
     "entity_action": {
       "type": "origins:execute_command",
-      "command": "function origins-plus-plus:copper-golem/decrease_oxidation"
+      "command": "function origins-plus-plus:copper-golem/decrease_oxidation {power:\"power\",resource:\"resource\"}"
     },
     "condition": {
       "type": "origins:all_of",

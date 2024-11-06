@@ -6,7 +6,7 @@
     "entity_action": [
       {
         "type": "origins:execute_command",
-        "command": "function origins-plus-plus:automaton/firebar_increase_coal"
+        "command": "function origins-plus-plus:automaton/firebar_increase_coal {power:\"power\",resource:\"resource\"}"
       },
       {
         "type": "origins:equipped_item_action",
@@ -35,7 +35,7 @@
     "entity_action": [
       {
         "type": "origins:execute_command",
-        "command": "function origins-plus-plus:automaton/firebar_increase_coal_block"
+        "command": "function origins-plus-plus:automaton/firebar_increase_coal_block {power:\"power\",resource:\"resource\"}"
       },
       {
         "type": "origins:equipped_item_action",
@@ -72,7 +72,7 @@
     "entity_action": [
       {
         "type": "origins:execute_command",
-        "command": "function origins-plus-plus:automaton/firebar_increase_lava"
+        "command": "function origins-plus-plus:automaton/firebar_increase_lava {power:\"power\",resource:\"resource\"}"
       },
       {
         "type": "origins:equipped_item_action",

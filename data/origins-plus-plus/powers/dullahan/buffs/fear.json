@@ -1,14 +1,14 @@
 {
-	"type":"origins:action_over_time",
-	"interval":100,
-	"entity_action":{
-		"type":"origins:execute_command",
-		"command":"function origins-plus-plus:dullahan/fear"
-	},
-	"condition":{
-		"type":"origins:command",
-		"command":"execute if entity @e[distance=5.1..1]",
-		"comparison":">",
-		"compare_to":0
-	}
+  "type": "origins:action_over_time",
+  "interval": 100,
+  "entity_action": {
+    "type": "origins:execute_command",
+    "command": "function origins-plus-plus:dullahan/fear {power:\"power\",resource:\"resource\"}"
+  },
+  "condition": {
+    "type": "origins:command",
+    "command": "execute if entity @e[distance=5.1..1]",
+    "comparison": ">",
+    "compare_to": 0
+  }
 }

@@ -3,7 +3,7 @@
   "entity_action": [
     {
       "type": "origins:execute_command",
-      "command": "function origins-plus-plus:kirin/jump_boost"
+      "command": "function origins-plus-plus:kirin/jump_boost {power:\"power\",resource:\"resource\"}"
     },
     {
       "type": "origins:add_velocity",

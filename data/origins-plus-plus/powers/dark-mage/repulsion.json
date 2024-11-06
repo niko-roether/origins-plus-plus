@@ -11,7 +11,7 @@
     },
     {
       "type": "origins:execute_command",
-      "command": "function origins-plus-plus:dark-mage/repulsion"
+      "command": "function origins-plus-plus:dark-mage/repulsion {power:\"power\",resource:\"resource\"}"
     }
   ],
   "condition": {

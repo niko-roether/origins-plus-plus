@@ -3,7 +3,7 @@
   "entity_action": [
     {
       "type": "origins:execute_command",
-      "command": "function origins-plus-plus:kelperet/lunge"
+      "command": "function origins-plus-plus:kelperet/lunge {power:\"power\",resource:\"resource\"}"
     },
     {
       "type": "origins:add_velocity",

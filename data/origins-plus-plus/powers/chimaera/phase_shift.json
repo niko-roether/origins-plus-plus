@@ -1,8 +1,8 @@
 {
-	"type":"origins:self_action_when_hit",
-	"entity_action":{
-		"type":"origins:execute_command",
-		"command":"function origins-plus-plus:chimaera/phase_shift"
-	},
-	"cooldown":1200
+  "type": "origins:self_action_when_hit",
+  "entity_action": {
+    "type": "origins:execute_command",
+    "command": "function origins-plus-plus:chimaera/phase_shift {power:\"power\",resource:\"resource\"}"
+  },
+  "cooldown": 1200
 }
