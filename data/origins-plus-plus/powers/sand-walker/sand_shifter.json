@@ -1,6 +1,6 @@
 {
 	"type": "origins:multiple",
-	"_toggle_phase": {
+	"sand_shifter_toggle_phase": {
 		"type": "origins:toggle"
 	},
 	"phase": {
@@ -18,7 +18,7 @@
 		},
 		"condition": {
 			"type": "origins:power_active",
-			"power": "*:_toggle_phase"
+			"power": "*:*_toggle_phase"
 		}
 	},
 	"invulnerability": {
@@ -35,7 +35,7 @@
 				},
 				{
 					"type": "origins:power_active",
-					"power": "*:_toggle_phase"
+					"power": "*:*_toggle_phase"
 				}
 			]
 		}
@@ -44,7 +44,7 @@
 		"type": "origins:ignore_water",
 		"condition": {
 			"type": "origins:power_active",
-			"power": "*:_toggle_phase"
+			"power": "*:*_toggle_phase"
 		}
 	},
 	"ascend": {
@@ -194,7 +194,7 @@
 				"conditions": [
 					{
 						"type": "origins:power_active",
-						"power": "*:_toggle_phase"
+						"power": "*:*_toggle_phase"
 					},
 					{
 						"type": "origins:in_block",
