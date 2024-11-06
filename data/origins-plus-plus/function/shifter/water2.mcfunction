@@ -1,1 +1,1 @@
-power remove @s origins:water_breathing
+$$(power) remove @s origins:water_breathing

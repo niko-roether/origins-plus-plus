@@ -1,7 +1,7 @@
 execute as @e[tag=Enigma_Kill] at @s run summon minecraft:potion ~ ~ ~ {Motion:[0.0,-5.0,0.0],Item:{id:"minecraft:splash_potion",Count:1b,tag:{CustomPotionEffects:[{Id:7b,Amplifier:2b,Duration:1}]}}}
 execute as @e[tag=Enigma_Kill] at @s run kill @s
 
-execute as @e[tag=Enigma_Clone,nbt=!{HurtTime:0s}] at @s run power grant @s origins-plus-plus:enigma/clone_explode
+$execute as @e[tag=Enigma_Clone,nbt=!{HurtTime:0s}] at @s run $(power) grant @s origins-plus-plus:enigma/clone_explode
 execute as @e[tag=Enigma_Clone,nbt=!{HurtTime:0s}] at @s run effect clear @a minecraft:invisibility
 execute as @e[tag=Enigma_Clone,nbt=!{HurtTime:0s}] at @s run particle minecraft:smoke ~ ~1 ~ 0.5 0.5 0.5 0.05 100
 execute as @e[tag=Enigma_Clone,nbt=!{HurtTime:0s}] at @s run kill @s

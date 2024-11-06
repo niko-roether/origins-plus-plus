@@ -24,7 +24,7 @@ execute at @e[tag=Deathsworn_Minion,distance=..1,sort=nearest,limit=1] run data 
 execute at @e[tag=Deathsworn_Minion,distance=..1,sort=nearest,limit=1] run data modify entity @e[tag=Deathsworn_Minion,distance=..1,sort=nearest,limit=1] IsImmuneToZombification set value 1
 execute at @e[tag=Deathsworn_Minion,distance=..1,sort=nearest,limit=1] run data modify entity @e[tag=Deathsworn_Minion,distance=..1,sort=nearest,limit=1] CanPickUpLoot set value 1b
 execute at @e[tag=Deathsworn_Minion,distance=..1,sort=nearest,limit=1] run data modify entity @e[tag=Deathsworn_Minion,distance=..1,sort=nearest,limit=1] DeathLootTable set value "minecraft:empty"
-execute run power grant @e[tag=Deathsworn_Minion,distance=..1,sort=nearest,limit=1] origins-plus-plus:deathsworn/minions/kill
+$execute run $(power) grant @e[tag=Deathsworn_Minion,distance=..1,sort=nearest,limit=1] origins-plus-plus:deathsworn/minions/kill
 
 execute if entity @s[nbt={SelectedItem:{tag:{mob:"minecraft:spider"}}}] run advancement grant @s only origins-plus-plus:deathsworn/spider
 execute if entity @s[nbt={SelectedItem:{tag:{mob:"minecraft:skeleton"}}}] run advancement grant @s only origins-plus-plus:deathsworn/skeleton
@@ -32,5 +32,5 @@ execute if entity @s[nbt={Dimension:"minecraft:overworld",SelectedItem:{tag:{mob
 execute if entity @s[nbt={Dimension:"minecraft:overworld",SelectedItem:{tag:{mob:"minecraft:piglin_brute"}}}] run advancement grant @s only origins-plus-plus:deathsworn/brute
 advancement grant @s only origins-plus-plus:deathsworn/summon
 
-resource change @s origins-plus-plus:deathsworn/soul_bar -5
+$$(resource) change @s origins-plus-plus:deathsworn/soul_bar -5
 item modify entity @s weapon.mainhand origins-plus-plus:consume

@@ -1,1 +1,1 @@
-power grant @s origins:water_breathing
+$$(power) grant @s origins:water_breathing
