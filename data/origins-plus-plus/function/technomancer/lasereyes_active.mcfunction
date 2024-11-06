@@ -7,8 +7,8 @@ scoreboard players set #lasers Raycast_Hit 0
 execute unless block ~ ~ ~ air unless block ~ ~ ~ #origins-plus-plus:unbreakable run scoreboard players set #lasers Raycast_Hit 1
 
 execute if score #lasers Raycast_Hit matches 1 run setblock ~ ~ ~ air destroy
-particle minecraft:dust 1.0 0.0 0.0 0.5 ^0.2 ^ ^ 0 0 0 0 1 force @a
-particle minecraft:dust 1.0 0.0 0.0 0.5 ^-0.2 ^ ^ 0 0 0 0 1 force @a
+particle minecraft:dust{color:[1.0,0.0,0.0],scale:0.5} ^0.2 ^ ^ 0 0 0 0 1 force @a
+particle minecraft:dust{color:[1.0,0.0,0.0],scale:0.5} ^-0.2 ^ ^ 0 0 0 0 1 force @a
 execute if score #lasers Raycast_Hit matches 0 positioned ^ ^ ^1 if entity @p[distance=..150] run function origins-plus-plus:technomancer/lasereyes_active
 
 kill @e[type=minecraft:falling_block]
