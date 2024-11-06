@@ -13,8 +13,8 @@
 						}
 					},
 					{
-						"type": "origins:in_tag",
-						"tag": "minecraft:meat"
+						"type": "origins:custom_data",
+						"nbt": "{tag:\"minecraft:meat\"}"
 					}
 				],
 				"inverted": true
