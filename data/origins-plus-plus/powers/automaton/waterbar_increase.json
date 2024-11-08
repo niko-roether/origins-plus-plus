@@ -10,7 +10,7 @@
     "item_condition": {
       "type": "origins:ingredient",
       "ingredient": {
-        "id": "minecraft:potion"
+        "item": "minecraft:potion"
       }
     }
   },
