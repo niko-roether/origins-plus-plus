@@ -9,7 +9,9 @@
     },
     "item_condition": {
       "type": "origins:ingredient",
-      "id": "minecraft:potion"
+      "ingredient": {
+        "id": "minecraft:potion"
+      }
     }
   },
   "water_bucket": {
