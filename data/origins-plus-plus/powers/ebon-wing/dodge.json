@@ -317,11 +317,6 @@
         "power": "*:*_cooldown"
       },
       {
-        "type": "origins:change_resource",
-        "resource": "*:*_invis_timer",
-        "change": 200
-      },
-      {
         "type": "origins:delay",
         "ticks": 10,
         "action": {
@@ -382,3 +377,4 @@
     }
   }
 }
+
