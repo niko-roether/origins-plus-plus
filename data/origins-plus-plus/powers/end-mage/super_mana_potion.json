@@ -43,7 +43,8 @@
     },
     "item_condition": {
       "type": "origins:custom_data",
-      "nbt": "{tag:\"superempty\"}"
+      "nbt": "{superempty:1b}"
     }
   }
 }
+
