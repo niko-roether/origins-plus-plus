@@ -8,8 +8,8 @@
       "command": "function origins-plus-plus:automaton/waterbar_increase_bottle {power:\"power\",resource:\"resource\"}"
     },
     "item_condition": {
-      "type": "origins:custom_data",
-      "nbt": "{Potion:\"minecraft:water\"}"
+      "type": "origins:ingredient",
+      "id": "minecraft:potion"
     }
   },
   "water_bucket": {
@@ -50,3 +50,4 @@
     "key": "key.use"
   }
 }
+
