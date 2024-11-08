@@ -1,4 +1,4 @@
-summon minecraft:tnt ~ ~2 ~ {Fuse:1}
+summon minecraft:tnt ~ ~2 ~ {fuse:1}
 $$(resource) change @s origins-plus-plus:ebon-wing/last_resort_cooldown -1200
 $$(resource) change @s origins-plus-plus:ebon-wing/blood_blood -220
 effect give @e[distance=2..6] minecraft:wither 3 0 false

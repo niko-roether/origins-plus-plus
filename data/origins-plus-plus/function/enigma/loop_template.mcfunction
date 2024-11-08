@@ -1,4 +1,4 @@
-execute as @e[tag=Enigma_Kill] at @s run summon minecraft:potion ~ ~ ~ {Motion:[0.0,-5.0,0.0],Item:{id:"minecraft:splash_potion",Count:1b,tag:{CustomPotionEffects:[{Id:7b,Amplifier:2b,Duration:1}]}}}
+execute as @e[tag=Enigma_Kill] at @s run summon minecraft:potion ~ ~ ~ {Motion:[0.0,-5.0,0.0],Item:{id:"minecraft:splash_potion",Count:1b,tag:{custom_potion_effects:[{id:7,amplifier:2,duration:1}]}}}
 execute as @e[tag=Enigma_Kill] at @s run kill @s
 
 $execute as @e[tag=Enigma_Clone,nbt=!{HurtTime:0s}] at @s run $(power) grant @s origins-plus-plus:enigma/clone_explode
