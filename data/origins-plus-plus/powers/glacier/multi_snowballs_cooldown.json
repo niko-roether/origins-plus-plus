@@ -40,8 +40,9 @@
     },
     "if_action": {
       "type": "origins:trigger_cooldown",
-      "power": "glacier:multi_snowballs"
+      "power": "origins-plus-plus:glacier/multi_snowballs"
     }
   },
   "hidden": true
 }
+
