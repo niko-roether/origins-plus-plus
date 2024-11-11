@@ -1,5 +1,6 @@
 {
-  "type": "origins:elytra",
+  "type": "origins:elytra_flight",
+  "render_elytra": true,
   "condition": {
     "type": "origins:inventory",
     "process_mode": "items",
