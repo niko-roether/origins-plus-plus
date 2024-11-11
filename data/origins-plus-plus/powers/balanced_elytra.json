@@ -1,0 +1,15 @@
+{
+  "type": "origins:elytra",
+  "condition": {
+    "type": "origins:inventory",
+    "process_mode": "items",
+    "item_condition": {
+      "type": "origins:ingredient",
+      "ingredient": {
+        "item": "minecraft:elytra"
+      }
+    },
+    "comparison": ">=",
+    "compare_to": 1
+  }
+}
