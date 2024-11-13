@@ -1,6 +1,6 @@
 {
   "key": "key.origins.primary_active",
-  "cooldown": 100,
+  "cooldown": 20,
   "type": "origins:active_self",
   "entity_action": [
     {
@@ -15,7 +15,7 @@
       "fluid_handling": "none",
       "bientity_action": {
         "type": "origins:damage",
-        "amount": 7,
+        "amount": 14,
         "damage_type": "cramming"
       },
       "command_at_hit": "function origins-plus-plus:dark-mage/disruption {power:\"power\",resource:\"resource\"}",
@@ -27,3 +27,4 @@
     "inverted": true
   }
 }
+
