@@ -1,9 +1,7 @@
 {
   "type": "origins:multiple",
-  "toggle": {
-    "type": "origins:toggle",
-    "retain_state": false,
-    "active_by_default": false,
+  "consumed": {
+    "type": "origins:simple",
     "condition": {
       "type": "origins:any_of",
       "inverted": true,
@@ -56,7 +54,7 @@
     "shader": "minecraft:shaders/post/blobs2.json",
     "condition": {
       "type": "origins:power_active",
-      "power": "*:*_toggle"
+      "power": "*:*_consumed"
     }
   }
 }
