@@ -4,7 +4,6 @@
   "make": {
     "type": "origins:active_self",
     "key": "key.origins.primary_active",
-    "cooldown": 100,
     "entity_action": {
       "type": "origins:execute_command",
       "command": "function origins-plus-plus:dark-mage/super_mana_potion {power:\"power\",resource:\"resource\"}"
@@ -47,4 +46,3 @@
     }
   }
 }
-

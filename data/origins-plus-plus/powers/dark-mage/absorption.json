@@ -3,6 +3,11 @@
   "hidden": true,
   "key": "key.origins.primary_active",
   "cooldown": 100,
+  "hud_render": {
+    "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_01.png",
+    "bar_index": 1,
+    "order": 10
+  },
   "entity_action": {
     "type": "origins:execute_command",
     "command": "function origins-plus-plus:dark-mage/absorption {power:\"power\",resource:\"resource\"}"
@@ -26,3 +31,4 @@
     ]
   }
 }
+

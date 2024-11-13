@@ -1,5 +1,5 @@
-effect give @e[distance=1..16] minecraft:wither 1 3
-effect give @e[distance=1..16] minecraft:slowness 1 4
+effect give @e[distance=1..16] minecraft:wither 4 3
+effect give @e[distance=1..16] minecraft:slowness 4 4
 particle minecraft:dust{color:[0,0,0],scale:2} ~ ~ ~ 4 4 4 100 30
 particle minecraft:ash ~ ~ ~ 2 2 2 2 10
 playsound minecraft:entity.strider.death player @a[distance=..10] ~ ~ ~ 100 0.5 1

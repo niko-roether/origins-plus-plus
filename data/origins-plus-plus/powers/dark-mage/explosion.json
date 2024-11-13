@@ -3,6 +3,10 @@
   "hidden": true,
   "key": "key.origins.primary_active",
   "cooldown": 100,
+  "hud_render": {
+    "bar_index": 1,
+    "order": 10
+  },
   "entity_action": [
     {
       "type": "origins:change_resource",
@@ -41,3 +45,4 @@
     ]
   }
 }
+
