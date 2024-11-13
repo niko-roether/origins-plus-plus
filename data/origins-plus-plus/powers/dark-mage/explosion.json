@@ -4,7 +4,7 @@
   "key": "key.origins.primary_active",
   "cooldown": 100,
   "hud_render": {
-    "bar_index": 1,
+    "bar_index": 0,
     "order": 10
   },
   "entity_action": [

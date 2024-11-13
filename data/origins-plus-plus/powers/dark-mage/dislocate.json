@@ -2,7 +2,7 @@
   "key": "key.origins.secondary_active",
   "cooldown": 100,
   "hud_render": {
-    "bar_index": 7,
+    "bar_index": 6,
     "order": 10
   },
   "type": "origins:active_self",
