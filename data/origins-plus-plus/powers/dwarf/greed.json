@@ -61,7 +61,7 @@
     "type": "origins:stacking_status_effect",
     "min_stacks": 0,
     "max_stacks": 1,
-    "duration_per_stack": 10,
+    "duration_per_stack": 100,
     "effects": [
       {
         "id": "minecraft:darkness",
