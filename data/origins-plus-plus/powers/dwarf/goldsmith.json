@@ -1,0 +1,63 @@
+{
+  "type": "origins:multiple",
+  "modify_helmet": {
+    "type": "origins:modify_crafting",
+    "recipe": "origins-plus-plus:golden_helmet",
+    "result": {
+      "id": "minecraft:golden_helmet",
+      "components": {
+        "custom_name": "{\"translate\":\"origins-plus-plus.dwarf.helmet}",
+        "unbreakable": {},
+        "enchantable": {
+          "value": 0
+        },
+        "enchantment_glint_override": true
+      }
+    }
+  },
+  "modify_chestplate": {
+    "type": "origins:modify_crafting",
+    "recipe": "origins-plus-plus:golden_chestplate",
+    "result": {
+      "id": "minecraft:golden_chestplate",
+      "components": {
+        "custom_name": "{\"translate\":\"origins-plus-plus.dwarf.chestplate}",
+        "unbreakable": {},
+        "enchantable": {
+          "value": 0
+        },
+        "enchantment_glint_override": true
+      }
+    }
+  },
+  "modify_leggings": {
+    "type": "origins:modify_crafting",
+    "recipe": "origins-plus-plus:golden_leggings",
+    "result": {
+      "id": "minecraft:golden_leggings",
+      "components": {
+        "custom_name": "{\"translate\":\"origins-plus-plus.dwarf.leggings}",
+        "unbreakable": {},
+        "enchantable": {
+          "value": 0
+        },
+        "enchantment_glint_override": true
+      }
+    }
+  },
+  "modify_boots": {
+    "type": "origins:modify_crafting",
+    "recipe": "origins-plus-plus:golden_boots",
+    "result": {
+      "id": "minecraft:golden_boots",
+      "components": {
+        "custom_name": "{\"translate\":\"origins-plus-plus.dwarf.boots}",
+        "unbreakable": {},
+        "enchantable": {
+          "value": 0
+        },
+        "enchantment_glint_override": true
+      }
+    }
+  }
+}
