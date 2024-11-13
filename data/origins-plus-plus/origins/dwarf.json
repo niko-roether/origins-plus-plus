@@ -1,0 +1,10 @@
+{
+  "icon": {
+    "id": "minecraft:golden_pickaxe"
+  },
+  "impact": 2,
+  "powers": [
+    "origins-plus-plus:dwarf/greed",
+    "origins-plus-plus:dwarf/starting_equipment"
+  ]
+}

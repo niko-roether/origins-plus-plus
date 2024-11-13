@@ -1,6 +1,7 @@
 {
   "allow_random": true,
   "origins": [
+    "origins-plus-plus:dwarf",
     "origins-plus-plus:alien_axolotl",
     "origins-plus-plus:anomaly",
     "origins-plus-plus:automaton",
@@ -118,4 +119,3 @@
     "origins-plus-plus:zero_aizawa"
   ]
 }
-
