@@ -6,7 +6,8 @@
   "effects": [
     {
       "id": "minecraft:haste",
-      "show_particles": false
+      "show_particles": false,
+      "show_icon": false
     }
   ]
 }
