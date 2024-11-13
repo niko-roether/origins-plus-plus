@@ -1,5 +1,5 @@
 {
-  "type": "origin:starting_equipment",
+  "type": "origins:starting_equipment",
   "stacks": [
     {
       "id": "minecraft:golden_helmet",

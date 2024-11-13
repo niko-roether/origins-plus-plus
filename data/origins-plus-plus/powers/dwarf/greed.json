@@ -1,27 +1,22 @@
 {
-  "type": "origins:multiple",
-  "shivering": {
-    "type": "origins:shaking"
-  },
-  "effects": {
-    "type": "origins:stacking_status_effect",
-    "min_stacks": 1,
-    "max_stacks": 1,
-    "duration_per_stack": 1,
-    "effects": [
-      {
-        "id": "minecraft:nausea",
-        "show_icon": true
-      },
-      {
-        "id": "minecraft:slowness",
-        "amplifier": 2,
-        "show_icon": true
-      }
-    ]
-  },
+  "type": "origins:stacking_status_effect",
+  "min_stacks": 1,
+  "max_stacks": 1,
+  "duration_per_stack": 1,
+  "effects": [
+    {
+      "id": "minecraft:nausea",
+      "show_icon": true
+    },
+    {
+      "id": "minecraft:slowness",
+      "amplifier": 2,
+      "show_icon": true
+    }
+  ],
   "condition": {
     "type": "origins:any_of",
+    "inverted": true,
     "conditions": [
       {
         "type": "origins:equipped_item",
