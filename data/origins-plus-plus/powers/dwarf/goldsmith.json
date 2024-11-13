@@ -6,7 +6,7 @@
     "result": {
       "id": "minecraft:golden_helmet",
       "components": {
-        "custom_name": "{\"translate\":\"origins-plus-plus.dwarf.helmet\"}",
+        "custom_name": "{\"translate\":\"origins-plus-plus.dwarf.helmet\",\"color\":\"gold\",\"italic\":false}",
         "unbreakable": {},
         "enchantments": {
           "levels": {
@@ -23,7 +23,7 @@
     "result": {
       "id": "minecraft:golden_chestplate",
       "components": {
-        "custom_name": "{\"translate\":\"origins-plus-plus.dwarf.chestplate\"}",
+        "custom_name": "{\"translate\":\"origins-plus-plus.dwarf.chestplate\",\"color\":\"gold\",\"italic\":false}",
         "unbreakable": {},
         "enchantments": {
           "levels": {
@@ -40,7 +40,7 @@
     "result": {
       "id": "minecraft:golden_leggings",
       "components": {
-        "custom_name": "{\"translate\":\"origins-plus-plus.dwarf.leggings\"}",
+        "custom_name": "{\"translate\":\"origins-plus-plus.dwarf.leggings\",\"color\":\"gold\",\"italic\":false}",
         "unbreakable": {},
         "enchantments": {
           "levels": {
@@ -56,7 +56,7 @@
     "result": {
       "id": "minecraft:golden_boots",
       "components": {
-        "custom_name": "{\"translate\":\"origins-plus-plus.dwarf.boots\"}",
+        "custom_name": "{\"translate\":\"origins-plus-plus.dwarf.boots\",\"color\":\"gold\",\"italic\":false}",
         "unbreakable": {},
         "enchantments": {
           "levels": {
