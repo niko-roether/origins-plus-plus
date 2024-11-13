@@ -56,5 +56,33 @@
       "type": "origins:power_active",
       "power": "*:*_consumed"
     }
+  },
+  "effects": {
+    "type": "origins:stacking_status_effect",
+    "min_stacks": 0,
+    "max_stacks": 1,
+    "duration_per_stack": 10,
+    "effects": [
+      {
+        "id": "minecraft:darkness",
+        "show_particles": false
+      },
+      {
+        "id": "minecraft:slowness",
+        "amplifier": 2,
+        "show_particles": false
+      }
+    ],
+    "condition": {
+      "type": "origins:power_active",
+      "power": "*:*_consumed"
+    }
+  },
+  "shivering": {
+    "type": "origins:shaking",
+    "condition": {
+      "type": "origins:power_active",
+      "power": "*:*_consumed"
+    }
   }
 }
