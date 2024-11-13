@@ -2,7 +2,7 @@
   "icon": {
     "id": "minecraft:golden_pickaxe"
   },
-  "impact": 2,
+  "impact": 1,
   "powers": [
     "origins-plus-plus:dwarf/short",
     "origins-plus-plus:dwarf/starting_equipment",
