@@ -3,7 +3,7 @@
   "stacks": [
     {
       "id": "minecraft:golden_helmet",
-      "slot": 39,
+      "slot": 103,
       "components": {
         "enchantments": {
           "unbreaking": 1
