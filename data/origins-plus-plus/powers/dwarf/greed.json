@@ -2,7 +2,7 @@
   "type": "origins:stacking_status_effect",
   "min_stacks": 1,
   "max_stacks": 1,
-  "duration_per_stack": 1,
+  "duration_per_stack": 10,
   "effects": [
     {
       "id": "minecraft:nausea",
@@ -15,11 +15,12 @@
     }
   ],
   "condition": {
-    "type": "origins:any_of",
-    "inverted": true,
+    "type": "origins:all_of",
+    "invert": true,
     "conditions": [
       {
         "type": "origins:equipped_item",
+        "invert": true,
         "equipment_slot": "head",
         "item_condition": {
           "type": "origins:ingredient",
@@ -30,6 +31,7 @@
       },
       {
         "type": "origins:equipped_item",
+        "invert": true,
         "equipment_slot": "chest",
         "item_condition": {
           "type": "origins:ingredient",
@@ -40,6 +42,7 @@
       },
       {
         "type": "origins:equipped_item",
+        "invert": true,
         "equipment_slot": "legs",
         "item_condition": {
           "type": "origins:ingredient",
@@ -50,6 +53,7 @@
       },
       {
         "type": "origins:equipped_item",
+        "invert": true,
         "equipment_slot": "feet",
         "item_condition": {
           "type": "origins:ingredient",
