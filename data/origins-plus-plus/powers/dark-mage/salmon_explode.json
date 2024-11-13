@@ -1,10 +1,10 @@
 {
-	"type": "origins:action_on_callback",
-	"entity_action_added": {
-		"type": "origins:explode",
-		"power": 2,
-		"destruction_type": "keep",
-		"damage_self": false
-	},
-	"hidden": true
+  "type": "origins:action_on_callback",
+  "entity_action_added": {
+    "type": "origins:explode",
+    "power": 1.2,
+    "destruction_type": "keep",
+    "damage_self": false
+  },
+  "hidden": true
 }
