@@ -1,7 +1,53 @@
 {
   "type": "origins:multiple",
   "shivering": {
-    "type": "origins:shaking"
+    "type": "origins:shaking",
+    "condition": {
+      "type": "origins:any_of",
+      "inverted": true,
+      "conditions": [
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "head",
+          "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "tag": "origins-plus-plus:golden_armour"
+            }
+          }
+        },
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "chest",
+          "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "tag": "origins-plus-plus:golden_armour"
+            }
+          }
+        },
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "legs",
+          "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "tag": "origins-plus-plus:golden_armour"
+            }
+          }
+        },
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "feet",
+          "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "tag": "origins-plus-plus:golden_armour"
+            }
+          }
+        }
+      ]
+    }
   },
   "effects": {
     "type": "origins:stacking_status_effect",
@@ -20,52 +66,102 @@
         "duration": 5,
         "show_icon": true
       }
-    ]
+    ],
+    "condition": {
+      "type": "origins:any_of",
+      "inverted": true,
+      "conditions": [
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "head",
+          "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "tag": "origins-plus-plus:golden_armour"
+            }
+          }
+        },
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "chest",
+          "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "tag": "origins-plus-plus:golden_armour"
+            }
+          }
+        },
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "legs",
+          "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "tag": "origins-plus-plus:golden_armour"
+            }
+          }
+        },
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "feet",
+          "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "tag": "origins-plus-plus:golden_armour"
+            }
+          }
+        }
+      ]
+    }
   },
-  "condition": {
-    "type": "origins:any_of",
-    "inverted": true,
-    "conditions": [
-      {
-        "type": "origins:equipped_item",
-        "equipment_slot": "head",
-        "item_condition": {
-          "type": "origins:ingredient",
-          "ingredient": {
-            "tag": "origins-plus-plus:golden_armour"
+  "shader": {
+    "type": "origins:shader",
+    "shader": "Blobs2",
+    "condition": {
+      "type": "origins:any_of",
+      "inverted": true,
+      "conditions": [
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "head",
+          "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "tag": "origins-plus-plus:golden_armour"
+            }
+          }
+        },
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "chest",
+          "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "tag": "origins-plus-plus:golden_armour"
+            }
+          }
+        },
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "legs",
+          "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "tag": "origins-plus-plus:golden_armour"
+            }
+          }
+        },
+        {
+          "type": "origins:equipped_item",
+          "equipment_slot": "feet",
+          "item_condition": {
+            "type": "origins:ingredient",
+            "ingredient": {
+              "tag": "origins-plus-plus:golden_armour"
+            }
           }
         }
-      },
-      {
-        "type": "origins:equipped_item",
-        "equipment_slot": "chest",
-        "item_condition": {
-          "type": "origins:ingredient",
-          "ingredient": {
-            "tag": "origins-plus-plus:golden_armour"
-          }
-        }
-      },
-      {
-        "type": "origins:equipped_item",
-        "equipment_slot": "legs",
-        "item_condition": {
-          "type": "origins:ingredient",
-          "ingredient": {
-            "tag": "origins-plus-plus:golden_armour"
-          }
-        }
-      },
-      {
-        "type": "origins:equipped_item",
-        "equipment_slot": "feet",
-        "item_condition": {
-          "type": "origins:ingredient",
-          "ingredient": {
-            "tag": "origins-plus-plus:golden_armour"
-          }
-        }
-      }
-    ]
+      ]
+    }
   }
 }
