@@ -53,17 +53,15 @@
     "type": "origins:stacking_status_effect",
     "min_stacks": 0,
     "max_stacks": 1,
-    "duration_per_stack": 3,
+    "duration_per_stack": 10,
     "effects": [
       {
         "id": "minecraft:nausea",
-        "duration": 5,
         "show_icon": true
       },
       {
         "id": "minecraft:slowness",
         "amplifier": 2,
-        "duration": 5,
         "show_icon": true
       }
     ],
