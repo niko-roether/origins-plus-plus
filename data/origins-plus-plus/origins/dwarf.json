@@ -6,6 +6,8 @@
   "powers": [
     "origins-plus-plus:dwarf/short",
     "origins-plus-plus:dwarf/starting_equipment",
-    "origins-plus-plus:dwarf/greed"
+    "origins-plus-plus:dwarf/greed",
+    "origins-plus-plus:dwarf/miner",
+    "origins-plus-plus:dwarf/darkness_adjusted"
   ]
 }
