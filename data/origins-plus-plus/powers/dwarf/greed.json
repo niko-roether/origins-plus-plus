@@ -114,7 +114,7 @@
   },
   "shader": {
     "type": "origins:shader",
-    "shader": "Blobs2",
+    "shader": "minecraft:shaders/post/blobs2.json",
     "condition": {
       "type": "origins:any_of",
       "inverted": true,
