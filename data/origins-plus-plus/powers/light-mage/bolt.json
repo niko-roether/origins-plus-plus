@@ -3,6 +3,10 @@
   "type": "origins:active_self",
   "key": "key.origins.primary_active",
   "cooldown": 200,
+  "hud_render": {
+    "bar_index": 2,
+    "order": 10
+  },
   "entity_action": [
     {
       "type": "origins:change_resource",
@@ -39,3 +43,4 @@
     ]
   }
 }
+

@@ -48,6 +48,11 @@
   },
   "go_to": {
     "type": "origins:active_self",
+    "cooldown": 1000,
+    "hud_render": {
+      "bar_index": 6,
+      "order": 10
+    },
     "entity_action": [
       {
         "type": "origins:execute_command",
@@ -91,6 +96,12 @@
   },
   "bring_to": {
     "type": "origins:active_self",
+    "cooldown": 3000,
+    "hud_render": {
+      "sprite_location": "origins:textures/gui/community/huang/resource_bar_03.png",
+      "bar_index": 6,
+      "order": 10
+    },
     "entity_action": [
       {
         "type": "origins:execute_command",
@@ -245,3 +256,4 @@
     }
   }
 }
+

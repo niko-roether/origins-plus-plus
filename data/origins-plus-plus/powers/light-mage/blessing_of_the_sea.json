@@ -2,7 +2,11 @@
   "hidden": true,
   "type": "origins:active_self",
   "key": "key.origins.primary_active",
-  "cooldown": 100,
+  "cooldown": 200,
+  "hud_render": {
+    "bar_index": 1,
+    "order": 10
+  },
   "entity_action": {
     "type": "origins:execute_command",
     "command": "function origins-plus-plus:light-mage/blessing_of_the_sea {power:\"power\",resource:\"resource\"}"
@@ -26,3 +30,4 @@
     ]
   }
 }
+

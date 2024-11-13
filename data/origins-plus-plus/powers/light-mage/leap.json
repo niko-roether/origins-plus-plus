@@ -2,7 +2,11 @@
   "hidden": true,
   "type": "origins:active_self",
   "key": "key.origins.primary_active",
-  "cooldown": 100,
+  "cooldown": 150,
+  "hud_render": {
+    "bar_index": 4,
+    "order": 10
+  },
   "entity_action": [
     {
       "type": "origins:add_velocity",
@@ -42,3 +46,4 @@
     ]
   }
 }
+

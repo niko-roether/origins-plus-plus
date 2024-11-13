@@ -2,6 +2,10 @@
   "type": "origins:active_self",
   "key": "key.origins.primary_active",
   "cooldown": 100,
+  "hud_render": {
+    "bar_index": 4,
+    "order": 10
+  },
   "entity_action": {
     "type": "origins:execute_command",
     "command": "function origins-plus-plus:light-mage/clear {power:\"power\",resource:\"resource\"}"
@@ -235,3 +239,4 @@
     ]
   }
 }
+

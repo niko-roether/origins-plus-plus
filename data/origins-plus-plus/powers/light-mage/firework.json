@@ -3,6 +3,11 @@
   "type": "origins:active_self",
   "key": "key.origins.primary_active",
   "cooldown": 100,
+  "hud_render": {
+    "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_01.png",
+    "bar_index": 9,
+    "order": 10
+  },
   "entity_action": [
     {
       "type": "origins:change_resource",
@@ -41,3 +46,4 @@
     ]
   }
 }
+
