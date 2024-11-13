@@ -6,7 +6,7 @@
     "result": {
       "id": "minecraft:golden_helmet",
       "components": {
-        "custom_name": "{\"translate\":\"origins-plus-plus.dwarf.helmet}",
+        "custom_name": "{\"translate\":\"origins-plus-plus.dwarf.helmet\"}",
         "unbreakable": {},
         "enchantable": {
           "value": 0
@@ -21,7 +21,7 @@
     "result": {
       "id": "minecraft:golden_chestplate",
       "components": {
-        "custom_name": "{\"translate\":\"origins-plus-plus.dwarf.chestplate}",
+        "custom_name": "{\"translate\":\"origins-plus-plus.dwarf.chestplate\"}",
         "unbreakable": {},
         "enchantable": {
           "value": 0
@@ -36,7 +36,7 @@
     "result": {
       "id": "minecraft:golden_leggings",
       "components": {
-        "custom_name": "{\"translate\":\"origins-plus-plus.dwarf.leggings}",
+        "custom_name": "{\"translate\":\"origins-plus-plus.dwarf.leggings\"}",
         "unbreakable": {},
         "enchantable": {
           "value": 0
@@ -51,7 +51,7 @@
     "result": {
       "id": "minecraft:golden_boots",
       "components": {
-        "custom_name": "{\"translate\":\"origins-plus-plus.dwarf.boots}",
+        "custom_name": "{\"translate\":\"origins-plus-plus.dwarf.boots\"}",
         "unbreakable": {},
         "enchantable": {
           "value": 0
