@@ -2,9 +2,9 @@
   "type": "origins:multiple",
   "resource": {
     "type": "origins:resource",
-    "max": 1500,
+    "max": 1000,
     "min": 0,
-    "start_value": 1500,
+    "start_value": 1000,
     "hud_render": {
       "sprite_location": "origins:textures/gui/community/huang/resource_bar_01.png",
       "bar_index": 5
@@ -63,7 +63,7 @@
       "if_action": {
         "type": "origins:change_resource",
         "resource": "*:*_resource",
-        "change": -10
+        "change": -20
       },
       "else_action": {
         "type": "origins:change_resource",
@@ -80,7 +80,7 @@
     "effect": {
       "show_particles": false,
       "show_icon": false,
-      "amplifier": 1,
+      "amplifier": 3,
       "id": "minecraft:wither"
     },
     "condition": {
