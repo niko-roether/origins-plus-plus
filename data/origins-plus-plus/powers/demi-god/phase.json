@@ -2,7 +2,7 @@
   "type": "origins:multiple",
   "resource": {
     "type": "origins:resource",
-    "max": 300,
+    "max": 50,
     "min": 0,
     "start_value": 300,
     "hud_render": {
@@ -94,7 +94,7 @@
     "type": "origins:phasing",
     "blacklist": true,
     "render_type": "blindness",
-    "view_distance": 20,
+    "view_distance": 5,
     "condition": {
       "type": "origins:power_active",
       "power": "*:*_toggle"
@@ -132,3 +132,4 @@
     }
   }
 }
+
