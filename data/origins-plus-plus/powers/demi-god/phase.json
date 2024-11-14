@@ -63,7 +63,7 @@
       "if_action": {
         "type": "origins:change_resource",
         "resource": "*:*_resource",
-        "change": -15
+        "change": -20
       },
       "else_action": {
         "type": "origins:change_resource",
@@ -80,7 +80,7 @@
     "effect": {
       "show_particles": false,
       "show_icon": false,
-      "amplifier": 3,
+      "amplifier": 8,
       "id": "minecraft:wither"
     },
     "condition": {
@@ -132,4 +132,3 @@
     }
   }
 }
-
