@@ -80,7 +80,7 @@
     "effect": {
       "show_particles": false,
       "show_icon": false,
-      "amplifier": 8,
+      "amplifier": 20,
       "id": "minecraft:wither"
     },
     "condition": {
