@@ -1,7 +1,5 @@
 {
   "powers": [
-    "origins-plus-plus:wandering-spirit/damage_glitch",
-    "origins-plus-plus:wandering-spirit/fire",
     "origins-plus-plus:wandering-spirit/glasses",
     "origins-plus-plus:wandering-spirit/lightning_charge",
     "origins-plus-plus:wandering-spirit/lightning_invulnerability",
@@ -18,4 +16,3 @@
   },
   "impact": 3
 }
-
