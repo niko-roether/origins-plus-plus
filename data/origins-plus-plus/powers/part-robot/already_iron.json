@@ -1,24 +1,28 @@
 {
   "type": "origins:restrict_armor",
   "head": {
-    "type": "origins:armor_value",
-    "comparison": ">",
-    "compare_to": 3
+    "type": "origins:ingredient",
+    "ingredient": {
+      "tag": "origins-plus-plus:better_than_iron_armour"
+    }
   },
   "chest": {
-    "type": "origins:armor_value",
-    "comparison": ">",
-    "compare_to": 8
+    "type": "origins:ingredient",
+    "ingredient": {
+      "tag": "origins-plus-plus:better_than_iron_armour"
+    }
   },
   "legs": {
-    "type": "origins:armor_value",
-    "comparison": ">",
-    "compare_to": 6
+    "type": "origins:ingredient",
+    "ingredient": {
+      "tag": "origins-plus-plus:better_than_iron_armour"
+    }
   },
   "feet": {
-    "type": "origins:armor_value",
-    "comparison": ">",
-    "compare_to": 3
+    "type": "origins:ingredient",
+    "ingredient": {
+      "tag": "origins-plus-plus:better_than_iron_armour"
+    }
   }
 }
 
