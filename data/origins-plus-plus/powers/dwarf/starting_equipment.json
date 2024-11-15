@@ -1,26 +1,7 @@
 {
-  "type": "origins:starting_equipment",
-  "stacks": [
-    {
-      "id": "minecraft:golden_helmet",
-      "slot": 39,
-      "count": 1,
-      "components": {
-        "enchantments": {
-          "unbreaking": 1
-        }
-      }
-    },
-    {
-      "id": "minecraft:golden_pickaxe",
-      "slot": 0,
-      "count": 1,
-      "components": {
-        "enchantments": {
-          "fortune": 1,
-          "unbreaking": 1
-        }
-      }
-    }
-  ]
+  "type": "origins:action_on_callback",
+  "entity_action_gained": {
+    "type": "origins:execute_command",
+    "command": "function origins-plus-plus:dwarf/starting_equipment"
+  }
 }
