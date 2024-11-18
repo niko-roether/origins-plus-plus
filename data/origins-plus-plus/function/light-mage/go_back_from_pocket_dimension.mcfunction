@@ -1,4 +1,4 @@
-tp @s @e[type=minecraft:armor_stand,tag=back,sort=nearest,limit=1]
+tp @s @e[type=minecraft:marker,tag=back,sort=nearest,limit=1]
 forceload remove ~ ~
 effect give @s minecraft:blindness 8 1
 effect give @s minecraft:slow_falling 30 1

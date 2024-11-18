@@ -162,7 +162,7 @@
         "ticks": 10,
         "action": {
           "type": "origins:execute_command",
-          "command": "kill @e[distance=..5,type=minecraft:armor_stand,tag=back]"
+          "command": "kill @e[distance=..5,type=minecraft:marker,tag=back]"
         }
       },
       {
@@ -219,7 +219,7 @@
         "ticks": 10,
         "action": {
           "type": "origins:execute_command",
-          "command": "kill @e[distance=..5,type=minecraft:armor_stand,tag=back]"
+          "command": "kill @e[distance=..5,type=minecraft:marker,tag=back]"
         }
       },
       {
@@ -256,4 +256,3 @@
     }
   }
 }
-
