@@ -1,35 +1,34 @@
 {
-  "key": "key.origins.primary_active",
-  "cooldown": 100,
-  "hud_render": {
-    "sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
-    "bar_index": 5,
-    "order": 10
-  },
-  "type": "origins:active_self",
-  "entity_action": [
-    {
-      "type": "origins:change_resource",
-      "resource": "origins-plus-plus:dark-mage/resource",
-      "change": -100
-    },
-    {
-      "type": "origins:raycast",
-      "distance": 32,
-      "shape_type": "outline",
-      "fluid_handling": "none",
-      "bientity_action": {
-        "type": "origins:damage",
-        "amount": 14,
-        "damage_type": "cramming"
-      },
-      "command_at_hit": "function origins-plus-plus:dark-mage/disruption {power:\"power\",resource:\"resource\"}",
-      "command_along_ray_only_on_hit": true
-    }
-  ],
-  "condition": {
-    "type": "origins:sneaking",
-    "inverted": true
-  }
+	"key": "key.origins.primary_active",
+	"cooldown": 20,
+	"hud_render": {
+		"sprite_location": "origins:textures/gui/community/spiderkolo/resource_bar_02.png",
+		"bar_index": 5,
+		"order": 10
+	},
+	"type": "origins:active_self",
+	"entity_action": [
+		{
+			"type": "origins:change_resource",
+			"resource": "origins-plus-plus:dark-mage/resource",
+			"change": -50
+		},
+		{
+			"type": "origins:raycast",
+			"distance": 32,
+			"shape_type": "outline",
+			"fluid_handling": "none",
+			"bientity_action": {
+				"type": "origins:damage",
+				"amount": 14,
+				"damage_type": "cramming"
+			},
+			"command_at_hit": "function origins-plus-plus:dark-mage/disruption {power:\"power\",resource:\"resource\"}",
+			"command_along_ray_only_on_hit": true
+		}
+	],
+	"condition": {
+		"type": "origins:sneaking",
+		"inverted": true
+	}
 }
-
